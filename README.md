@@ -89,57 +89,134 @@ which items to load and what `usage` tag each has (`always`,
   persona, per-class lists of item references with usage tags, and the
   workflow steps the agent actually uses.
 
-## Installation
+## Installation and usage
 
-```
-/plugin install 97Wobbler/lenslab
+lenslab is a Claude Code plugin. It ships one slash command
+(`/lenslab:create-agent`), one skill (`agent-creator`), and the
+`library/` + `catalog.yml` pair that both consume.
+
+### Step 1. Install the plugin
+
+```bash
+# Register the marketplace entry
+claude plugin marketplace add 97Wobbler/lenslab
+
+# Install the plugin
+claude plugin install lenslab
 ```
 
-Or clone and reference locally:
+Or clone and reference locally if you want to hack on the library or
+the skill:
 
 ```bash
 git clone https://github.com/97Wobbler/lenslab.git
 # Then follow your plugin loader's instructions for local plugins.
 ```
 
-## Usage
+After install, `/lenslab:create-agent` should appear in Claude Code's
+slash command list and the 657 files under `library/` are reachable by
+path from the agent-creator skill.
 
-### Create an agent with the slash command
+### Step 2. Create an agent with `/lenslab:create-agent`
 
 ```
 /lenslab:create-agent security "Review our public API for design-time vulnerabilities"
 ```
 
-The `agent-creator` skill will:
+The `agent-creator` skill will read `catalog.yml` first (the triage
+index, not every file), propose a candidate item set grouped by the 5
+classes, and ask you to confirm or adjust before writing the config.
+Typical exchange:
 
-1. Parse the domain and purpose.
-2. Read `catalog.yml` (top level) and propose a candidate item set
-   grouped by class.
-3. Let you add or remove items before finalizing.
-4. Generate any missing items, picking the correct class for each
-   source framework (it will ask before converting a frame or model
-   into a lens).
-5. Write the agent config to `.claude/agents/<agent-name>.yml` in the
-   current project.
+```
+> Domain: security / Purpose: API design review
+>
+> Proposed items (from catalog.yml):
+>   Lenses (always):       stride, owasp-api-top-10, cvss-scoring
+>   Lenses (when-relevant): rumsfeld-matrix
+>   Frames (when-relevant): cynefin
+>   Heuristics (always):    general (bundle)
+>
+> Confirm, add, or remove? [y / +<slug> / -<slug>]
+```
 
-### Invoke the agent
+Once you confirm, it writes a config to
+`.claude/agents/<agent-name>.yml` in the current project. The config is
+around 40 lines: a one-line persona, per-class item paths with `usage`
+tags (`always` / `when-relevant` / `on-request`), and the subset of the
+7-step workflow this agent actually uses.
 
-Once the config is saved, invoke the agent like any other Claude Code
-agent. It will walk the 7-step workflow, running only the steps its
-config enables.
+### Step 3. Run the agent on a real artifact
 
-### Example agents
+Open a new Claude Code session in the project where the config was
+written and point Claude at the artifact you want analyzed:
 
-See `agents/examples/`:
+```
+> Use .claude/agents/security-analyst.yml to review docs/api-spec.yaml.
+```
+
+The agent walks its configured workflow steps — for `security-analyst`
+that means triage -> classify (Cynefin) -> analyze (STRIDE, OWASP API
+Top 10, CVSS) -> sanity-gate (heuristics bundle) -> synthesize — and
+emits findings grouped by root cause, each tagged with a confidence
+level (`high` / `medium` / `low`) and, where CVSS applies, a severity
+score. See the `output_format` block at the bottom of each example yml
+for the exact shape.
+
+### Reusing the example agents
+
+`agents/examples/` ships four ready-to-run configs you can copy into
+`.claude/agents/` without calling the slash command:
 
 - **security-analyst.yml** — STRIDE + OWASP API Top 10 + CVSS as always
   lenses, rumsfeld-matrix as a when-relevant meta lens, Cynefin as a
   when-relevant triage frame, and the general heuristics bundle as a
   sanity gate.
-- **curriculum-reviewer.yml** — Achievement Standard Alignment + Bloom's
-  Taxonomy as always lenses, Cognitive Load Theory as when-relevant,
-  Cynefin as a when-relevant classification frame, and the general
-  heuristics bundle as a sanity gate.
+- **curriculum-reviewer.yml** — Achievement Standard Alignment +
+  Bloom's Taxonomy as always lenses, Cognitive Load Theory as
+  when-relevant, Cynefin as a when-relevant classification frame, and
+  the general heuristics bundle as a sanity gate.
+- **product-strategist.yml** — strategy lenses with Porter's Five
+  Forces as the model-interpret step.
+- **film-critic.yml** — film-theory lenses plus stances for the
+  critical-read step.
+
+```bash
+cp agents/examples/security-analyst.yml .claude/agents/
+```
+
+Then invoke it the same way as a freshly generated agent.
+
+### Browsing the catalog
+
+Before building or modifying an agent, it helps to see what's available.
+The catalog is a single YAML file at the repo root; there are two common
+ways to inspect it:
+
+```bash
+# Counts by class and a top-20 domain breakdown
+python3 scripts/sync_catalog.py --stats
+```
+
+```
+Total: 657 items
+
+By class:
+  lens: 312
+  frame: 96
+  model: 115
+  stance: 71
+  heuristic: 63
+
+By domain (top 20):
+  economics: 22
+  geology: 21
+  ...
+```
+
+For everything else, open `catalog.yml` directly and scroll — each
+entry has a slug, a one-line summary (often Korean, since the library
+is bilingual), and the `library/` path the agent config will reference.
 
 ## Included items
 
