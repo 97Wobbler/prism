@@ -1,3 +1,5 @@
+<!-- Rendering rule: Do not narrate routing or file-loading decisions to the user — render the content below directly, without meta commentary about which intent was classified or which file was opened. -->
+
 # /prism — quick reference
 
 ## Usage

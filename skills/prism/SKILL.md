@@ -72,6 +72,9 @@ The router loads **exactly one** reference file per invocation:
 - Execute its instructions as if they were this skill's body.
 - Never summarize, paraphrase, or reconstruct a reference file from
   memory — always open and read it.
+- **Do not narrate routing or file-loading decisions to the user** —
+  render the reference file's content directly, without meta commentary
+  about which intent was classified or which file was opened.
 
 The five Prism classes (**lens, frame, model, stance, heuristic**) are
 defined in `CLASSES.md` at the repo root. Both `references/about.md` and

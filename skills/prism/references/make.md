@@ -1,3 +1,5 @@
+<!-- Rendering rule: Do not narrate routing or file-loading decisions to the user — run the workflow below directly, without meta commentary about which intent was classified or which file was opened. -->
+
 # Create a Prism instrument
 
 You are helping a user add **one** new instrument to their Prism library.

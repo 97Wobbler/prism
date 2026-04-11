@@ -50,7 +50,7 @@ Structural changes that align the plugin with its clarified identity.
   - `sync_catalog.py --source {bundle|global|project}` targets any layer of
     the 3-layer storage.
 
-## v0.2.1 (Current)
+## v0.2.1
 
 A consolidation pass on top of v0.2.0, focused on giving Prism a single
 memorable user-facing entry point.
@@ -68,6 +68,23 @@ memorable user-facing entry point.
 - **Single memorable entry point** — `/prism` (explain), `/prism <name>`
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
+
+## v0.2.2 (Current)
+
+A first-contact UX pass on top of v0.2.1, tightening what `/prism` shows
+on invocation.
+
+- **about.md slimmed down** — the about reference was ~60 lines covering
+  class definitions, 3-layer storage, and out-of-scope rules. v0.2.2 cuts
+  it to ~25 lines: one-paragraph summary, a one-line-each reminder of the
+  5 classes, and three "바로 시작" entry points. Full class semantics and
+  storage architecture are now on-demand — the user asks, Claude reads
+  `CLASSES.md` to answer.
+- **No-narration rule** — all three `references/*.md` files and the
+  router `SKILL.md` now carry an explicit "do not narrate routing or
+  file-loading decisions" instruction. Claude should render the reference
+  content directly on `/prism` invocation, without meta commentary about
+  which intent was classified.
 
 ## v0.3.0 (Later)
 

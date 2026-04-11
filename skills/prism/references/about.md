@@ -1,61 +1,21 @@
-# About Prism
+<!-- Rendering rule: Do not narrate routing or file-loading decisions to the user — render the content below directly, without meta commentary about which intent was classified or which file was opened. -->
 
-Prism is a Claude Code plugin that ships a curated catalog of **analytical
-instruments** for building domain-expert agents and skills. It does NOT
-generate agents or skills itself — it supplies the structured instrument
-files that Claude Code's native `/agents` flow (and your own skills) can
-reference. The bundle ships 657 instruments across 50 domains, all indexed
-by a single `catalog.yml` for fast triage.
+# Prism
 
-## The 5 classes
+Prism은 **agent / skill 설계에 쓸 수 있는 분석 도구(instrument) 카탈로그**를 제공하는 Claude Code 플러그인입니다. 플러그인 자체는 agent나 skill을 만들지 않아요 — Claude Code의 네이티브 `/agents` 플로우가 참조할 수 있는 구조화된 instrument 파일을 공급합니다.
 
-Every instrument belongs to exactly one of these classes. See `CLASSES.md`
-for the full taxonomy, decision tree, and file-format templates.
+Prism의 instrument는 다섯 가지 클래스 중 하나에 속합니다:
 
-- **Lens (렌즈)** — a structured executable procedure with a defined input,
-  a fixed output format, and a confidence signal per finding. All four
-  criteria are required; if any is missing, it is not a lens.
-- **Frame (분류 프레임)** — a taxonomy or classification matrix: categories
-  plus discriminating criteria, with no built-in "next step" procedure.
-- **Model (이론 모델)** — a descriptive or predictive theoretical model
-  (variables, relationships, predictions) with no built-in application
-  steps until you pair it with a procedure.
-- **Stance (비판적 관점)** — an interpretive commitment about what is worth
-  looking for in any artifact. Stances have guiding questions, not
-  procedures.
-- **Heuristic (원리 / 격언)** — a single-rule aphorism used as a check
-  inside a lens or as a sanity gate before synthesis.
+- **Lens (렌즈)** — 실행 가능한 분석 절차
+- **Frame (분류 프레임)** — 분류/taxonomy
+- **Model (이론 모델)** — 이론적·예측적 모델
+- **Stance (비판적 관점)** — 해석적 commitment
+- **Heuristic (원리 / 격언)** — 한 줄 rule of thumb
 
-## 3-layer storage
+각 클래스의 정확한 정의·판별 기준·파일 포맷이 궁금하면 물어봐 주세요 — 루트의 `CLASSES.md`를 참조해서 부연해 드립니다.
 
-Prism looks up instruments across three layers and merges them with
-**precedence project > global > bundle**:
+## 바로 시작
 
-- **Bundle** — read-only, shipped with the plugin (`./library/`, 657 items).
-- **Global** — your personal instruments at `~/.claude/prism/library/`,
-  available across all projects.
-- **Project** — repo-local instruments at `./.claude/prism/library/`,
-  scoped to the current project.
-
-You never write to the bundle. Global and project layers are both
-writable; closer context wins on name collisions.
-
-## How to use Prism
-
-- **To see what already exists for a domain** → use the `catalog-browse`
-  skill (it proactively surfaces instruments whenever you're building an
-  agent or skill).
-- **To create a new instrument** → run `/prism {framework or methodology
-  name}`. If details are ambiguous, you'll get a short interview; if the
-  request is specific, generation starts immediately.
-- **To batch-generate many instruments at once** → use `python3
-  scripts/prism_batch.py` (the batch pipeline, not this skill).
-
-## Out of scope
-
-Prism does not write agent configs, does not run meta-workflows, and does
-not grow the bundle beyond ~700 items. Agent assembly belongs to Claude
-Code's native `/agents` flow; Prism only provides the catalog that flow
-reads from.
-
-Try `/prism CVSS` or `/prism 칸반 방식` to see the interview in action.
+- **새 instrument 만들기** → `/prism CVSS` 또는 `/prism 칸반 방식`
+- **기존 카탈로그 탐색** → `catalog-browse` 스킬
+- **사용법 전체** → `/prism help`
