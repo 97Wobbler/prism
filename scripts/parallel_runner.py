@@ -8,7 +8,7 @@
 # Used in Prism for batch document generation (Phase 3 — 600 items, haiku 4.5).
 # Key features: lock-based parallel safety + 5h quota auto-wait + multi-threaded workers.
 #
-# Do not modify the core logic; adapt via the calling driver (lenslab_batch.py).
+# Do not modify the core logic; adapt via the calling driver (prism_batch.py).
 # ──────────────────────────────────────────────────────────────────
 """
 병렬 실행 공통 모듈 — lock 기반 중복 방지, 사용량 자동 대기, multiprocessing 워커

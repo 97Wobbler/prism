@@ -308,7 +308,7 @@ To add a single new instrument file by hand:
 ### Adding many instruments at once
 
 To add instruments in bulk, see `scripts/PHASE3_RUN.md` for the batch
-generation pipeline. The entry point is `scripts/lenslab_batch.py`,
+generation pipeline. The entry point is `scripts/prism_batch.py`,
 which is a markdown-output adapter over a parallel runner vendored
 from the iris-curriculum project. It drives Haiku 4.5 with
 class-specific few-shot prompts from `scripts/prompts/` and writes

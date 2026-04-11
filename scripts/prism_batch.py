@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""lenslab batch document generator using haiku 4.5 via claude -p.
+"""Prism batch document generator using haiku 4.5 via claude -p.
 
 Generates one markdown file per entry in data/pending_items.jsonl using
 class-specific prompts and golden few-shot examples. Wraps
@@ -8,9 +8,9 @@ writes, frontmatter/section validation, and resume-safe skipping of
 already-generated files.
 
 Usage:
-    python3 scripts/lenslab_batch.py --dry-run
-    python3 scripts/lenslab_batch.py --limit 5 --workers 1
-    python3 scripts/lenslab_batch.py --workers 5 --batch-size 10
+    python3 scripts/prism_batch.py --dry-run
+    python3 scripts/prism_batch.py --limit 5 --workers 1
+    python3 scripts/prism_batch.py --workers 5 --batch-size 10
 """
 import argparse
 import json
@@ -33,7 +33,7 @@ from parallel_runner import (  # noqa: E402
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 GOLDEN_DIR = SCRIPT_DIR / "golden_examples"
 
-# 클래스 → 복수형 출력 디렉토리 (lenslab 레이아웃: library/ 하위로 통합됨)
+# 클래스 → 복수형 출력 디렉토리 (Prism 레이아웃: library/ 하위로 통합됨)
 CLASS_TO_DIR = {
     "lens": "library/lenses",
     "frame": "library/frames",
@@ -229,7 +229,7 @@ def now_iso() -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="lenslab batch markdown generator (haiku 4.5)"
+        description="Prism batch markdown generator (haiku 4.5)"
     )
     parser.add_argument(
         "--pending",
@@ -260,7 +260,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--output-state",
-        default=str(PROJECT_DIR / ".batch-state" / "lenslab-run"),
+        default=str(PROJECT_DIR / ".batch-state" / "prism-run"),
         help="ParallelRunner 상태/결과 JSON 저장 디렉토리",
     )
     args = parser.parse_args()
@@ -281,7 +281,7 @@ def main() -> None:
     templates = load_templates()
     golden = load_golden_examples()
 
-    print("=== lenslab batch (haiku) ===")
+    print("=== Prism batch (haiku) ===")
     print(f"  입력: {args.pending} ({len(items)}건 처리 대상)")
     print(f"  출력 상태: {args.output_state}")
     print(f"  모델: {args.model}")
