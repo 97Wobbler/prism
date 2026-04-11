@@ -273,6 +273,27 @@ at the repo root. In brief:
 
 ## Extending the library
 
+### Three storage layers
+
+Prism instruments live in three layers, looked up with precedence
+**project > global > bundle**:
+
+- **Bundle** — `library/` inside the plugin checkout. Read-only; the
+  657 builtin instruments shipped with Prism. Never write here by hand.
+- **Global** — `~/.claude/prism/library/`. Your personal instruments,
+  available in every project on this machine.
+- **Project** — `./.claude/prism/library/`. Instruments scoped to the
+  current repo, the most specific layer.
+
+Each layer has its own `catalog.yml` sitting next to its `library/`.
+Rebuild a single layer's catalog with
+`python3 scripts/sync_catalog.py --source {bundle|global|project}`, or
+print a merged cross-layer preview (no write) with
+`python3 scripts/sync_catalog.py --source all`. When the same
+instrument name appears in multiple layers, the closer layer wins.
+
+### Adding an instrument by hand
+
 To add a single new instrument file by hand:
 
 1. **Identify the instrument.** It must be a real method used by
@@ -286,16 +307,18 @@ To add a single new instrument file by hand:
    differs by class (Analytical Procedure for a lens; Classification
    Procedure for a frame; Application Procedure for a model; Guiding
    Questions for a stance; When It Applies / Misleads for a heuristic).
-4. **Register the item in `catalog.yml`** by running
-   `python3 scripts/sync_catalog.py`. The script scans `library/`,
-   extracts metadata from each file's frontmatter, and rewrites
-   `catalog.yml` grouped by class and domain. It is idempotent and
-   preserves hand-written catalog entries by default — pass
-   `--overwrite` only if you want frontmatter to replace them. Use
-   `--dry-run` to preview changes or `--stats` for a class/domain
-   breakdown.
+4. **Register the item in its layer's `catalog.yml`** by running
+   `python3 scripts/sync_catalog.py --source {bundle|global|project}`
+   (no flag is equivalent to `--source bundle`). The script scans the
+   chosen layer's `library/`, extracts metadata from each file's
+   frontmatter, and rewrites that layer's `catalog.yml` grouped by
+   class and domain. It is idempotent and preserves hand-written
+   catalog entries by default — pass `--overwrite` only if you want
+   frontmatter to replace them. Use `--dry-run` to preview changes or
+   `--stats` for a class/domain breakdown.
 5. **Open a PR** with the new file, the catalog update, and (if
-   appropriate) an updated example agent that uses it.
+   appropriate) a composition recipe in `docs/cookbook/` that
+   demonstrates how to use it.
 
 ### Adding many instruments at once
 
@@ -308,9 +331,11 @@ generated files straight into `library/{class}s/{domain}/`. The full
 v0.3 batch of 639 files cost roughly a few dollars on Haiku 4.5.
 
 Once the batch run finishes, run `python3 scripts/sync_catalog.py`
-to register every new file in `catalog.yml`. The same script is the
-right entry point whenever `library/` changes — after a batch run,
-after hand-editing files, or after pruning obsolete entries.
+(equivalent to `--source bundle`) to register every new file in
+`catalog.yml`. The same script is the right entry point whenever any
+layer's `library/` changes — after a batch run, after hand-editing
+files, or after pruning obsolete entries — just point `--source` at
+the layer you touched.
 
 Contributions of non-English-language and domain-local instruments are
 especially welcome — the existing `achievement-standard-alignment` lens
