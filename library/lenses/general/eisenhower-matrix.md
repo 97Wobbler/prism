@@ -4,6 +4,7 @@ domain: general
 source: Attributed to Dwight D. Eisenhower; popularized by Stephen Covey (The 7 Habits of Highly Effective People, 1989)
 underlying_class: frame
 best_for: Triaging a list of candidate actions or issues when you can't do everything and must justify what you drop
+one_liner: "긴급/중요 2x2로 백로그나 추천사항을 Do/Schedule/Delegate/Eliminate로 분류한다"
 ---
 
 # Eisenhower Matrix

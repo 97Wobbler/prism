@@ -4,6 +4,7 @@ domain: education
 source: John Sweller (1988), with extensions by Paas, van Merriënboer, Kirschner, and others
 underlying_class: model
 best_for: Diagnosing why a lesson, learning material, or interface is harder to learn from than it should be
+one_liner: "학습 자료를 내재적/외재적/본유적 인지부하로 분해하고 외재적 부하 7가지 출처를 체크한다"
 ---
 
 # Cognitive Load Theory

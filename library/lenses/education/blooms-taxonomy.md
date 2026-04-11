@@ -4,6 +4,7 @@ domain: education
 source: Benjamin Bloom (1956); revised by Anderson & Krathwohl, 2001
 underlying_class: frame
 best_for: Classifying learning objectives, assessment items, or course activities by cognitive demand to ensure appropriate depth
+one_liner: "학습목표/콘텐츠/평가를 Bloom 6단계로 분류하고 세 축의 정합성 gap을 발견한다"
 ---
 
 # Bloom's Taxonomy (Revised)

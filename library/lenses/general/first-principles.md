@@ -4,6 +4,7 @@ domain: general
 source: Aristotle (Posterior Analytics); modernized in physics (Feynman) and engineering (Musk)
 underlying_class: native
 best_for: Breaking free of analogies and received wisdom when a problem resists conventional solutions
+one_liner: "기본 요소로 분해 → 물리/관습/역사 구분 → 관습을 버리고 재구성하여 기존 솔루션과의 델타를 찾는다"
 ---
 
 # First Principles Thinking

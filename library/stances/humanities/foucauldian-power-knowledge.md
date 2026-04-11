@@ -3,6 +3,7 @@ name: Foucauldian Power/Knowledge
 domain: humanities
 source: Michel Foucault — Discipline and Punish (1975), The History of Sexuality vol. 1 (1976), "Truth and Power" (1977), lectures at the Collège de France (Society Must Be Defended, Security Territory Population, The Birth of Biopolitics)
 best_for: Reading institutions, discourses, and practices to see how power produces subjects and truths — especially where something appears "obvious," "natural," or "just how things work"
+one_liner: "담론·권력/지식·주체 생산의 관점에서 무엇이 '자연스러운 것'으로 통하는지와 그 가시성의 조건을 심문한다"
 ---
 
 # Foucauldian Power/Knowledge

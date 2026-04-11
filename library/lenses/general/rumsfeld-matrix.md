@@ -4,6 +4,7 @@ domain: general
 source: Donald Rumsfeld, 2002 (popularized); rooted in the Johari Window (Luft & Ingham, 1955)
 underlying_class: frame
 best_for: Mapping the current knowledge state of a problem and exposing blind spots before they become failures
+one_liner: "Known/Unknown 2x2로 지식 상태를 분류하고 Unknown Unknowns를 proxy 기법으로 발굴한다"
 ---
 
 # Rumsfeld Matrix

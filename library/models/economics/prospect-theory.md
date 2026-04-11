@@ -3,6 +3,7 @@ name: Prospect Theory
 domain: economics
 source: Daniel Kahneman & Amos Tversky, "Prospect Theory: An Analysis of Decision Under Risk," Econometrica, 1979; extended by Tversky & Kahneman 1992 (Cumulative Prospect Theory)
 best_for: Explaining and predicting how people actually evaluate risky choices — especially loss aversion, framing effects, and distortions of small and large probabilities — when expected-utility theory predicts differently
+one_liner: "참조점·가치함수·확률 가중함수로 의사결정의 손실회피·위험태도 편향을 설명·예측한다"
 ---
 
 # Prospect Theory

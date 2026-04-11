@@ -3,6 +3,7 @@ name: Marxist Criticism
 domain: humanities
 source: Marx & Engels (The German Ideology, Capital); Louis Althusser (Ideology and Ideological State Apparatuses); Fredric Jameson (The Political Unconscious); Terry Eagleton (Marxism and Literary Criticism)
 best_for: Reading cultural artifacts, institutions, and texts to expose whose material interests the artifact naturalizes, and what social relations it presents as inevitable
+one_liner: "생산관계·계급·이데올로기 관점에서 문화·제도·텍스트가 누구의 이해를 자연화하는지 드러낸다"
 ---
 
 # Marxist Criticism
