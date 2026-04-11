@@ -1,1 +1,1 @@
-../../../frames/general/kano-model.md
+../../../library/frames/general/kano-model.md

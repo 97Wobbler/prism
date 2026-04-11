@@ -4,23 +4,23 @@ persona: >
   implementation-level vulnerabilities before code reaches production.
 
 lenses:
-  - path: lenses/security/stride.md
+  - path: library/lenses/security/stride.md
     usage: always
-  - path: lenses/security/owasp-top10.md
+  - path: library/lenses/security/owasp-top10.md
     usage: always
-  - path: lenses/security/cvss-scoring.md
+  - path: library/lenses/security/cvss-scoring.md
     usage: always
-  - path: lenses/general/rumsfeld-matrix.md
+  - path: library/lenses/general/rumsfeld-matrix.md
     usage: when-relevant
-  - path: lenses/general/first-principles.md
+  - path: library/lenses/general/first-principles.md
     usage: on-request
 
 frames:
-  - path: frames/general/cynefin.md
+  - path: library/frames/general/cynefin.md
     usage: when-relevant
 
 heuristics:
-  - path: heuristics/general.md
+  - path: library/heuristics/general.md
     usage: always
 
 analysis_workflow:

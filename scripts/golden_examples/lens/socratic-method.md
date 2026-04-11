@@ -1,1 +1,1 @@
-../../../lenses/general/socratic-method.md
+../../../library/lenses/general/socratic-method.md

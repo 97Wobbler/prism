@@ -106,10 +106,10 @@ Haiku 4.5 기준 (2026-04 시세):
 
 4. **결과 커밋** (권장: 클래스별로 분리):
    ```bash
-   git add lenses/
+   git add library/lenses/
    git commit -m "v0.3: add generated lens files from phase 3 batch"
 
-   git add frames/
+   git add library/frames/
    git commit -m "v0.3: add generated frame files from phase 3 batch"
 
    # ... 나머지 클래스

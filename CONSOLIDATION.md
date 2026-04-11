@@ -70,7 +70,7 @@ Procedure` + `Evaluation Criteria` + `Red Flags` + `Output Format`.
 **Agent usage:** Applied directly in the `analyze` step. Each selected lens is
 run in sequence; findings are collected per lens and tagged with confidence.
 
-**Storage:** `lenses/<domain>/<name>.md`
+**Storage:** `library/lenses/<domain>/<name>.md`
 
 ---
 
@@ -123,7 +123,7 @@ procedure needed to make the frame usable>
   walks an input through the categories and returns a classification +
   implications + next-step recommendations.
 
-**Storage:** `frames/<domain>/<name>.md`
+**Storage:** `library/frames/<domain>/<name>.md`
 
 ---
 
@@ -179,7 +179,7 @@ the input onto the model's variables and extract predictions. A model
 becomes a lens only when paired with a concrete application procedure;
 without it, it is only a reference.
 
-**Storage:** `models/<domain>/<name>.md`
+**Storage:** `library/models/<domain>/<name>.md`
 
 ---
 
@@ -234,7 +234,7 @@ lenses but with different questions. A stance file is not converted to a
 lens — it operates in its own mode. Multiple stances can be applied to the
 same input and their findings compared.
 
-**Storage:** `stances/<domain>/<name>.md`
+**Storage:** `library/stances/<domain>/<name>.md`
 
 ---
 
@@ -291,8 +291,8 @@ Agents rarely consume a single heuristic directly. They're most useful
 bundled: a "Decision Heuristics Bundle" or "Debugging Heuristics Bundle" as
 one file per domain.
 
-**Storage:** `heuristics/<domain>.md` (bundled) or
-`heuristics/<domain>/<name>.md` (individual)
+**Storage:** `library/heuristics/<domain>.md` (bundled) or
+`library/heuristics/<domain>/<name>.md` (individual)
 
 ---
 
@@ -308,7 +308,7 @@ lenslab/
 ├── agents/examples/
 │   ├── security-analyst.yml
 │   └── curriculum-reviewer.yml
-├── lenses/
+├── library/lenses/
 │   ├── catalog.yml
 │   ├── general/       (5 files)
 │   ├── security/      (3 files)
@@ -326,17 +326,17 @@ lenslab/
 ├── agents/examples/                    # updated to reference multiple classes
 │   ├── security-analyst.yml
 │   └── curriculum-reviewer.yml
-├── lenses/
+├── library/lenses/
 │   ├── general/       # only the true lenses stay here
 │   ├── security/
 │   └── education/
-├── frames/            # NEW
+├── library/frames/            # NEW
 │   └── general/
-├── models/            # NEW
+├── library/models/            # NEW
 │   └── general/
-├── stances/           # NEW
+├── library/stances/           # NEW
 │   └── general/
-├── heuristics/        # NEW
+├── library/heuristics/        # NEW
 │   └── general.md     # bundled general-purpose heuristics
 ├── catalog.yml        # MOVED to top level; adds `class` field
 ├── CLASSES.md         # NEW — the 5-class taxonomy spec
@@ -352,17 +352,17 @@ underlying class in the frontmatter so contributors understand the pattern.
 
 | v0.1 file | v0.2 location | Underlying class | Notes |
 |---|---|---|---|
-| lenses/general/rumsfeld-matrix.md | lenses/general/rumsfeld-matrix.md | lens (from frame) | Frame = Known/Unknown 2×2; this file adds the proxy generation procedure |
-| lenses/general/eisenhower-matrix.md | lenses/general/eisenhower-matrix.md | lens (from frame) | Frame = Urgent/Important 2×2; procedure added |
-| lenses/general/occams-razor.md | lenses/general/occams-razor.md | lens (from heuristic) | Heuristic = "prefer fewer assumptions"; file adds enumeration + typing + weighting procedure |
-| lenses/general/first-principles.md | lenses/general/first-principles.md | lens | Native procedure |
-| lenses/general/socratic-method.md | lenses/general/socratic-method.md | lens | Native procedure (6-category question walk) |
-| lenses/security/stride.md | lenses/security/stride.md | lens | Native procedure |
-| lenses/security/owasp-top10.md | lenses/security/owasp-top10.md | lens | Native procedure |
-| lenses/security/cvss-scoring.md | lenses/security/cvss-scoring.md | lens (from model) | Model = 8 Base Metrics; procedure adds mapping + scoring steps |
-| lenses/education/blooms-taxonomy.md | lenses/education/blooms-taxonomy.md | lens (from frame) | Frame = 6 cognitive levels; procedure adds classification + distribution check |
-| lenses/education/achievement-standard-alignment.md | lenses/education/achievement-standard-alignment.md | lens | Native procedure |
-| lenses/education/cognitive-load-theory.md | lenses/education/cognitive-load-theory.md | lens (from model) | Model = 3 load types + working memory cap; procedure adds element counting + check sequence |
+| library/lenses/general/rumsfeld-matrix.md | library/lenses/general/rumsfeld-matrix.md | lens (from frame) | Frame = Known/Unknown 2×2; this file adds the proxy generation procedure |
+| library/lenses/general/eisenhower-matrix.md | library/lenses/general/eisenhower-matrix.md | lens (from frame) | Frame = Urgent/Important 2×2; procedure added |
+| library/lenses/general/occams-razor.md | library/lenses/general/occams-razor.md | lens (from heuristic) | Heuristic = "prefer fewer assumptions"; file adds enumeration + typing + weighting procedure |
+| library/lenses/general/first-principles.md | library/lenses/general/first-principles.md | lens | Native procedure |
+| library/lenses/general/socratic-method.md | library/lenses/general/socratic-method.md | lens | Native procedure (6-category question walk) |
+| library/lenses/security/stride.md | library/lenses/security/stride.md | lens | Native procedure |
+| library/lenses/security/owasp-top10.md | library/lenses/security/owasp-top10.md | lens | Native procedure |
+| library/lenses/security/cvss-scoring.md | library/lenses/security/cvss-scoring.md | lens (from model) | Model = 8 Base Metrics; procedure adds mapping + scoring steps |
+| library/lenses/education/blooms-taxonomy.md | library/lenses/education/blooms-taxonomy.md | lens (from frame) | Frame = 6 cognitive levels; procedure adds classification + distribution check |
+| library/lenses/education/achievement-standard-alignment.md | library/lenses/education/achievement-standard-alignment.md | lens | Native procedure |
+| library/lenses/education/cognitive-load-theory.md | library/lenses/education/cognitive-load-theory.md | lens (from model) | Model = 3 load types + working memory cap; procedure adds element counting + check sequence |
 
 Add new frontmatter field `underlying_class` to each file: `frame | model | stance | heuristic | native`. This documents whether the lens is a native procedure or an operationalization of another class.
 
@@ -371,20 +371,20 @@ Add new frontmatter field `underlying_class` to each file: `frame | model | stan
 For the new directories to be meaningful at launch, ship at least 1-2 starter
 files per new class:
 
-- **frames/general/cynefin.md** — Simple/Complicated/Complex/Chaotic/Confused
+- **library/frames/general/cynefin.md** — Simple/Complicated/Complex/Chaotic/Confused
   with classification criteria and category implications (without forcing a
   lens procedure).
-- **frames/general/kano-model.md** — Must-be/One-dimensional/Attractive/
+- **library/frames/general/kano-model.md** — Must-be/One-dimensional/Attractive/
   Indifferent/Reverse category definitions.
-- **models/economics/prospect-theory.md** — Reference point, loss aversion,
+- **library/models/economics/prospect-theory.md** — Reference point, loss aversion,
   probability weighting variables + application procedure.
-- **models/strategy/porters-five-forces.md** — 5 forces as model variables +
+- **library/models/strategy/porters-five-forces.md** — 5 forces as model variables +
   application procedure for a specific industry.
-- **stances/humanities/marxist-criticism.md** — Foundational commitments,
+- **library/stances/humanities/marxist-criticism.md** — Foundational commitments,
   guiding questions, what it reveals/obscures.
-- **stances/humanities/foucauldian-power-knowledge.md** — Discourse,
+- **library/stances/humanities/foucauldian-power-knowledge.md** — Discourse,
   subject production, visibility of the "natural."
-- **heuristics/general.md** — Bundled: Occam's, Hanlon's, Chesterton's Fence,
+- **library/heuristics/general.md** — Bundled: Occam's, Hanlon's, Chesterton's Fence,
   Hickam's Dictum, Pigeonhole, Parkinson's, Mise en Place.
 
 ## 6. Updated agent workflow

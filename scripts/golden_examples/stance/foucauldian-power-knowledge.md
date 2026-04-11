@@ -1,1 +1,1 @@
-../../../stances/humanities/foucauldian-power-knowledge.md
+../../../library/stances/humanities/foucauldian-power-knowledge.md

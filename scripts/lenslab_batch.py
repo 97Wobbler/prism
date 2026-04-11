@@ -33,13 +33,13 @@ from parallel_runner import (  # noqa: E402
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 GOLDEN_DIR = SCRIPT_DIR / "golden_examples"
 
-# 클래스 → 복수형 출력 디렉토리 (lenslab 레이아웃)
+# 클래스 → 복수형 출력 디렉토리 (lenslab 레이아웃: library/ 하위로 통합됨)
 CLASS_TO_DIR = {
-    "lens": "lenses",
-    "frame": "frames",
-    "model": "models",
-    "stance": "stances",
-    "heuristic": "heuristics",
+    "lens": "library/lenses",
+    "frame": "library/frames",
+    "model": "library/models",
+    "stance": "library/stances",
+    "heuristic": "library/heuristics",
 }
 
 # 클래스별 필수 섹션. CLASSES.md + prompts/*.system.txt 에서 합의된 헤더명과 일치.

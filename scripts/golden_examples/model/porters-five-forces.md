@@ -1,1 +1,1 @@
-../../../models/strategy/porters-five-forces.md
+../../../library/models/strategy/porters-five-forces.md

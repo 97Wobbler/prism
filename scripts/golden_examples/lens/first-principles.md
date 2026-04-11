@@ -1,1 +1,1 @@
-../../../lenses/general/first-principles.md
+../../../library/lenses/general/first-principles.md

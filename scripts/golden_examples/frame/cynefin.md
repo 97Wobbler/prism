@@ -1,1 +1,1 @@
-../../../frames/general/cynefin.md
+../../../library/frames/general/cynefin.md

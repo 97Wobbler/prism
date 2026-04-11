@@ -27,35 +27,35 @@ lenses:
     class: lens
     underlying_class: frame
     domain: general
-    path: lenses/general/rumsfeld-matrix.md
+    path: library/lenses/general/rumsfeld-matrix.md
     one_liner: "Known/Unknown 2x2로 지식 상태를 분류하고 Unknown Unknowns를 proxy 기법으로 발굴한다"
 
   - name: eisenhower-matrix
     class: lens
     underlying_class: frame
     domain: general
-    path: lenses/general/eisenhower-matrix.md
+    path: library/lenses/general/eisenhower-matrix.md
     one_liner: "긴급/중요 2x2로 백로그나 추천사항을 Do/Schedule/Delegate/Eliminate로 분류한다"
 
   - name: occams-razor
     class: lens
     underlying_class: heuristic
     domain: general
-    path: lenses/general/occams-razor.md
+    path: library/lenses/general/occams-razor.md
     one_liner: "경쟁 가설들의 숨은 가정을 명시적으로 열거·가중 비교해서 최소 가정 가설을 선택한다"
 
   - name: first-principles
     class: lens
     underlying_class: native
     domain: general
-    path: lenses/general/first-principles.md
+    path: library/lenses/general/first-principles.md
     one_liner: "기본 요소로 분해 → 물리/관습/역사 구분 → 관습을 버리고 재구성하여 기존 솔루션과의 델타를 찾는다"
 
   - name: socratic-method
     class: lens
     underlying_class: native
     domain: general
-    path: lenses/general/socratic-method.md
+    path: library/lenses/general/socratic-method.md
     one_liner: "명확화/가정/증거/관점/함의/메타 6범주 질문으로 주장의 내구성을 시험한다"
 
   # ---------- Security ----------
@@ -64,21 +64,21 @@ lenses:
     class: lens
     underlying_class: native
     domain: security
-    path: lenses/security/stride.md
+    path: library/lenses/security/stride.md
     one_liner: "DFD의 각 element × 6카테고리(S/T/R/I/D/E)로 위협을 체계적으로 열거한다"
 
   - name: owasp-top10
     class: lens
     underlying_class: native
     domain: security
-    path: lenses/security/owasp-top10.md
+    path: library/lenses/security/owasp-top10.md
     one_liner: "API 엔드포인트를 OWASP API Top 10 2023의 10개 범주로 점검하고 루트 원인별로 클러스터링한다"
 
   - name: cvss-scoring
     class: lens
     underlying_class: model
     domain: security
-    path: lenses/security/cvss-scoring.md
+    path: library/lenses/security/cvss-scoring.md
     one_liner: "발견된 취약점에 CVSS v3.1 8개 Base Metrics로 객관적 점수를 부여하고 remediation SLA를 산정한다"
 
   # ---------- Education ----------
@@ -87,21 +87,21 @@ lenses:
     class: lens
     underlying_class: frame
     domain: education
-    path: lenses/education/blooms-taxonomy.md
+    path: library/lenses/education/blooms-taxonomy.md
     one_liner: "학습목표/콘텐츠/평가를 Bloom 6단계로 분류하고 세 축의 정합성 gap을 발견한다"
 
   - name: achievement-standard-alignment
     class: lens
     underlying_class: native
     domain: education
-    path: lenses/education/achievement-standard-alignment.md
+    path: library/lenses/education/achievement-standard-alignment.md
     one_liner: "한국 교육과정 성취기준의 내용 요소와 기능 요소를 분리하여 문항/콘텐츠의 정합성을 검증한다"
 
   - name: cognitive-load-theory
     class: lens
     underlying_class: model
     domain: education
-    path: lenses/education/cognitive-load-theory.md
+    path: library/lenses/education/cognitive-load-theory.md
     one_liner: "학습 자료를 내재적/외재적/본유적 인지부하로 분해하고 외재적 부하 7가지 출처를 체크한다"
 
 # =====================================================================
@@ -112,13 +112,13 @@ frames:
   - name: cynefin
     class: frame
     domain: general
-    path: frames/general/cynefin.md
+    path: library/frames/general/cynefin.md
     one_liner: "문제를 Clear/Complicated/Complex/Chaotic/Confused로 분류하여 어떤 대응 패턴이 적합한지 결정한다"
 
   - name: kano-model
     class: frame
     domain: general
-    path: frames/general/kano-model.md
+    path: library/frames/general/kano-model.md
     one_liner: "제품 기능을 Must-be/Performance/Attractive/Indifferent/Reverse로 분류해 투자 우선순위를 판단한다"
 
 # =====================================================================
@@ -129,13 +129,13 @@ models:
   - name: porters-five-forces
     class: model
     domain: strategy
-    path: models/strategy/porters-five-forces.md
+    path: library/models/strategy/porters-five-forces.md
     one_liner: "산업을 5가지 힘(경쟁/진입/대체/구매자/공급자)으로 매핑해 수익성 구조와 경쟁 동학을 읽는다"
 
   - name: prospect-theory
     class: model
     domain: economics
-    path: models/economics/prospect-theory.md
+    path: library/models/economics/prospect-theory.md
     one_liner: "참조점·가치함수·확률 가중함수로 의사결정의 손실회피·위험태도 편향을 설명·예측한다"
 
 # =====================================================================
@@ -146,13 +146,13 @@ stances:
   - name: marxist-criticism
     class: stance
     domain: humanities
-    path: stances/humanities/marxist-criticism.md
+    path: library/stances/humanities/marxist-criticism.md
     one_liner: "생산관계·계급·이데올로기 관점에서 문화·제도·텍스트가 누구의 이해를 자연화하는지 드러낸다"
 
   - name: foucauldian-power-knowledge
     class: stance
     domain: humanities
-    path: stances/humanities/foucauldian-power-knowledge.md
+    path: library/stances/humanities/foucauldian-power-knowledge.md
     one_liner: "담론·권력/지식·주체 생산의 관점에서 무엇이 '자연스러운 것'으로 통하는지와 그 가시성의 조건을 심문한다"
 
 # =====================================================================
@@ -163,5 +163,5 @@ heuristics:
   - name: general-heuristics
     class: heuristic
     domain: general
-    path: heuristics/general.md
+    path: library/heuristics/general.md
     one_liner: "Occam, Hanlon, Chesterton's Fence, Hickam, Pigeonhole, Pareto, Parkinson, Mise en Place 번들"

@@ -69,7 +69,7 @@ satisfies all four criteria above.
 - IRAC (legal analysis)
 - ACH (Analysis of Competing Hypotheses)
 
-**Storage:** `lenses/<domain>/<name>.md`
+**Storage:** `library/lenses/<domain>/<name>.md`
 
 **File format:**
 ```markdown
@@ -121,7 +121,7 @@ tell you *how to sort*, not *what to do next*.
 - Porter's Generic Strategies
 - CEFR language levels
 
-**Storage:** `frames/<domain>/<name>.md`
+**Storage:** `library/frames/<domain>/<name>.md`
 
 **File format:**
 ```markdown
@@ -177,7 +177,7 @@ explanations.
 - Principal-Agent
 - Attachment Theory
 
-**Storage:** `models/<domain>/<name>.md`
+**Storage:** `library/models/<domain>/<name>.md`
 
 **File format:**
 ```markdown
@@ -237,7 +237,7 @@ ignore.
 - Actor-Network Theory (Latour)
 - Postcolonial theory (Said, Spivak)
 
-**Storage:** `stances/<domain>/<name>.md`
+**Storage:** `library/stances/<domain>/<name>.md`
 
 **File format:**
 ```markdown
@@ -294,8 +294,8 @@ but they function as checks inside or alongside lens-based analysis.
 - Parkinson's Law
 - Mise en Place
 
-**Storage:** `heuristics/<domain>.md` (bundled, preferred) or
-`heuristics/<domain>/<name>.md` (individual, when a single heuristic
+**Storage:** `library/heuristics/<domain>.md` (bundled, preferred) or
+`library/heuristics/<domain>/<name>.md` (individual, when a single heuristic
 deserves its own file).
 
 **File format (per heuristic entry):**
@@ -414,8 +414,8 @@ stances and run them in the `critical-read` step.
 - [ ] Picked the correct class using the table above.
 - [ ] Used the matching file format template without renaming sections.
 - [ ] Put the file in the correct directory
-      (`lenses/<domain>/` / `frames/<domain>/` / `models/<domain>/` /
-      `stances/<domain>/` / `heuristics/`).
+      (`library/lenses/<domain>/` / `library/frames/<domain>/` / `library/models/<domain>/` /
+      `library/stances/<domain>/` / `library/heuristics/`).
 - [ ] For a lens: `Analytical Procedure` is concrete enough to execute
       without prior knowledge of the framework; output format includes
       a confidence signal.

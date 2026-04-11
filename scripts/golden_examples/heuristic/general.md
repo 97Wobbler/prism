@@ -1,1 +1,1 @@
-../../../heuristics/general.md
+../../../library/heuristics/general.md

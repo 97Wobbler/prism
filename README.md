@@ -192,7 +192,7 @@ See `agents/examples/`:
 
 | Bundle | Contents |
 |---|---|
-| `heuristics/general.md` | Occam's Razor, Hanlon's Razor, Chesterton's Fence, Hickam's Dictum, Pigeonhole Principle, Pareto 80/20, Parkinson's Law, Mise en Place |
+| `library/heuristics/general.md` | Occam's Razor, Hanlon's Razor, Chesterton's Fence, Hickam's Dictum, Pigeonhole Principle, Pareto 80/20, Parkinson's Law, Mise en Place |
 
 ## File formats
 

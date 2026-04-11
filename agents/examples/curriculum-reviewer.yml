@@ -5,21 +5,21 @@ persona: >
   achievement standards and appropriate cognitive demand.
 
 lenses:
-  - path: lenses/education/achievement-standard-alignment.md
+  - path: library/lenses/education/achievement-standard-alignment.md
     usage: always
-  - path: lenses/education/blooms-taxonomy.md
+  - path: library/lenses/education/blooms-taxonomy.md
     usage: always
-  - path: lenses/education/cognitive-load-theory.md
+  - path: library/lenses/education/cognitive-load-theory.md
     usage: when-relevant
-  - path: lenses/general/socratic-method.md
+  - path: library/lenses/general/socratic-method.md
     usage: on-request
 
 frames:
-  - path: frames/general/cynefin.md
+  - path: library/frames/general/cynefin.md
     usage: when-relevant
 
 heuristics:
-  - path: heuristics/general.md
+  - path: library/heuristics/general.md
     usage: always
 
 analysis_workflow:

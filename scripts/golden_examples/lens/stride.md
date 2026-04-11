@@ -1,1 +1,1 @@
-../../../lenses/security/stride.md
+../../../library/lenses/security/stride.md

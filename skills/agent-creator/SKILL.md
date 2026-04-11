@@ -80,7 +80,7 @@ in this order:
    discursive.)
 5. **General lenses** as a meta-layer — `first-principles`,
    `rumsfeld-matrix`, `socratic-method`, etc.
-6. **Heuristic bundles** — usually `heuristics/general.md` as a sanity
+6. **Heuristic bundles** — usually `library/heuristics/general.md` as a sanity
    gate, plus any domain-specific bundle if one exists.
 7. **Reject items** whose `one_liner` clearly doesn't fit. Be decisive:
    3–6 primary items (lenses + frames + models) is a good target. More
@@ -95,18 +95,18 @@ If the user's domain lacks items that clearly should exist, offer to
 generate them. **Pick the right class first.**
 
 - The source framework has a procedure, an output template, and a
-  confidence signal? → write it as a **lens** in `lenses/<domain>/`.
+  confidence signal? → write it as a **lens** in `library/lenses/<domain>/`.
 - The source is just a taxonomy with categories and classification
-  criteria? → write it as a **frame** in `frames/<domain>/`.
+  criteria? → write it as a **frame** in `library/frames/<domain>/`.
 - The source is a theoretical model (variables, relationships,
   predictions) without an "Analytical Procedure" of its own? → write
-  it as a **model** in `models/<domain>/`, and include an Application
+  it as a **model** in `library/models/<domain>/`, and include an Application
   Procedure that walks input → variables → predictions.
 - The source is an interpretive commitment about what is worth looking
-  for? → write it as a **stance** in `stances/<domain>/`. Do **not**
+  for? → write it as a **stance** in `library/stances/<domain>/`. Do **not**
   convert stances into lenses.
 - The source is a single-rule aphorism? → add it to an existing
-  `heuristics/<domain>.md` bundle, or create one if none exists for
+  `library/heuristics/<domain>.md` bundle, or create one if none exists for
   that domain.
 
 **Converting a frame, model, or heuristic into a lens** is a bigger
@@ -184,27 +184,27 @@ persona: >
 # Each class section is optional. Omit sections the agent doesn't use.
 
 lenses:
-  - path: lenses/<domain>/<lens>.md
+  - path: library/lenses/<domain>/<lens>.md
     usage: always        # apply unconditionally
-  - path: lenses/<domain>/<lens>.md
+  - path: library/lenses/<domain>/<lens>.md
     usage: when-relevant # apply only if triage flags it
-  - path: lenses/general/<lens>.md
+  - path: library/lenses/general/<lens>.md
     usage: on-request    # apply only when user explicitly asks
 
 frames:
-  - path: frames/<domain>/<frame>.md
+  - path: library/frames/<domain>/<frame>.md
     usage: when-relevant
 
 models:
-  - path: models/<domain>/<model>.md
+  - path: library/models/<domain>/<model>.md
     usage: when-relevant
 
 stances:
-  - path: stances/<domain>/<stance>.md
+  - path: library/stances/<domain>/<stance>.md
     usage: on-request
 
 heuristics:
-  - path: heuristics/general.md
+  - path: library/heuristics/general.md
     usage: always        # typical default: run as sanity gate
 
 analysis_workflow:
