@@ -1,0 +1,6 @@
+{
+  "name": "lenslab",
+  "version": "0.1.0",
+  "description": "Create domain-expert analysis agents powered by structured analytical lenses instead of vague persona prompts.",
+  "author": "97Wobbler"
+}
