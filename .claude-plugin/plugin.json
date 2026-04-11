@@ -2,5 +2,19 @@
   "name": "lenslab",
   "version": "0.3.0",
   "description": "Create domain-expert analysis agents by composing structured frameworks — lenses, frames, models, stances, and heuristics — instead of vague persona prompts.",
-  "author": "97Wobbler"
+  "author": {
+    "name": "97Wobbler",
+    "url": "https://github.com/97Wobbler"
+  },
+  "homepage": "https://github.com/97Wobbler/lenslab",
+  "repository": "https://github.com/97Wobbler/lenslab",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "analysis",
+    "frameworks",
+    "lenses",
+    "agents"
+  ]
 }
