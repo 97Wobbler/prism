@@ -2,6 +2,7 @@
 name: CVSS v3.1 Scoring
 domain: security
 source: FIRST.org, Common Vulnerability Scoring System v3.1 Specification
+underlying_class: model
 best_for: Assigning an objective, comparable severity score to a discovered vulnerability so remediation can be prioritized across a portfolio
 ---
 

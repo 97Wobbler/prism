@@ -2,6 +2,7 @@
 name: Occam's Razor
 domain: general
 source: William of Ockham, 14th century (principle of parsimony); reformulated by modern philosophy of science
+underlying_class: heuristic
 best_for: Selecting between competing explanations or solutions when multiple account for the same evidence
 ---
 

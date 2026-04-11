@@ -2,6 +2,7 @@
 name: Cognitive Load Theory
 domain: education
 source: John Sweller (1988), with extensions by Paas, van Merriënboer, Kirschner, and others
+underlying_class: model
 best_for: Diagnosing why a lesson, learning material, or interface is harder to learn from than it should be
 ---
 

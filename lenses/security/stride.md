@@ -2,6 +2,7 @@
 name: STRIDE Threat Modeling
 domain: security
 source: Loren Kohnfelder & Praerit Garg, Microsoft, 1999 (original memo); formalized by Microsoft SDL
+underlying_class: native
 best_for: Systematic threat enumeration for a system or feature at design time, before code is written
 ---
 

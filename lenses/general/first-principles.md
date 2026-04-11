@@ -2,6 +2,7 @@
 name: First Principles Thinking
 domain: general
 source: Aristotle (Posterior Analytics); modernized in physics (Feynman) and engineering (Musk)
+underlying_class: native
 best_for: Breaking free of analogies and received wisdom when a problem resists conventional solutions
 ---
 

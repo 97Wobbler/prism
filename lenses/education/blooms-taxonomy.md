@@ -2,6 +2,7 @@
 name: Bloom's Taxonomy (Revised, 2001)
 domain: education
 source: Benjamin Bloom (1956); revised by Anderson & Krathwohl, 2001
+underlying_class: frame
 best_for: Classifying learning objectives, assessment items, or course activities by cognitive demand to ensure appropriate depth
 ---
 

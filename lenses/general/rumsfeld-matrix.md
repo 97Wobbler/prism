@@ -2,6 +2,7 @@
 name: Rumsfeld Matrix (Known/Unknown Matrix)
 domain: general
 source: Donald Rumsfeld, 2002 (popularized); rooted in the Johari Window (Luft & Ingham, 1955)
+underlying_class: frame
 best_for: Mapping the current knowledge state of a problem and exposing blind spots before they become failures
 ---
 

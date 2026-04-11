@@ -2,6 +2,7 @@
 name: OWASP API Security Top 10 (2023)
 domain: security
 source: OWASP Foundation, API Security Top 10 — 2023 Edition
+underlying_class: native
 best_for: Endpoint-by-endpoint vulnerability review of an HTTP/REST/GraphQL API
 ---
 

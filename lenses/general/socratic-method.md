@@ -2,6 +2,7 @@
 name: Socratic Method
 domain: general
 source: Socrates (via Plato); modern pedagogical adaptation by Richard Paul (Foundation for Critical Thinking)
+underlying_class: native
 best_for: Stress-testing a claim, proposal, or conclusion by surfacing hidden assumptions and unexamined implications
 ---
 

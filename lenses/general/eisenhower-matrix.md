@@ -2,6 +2,7 @@
 name: Eisenhower Matrix (Urgent/Important Matrix)
 domain: general
 source: Attributed to Dwight D. Eisenhower; popularized by Stephen Covey (The 7 Habits of Highly Effective People, 1989)
+underlying_class: frame
 best_for: Triaging a list of candidate actions or issues when you can't do everything and must justify what you drop
 ---
 

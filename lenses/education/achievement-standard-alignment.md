@@ -2,6 +2,7 @@
 name: Achievement Standard Alignment (성취기준 정합성 분석)
 domain: education
 source: Korean National Curriculum (2015/2022 revisions), Ministry of Education; adapted from content-skill separation analysis used in K-12 curriculum review
+underlying_class: native
 best_for: Verifying that learning content, assessment items, or AI-generated problems are correctly aligned to a specific Korean national curriculum achievement standard
 ---
 
