@@ -163,29 +163,32 @@ level (`high` / `medium` / `low`) and, where CVSS applies, a severity
 score. See the `output_format` block at the bottom of each example yml
 for the exact shape.
 
-### Reusing the example agents
+### Composition recipes
 
-`agents/examples/` ships four ready-to-run configs you can copy into
-`.claude/agents/` without calling the slash command:
+`docs/cookbook/` contains four composition recipes — narrative
+walkthroughs explaining how to combine Prism instruments for a given
+persona. These are not executable agent configs; they are the reasoning
+behind a composition, meant to be read before you build an agent in
+Claude Code's native `/agents` flow.
 
-- **security-analyst.yml** — STRIDE + OWASP API Top 10 + CVSS as always
-  lenses, rumsfeld-matrix as a when-relevant meta lens, Cynefin as a
-  when-relevant triage frame, and the general heuristics bundle as a
-  sanity gate.
-- **curriculum-reviewer.yml** — Achievement Standard Alignment +
-  Bloom's Taxonomy as always lenses, Cognitive Load Theory as
-  when-relevant, Cynefin as a when-relevant classification frame, and
-  the general heuristics bundle as a sanity gate.
-- **product-strategist.yml** — strategy lenses with Porter's Five
-  Forces as the model-interpret step.
-- **film-critic.yml** — film-theory lenses plus stances for the
-  critical-read step.
+- **[docs/cookbook/security-analyst.md](docs/cookbook/security-analyst.md)** —
+  STRIDE + OWASP API Top 10 + CVSS as always lenses, rumsfeld-matrix as
+  a when-relevant meta lens, Cynefin as a when-relevant triage frame,
+  and the general heuristics bundle as a sanity gate.
+- **[docs/cookbook/curriculum-reviewer.md](docs/cookbook/curriculum-reviewer.md)** —
+  Achievement Standard Alignment + Bloom's Taxonomy as always lenses,
+  Cognitive Load Theory as when-relevant, Cynefin as a when-relevant
+  classification frame, and the general heuristics bundle as a sanity
+  gate.
+- **[docs/cookbook/product-strategist.md](docs/cookbook/product-strategist.md)** —
+  strategy lenses with Porter's Five Forces as the model-interpret step.
+- **[docs/cookbook/film-critic.md](docs/cookbook/film-critic.md)** —
+  film-theory lenses plus stances for the critical-read step.
 
-```bash
-cp agents/examples/security-analyst.yml .claude/agents/
-```
-
-Then invoke it the same way as a freshly generated agent.
+Each recipe explains *why* its instruments were composed the way they
+were — the value the source YAML could not carry. To turn a recipe into
+a running agent, open a Claude Code session and use the native `/agents`
+creation flow, referencing the instrument paths listed in the recipe.
 
 ### Browsing the catalog
 
