@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "lenslab",
-      "source": "."
+      "source": "./"
     }
   ]
 }
