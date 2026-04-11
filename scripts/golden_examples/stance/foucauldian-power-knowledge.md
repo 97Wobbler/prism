@@ -1,0 +1,1 @@
+../../../stances/humanities/foucauldian-power-knowledge.md

@@ -1,0 +1,1 @@
+../../../models/economics/prospect-theory.md

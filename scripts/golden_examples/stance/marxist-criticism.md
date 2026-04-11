@@ -1,0 +1,1 @@
+../../../stances/humanities/marxist-criticism.md

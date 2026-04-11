@@ -1,0 +1,1 @@
+../../../lenses/security/stride.md
