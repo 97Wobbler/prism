@@ -91,8 +91,9 @@ which items to load and what `usage` tag each has (`always`,
 
 ## Installation and usage
 
-Prism is a Claude Code plugin. It ships one slash command
-(`/prism:create-agent`), one skill (`agent-creator`), and the
+Prism is a Claude Code plugin. It ships two skills
+(`catalog-browse` for exploring the instrument catalog and
+`make-instrument` for interview-style instrument creation) and the
 `library/` + `catalog.yml` pair that both consume.
 
 ### Step 1. Install the plugin
@@ -113,38 +114,25 @@ git clone https://github.com/97Wobbler/prism.git
 # Then follow your plugin loader's instructions for local plugins.
 ```
 
-After install, `/prism:create-agent` should appear in Claude Code's
-slash command list and the 657 files under `library/` are reachable by
-path from the agent-creator skill.
+After install, the `catalog-browse` and `make-instrument` skills should
+appear in Claude Code's skill list and the 657 files under `library/`
+are reachable via `catalog.yml`.
 
-### Step 2. Create an agent with `/prism:create-agent`
+### Step 2. Explore the catalog and compose an agent
 
-```
-/prism:create-agent security "Review our public API for design-time vulnerabilities"
-```
+Use the `catalog-browse` skill to inspect what instruments exist for
+your domain — it reads `catalog.yml` as a triage index and returns a
+grouped-by-class view filtered by your query. Then open Claude Code's
+native `/agents` flow and build an agent that references the
+`library/` paths you picked, optionally following a recipe in
+`docs/cookbook/` (see below).
 
-The `agent-creator` skill will read `catalog.yml` first (the triage
-index, not every file), propose a candidate item set grouped by the 5
-classes, and ask you to confirm or adjust before writing the config.
-Typical exchange:
-
-```
-> Domain: security / Purpose: API design review
->
-> Proposed items (from catalog.yml):
->   Lenses (always):       stride, owasp-api-top-10, cvss-scoring
->   Lenses (when-relevant): rumsfeld-matrix
->   Frames (when-relevant): cynefin
->   Heuristics (always):    general (bundle)
->
-> Confirm, add, or remove? [y / +<slug> / -<slug>]
-```
-
-Once you confirm, it writes a config to
-`.claude/agents/<agent-name>.yml` in the current project. The config is
-around 40 lines: a one-line persona, per-class item paths with `usage`
-tags (`always` / `when-relevant` / `on-request`), and the subset of the
-7-step workflow this agent actually uses.
+If the catalog is missing an instrument you need, use the
+`make-instrument` skill: it runs an interview, classifies the source
+into one of the 5 classes, LLM-generates the body, and saves it to the
+global (`~/.claude/prism/library/`) or project
+(`./.claude/prism/library/`) layer. The bundled `library/` layer is
+read-only.
 
 ### Step 3. Run the agent on a real artifact
 
@@ -230,8 +218,9 @@ that runs Haiku 4.5 in parallel against a curated seed catalog (see
 `scripts/PHASE3_RUN.md` and the `v0.3: add … generated … files` commits
 for the full batch history).
 
-Use `catalog.yml` as the single triage index — the `agent-creator` skill
-reads it first and only loads individual files when the domain matches.
+Use `catalog.yml` as the single triage index — the `catalog-browse`
+skill reads it first and only loads individual files when the domain
+matches.
 
 ### By class
 
