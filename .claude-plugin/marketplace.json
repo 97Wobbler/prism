@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Instruments over personas — a Claude Code plugin for building domain-expert analysis agents by composing structured analytical instruments (lenses, frames, models, stances, heuristics) instead of vague persona prompts.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
