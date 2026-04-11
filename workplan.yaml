@@ -1,0 +1,154 @@
+meta:
+  created: 2026-04-12
+  spec_source: "catalog.yml의 658개 one_liner를 한국어→영어로 일괄 번역. AI triage 품질 향상이 목적. 추출→번역→검증→병합 4단계 파이프라인."
+
+  as_is: |
+    catalog.yml은 4,646줄, 5개 클래스(lenses/frames/models/stances/heuristics)
+    아래 658개 instrument를 등록. 각 항목은 name(영문 kebab-case),
+    class, domain, path, one_liner(한국어 1~2문장) 필드를 가짐.
+    instrument 본문 .md 파일과 README/사용자 표면은 한국어를 유지.
+    카탈로그의 일차 소비자는 LLM의 triage 단계.
+
+  to_be: |
+    catalog.yml의 658개 one_liner가 모두 영어로 교체되어 있고,
+    그 외 모든 필드/순서/주석/들여쓰기/빈 줄이 원본과 동일.
+    PyYAML 파싱 후 entry 수 658 유지, name 집합 동일,
+    한글 문자가 one_liner 필드에서 0건.
+    번역 톤은 영문 instrument 커뮤니티 표준 표현을 우선
+    (예: "면도날" → "razor", "울타리" → "fence").
+
+  human_gate_values:
+    null: AI 단독 진행
+    approve: AI 산출물 생성 후 인간 승인 대기
+    execute: 인간 직접 수행
+
+  principles:
+    - "메인 세션은 오케스트레이션만. 추출/번역/병합은 모두 subagent 또는 결정론적 스크립트가 수행."
+    - "라인 기반 정규식 치환을 사용 (PyYAML 라운드트립은 주석/순서를 망가뜨림)."
+    - "동일 name이 클래스 간 중복될 수 있으므로 (class, name) 쌍으로 매칭."
+
+tasks:
+
+  - id: T01
+    name: 추출 — catalog.yml에서 (class, name, ko_one_liner) TSV 생성
+    blocked_by: []
+    human_gate: null
+    done: true
+    category: feat
+    spec: |
+      Python 스크립트를 작성해 /Users/whchoi/Projects/2-work-lab/prism/catalog.yml을
+      읽고, 5개 클래스 섹션 아래의 모든 instrument 엔트리에서 (class, name, one_liner)
+      세 필드를 추출해 TSV로 저장한다.
+
+      요구사항:
+      - 출력 경로: /Users/whchoi/Projects/2-work-lab/prism/.translation/extracted.tsv
+      - 컬럼: class<TAB>name<TAB>ko_one_liner (헤더 행 포함)
+      - 정확히 658개 데이터 행이 나와야 함 (`grep -c "one_liner:" catalog.yml`로 검증된 수치)
+      - PyYAML 사용 가능 (`python3 -c "import yaml"` 동작 확인됨)
+      - one_liner 값에 탭/개행이 없다고 가정 (있으면 공백으로 치환)
+      - 스크립트 파일도 함께 저장: /Users/whchoi/Projects/2-work-lab/prism/.translation/extract.py
+      - 스크립트는 멱등(여러 번 실행해도 같은 결과)이어야 함
+    output: .translation/extracted.tsv
+    verify_checks:
+      - "TSV 파일 존재, 헤더 1행 + 데이터 658행 = 총 659행"
+      - "모든 행이 정확히 3개 컬럼"
+      - "class 컬럼 값이 lens/frame/model/stance/heuristic 중 하나"
+      - "name 컬럼이 영문 kebab-case"
+
+  - id: T02
+    name: 번역 — TSV의 ko_one_liner를 영어로 번역해 새 TSV 생성
+    blocked_by: [T01]
+    human_gate: null
+    done: false
+    category: feat
+    spec: |
+      .translation/extracted.tsv를 입력으로 받아 ko_one_liner 컬럼을 영어로 번역하고
+      /Users/whchoi/Projects/2-work-lab/prism/.translation/translated.tsv로 저장한다.
+
+      엄격한 규칙:
+      - 출력 행 수 = 입력 행 수 (659행, 헤더 포함)
+      - 출력 컬럼 = class<TAB>name<TAB>en_one_liner
+      - 행 순서 절대 변경 금지
+      - class, name 컬럼은 절대 수정 금지 (한 글자도)
+      - 한 행씩 1:1 대응되어야 함
+
+      번역 톤:
+      - 영문 instrument 커뮤니티 표준 표현 우선
+        (razor, fence, principle, dictum, law, theorem 등 원어 보존)
+      - 1~2 짧은 문장. catalog 인덱스용 압축 설명.
+      - LLM triage가 retrieval에 쓰므로 핵심 키워드(작동 원리, 적용 대상)가 들어가야 함
+      - "—"(em dash) 사용 가능
+      - 따옴표/콜론 사용 시 TSV 파싱이 깨지지 않도록 주의 (TSV는 탭 구분자)
+
+      작업 방식:
+      - subagent가 직접 모든 658개를 번역해 출력
+      - 도중에 자르지 말 것 (응답 길이 부족하면 작업을 거부하고 분할 필요성을 보고)
+      - 번역 완료 후 self-check: 입력/출력 행 수 일치, name 컬럼 100% 일치 확인하고 보고
+    output: .translation/translated.tsv
+    verify_checks:
+      - "행 수 659 (헤더 1 + 데이터 658)"
+      - "name 컬럼이 입력 TSV와 100% 일치 (순서 포함)"
+      - "en_one_liner 컬럼에 한글(가-힣) 문자 0건"
+      - "en_one_liner 컬럼 비어있는 행 0건"
+      - "샘플 20개 영어 자연스러움 — 메인이 직접 확인"
+
+  - id: T03
+    name: 병합 — translated.tsv를 catalog.yml에 라인 기반으로 적용
+    blocked_by: [T02]
+    human_gate: null
+    done: false
+    category: feat
+    spec: |
+      Python 스크립트를 작성해 /Users/whchoi/Projects/2-work-lab/prism/catalog.yml을
+      라인 기반으로 읽고, .translation/translated.tsv의 (class, name, en_one_liner)에
+      따라 one_liner 필드만 영어로 교체해 저장한다.
+
+      엄격한 규칙:
+      - PyYAML/ruamel.yaml로 로드-덤프 라운드트립 절대 금지 (주석/빈 줄/순서 파괴)
+      - 라인 단위 순회 + 정규식 치환 사용
+      - (class, name) 쌍으로 매칭
+        * 클래스 섹션은 `^lenses:`, `^frames:`, `^models:`, `^stances:`, `^heuristics:` 로 결정
+        * name은 `  - name: <kebab>` 패턴
+        * one_liner는 그 직후 N줄 안의 첫 `    one_liner: "..."` 패턴
+      - one_liner 라인의 들여쓰기와 따옴표 스타일을 원본과 동일하게 유지
+      - 다른 어떤 줄도 변경하지 말 것 (특히 주석 `# ---------- general ----------`)
+      - 변경 전 백업: /Users/whchoi/Projects/2-work-lab/prism/.translation/catalog.before.yml
+      - 변경 후 diff 통계 출력: 변경 라인 수가 정확히 658이어야 함 (각 one_liner 1줄씩)
+      - 스크립트 파일: /Users/whchoi/Projects/2-work-lab/prism/.translation/merge.py
+      - 스크립트는 멱등 (같은 translated.tsv로 다시 돌리면 변화 없음)
+    output: catalog.yml
+    verify_checks:
+      - "백업 파일 .translation/catalog.before.yml 존재"
+      - "git diff catalog.yml — 정확히 658줄 변경 (one_liner 라인만)"
+      - "다른 라인은 일절 변경되지 않음 (주석/빈 줄/들여쓰기/필드 순서 유지)"
+      - "PyYAML로 새 catalog.yml 파싱 성공, 658개 instrument 그대로"
+      - "name 집합이 백업과 100% 동일"
+      - "one_liner 필드에 한글 문자 0건"
+
+  - id: T04
+    name: 최종 검증 + 정리 — 카탈로그 무결성, .translation 보존 정책 결정
+    blocked_by: [T03]
+    human_gate: null
+    done: false
+    category: chore
+    spec: |
+      별도 Explore subagent를 띄워 catalog.yml의 무결성을 독립 검증한다.
+      메인이 이미 한 검사를 한 번 더 외부 시각으로 돌리는 sanity check 단계.
+
+      검증 항목:
+      1. PyYAML 파싱 성공
+      2. 5개 클래스 합산 instrument 수 = 658
+      3. 무작위 샘플 30개 instrument의 path 필드가 가리키는 .md 파일 실재 확인
+      4. (class, name) 쌍 unique 검증
+      5. one_liner 필드에 한글 0건 (재확인)
+      6. /Users/whchoi/Projects/2-work-lab/prism/library/heuristics/general/xy-problem.md
+         가 catalog의 xy-problem 엔트리와 매칭되는지 확인 (이전 작업 결과)
+
+      그 후 .translation/ 디렉토리 처리 방침을 보고:
+      - 옵션 A: .gitignore에 추가하고 그대로 둠 (재실행 가능, 디버그용)
+      - 옵션 B: 통째로 삭제 (백업은 git history에 살아있음)
+      메인이 결정해서 적용할 수 있도록 양쪽 장단 한 줄씩 보고만 하면 됨.
+    output: 검증 보고 (텍스트)
+    verify_checks:
+      - "subagent가 6개 항목 모두 PASS 보고"
+      - "샘플 30개 path 모두 실재"
