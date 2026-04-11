@@ -1,4 +1,3 @@
-{"name": "first-principles-thinking", "display_name": "First Principles Thinking", "class": "lens", "domain": "general", "source_domain_header": "General / Meta", "one_liner": "decompose to irreducible requirements, rebuild from scratch, compare delta with default"}
 {"name": "pre-mortem", "display_name": "Pre-mortem (Klein)", "class": "lens", "domain": "general", "source_domain_header": "General / Meta", "one_liner": "assume failure, work backward to causes"}
 {"name": "2-2-matrix", "display_name": "2×2 Matrix (generic)", "class": "frame", "domain": "general", "source_domain_header": "General / Meta", "one_liner": "any orthogonal-dimension sort"}
 {"name": "hanlons-razor", "display_name": "Hanlon's Razor", "class": "heuristic", "domain": "general", "source_domain_header": "General / Meta", "one_liner": "don't attribute to malice what stupidity explains"}
@@ -26,7 +25,6 @@
 {"name": "dime", "display_name": "DIME", "class": "frame", "domain": "information-analysis", "source_domain_header": "Information Analysis / Intelligence", "one_liner": "4 instruments of national power"}
 {"name": "bayesian-reasoning", "display_name": "Bayesian Reasoning", "class": "model", "domain": "information-analysis", "source_domain_header": "Information Analysis / Intelligence", "one_liner": "prior × likelihood → posterior"}
 {"name": "critical-geopolitics", "display_name": "Critical Geopolitics", "class": "stance", "domain": "information-analysis", "source_domain_header": "Information Analysis / Intelligence", "one_liner": "power/space/discourse lens on geography"}
-{"name": "owasp-api-top-10", "display_name": "OWASP API Top 10", "class": "lens", "domain": "security", "source_domain_header": "Security / Threat Modeling", "one_liner": "endpoint-by-endpoint 10-category check"}
 {"name": "cvss-v3-1", "display_name": "CVSS v3.1", "class": "lens", "domain": "security", "source_domain_header": "Security / Threat Modeling", "one_liner": "8 Base Metrics severity scoring"}
 {"name": "pasta", "display_name": "PASTA", "class": "lens", "domain": "security", "source_domain_header": "Security / Threat Modeling", "one_liner": "7-stage attack simulation threat model"}
 {"name": "dread", "display_name": "DREAD", "class": "lens", "domain": "security", "source_domain_header": "Security / Threat Modeling", "one_liner": "5-factor risk rating"}
@@ -533,7 +531,6 @@
 {"name": "intersectionality", "display_name": "Intersectionality (Crenshaw)", "class": "stance", "domain": "sociology", "source_domain_header": "Sociology", "one_liner": "crossing-axis oppression stance"}
 {"name": "social-construction-of-reality", "display_name": "Social Construction of Reality (Berger/Luckmann)", "class": "stance", "domain": "sociology", "source_domain_header": "Sociology", "one_liner": "institutionalization stance"}
 {"name": "actor-network-theory", "display_name": "Actor-Network Theory (Latour)", "class": "stance", "domain": "sociology", "source_domain_header": "Sociology", "one_liner": "human-nonhuman symmetry stance"}
-{"name": "foucaults-power-knowledge", "display_name": "Foucault's Power/Knowledge", "class": "stance", "domain": "sociology", "source_domain_header": "Sociology", "one_liner": "discourse-power stance"}
 {"name": "giddens-structuration", "display_name": "Giddens' Structuration", "class": "stance", "domain": "sociology", "source_domain_header": "Sociology", "one_liner": "structure-agency duality stance"}
 {"name": "schelling-segregation-model", "display_name": "Schelling Segregation Model", "class": "model", "domain": "sociology", "source_domain_header": "Sociology", "one_liner": "weak preferences → strong separation"}
 {"name": "granovetter-threshold-models", "display_name": "Granovetter Threshold Models", "class": "model", "domain": "sociology", "source_domain_header": "Sociology", "one_liner": "cascade ignition by heterogeneous thresholds"}
