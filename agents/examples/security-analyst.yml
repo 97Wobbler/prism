@@ -15,35 +15,66 @@ lenses:
   - path: lenses/general/first-principles.md
     usage: on-request
 
+frames:
+  - path: frames/general/cynefin.md
+    usage: when-relevant
+
+heuristics:
+  - path: heuristics/general.md
+    usage: always
+
 analysis_workflow:
   - step: triage
     description: >
-      Read catalog.yml and the target system (architecture doc, spec, or code
-      snapshot). Confirm that STRIDE, OWASP Top 10, and CVSS apply. Evaluate
-      whether the rumsfeld-matrix lens is warranted — apply it if the system
-      has significant unknowns (new tech, unclear trust boundaries, missing
-      documentation). Do NOT apply first-principles unless the user explicitly
-      asks to question the system's basic design assumptions.
+      Read catalog.yml and the target system (architecture doc, spec, or
+      code snapshot). Confirm that STRIDE, OWASP Top 10, and CVSS apply.
+      Evaluate whether the rumsfeld-matrix lens is warranted — apply it
+      if the system has significant unknowns (new tech, unclear trust
+      boundaries, missing documentation). Do NOT apply first-principles
+      unless the user explicitly asks to question the system's basic
+      design assumptions.
+
+  - step: classify
+    optional: true
+    description: >
+      Apply Cynefin when-relevant — specifically when the system under
+      review mixes well-understood components (Clear / Complicated) with
+      novel ones (Complex). Classifying changes how confident the
+      downstream analysis can be: for Complex components, CVSS Base
+      scoring is weakly diagnostic and rumsfeld-matrix should run.
 
   - step: analyze
     description: >
-      Apply STRIDE first to enumerate threats at the architectural level. Then
-      apply OWASP Top 10 endpoint by endpoint. For each finding that survives
-      both, apply CVSS scoring. Tag every finding with confidence
+      Apply STRIDE first to enumerate threats at the architectural level.
+      Then apply OWASP Top 10 endpoint by endpoint. For each finding that
+      survives both, apply CVSS scoring. Tag every finding with confidence
       (high/medium/low). Use rumsfeld-matrix findings (if applied) to flag
       investigation gaps, not as additional vulnerabilities.
 
+  - step: sanity-gate
+    optional: true
+    description: >
+      Run the general heuristics bundle on the top findings before
+      synthesis. Specifically: Hanlon's Razor on any finding framed as
+      intentional (the default should be misconfiguration or missing
+      context, not malice); Chesterton's Fence on any "just remove this
+      check" recommendation; Occam's/Hickam's paired check on any root
+      cause claimed as single-source.
+
   - step: synthesize
     description: >
-      Cluster findings by root cause. Issues flagged by both STRIDE and OWASP
-      at the same component are high-confidence. Findings with High CVSS
-      scores and high confidence go to the top of the recommendation list.
-      Call out explicit tensions between frameworks (e.g., STRIDE flags a
-      repudiation concern that OWASP does not cover).
+      Cluster findings by root cause. Issues flagged by both STRIDE and
+      OWASP at the same component are high-confidence. Findings with High
+      CVSS scores and high confidence go to the top of the recommendation
+      list. Call out explicit tensions between frameworks (e.g., STRIDE
+      flags a repudiation concern that OWASP does not cover).
 
 output_format: |
   ## Triage
-  Lenses applied: <list with reasoning>
+  Items applied: <list grouped by class, with reasoning>
+
+  ## Classification (if applied)
+  Cynefin category and what it implies for this review
 
   ## Analysis
   ### STRIDE
@@ -58,12 +89,15 @@ output_format: |
   ### Rumsfeld Matrix (if applied)
   <investigation gaps only, not vulnerabilities>
 
+  ## Sanity gate (if applied)
+  <which findings survived the heuristic bundle, which were amended>
+
   ## Synthesis
   ### High-Priority Findings
   <root-cause clusters + CVSS Critical/High items>
 
   ### Tensions
-  <any disagreement between lenses>
+  <any disagreement between items>
 
   ### Recommendations
   <prioritized remediation list with owners and SLA>
