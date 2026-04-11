@@ -11,11 +11,16 @@ stable key. Existing catalog entries are preserved by default so that
 hand-curated `one_liner` text is not overwritten by frontmatter scraping.
 
 Usage:
-    python3 scripts/sync_catalog.py              # update catalog.yml
+    python3 scripts/sync_catalog.py              # update catalog.yml (bundle)
     python3 scripts/sync_catalog.py --dry-run    # preview changes
     python3 scripts/sync_catalog.py --stats      # class/domain stats only
     python3 scripts/sync_catalog.py --overwrite  # let frontmatter override
                                                   # existing catalog entries
+    python3 scripts/sync_catalog.py --source bundle   # same as no flag
+    python3 scripts/sync_catalog.py --source global   # scan ~/.claude/prism/library
+    python3 scripts/sync_catalog.py --source project  # scan ./.claude/prism/library
+    python3 scripts/sync_catalog.py --source all      # print merged preview
+                                                       # (project > global > bundle)
 """
 from __future__ import annotations
 
@@ -29,6 +34,27 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 LIBRARY = ROOT / "library"
 CATALOG = ROOT / "catalog.yml"
+
+# 3-layer storage roots. Each layer is a (library_dir, catalog_file) pair.
+# Bundle is anchored at the plugin root. Global lives under ~/.claude/prism/.
+# Project lives under ./.claude/prism/ relative to CWD.
+GLOBAL_ROOT = Path.home() / ".claude" / "prism"
+GLOBAL_LIBRARY = GLOBAL_ROOT / "library"
+GLOBAL_CATALOG = GLOBAL_ROOT / "catalog.yml"
+
+PROJECT_ROOT = Path.cwd() / ".claude" / "prism"
+PROJECT_LIBRARY = PROJECT_ROOT / "library"
+PROJECT_CATALOG = PROJECT_ROOT / "catalog.yml"
+
+LAYERS: dict[str, tuple[Path, Path, Path]] = {
+    # layer name -> (layer_root, library_dir, catalog_file)
+    "bundle": (ROOT, LIBRARY, CATALOG),
+    "global": (GLOBAL_ROOT, GLOBAL_LIBRARY, GLOBAL_CATALOG),
+    "project": (PROJECT_ROOT, PROJECT_LIBRARY, PROJECT_CATALOG),
+}
+
+# Merge precedence from broader to closer. Closer layers override broader ones.
+MERGE_ORDER: list[str] = ["bundle", "global", "project"]
 
 # Class key (singular, used in frontmatter + entries) -> library subdir (plural)
 CLASS_DIRS: dict[str, str] = {
@@ -154,21 +180,24 @@ def looks_like_slug(value: object) -> bool:
     return all(c.islower() or c.isdigit() or c == "-" for c in value)
 
 
-def scan_library() -> list[dict]:
-    """Scan library/ and extract metadata from each .md file.
+def scan_layer(layer_root: Path, library_dir: Path) -> list[dict]:
+    """Scan a single layer's library/ dir and extract metadata.
 
-    Returns a list of entry dicts keyed by repo-relative path.
+    Paths in returned entries are relative to ``layer_root`` so that each
+    layer's catalog.yml uses stable, layer-local paths.
     """
     items: list[dict] = []
+    if not library_dir.exists():
+        return items
     for cls, cls_dir in CLASS_DIRS.items():
-        base = LIBRARY / cls_dir
+        base = library_dir / cls_dir
         if not base.exists():
             continue
 
         # Non-recursive top-level .md (e.g. heuristics/general.md bundle)
         # plus recursive domain-folder .md files.
         for md in sorted(base.rglob("*.md")):
-            rel_path = md.relative_to(ROOT).as_posix()
+            rel_path = md.relative_to(layer_root).as_posix()
             fm = parse_frontmatter(md)
             if fm is None:
                 print(f"  [warn] no frontmatter: {rel_path}", file=sys.stderr)
@@ -213,11 +242,11 @@ def scan_library() -> list[dict]:
 # ----------------------------------------------------------------------
 # Existing catalog
 # ----------------------------------------------------------------------
-def load_existing_catalog() -> dict:
-    """Return parsed catalog.yml as a dict (empty if file missing)."""
-    if not CATALOG.exists():
+def load_existing_catalog(catalog_path: Path = CATALOG) -> dict:
+    """Return parsed catalog at ``catalog_path`` as a dict (empty if missing)."""
+    if not catalog_path.exists():
         return {}
-    with open(CATALOG, encoding="utf-8") as f:
+    with open(catalog_path, encoding="utf-8") as f:
         doc = yaml.safe_load(f)
     return doc or {}
 
@@ -335,29 +364,26 @@ def print_stats(items: list[dict]) -> None:
         print(f"  {d}: {c}")
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    parser.add_argument("--dry-run", action="store_true",
-                        help="Do not write catalog.yml; print summary only")
-    parser.add_argument("--stats", action="store_true",
-                        help="Print class/domain statistics and exit")
-    parser.add_argument("--overwrite", action="store_true",
-                        help="Let frontmatter override existing catalog entries")
-    args = parser.parse_args()
+def _sync_single_layer(layer: str, args) -> int:
+    """Scan one layer and write (or dry-run) its catalog."""
+    layer_root, library_dir, catalog_path = LAYERS[layer]
 
-    scanned = scan_library()
-
-    if args.stats:
-        print_stats(scanned)
+    if layer in ("global", "project") and not library_dir.exists():
+        print(
+            f"[{layer}] library dir not found: {library_dir} — nothing to do",
+            file=sys.stderr,
+        )
         return 0
 
-    existing_doc = load_existing_catalog()
+    scanned = scan_layer(layer_root, library_dir)
+
+    existing_doc = load_existing_catalog(catalog_path)
     existing_idx = existing_by_path(existing_doc)
 
     grouped, stats = merge_entries(scanned, existing_idx, args.overwrite)
 
-    print(f"Scanned: {len(scanned)} items in library/")
-    print(f"Existing catalog: {len(existing_idx)} entries")
+    print(f"[{layer}] Scanned: {len(scanned)} items in {library_dir}")
+    print(f"[{layer}] Existing catalog: {len(existing_idx)} entries")
     print(f"  added: {stats.get('added', 0)}")
     print(f"  preserved: {stats.get('preserved', 0)}")
     print(f"  overwritten: {stats.get('overwritten', 0)}")
@@ -375,15 +401,149 @@ def main() -> int:
     text = build_catalog_text(grouped)
 
     if args.dry_run:
-        print("\n=== Dry run — not writing ===")
+        print(f"\n=== [{layer}] Dry run — not writing ===")
+        print(f"Target: {catalog_path}")
         print(f"Output size: {len(text)} bytes, {text.count(chr(10))} lines")
         return 0
 
-    CATALOG.write_text(text, encoding="utf-8")
+    catalog_path.parent.mkdir(parents=True, exist_ok=True)
+    catalog_path.write_text(text, encoding="utf-8")
     total_written = sum(len(v) for v in grouped.values())
-    print(f"\nCatalog updated: {CATALOG.relative_to(ROOT)}")
+    print(f"\n[{layer}] Catalog updated: {catalog_path}")
     print(f"  {total_written} entries written")
     return 0
+
+
+def _collect_all_layers() -> dict[str, list[dict]]:
+    """Scan bundle + global + project, skipping layers whose library is missing.
+
+    Returns a mapping layer_name -> list of entries. Missing global/project
+    layers are noted on stderr but not treated as errors.
+    """
+    per_layer: dict[str, list[dict]] = {}
+    for layer in MERGE_ORDER:
+        layer_root, library_dir, _ = LAYERS[layer]
+        if layer in ("global", "project") and not library_dir.exists():
+            print(
+                f"[{layer}] library dir not found: {library_dir} — skipping",
+                file=sys.stderr,
+            )
+            per_layer[layer] = []
+            continue
+        per_layer[layer] = scan_layer(layer_root, library_dir)
+    return per_layer
+
+
+def _merge_layers(per_layer: dict[str, list[dict]]) -> list[dict]:
+    """Merge per-layer entries with precedence project > global > bundle.
+
+    Collisions are resolved by the closer layer; each override is logged to
+    stderr.
+    """
+    merged: dict[str, tuple[str, dict]] = {}  # name -> (layer, entry)
+    for layer in MERGE_ORDER:  # broader first, closer last so it wins
+        for it in per_layer.get(layer, []):
+            name = it["name"]
+            if name in merged:
+                prev_layer, _ = merged[name]
+                if prev_layer != layer:
+                    print(
+                        f"WARN: '{name}' overridden by {layer} layer "
+                        f"(was in {prev_layer})",
+                        file=sys.stderr,
+                    )
+            merged[name] = (layer, it)
+    return [entry for _, entry in merged.values()]
+
+
+def _run_all_preview(args) -> int:
+    """--source all: build a merged in-memory view and print to stdout."""
+    per_layer = _collect_all_layers()
+    merged_items = _merge_layers(per_layer)
+
+    # Group by class for rendering.
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for it in merged_items:
+        grouped[it["class"]].append(it)
+
+    text = build_catalog_text(grouped)
+
+    if args.dry_run:
+        print(
+            "[all] --dry-run is a no-op (all mode never writes to disk)",
+            file=sys.stderr,
+        )
+    # Print merged preview to stdout.
+    sys.stdout.write(text)
+    return 0
+
+
+def _print_stats_per_layer(per_layer: dict[str, list[dict]]) -> None:
+    """Emit per-layer class breakdown in addition to combined stats."""
+    for layer in MERGE_ORDER:
+        if layer not in per_layer:
+            continue
+        items = per_layer[layer]
+        print(f"\n[{layer}] Total: {len(items)} items")
+        if not items:
+            continue
+        cls_counts = Counter(it["class"] for it in items)
+        print(f"[{layer}] By class:")
+        for k in ["lens", "frame", "model", "stance", "heuristic"]:
+            print(f"  {k}: {cls_counts.get(k, 0)}")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Do not write catalog.yml; print summary only")
+    parser.add_argument("--stats", action="store_true",
+                        help="Print class/domain statistics and exit")
+    parser.add_argument("--overwrite", action="store_true",
+                        help="Let frontmatter override existing catalog entries")
+    parser.add_argument("--source", choices=["bundle", "global", "project", "all"],
+                        default="bundle",
+                        help="Which storage layer to sync. bundle (default) = "
+                             "./library/+./catalog.yml; global = "
+                             "~/.claude/prism/; project = ./.claude/prism/; "
+                             "all = merged preview to stdout (no writes)")
+    args = parser.parse_args()
+
+    # --stats path: preserve legacy single-layer stats when --source is absent
+    # (i.e. default bundle) so `sync_catalog.py --stats` output is byte-stable.
+    # When combined with an explicit --source, show per-layer stats.
+    if args.stats:
+        # Detect whether --source was explicitly provided by the user.
+        explicit_source = any(
+            a == "--source" or a.startswith("--source=")
+            for a in sys.argv[1:]
+        )
+        if not explicit_source:
+            layer_root, library_dir, _ = LAYERS["bundle"]
+            scanned = scan_layer(layer_root, library_dir)
+            print_stats(scanned)
+            return 0
+        if args.source == "all":
+            per_layer = _collect_all_layers()
+        else:
+            layer_root, library_dir, _ = LAYERS[args.source]
+            if args.source in ("global", "project") and not library_dir.exists():
+                print(
+                    f"[{args.source}] library dir not found: {library_dir}",
+                    file=sys.stderr,
+                )
+                per_layer = {args.source: []}
+            else:
+                per_layer = {args.source: scan_layer(layer_root, library_dir)}
+        combined = [it for items in per_layer.values() for it in items]
+        print_stats(combined)
+        _print_stats_per_layer(per_layer)
+        return 0
+
+    if args.source == "all":
+        return _run_all_preview(args)
+
+    return _sync_single_layer(args.source, args)
 
 
 if __name__ == "__main__":
