@@ -93,8 +93,9 @@ which items to load and what `usage` tag each has (`always`,
 
 Prism is a Claude Code plugin. It ships two skills
 (`catalog-browse` for exploring the instrument catalog and
-`make-instrument` for interview-style instrument creation) and the
-`library/` + `catalog.yml` pair that both consume.
+`/prism` as the user-facing router for explaining Prism and creating
+new instruments via an interview) and the `library/` + `catalog.yml`
+pair that both consume.
 
 ### Step 1. Install the plugin
 
@@ -114,7 +115,7 @@ git clone https://github.com/97Wobbler/prism.git
 # Then follow your plugin loader's instructions for local plugins.
 ```
 
-After install, the `catalog-browse` and `make-instrument` skills should
+After install, the `catalog-browse` and `prism` skills should
 appear in Claude Code's skill list and the 657 files under `library/`
 are reachable via `catalog.yml`.
 
@@ -127,10 +128,10 @@ native `/agents` flow and build an agent that references the
 `library/` paths you picked, optionally following a recipe in
 `docs/cookbook/` (see below).
 
-If the catalog is missing an instrument you need, use the
-`make-instrument` skill: it runs an interview, classifies the source
-into one of the 5 classes, LLM-generates the body, and saves it to the
-global (`~/.claude/prism/library/`) or project
+If the catalog is missing an instrument you need, invoke `/prism
+<framework name>`: the prism skill runs an interview, classifies the
+source into one of the 5 classes, LLM-generates the body, and saves it
+to the global (`~/.claude/prism/library/`) or project
 (`./.claude/prism/library/`) layer. The bundled `library/` layer is
 read-only.
 
