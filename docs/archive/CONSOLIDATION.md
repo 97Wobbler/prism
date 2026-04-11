@@ -1,5 +1,23 @@
 # lenslab — Consolidated Design Document (v0.2 refactor)
 
+---
+
+> **Historical reference (v0.2 design phase)**
+>
+> This document captures the design conversation and candidate catalog
+> that seeded the v0.3 batch generation. For the current library state
+> and live catalog, see:
+>
+> - `catalog.yml` — authoritative triage index (auto-generated)
+> - `library/` — actual framework files
+> - `python3 scripts/sync_catalog.py --stats` — class/domain breakdown
+> - `scripts/PHASE3_RUN.md` — batch generation pipeline
+>
+> §7 of this file (the 600-item seed catalog) should be treated as
+> historical; do not modify it to reflect library state changes.
+
+---
+
 This document captures the full state of the lenslab project after the
 v0.1 build and the subsequent design conversation. It is intended as:
 
