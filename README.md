@@ -5,6 +5,9 @@ domain-expert analysis agents that actually reason like experts — not by
 pretending to be one, but by loading the structured analytical
 frameworks experts actually use.
 
+v0.3 ships a library of **657 framework files** across 5 classes and 50
+domains, all indexed by a single `catalog.yml` triage file.
+
 ## The problem with persona prompts
 
 Telling an LLM "You are a senior security engineer" changes its tone but
@@ -30,12 +33,13 @@ stances.
 build agents by composing frameworks, not by writing adjective-heavy
 persona prompts.
 
-## The 5 classes (new in v0.2)
+## The 5 classes
 
 In v0.1, lenslab called every framework a "lens" — which was imprecise.
 Real frameworks come in different shapes, and flattening them all into
-one template loses information. v0.2 introduces an explicit 5-class
-taxonomy. See `CLASSES.md` for the full reference.
+one template loses information. v0.2 introduced an explicit 5-class
+taxonomy; v0.3 scales it out to 657 files. See `CLASSES.md` for the full
+reference.
 
 | Class | What it is | Examples |
 |---|---|---|
@@ -52,8 +56,8 @@ belongs to one of the four sister classes.
 
 ## Agent workflow
 
-v0.2 agents run a 7-step pipeline. Simple agents use only steps 1, 3,
-and 7; richer agents enable the optional middle steps as needed.
+Agents run a 7-step pipeline. Simple agents use only steps 1, 3, and 7;
+richer agents enable the optional middle steps as needed.
 
 ```
 1. Triage          — read catalog.yml; select items of any class
@@ -139,60 +143,46 @@ See `agents/examples/`:
 
 ## Included items
 
-### Lenses
+The v0.3 library ships with **657 framework files** across 5 classes and
+50 domains. The v0.2 plugin shipped with 18 hand-written files; the jump
+to 657 was made possible by a class-specific batch generation pipeline
+that runs Haiku 4.5 in parallel against a curated seed catalog (see
+`scripts/PHASE3_RUN.md` and the `v0.3: add … generated … files` commits
+for the full batch history).
 
-**General / Meta**
+Use `catalog.yml` as the single triage index — the `agent-creator` skill
+reads it first and only loads individual files when the domain matches.
 
-| Lens | Best for |
-|---|---|
-| `rumsfeld-matrix` | Mapping knowledge state and surfacing Unknown Unknowns |
-| `eisenhower-matrix` | Triaging backlogs into Do / Schedule / Delegate / Eliminate |
-| `occams-razor` | Selecting between hypotheses by comparing explicit assumption counts |
-| `first-principles` | Breaking free of analogies by decomposing to irreducible requirements |
-| `socratic-method` | Stress-testing a claim across six question categories |
+### By class
 
-**Security**
+| Class | Count | Example entries |
+|---|---|---|
+| Lens | 312 | `stride`, `first-principles`, `pre-mortem`, `swot`, `business-model-canvas`, `socratic-method` |
+| Frame | 96 | `cynefin`, `kano-model`, `2-2-matrix`, `pestel`, `bcg-growth-share-matrix`, `wardley-map` |
+| Model | 115 | `prospect-theory`, `coase-theorem`, `comparative-advantage`, `efficient-market-hypothesis`, `solow-growth-model` |
+| Stance | 71 | `marxist-criticism`, `foucauldian-power-knowledge` |
+| Heuristic | 63 + 1 bundle | `chestertons-fence`, `hanlons-razor`, `pareto-80-20`, `parkinsons-law`, `pigeonhole-principle` |
 
-| Lens | Best for |
-|---|---|
-| `stride` | Design-time threat enumeration across components × 6 threat categories |
-| `owasp-top10` | Endpoint-by-endpoint review against OWASP API Security Top 10 (2023) |
-| `cvss-scoring` | Objective severity scoring using CVSS v3.1 Base Metrics |
+The heuristics class also ships a curated `library/heuristics/general.md`
+bundle (Occam's Razor, Hanlon's Razor, Chesterton's Fence, Hickam's
+Dictum, Pigeonhole Principle, Pareto 80/20, Parkinson's Law, Mise en
+Place) for use as a single sanity-gate input.
 
-**Education**
+### Domain coverage
 
-| Lens | Best for |
-|---|---|
-| `blooms-taxonomy` | Classifying objectives, content, and assessment by cognitive level |
-| `achievement-standard-alignment` | Verifying alignment to Korean national curriculum (성취기준) |
-| `cognitive-load-theory` | Diagnosing learning-material difficulty as intrinsic / extraneous / germane load |
+The 50 domains include: security, strategy, product-management, ux,
+law, medicine, ai, data, chemistry, physics, biology, ecology, economics,
+finance, philosophy, theology, linguistics, literary-theory, music-theory,
+film-theory, history, sociology, psychology, manufacturing, operations,
+education, agile, okr, negotiation, marketing, communication,
+decision, information-analysis, meta-science, military-strategy,
+storytelling, sports, cooking, geology, astronomy, mathematics,
+game-theory, productivity, personal-knowledge-management-pkm, and
+several others.
 
-### Frames
-
-| Frame | Best for |
-|---|---|
-| `cynefin` | Sorting a situation into Clear / Complicated / Complex / Chaotic / Confused to pick the right response pattern |
-| `kano-model` | Classifying product features by the non-linear relationship between implementation level and customer satisfaction |
-
-### Models
-
-| Model | Best for |
-|---|---|
-| `porters-five-forces` | Explaining industry profitability by mapping the five structural forces that determine value capture |
-| `prospect-theory` | Predicting risky decision-making via reference point, loss aversion, and probability weighting |
-
-### Stances
-
-| Stance | Best for |
-|---|---|
-| `marxist-criticism` | Exposing whose interests an artifact naturalizes and what social relations it treats as inevitable |
-| `foucauldian-power-knowledge` | Reading institutions and practices to see how power produces subjects and truths, especially where arrangements appear "natural" |
-
-### Heuristics
-
-| Bundle | Contents |
-|---|---|
-| `library/heuristics/general.md` | Occam's Razor, Hanlon's Razor, Chesterton's Fence, Hickam's Dictum, Pigeonhole Principle, Pareto 80/20, Parkinson's Law, Mise en Place |
+Not every domain is populated in every class — lenses are the most
+broadly covered (47 domains); frames, models, stances, and heuristics
+each cover the subset where that class is the natural fit.
 
 ## File formats
 
@@ -212,7 +202,9 @@ at the repo root. In brief:
   Common Misuse / How Agents Use It` (usually bundled as one file per
   domain)
 
-## Contributing
+## Extending the library
+
+To add a single new framework file by hand:
 
 1. **Identify the framework.** It must be a real method used by
    practitioners, not something you just thought of. Cite the source.
@@ -220,16 +212,26 @@ at the repo root. In brief:
    class." Does the source include a procedure? → lens. Is it just a
    taxonomy? → frame. A theoretical model? → model. An interpretive
    commitment? → stance. A single-rule aphorism? → heuristic.
-3. **Write the file** using the matching template in `CLASSES.md`. The
-   load-bearing section differs by class (Analytical Procedure for a
-   lens; Classification Procedure for a frame; Application Procedure
-   for a model; Guiding Questions for a stance; When It Applies /
-   Misleads for a heuristic).
+3. **Write the file** at `library/{class}s/{domain}/{slug}.md` using
+   the matching template in `CLASSES.md`. The load-bearing section
+   differs by class (Analytical Procedure for a lens; Classification
+   Procedure for a frame; Application Procedure for a model; Guiding
+   Questions for a stance; When It Applies / Misleads for a heuristic).
 4. **Register the item in `catalog.yml`** under the right class
    section with a `one_liner` specific enough that a triage step can
    decide whether to load it.
-5. **Open a PR** with the new item, the catalog update, and (if
+5. **Open a PR** with the new file, the catalog update, and (if
    appropriate) an updated example agent that uses it.
+
+### Adding many frameworks at once
+
+To add frameworks in bulk, see `scripts/PHASE3_RUN.md` for the batch
+generation pipeline. The entry point is `scripts/lenslab_batch.py`,
+which is a markdown-output adapter over a parallel runner vendored
+from the iris-curriculum project. It drives Haiku 4.5 with
+class-specific few-shot prompts from `scripts/prompts/` and writes
+generated files straight into `library/{class}s/{domain}/`. The full
+v0.3 batch of 639 files cost roughly a few dollars on Haiku 4.5.
 
 Contributions of non-English-language and domain-local frameworks are
 especially welcome — the existing `achievement-standard-alignment` lens
@@ -242,9 +244,10 @@ worldwide.
 A lens shapes what you see without telling you what to think. A lab is
 where you craft and test new instruments. Together: a workshop for
 building analytical instruments, and a collection of ones already made.
-v0.2 extends the workshop — lenses are still the headline instrument,
-but they now sit alongside frames, models, stances, and heuristics as
-first-class citizens.
+v0.2 introduced the 5-class taxonomy — lenses are still the headline
+instrument, but they now sit alongside frames, models, stances, and
+heuristics as first-class citizens. v0.3 grows the collection from
+18 hand-written files to 657 via a batch generation pipeline.
 
 ## License
 
