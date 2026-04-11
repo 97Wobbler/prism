@@ -217,9 +217,14 @@ To add a single new framework file by hand:
    differs by class (Analytical Procedure for a lens; Classification
    Procedure for a frame; Application Procedure for a model; Guiding
    Questions for a stance; When It Applies / Misleads for a heuristic).
-4. **Register the item in `catalog.yml`** under the right class
-   section with a `one_liner` specific enough that a triage step can
-   decide whether to load it.
+4. **Register the item in `catalog.yml`** by running
+   `python3 scripts/sync_catalog.py`. The script scans `library/`,
+   extracts metadata from each file's frontmatter, and rewrites
+   `catalog.yml` grouped by class and domain. It is idempotent and
+   preserves hand-written catalog entries by default — pass
+   `--overwrite` only if you want frontmatter to replace them. Use
+   `--dry-run` to preview changes or `--stats` for a class/domain
+   breakdown.
 5. **Open a PR** with the new file, the catalog update, and (if
    appropriate) an updated example agent that uses it.
 
@@ -232,6 +237,11 @@ from the iris-curriculum project. It drives Haiku 4.5 with
 class-specific few-shot prompts from `scripts/prompts/` and writes
 generated files straight into `library/{class}s/{domain}/`. The full
 v0.3 batch of 639 files cost roughly a few dollars on Haiku 4.5.
+
+Once the batch run finishes, run `python3 scripts/sync_catalog.py`
+to register every new file in `catalog.yml`. The same script is the
+right entry point whenever `library/` changes — after a batch run,
+after hand-editing files, or after pruning obsolete entries.
 
 Contributions of non-English-language and domain-local frameworks are
 especially welcome — the existing `achievement-standard-alignment` lens
