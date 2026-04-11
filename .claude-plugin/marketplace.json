@@ -1,15 +1,15 @@
 {
-  "name": "lenslab",
+  "name": "prism",
   "owner": {
     "name": "97Wobbler"
   },
   "metadata": {
-    "description": "Frameworks over personas — a Claude Code plugin for building domain-expert analysis agents by composing structured analytical frameworks (lenses, frames, models, stances, heuristics) instead of vague persona prompts.",
-    "version": "0.3.0"
+    "description": "Instruments over personas — a Claude Code plugin for building domain-expert analysis agents by composing structured analytical instruments (lenses, frames, models, stances, heuristics) instead of vague persona prompts.",
+    "version": "0.1.0"
   },
   "plugins": [
     {
-      "name": "lenslab",
+      "name": "prism",
       "source": "./"
     }
   ]

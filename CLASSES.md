@@ -1,9 +1,9 @@
-# CLASSES — the lenslab 5-class taxonomy
+# CLASSES — the Prism 5-class taxonomy
 
-lenslab composes domain-expert analysis agents out of **structured
-frameworks**, not persona prompts. But not every useful framework is the
+Prism composes domain-expert analysis agents out of **structured
+instruments**, not persona prompts. But not every useful instrument is the
 same kind of thing. v0.2 makes the distinction explicit by sorting every
-framework into exactly one of five classes: **lens, frame, model, stance,
+instrument into exactly one of five classes: **lens, frame, model, stance,
 heuristic**.
 
 This file is the reference for contributors. If you are adding a new item,
@@ -36,9 +36,9 @@ be valuable — it belongs to one of the four sister classes below.
 
 ## Picking the right class
 
-Start from the source framework, not from what you want to build.
+Start from the source instrument, not from what you want to build.
 
-| Question about the source framework | Class |
+| Question about the source instrument | Class |
 |---|---|
 | Does it include a procedure *and* an output template *and* a confidence signal? | **lens** |
 | Is it purely a taxonomy / classification matrix (categories + criteria, no next-step procedure)? | **frame** |

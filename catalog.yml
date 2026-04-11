@@ -1,4 +1,4 @@
-# lenslab — catalog
+# Prism — catalog
 #
 # This file is the triage index. Agents read ONLY this file first,
 # then selectively load individual item files based on relevance.

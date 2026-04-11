@@ -1,19 +1,19 @@
 {
-  "name": "lenslab",
-  "version": "0.3.0",
-  "description": "Create domain-expert analysis agents by composing structured frameworks — lenses, frames, models, stances, and heuristics — instead of vague persona prompts.",
+  "name": "prism",
+  "version": "0.1.0",
+  "description": "Create domain-expert analysis agents by composing structured instruments — lenses, frames, models, stances, and heuristics — instead of vague persona prompts.",
   "author": {
     "name": "97Wobbler",
     "url": "https://github.com/97Wobbler"
   },
-  "homepage": "https://github.com/97Wobbler/lenslab",
-  "repository": "https://github.com/97Wobbler/lenslab",
+  "homepage": "https://github.com/97Wobbler/prism",
+  "repository": "https://github.com/97Wobbler/prism",
   "license": "MIT",
   "keywords": [
     "claude-code",
     "plugin",
     "analysis",
-    "frameworks",
+    "instruments",
     "lenses",
     "agents"
   ]

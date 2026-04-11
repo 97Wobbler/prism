@@ -49,7 +49,7 @@ SECTION_ORDER: list[tuple[str, str, str]] = [
 ]
 
 HEADER_COMMENT = """\
-# lenslab — catalog
+# Prism — catalog
 #
 # This file is the triage index. Agents read ONLY this file first,
 # then selectively load individual item files based on relevance.

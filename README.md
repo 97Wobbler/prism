@@ -1,11 +1,11 @@
-# lenslab
+# Prism
 
-**Frameworks over personas.** A Claude Code plugin for building
+**Instruments over personas.** A Claude Code plugin for building
 domain-expert analysis agents that actually reason like experts — not by
 pretending to be one, but by loading the structured analytical
-frameworks experts actually use.
+instruments experts actually use.
 
-v0.3 ships a library of **657 framework files** across 5 classes and 50
+v0.3 ships a library of **657 instrument files** across 5 classes and 50
 domains, all indexed by a single `catalog.yml` triage file.
 
 ## The problem with persona prompts
@@ -29,14 +29,14 @@ Five Forces and pre-mortems. Decision scientists use Prospect Theory and
 Occam's Razor. Cultural critics read through Marxist and Foucauldian
 stances.
 
-**lenslab treats these frameworks as first-class, reusable assets.** You
-build agents by composing frameworks, not by writing adjective-heavy
+**Prism treats these instruments as first-class, reusable assets.** You
+build agents by composing instruments, not by writing adjective-heavy
 persona prompts.
 
 ## The 5 classes
 
-In v0.1, lenslab called every framework a "lens" — which was imprecise.
-Real frameworks come in different shapes, and flattening them all into
+In v0.1, Prism called every instrument a "lens" — which was imprecise.
+Real instruments come in different shapes, and flattening them all into
 one template loses information. v0.2 introduced an explicit 5-class
 taxonomy; v0.3 scales it out to 657 files. See `CLASSES.md` for the full
 reference.
@@ -51,7 +51,7 @@ reference.
 
 The **strict definition of a lens** is specific: it must have a defined
 input type, an executable procedure, a structured output format, AND a
-confidence evaluation. If any of the four is missing, the framework
+confidence evaluation. If any of the four is missing, the instrument
 belongs to one of the four sister classes.
 
 ## Agent workflow
@@ -75,10 +75,10 @@ which items to load and what `usage` tag each has (`always`,
 
 ## Core ideas
 
-- **Frameworks > personas.** An agent's analytical depth lives in the
-  framework files. The persona is a one-line framing; the frameworks do
+- **Instruments > personas.** An agent's analytical depth lives in the
+  instrument files. The persona is a one-line framing; the instruments do
   the work.
-- **Frameworks are reusable.** Once written, the same `stride.md`
+- **Instruments are reusable.** Once written, the same `stride.md`
   powers a security-reviewer agent, a DevSecOps pipeline agent, and a
   threat-modeling workshop facilitator.
 - **Catalog first, load on demand.** Every item lives in `catalog.yml`
@@ -91,36 +91,36 @@ which items to load and what `usage` tag each has (`always`,
 
 ## Installation and usage
 
-lenslab is a Claude Code plugin. It ships one slash command
-(`/lenslab:create-agent`), one skill (`agent-creator`), and the
+Prism is a Claude Code plugin. It ships one slash command
+(`/prism:create-agent`), one skill (`agent-creator`), and the
 `library/` + `catalog.yml` pair that both consume.
 
 ### Step 1. Install the plugin
 
 ```bash
 # Register the marketplace entry
-claude plugin marketplace add 97Wobbler/lenslab
+claude plugin marketplace add 97Wobbler/prism
 
 # Install the plugin
-claude plugin install lenslab
+claude plugin install prism
 ```
 
 Or clone and reference locally if you want to hack on the library or
 the skill:
 
 ```bash
-git clone https://github.com/97Wobbler/lenslab.git
+git clone https://github.com/97Wobbler/prism.git
 # Then follow your plugin loader's instructions for local plugins.
 ```
 
-After install, `/lenslab:create-agent` should appear in Claude Code's
+After install, `/prism:create-agent` should appear in Claude Code's
 slash command list and the 657 files under `library/` are reachable by
 path from the agent-creator skill.
 
-### Step 2. Create an agent with `/lenslab:create-agent`
+### Step 2. Create an agent with `/prism:create-agent`
 
 ```
-/lenslab:create-agent security "Review our public API for design-time vulnerabilities"
+/prism:create-agent security "Review our public API for design-time vulnerabilities"
 ```
 
 The `agent-creator` skill will read `catalog.yml` first (the triage
@@ -220,7 +220,7 @@ is bilingual), and the `library/` path the agent config will reference.
 
 ## Included items
 
-The v0.3 library ships with **657 framework files** across 5 classes and
+The v0.3 library ships with **657 instrument files** across 5 classes and
 50 domains. The v0.2 plugin shipped with 18 hand-written files; the jump
 to 657 was made possible by a class-specific batch generation pipeline
 that runs Haiku 4.5 in parallel against a curated seed catalog (see
@@ -281,9 +281,9 @@ at the repo root. In brief:
 
 ## Extending the library
 
-To add a single new framework file by hand:
+To add a single new instrument file by hand:
 
-1. **Identify the framework.** It must be a real method used by
+1. **Identify the instrument.** It must be a real method used by
    practitioners, not something you just thought of. Cite the source.
 2. **Pick the correct class.** Read `CLASSES.md` § "Picking the right
    class." Does the source include a procedure? → lens. Is it just a
@@ -305,9 +305,9 @@ To add a single new framework file by hand:
 5. **Open a PR** with the new file, the catalog update, and (if
    appropriate) an updated example agent that uses it.
 
-### Adding many frameworks at once
+### Adding many instruments at once
 
-To add frameworks in bulk, see `scripts/PHASE3_RUN.md` for the batch
+To add instruments in bulk, see `scripts/PHASE3_RUN.md` for the batch
 generation pipeline. The entry point is `scripts/lenslab_batch.py`,
 which is a markdown-output adapter over a parallel runner vendored
 from the iris-curriculum project. It drives Haiku 4.5 with
@@ -320,13 +320,13 @@ to register every new file in `catalog.yml`. The same script is the
 right entry point whenever `library/` changes — after a batch run,
 after hand-editing files, or after pruning obsolete entries.
 
-Contributions of non-English-language and domain-local frameworks are
+Contributions of non-English-language and domain-local instruments are
 especially welcome — the existing `achievement-standard-alignment` lens
-is Korea-specific by design, and similar local frameworks exist for
+is Korea-specific by design, and similar local instruments exist for
 many other educational, legal, regulatory, and cultural contexts
 worldwide.
 
-## Why "lenslab"
+## Why "Prism"
 
 A lens shapes what you see without telling you what to think. A lab is
 where you craft and test new instruments. Together: a workshop for
