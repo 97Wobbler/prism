@@ -5,7 +5,7 @@ across 5 classes — lens, frame, model, stance, heuristic — for use when buil
 domain-expert agents and skills. This roadmap describes where the catalog stands
 today and what each upcoming minor version changes.
 
-## v0.1.0 (Current)
+## v0.1.0
 
 - Renamed from lenslab. Same 657-instrument library across 50 domains.
 - Plugin identity clarified: Prism is a catalog reference provider, not an agent
@@ -17,7 +17,7 @@ today and what each upcoming minor version changes.
 - Existing `create-agent` slash command and `agent-creator` skill still ship in
   this release for continuity, but are deprecated and removed in v0.2.0.
 
-## v0.2.0 (Next)
+## v0.2.0
 
 Structural changes that align the plugin with its clarified identity.
 
@@ -50,13 +50,34 @@ Structural changes that align the plugin with its clarified identity.
   - `sync_catalog.py --source {bundle|global|project}` targets any layer of
     the 3-layer storage.
 
+## v0.2.1 (Current)
+
+A consolidation pass on top of v0.2.0, focused on giving Prism a single
+memorable user-facing entry point.
+
+- **Router skill** — `make-instrument` has been folded into a new `/prism`
+  router skill. The router itself is a thin classifier (~80 lines) that
+  dispatches the request into one of three intents — about, make, help —
+  and loads the corresponding reference file from `skills/prism/references/`
+  (`about.md`, `make.md`, `help.md`). The full interview protocol and the
+  5-class decision tree now live in `references/make.md`.
+- **Catalog-browse unchanged in shape, stronger in framing** — still a
+  separate skill, but its description has been rewritten to position it as
+  a proactive recommender that should be consulted whenever the user is
+  about to build an agent or skill, not just a passive browse tool.
+- **Single memorable entry point** — `/prism` (explain), `/prism <name>`
+  (create), and `/prism help` (quick reference) all flow through the same
+  router, so users only have to remember one command.
+
 ## v0.3.0 (Later)
 
 Extensions on top of the v0.2 structure.
 
-- `contribute-instrument` skill — when a user has created a local instrument
-  they want to upstream, this skill walks through fork, branch, and PR against
-  the Prism repo.
+- `/prism contribute` — a new intent branch of the `/prism` router for
+  upstreaming a local instrument. Walks through fork, branch, and PR against
+  the Prism repo, using a new `references/contribute.md` reference file
+  loaded by the router when the user's request matches the contribute
+  intent.
 - Enhanced catalog discovery: fuzzy name matching, class/domain graph
   navigation, and "instruments commonly used together" hints derived from
   cookbook compositions.

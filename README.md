@@ -92,10 +92,11 @@ which items to load and what `usage` tag each has (`always`,
 ## Installation and usage
 
 Prism is a Claude Code plugin. It ships two skills
-(`catalog-browse` for exploring the instrument catalog and
-`/prism` as the user-facing router for explaining Prism and creating
-new instruments via an interview) and the `library/` + `catalog.yml`
-pair that both consume.
+(`catalog-browse`, a proactive recommender that should be consulted
+whenever you are about to build an agent or skill, and `/prism`, the
+user-facing router for explaining Prism and creating new instruments
+via an interview) and the `library/` + `catalog.yml` pair that both
+consume.
 
 ### Step 1. Install the plugin
 
@@ -121,12 +122,14 @@ are reachable via `catalog.yml`.
 
 ### Step 2. Explore the catalog and compose an agent
 
-Use the `catalog-browse` skill to inspect what instruments exist for
-your domain — it reads `catalog.yml` as a triage index and returns a
-grouped-by-class view filtered by your query. Then open Claude Code's
-native `/agents` flow and build an agent that references the
-`library/` paths you picked, optionally following a recipe in
-`docs/cookbook/` (see below).
+Whenever you are about to build an agent or skill, consult the
+`catalog-browse` skill first — it is a proactive recommender, not just
+a lookup tool, and it will surface instruments from the 657-file
+library that match your domain before you write any prompt. It reads
+`catalog.yml` as a triage index and returns a grouped-by-class view
+filtered by your query. Then open Claude Code's native `/agents` flow
+and build an agent that references the `library/` paths you picked,
+optionally following a recipe in `docs/cookbook/` (see below).
 
 If the catalog is missing an instrument you need, invoke `/prism
 <framework name>`: the prism skill runs an interview, classifies the
@@ -134,6 +137,13 @@ source into one of the 5 classes, LLM-generates the body, and saves it
 to the global (`~/.claude/prism/library/`) or project
 (`./.claude/prism/library/`) layer. The bundled `library/` layer is
 read-only.
+
+```bash
+/prism                 # overview — what Prism is and how to use it
+/prism CVSS            # specific framework → direct creation
+/prism 칸반 방식        # Korean input works; ambiguous → short interview
+/prism help            # quick reference
+```
 
 ### Step 3. Run the agent on a real artifact
 
