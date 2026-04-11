@@ -4387,6 +4387,12 @@ heuristics:
     path: library/heuristics/general/pigeonhole-principle.md
     one_liner: "n개 항목을 n-1개 상자에 넣으면 반드시 어떤 상자는 2개 이상을 담아야 한다"
 
+  - name: xy-problem
+    class: heuristic
+    domain: general
+    path: library/heuristics/general/xy-problem.md
+    one_liner: "사용자가 묻는 Y는 진짜 문제 X가 아니다 — 해법이 아니라 동기를 먼저 캐물어라"
+
   # ---------- geology ----------
 
   - name: cross-cutting-relationships
