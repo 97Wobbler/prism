@@ -9,7 +9,7 @@ best_for:
   - Reading judicial decisions and doctrinal arguments to expose what courts actually do versus what legal reasoning claims to do
   - Examining how "neutral" legal rules produce predictable outcomes for certain classes or interests
   - Understanding the gap between rule-based reasoning and discretionary judgment
-one_liner: "법적 형식과 사회적 현실 사이의 간극을 드러내고 판사의 실질적 선택을 가시화하는 읽기"
+one_liner: "Reading that exposes the gap between legal form and social reality and makes judges' substantive choices visible."
 ---
 
 # Legal Realism vs Formalism

@@ -9,7 +9,7 @@ best_for:
   - stratigraphic correlation across discontinuous sections
   - relative age dating without radiometric methods
   - paleontological sequence validation
-one_liner: "화석 군집의 순차적 변화는 지층의 상대 연령을 나타낸다"
+one_liner: "Sequential change in fossil assemblages indicates relative age of strata."
 ---
 
 # Faunal Succession

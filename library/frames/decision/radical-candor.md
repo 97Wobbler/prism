@@ -9,7 +9,7 @@ best_for:
   - Classifying feedback or leadership moments by the relationship between care and directness
   - Sorting interpersonal dynamics in team settings to diagnose communication breakdowns
   - Choosing a response posture when delivering critique or praise
-one_liner: "직접성(Challenge)과 배려(Care)의 2×2 — 피드백 자세를 분류하는 틀"
+one_liner: "Challenge × Care 2x2 — classify feedback postures."
 ---
 
 # Radical Candor

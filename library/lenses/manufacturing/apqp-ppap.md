@@ -9,7 +9,7 @@ best_for:
   - Validating supplier process capability before production launch
   - Structuring product and process design reviews with OEMs
   - Documenting design intent and manufacturing feasibility trade-offs
-one_liner: "신규 부품 양산 전 공급사 프로세스 능력을 OEM 기준으로 입증"
+one_liner: "Prove supplier process capability to OEM standards before new-part production."
 ---
 
 # APQP / PPAP

@@ -9,7 +9,7 @@ best_for:
   - Assessing whether an exoplanet could sustain liquid water
   - Evaluating stellar habitability for biosignature searches
   - Constraining system-wide orbital parameters for life-bearing planets
-one_liner: "항성 주위 액체 물이 존재 가능한 궤도 범위 정의 및 검증"
+one_liner: "Define and test the orbital range around a star where liquid water can exist."
 ---
 
 # Habitable Zone Analysis

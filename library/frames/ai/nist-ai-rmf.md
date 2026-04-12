@@ -9,7 +9,7 @@ best_for:
   - Sorting an AI system or initiative into a governance and accountability stage
   - Determining which risk-management activities and oversight mechanisms apply
   - Allocating accountability and decision-rights across teams
-one_liner: "AI 시스템의 생명주기 단계에 따라 거버넌스, 맵핑, 측정, 관리 활동을 구분"
+one_liner: "Classify governance, mapping, measurement, and management activities across the AI system lifecycle."
 ---
 
 # NIST AI Risk Management Framework

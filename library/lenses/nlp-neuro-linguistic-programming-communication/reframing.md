@@ -9,7 +9,7 @@ best_for:
   - Shifting how a statement, situation, or problem is interpreted
   - Dissolving stuck thinking patterns by changing the frame, not the content
   - Generating alternative meanings from identical facts or events
-one_liner: "동일한 사건을 다른 맥락/의미로 해석하여 반응과 선택지 재구성"
+one_liner: "Reinterpret the same event in a different context or meaning to reshape reactions and options."
 ---
 
 # Reframing

@@ -9,7 +9,7 @@ best_for:
   - Examining how consciousness constitutes meaning and structure
   - Suspending taken-for-granted assumptions to reveal hidden layers of intentional acts
   - Reading artifacts to uncover the lived experience they presuppose or instantiate
-one_liner: "의식의 의도성 구조를 드러내기 위해 모든 존재론적 전제를 중지하는 태도"
+one_liner: "Suspend all ontological presuppositions to reveal the intentional structure of consciousness."
 ---
 
 # Phenomenological Reduction

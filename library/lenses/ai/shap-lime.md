@@ -9,7 +9,7 @@ best_for:
   - Understanding why a black-box model made a specific prediction
   - Debugging unexpected model outputs on individual instances
   - Building trust in model decisions for stakeholders
-one_liner: "개별 예측에 대한 모델의 기여도를 국소적으로 분해하는 해석 방법"
+one_liner: "Local attribution methods that decompose a model's contribution to individual predictions."
 ---
 
 # SHAP/LIME Local Interpretability

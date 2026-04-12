@@ -9,7 +9,7 @@ best_for:
   - Mapping failure chains in safety-critical systems
   - Identifying single-point-of-failure vulnerabilities
   - Quantifying probability of catastrophic top-level events
-one_liner: "AND/OR 논리로 실패 경로를 역추적하여 근본 원인 조합 도출"
+one_liner: "Work backward via AND/OR logic to derive root-cause combinations of failure paths."
 ---
 
 # Fault Tree Analysis (FTA)

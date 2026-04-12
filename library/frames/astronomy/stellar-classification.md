@@ -8,7 +8,7 @@ source: Annie Jump Cannon, Harvard Observatory, 1901; formalized as Yerkes Spect
 best_for:
   - Sorting a star by its spectral type and luminosity class to determine its physical properties and evolutionary state
   - Predicting temperature, radius, mass, and lifetime from a single observation
-one_liner: "분광형과 광도등급으로 항성의 물리적 성질과 진화 단계를 분류"
+one_liner: "Classify stars by spectral type and luminosity class to infer physical properties and evolutionary stage."
 ---
 
 # Stellar Classification (OBAFGKM)

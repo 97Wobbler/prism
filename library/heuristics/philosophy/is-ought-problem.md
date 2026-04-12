@@ -9,7 +9,7 @@ best_for:
   - normative claims grounded in empirical facts
   - policy recommendations derived from descriptive analysis
   - value judgments presented as facts
-one_liner: "사실로부터 당위를 도출할 수 없다 — 기술과 규범의 간극을 항상 명시하라"
+one_liner: "You cannot derive ought from is — always mark the gap between description and norm."
 ---
 
 # Is-Ought Problem (Hume)

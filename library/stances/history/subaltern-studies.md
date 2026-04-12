@@ -9,7 +9,7 @@ best_for:
   - Reading colonial and postcolonial archives to recover excluded voices and insurgent consciousness
   - Analyzing how dominant historiography naturalizes elite perspectives as universal history
   - Examining the conditions under which subaltern subjects can be heard, named, or recognized
-one_liner: "지배 담론 밖의 목소리와 의식을 되살리는 역사 읽기"
+one_liner: "Historical reading that restores voices and consciousness outside dominant discourse."
 ---
 
 # Subaltern Studies

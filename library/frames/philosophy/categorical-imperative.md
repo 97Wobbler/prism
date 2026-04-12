@@ -9,7 +9,7 @@ best_for:
   - Testing the moral permissibility of an action or maxim
   - Distinguishing duties from contingent preferences
   - Identifying universalizable principles in decision-making
-one_liner: "행동의 준칙을 보편적 법칙으로 삼을 수 있는지 검사하는 도덕 판정 틀"
+one_liner: "Moral test of whether a maxim can be willed as universal law (Kant)."
 ---
 
 # Categorical Imperative (Kant)

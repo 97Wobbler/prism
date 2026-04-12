@@ -9,7 +9,7 @@ best_for:
   - Classifying a design artifact or space by its approach to accessibility and usability
   - Determining which accessibility constraints are binding on a given design
   - Identifying which user populations a design serves equitably vs. partially
-one_liner: "모든 사용자를 포용하는 설계의 7가지 원칙 — 공평성/유연성/단순성/감지성/오류/신체부담/규모"
+one_liner: "Seven principles for inclusive design — equitable use, flexibility, simplicity, perceptibility, error tolerance, low effort, size."
 ---
 
 # Universal Design 7 Principles

@@ -9,7 +9,7 @@ best_for:
   - Detecting algebraic errors in equations before computation
   - Validating model structure against physical constraints
   - Inferring functional relationships when data or first principles are incomplete
-one_liner: "물리량 단위 일관성으로 방정식 구조 검증"
+one_liner: "Check equation structure via dimensional consistency of physical quantities."
 ---
 
 # Dimensional Analysis

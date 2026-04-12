@@ -9,7 +9,7 @@ best_for:
   - Reading institutions, ideologies, and cultural forms to expose their dependence on specific modes of material production
   - Identifying what social arrangements are presented as natural when they are actually rooted in economic structures
   - Tracing how a society's ideas, values, and institutions flow from and reinforce its productive base
-one_liner: "경제적 토대가 문화적·정치적 상부구조를 결정하는 방식을 읽어내는 유물론적 관점"
+one_liner: "Materialist reading of how the economic base determines cultural and political superstructure."
 ---
 
 # Marx's Base-Superstructure

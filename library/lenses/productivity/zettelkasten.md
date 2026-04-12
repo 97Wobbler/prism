@@ -9,7 +9,7 @@ best_for:
   - Building a personal knowledge base that grows and compounds over time
   - Surfacing unexpected connections between ideas across domains
   - Forcing clarity on half-formed thoughts before integration
-one_liner: "원자 단위 노트와 링크로 지식 네트워크 구축"
+one_liner: "Build a knowledge network of atomic notes linked together."
 ---
 
 # Zettelkasten (Luhmann)

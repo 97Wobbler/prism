@@ -9,7 +9,7 @@ best_for:
   - Diagnosing imbalance in Thai dishes (too salty, too sour, etc.)
   - Training palates to detect the five taste dimensions systematically
   - Iterating recipes toward harmony without trial-and-error
-one_liner: "다섯 축의 맛 체크—짭짝하고, 시고, 쓰고, 매운데 단맛이 어디?"
+one_liner: "Five-axis Thai taste check — salty, sour, bitter, spicy, and where is the sweet."
 ---
 
 # Thai Flavor Balance

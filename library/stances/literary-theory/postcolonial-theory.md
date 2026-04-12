@@ -9,7 +9,7 @@ best_for:
   - Reading colonial and postcolonial texts to expose how empire shaped representation, knowledge, and the colonized subject
   - Identifying how Western culture claims universality while encoding colonial interests
   - Analyzing how colonized peoples are represented—and how they resist or inhabit that representation
-one_liner: "제국의 재현체계가 피식민인을 어떻게 구성하고, 그것이 어떻게 정당화되는가"
+one_liner: "How the empire's representational system constructs and legitimates the colonized."
 ---
 
 # Postcolonial Theory (Said/Spivak/Bhabha)

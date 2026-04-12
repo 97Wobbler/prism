@@ -9,7 +9,7 @@ best_for:
   - Resolving ambiguity in legislative text when the plain meaning is unclear
   - Identifying when legislative intent diverges from statutory language
   - Stress-testing a statutory interpretation against competing canons
-one_liner: "입법부의 의도와 조문 본문 간 괴리를 체계적으로 분석하는 해석 도구 모음"
+one_liner: "Interpretive canons for systematically analyzing the gap between legislative intent and statutory text."
 ---
 
 # Statutory Interpretation Canons

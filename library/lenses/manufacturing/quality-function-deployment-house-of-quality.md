@@ -9,7 +9,7 @@ best_for:
   - Translating customer needs into engineering specifications without loss or distortion
   - Preventing misalignment between marketing claims and what the design can deliver
   - Prioritizing engineering effort where customer value is highest
-one_liner: "고객 음성을 공학 언어로 변환하는 체계적 매핑"
+one_liner: "QFD House of Quality — map the voice of the customer into engineering language."
 ---
 
 # Quality Function Deployment / House of Quality

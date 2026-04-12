@@ -9,7 +9,7 @@ best_for:
   - Sorting theodicies (responses to the problem of evil) by their core metaphysical commitment
   - Determining which theodicy is applicable to a given suffering scenario
   - Identifying where different theodicies come into conflict
-one_liner: "악의 문제에 대한 신학적 대응: 어거스틴의 자유의지론, 이레나이오스의 영혼-형성, 과정신학, 현대 자유의지 재구성"
+one_liner: "Theological responses to the problem of evil — Augustinian free-will, Irenaean soul-making, process theology, modern free-will reframings."
 ---
 
 # Theodicy Frameworks

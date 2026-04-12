@@ -9,7 +9,7 @@ best_for:
   - Finding root causes of failures or recurring problems
   - Breaking shallow symptom-fixing habits
   - Training teams to think causally rather than blame-fixated
-one_liner: "문제의 근본 원인까지 반복 질문으로 파고들기"
+one_liner: "Repeat 'why' until you reach the root cause of a problem."
 ---
 
 # 5 Whys

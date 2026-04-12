@@ -8,7 +8,7 @@ source: Wei et al. (Chain-of-Thought Prompting, 2022); Yao et al. (ReAct, 2022);
 best_for:
   - Sorting a generative task by the inference strategy that best fits its complexity and error surface
   - Choosing which prompt structure to use before writing the prompt itself
-one_liner: "생성 작업의 복잡도와 오류 표면에 따라 추론 전략을 선택하는 분류 체계"
+one_liner: "Select reasoning strategies by task complexity and error surface."
 ---
 
 # Prompt Taxonomy

@@ -9,7 +9,7 @@ best_for:
   - Root cause analysis of quality problems
   - Structured problem decomposition in manufacturing and processes
   - Team-based defect investigation
-one_liner: "6M 분류로 문제의 근본 원인을 체계적으로 분해하고 특정하기"
+one_liner: "Fishbone diagram that decomposes root causes via 6M categories."
 ---
 
 # Ishikawa (Fishbone)

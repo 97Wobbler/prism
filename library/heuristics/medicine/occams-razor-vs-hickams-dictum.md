@@ -9,7 +9,7 @@ best_for:
   - Differential diagnosis with competing single-cause vs multi-cause hypotheses
   - Post-mortem analysis of complex clinical or system failures
   - Triaging incidents where evidence resists a single explanation
-one_liner: "단순함과 다중성 사이의 균형 — 한 가지 원인을 강요하면 놓치는 신호"
+one_liner: "Balance between simplicity and multiplicity — forcing a single cause loses signal."
 ---
 
 # Occam's Razor vs Hickam's Dictum

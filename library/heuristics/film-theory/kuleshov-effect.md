@@ -9,7 +9,7 @@ best_for:
   - editing and shot sequencing
   - narrative interpretation
   - audience perception analysis
-one_liner: "인접한 쇼트의 의미는 각 쇼트의 내용이 아니라 그들 사이의 관계에서 비롯된다"
+one_liner: "The meaning of adjacent shots comes from their relation, not from either shot's content alone."
 ---
 
 # Kuleshov Effect

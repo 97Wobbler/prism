@@ -9,7 +9,7 @@ best_for:
   - Predicting sustained motivation and performance in sports by mapping need satisfaction
   - Explaining persistence, engagement, and drop-out patterns across different coaching / training contexts
   - Identifying which motivational sources (intrinsic vs. extrinsic) drive long-term athletic development
-one_liner: "자율성, 유능감, 관계성의 심리적 욕구 충족이 내재적 동기와 지속 성과를 결정"
+one_liner: "Satisfying autonomy, competence, and relatedness drives intrinsic motivation and sustained performance."
 ---
 
 # Self-Determination Theory

@@ -9,7 +9,7 @@ best_for:
   - Explaining why rational individual incentives can produce collectively suboptimal outcomes
   - Predicting defection in repeated or one-shot interactions without binding commitment
   - Identifying conditions under which cooperation emerges despite incentive misalignment
-one_liner: "개인의 합리성이 집단의 비합리성으로 귀결되는 비협력 게임의 원형"
+one_liner: "Archetype of non-cooperative games where individual rationality leads to collective irrationality."
 ---
 
 # Prisoner's Dilemma

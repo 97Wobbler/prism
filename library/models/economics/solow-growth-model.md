@@ -8,7 +8,7 @@ source: Robert M. Solow, "A Contribution to the Theory of Economic Growth," Quar
 best_for:
   - Decomposing long-run GDP growth into capital accumulation, labor force growth, and technological progress
   - Explaining why capital-deepening alone cannot sustain growth and why technology is the ultimate growth driver
-one_liner: "자본 축적과 기술 진보가 장기 경제 성장을 결정하는 메커니즘"
+one_liner: "Mechanism by which capital accumulation and technical progress determine long-run economic growth."
 ---
 
 # Solow Growth Model

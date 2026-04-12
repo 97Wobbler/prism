@@ -8,7 +8,7 @@ source: Stephen R. Kellert and Elizabeth F. Calabrese, Yale School of Forestry &
 best_for:
   - Sorting design interventions in buildings and spaces by their mechanism of nature-connection
   - Identifying which biophilic patterns are achievable given spatial constraints and budget
-one_liner: "자연 친화적 설계의 14가지 패턴별 분류 및 실행 방법"
+one_liner: "14 patterns of biophilic design, classified and paired with implementation methods."
 ---
 
 # Biophilic Design 14 Patterns

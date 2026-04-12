@@ -9,7 +9,7 @@ best_for:
   - Predicting whether a person will attempt a task and persist when faced with difficulty
   - Explaining performance gaps that are not explained by ability alone
   - Understanding why prior success or failure has asymmetric effects on future behavior
-one_liner: "자신의 능력에 대한 믿음이 성과와 지속성을 예측한다"
+one_liner: "Belief in one's own capability predicts performance and persistence."
 ---
 
 # Self-Efficacy (Bandura)

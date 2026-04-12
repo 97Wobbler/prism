@@ -9,7 +9,7 @@ best_for:
   - data quality assessment
   - findings validation
   - research methodology review
-one_liner: "선택/생존/확인/회상/출판 편향을 체크리스트화하여 데이터 신뢰도 평가"
+one_liner: "Checklist of selection, survivorship, confirmation, recall, and publication biases for data trust."
 ---
 
 # Bias Taxonomy

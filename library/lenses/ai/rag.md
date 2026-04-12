@@ -9,7 +9,7 @@ best_for:
   - Auditing LLM outputs for factual grounding and source attribution
   - Diagnosing hallucination in knowledge-dependent tasks
   - Evaluating whether retrieval pipeline is actually informing generation
-one_liner: "검색 기반 외부 문서로 LLM 응답의 정확성과 추적성을 검증하는 분석 패턴"
+one_liner: "Retrieval-augmented generation — ground LLM answers in external documents for accuracy and traceability."
 ---
 
 # Retrieval-Augmented Generation

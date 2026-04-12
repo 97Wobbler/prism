@@ -9,7 +9,7 @@ best_for:
   - First-offer strategy in bilateral negotiation
   - Counteracting extreme opening positions
   - Evaluating settlement reasonableness
-one_liner: "초기 제시가 최종 합의점을 향해 끌어당긴다"
+one_liner: "The first offer pulls the final agreement toward itself."
 ---
 
 # Anchoring in Negotiation

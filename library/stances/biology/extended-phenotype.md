@@ -9,7 +9,7 @@ best_for:
   - Reading organisms and their artifacts to see the gene's reach beyond the body
   - Tracing causal pathways from DNA outward through behavior, construction, and environmental modification
   - Identifying where the "boundary" of the organism is actually doing work in explanation
-one_liner: "유전자의 영향력이 몸을 넘어 환경까지 확장된다는 관점"
+one_liner: "View that the influence of genes extends beyond the body into the environment."
 ---
 
 # Extended Phenotype

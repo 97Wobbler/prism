@@ -9,7 +9,7 @@ best_for:
   - Predicting cyclic oscillations in predator and prey populations
   - Explaining lag-driven boom-bust cycles in coupled populations
   - Identifying when a system will cycle versus collapse or stabilize
-one_liner: "포식자-피식자 시스템의 주기적 진동을 수학적으로 설명하고 예측"
+one_liner: "Mathematical model explaining and predicting cyclic oscillations in predator-prey systems."
 ---
 
 # Lotka-Volterra Dynamics

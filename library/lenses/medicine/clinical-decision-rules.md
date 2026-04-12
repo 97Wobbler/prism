@@ -9,7 +9,7 @@ best_for:
   - Triaging patients to appropriate care level (emergency vs. outpatient)
   - Reducing overtesting and unnecessary admissions
   - Standardizing clinical judgment across providers
-one_liner: "표준화된 점수 기반 임상 판단으로 과잉 진료 줄이고 치료 경로 최적화"
+one_liner: "Standardized score-based clinical judgment to reduce overtreatment and optimize care pathways."
 ---
 
 # Clinical Decision Rules

@@ -9,7 +9,7 @@ best_for:
   - Reading social interaction as meaning-making, not as role-playing or rule-following
   - Examining how shared symbols enable coordination in face-to-face and mediated encounters
   - Exposing the local, emergent, constantly-renegotiated nature of social order
-one_liner: "상호작용 속 의미구성의 미시적 과정 — 역할극이 아닌 기호 협상의 장"
+one_liner: "Micro-level meaning-making in interaction — an arena of sign negotiation rather than role performance."
 ---
 
 # Symbolic Interactionism

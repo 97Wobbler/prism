@@ -9,7 +9,7 @@ best_for:
   - Reading manufacturing systems and workflows to see how elimination of waste reveals actual value
   - Analyzing production to expose assumptions about what counts as "necessary" work
   - Understanding pull-driven versus push-driven organizational logic
-one_liner: "낭비 제거와 자동화를 통해 흐름을 가시화하고 인간의 판단과 개선을 중심에 놓는 철학"
+one_liner: "Philosophy that makes flow visible by eliminating waste and automating, while centering human judgment and improvement."
 ---
 
 # Toyota Production System

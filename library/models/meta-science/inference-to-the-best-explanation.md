@@ -9,7 +9,7 @@ best_for:
   - Selecting among competing explanations for an observed phenomenon
   - Diagnosing why a hypothesis is favored over rivals in scientific reasoning
   - Understanding abduction as the inference strategy that drives hypothesis generation
-one_liner: "관찰된 현상을 최선의 설명으로 선택하는 추론 방법"
+one_liner: "Reasoning by selecting the best explanation for observed phenomena."
 ---
 
 # Inference to the Best Explanation

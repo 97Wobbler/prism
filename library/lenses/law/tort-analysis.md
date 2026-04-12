@@ -9,7 +9,7 @@ best_for:
   - Evaluating whether a defendant bears legal liability for harm
   - Breaking down negligence claims into their constituent elements
   - Identifying gaps in a plaintiff's case before trial
-one_liner: "의무-위반-인과성-손해배상의 네 요소로 불법행위 책임 판단"
+one_liner: "Four-element tort liability test — duty, breach, causation, damages."
 ---
 
 # Tort Analysis

@@ -9,7 +9,7 @@ best_for:
   - Reading conflicts, competitions, and strategic contests to expose asymmetries in information, capability, and positioning
   - Revealing how victory is decided before engagement through positioning and preparation
   - Understanding why frontal confrontation is a failure of strategy, not a test of courage
-one_liner: "승리는 전쟁 전에 결정되는 정보와 위치 싸움"
+one_liner: "Victory is decided before the battle — a contest of information and position."
 ---
 
 # Sun Tzu Principles

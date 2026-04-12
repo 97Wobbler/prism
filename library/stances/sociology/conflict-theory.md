@@ -9,7 +9,7 @@ best_for:
   - Reading institutions and social arrangements to see whose material interests they protect and reproduce
   - Exposing how dominance is maintained through resource control, not just consent
   - Analyzing how subordinate groups resist, organize, and make competing claims
-one_liner: "사회 자원 배분의 경쟁과 권력 불균형이 구조를 결정하는 근본 동학"
+one_liner: "Competition over resource distribution and power imbalance as the fundamental dynamic shaping structure."
 ---
 
 # Conflict Theory

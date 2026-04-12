@@ -9,7 +9,7 @@ best_for:
   - Predicting when an athlete or performer will achieve optimal engagement and peak performance
   - Diagnosing why someone disengages or performs poorly despite effort
   - Designing training and competitive conditions that sustain flow
-one_liner: "도전과 기술의 균형이 최적 경험을 결정하는 모델"
+one_liner: "Model where the balance of challenge and skill determines optimal experience."
 ---
 
 # Flow (Csikszentmihalyi)

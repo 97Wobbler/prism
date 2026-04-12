@@ -9,7 +9,7 @@ best_for:
   - Tracking user/customer behavior over time buckets
   - Isolating cohort-specific trends from aggregate noise
   - Diagnosing product changes and their retention/engagement impact
-one_liner: "시간대/특성별 사용자 집단 추적으로 변화 추이 및 이탈 패턴 진단"
+one_liner: "Track user groups by time or attribute to diagnose trends and churn patterns."
 ---
 
 # Cohort Analysis

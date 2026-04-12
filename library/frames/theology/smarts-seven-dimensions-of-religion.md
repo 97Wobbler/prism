@@ -9,7 +9,7 @@ best_for:
   - Analyzing a religious tradition or expression across multiple dimensions
   - Identifying which dimension(s) are most salient in a particular context
   - Comparing religious traditions systematically
-one_liner: "종교 전통을 교리·신화·윤리·의식·경험·제도·물질 차원으로 분류"
+one_liner: "Classify religious traditions along doctrinal, mythic, ethical, ritual, experiential, institutional, and material dimensions."
 ---
 
 # Smart's Seven Dimensions of Religion

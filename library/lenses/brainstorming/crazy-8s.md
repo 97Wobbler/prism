@@ -9,7 +9,7 @@ best_for:
   - Generating volume of rough solution sketches quickly
   - Breaking out of anchoring on a single idea
   - Exploring multiple directions before committing to one
-one_liner: "제한된 시간 내에 다양한 아이디어를 빠르게 스케치로 구체화하기"
+one_liner: "Rapidly sketch eight divergent ideas within a strict time box."
 ---
 
 # Crazy 8s

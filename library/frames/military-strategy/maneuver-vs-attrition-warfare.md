@@ -8,7 +8,7 @@ source: Carl von Clausewitz, On War, 1832; refined by contemporary military theo
 best_for:
   - Classifying a military campaign or engagement by its operational approach
   - Determining which logistical, personnel, and time constraints apply
-one_liner: "전투 방식의 두 패러다임: 기동전과 소모전"
+one_liner: "The two paradigms of combat — maneuver versus attrition warfare."
 ---
 
 # Maneuver vs Attrition Warfare

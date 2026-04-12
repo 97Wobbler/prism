@@ -9,7 +9,7 @@ best_for:
   - Extracting the core organizational logic of a spatial design
   - Communicating intent before detailing
   - Identifying when program conflicts with geometric order
-one_liner: "공간 구성의 핵심 의도를 추상 다이어그램으로 단순화"
+one_liner: "Distill the core spatial intent of a design into an abstract diagram."
 ---
 
 # Parti Diagram

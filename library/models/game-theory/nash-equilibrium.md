@@ -9,7 +9,7 @@ best_for:
   - Predicting stable outcomes in strategic interactions where each player's best response depends on others' choices
   - Identifying when no player has incentive to unilaterally deviate from a proposed strategy profile
   - Analyzing competitive or cooperative situations with interdependent payoffs
-one_liner: "모든 플레이어가 상대방의 전략을 고정했을 때 자신의 선택을 바꿀 유인이 없는 전략 결합"
+one_liner: "Strategy profile where no player can gain by unilateral deviation given others' strategies."
 ---
 
 # Nash Equilibrium

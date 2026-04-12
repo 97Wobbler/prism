@@ -9,7 +9,7 @@ best_for:
   - Isolating causal effects when randomization is impossible
   - Leveraging natural experiments or policy changes
   - Removing confounding from time-invariant group differences
-one_liner: "정책 변화나 자연실험을 활용한 인과관계 추정"
+one_liner: "Causal estimation leveraging policy changes or natural experiments."
 ---
 
 # Difference-in-Differences

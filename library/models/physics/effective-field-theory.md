@@ -9,7 +9,7 @@ best_for:
   - Predicting the behavior of a system at one energy scale given knowledge of a different scale
   - Identifying which degrees of freedom matter for a given physical question
   - Reducing a complex many-body or high-energy system to a simpler effective model
-one_liner: "에너지 스케일 분리를 이용한 복잡 시스템의 단순화 및 예측"
+one_liner: "Simplify and predict complex systems by separating energy scales."
 ---
 
 # Effective Field Theory

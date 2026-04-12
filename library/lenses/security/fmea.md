@@ -9,7 +9,7 @@ best_for:
   - Identifying and ranking risks before deployment
   - Prioritizing mitigation work in resource-constrained environments
   - Building accountability for threat modeling in engineering teams
-one_liner: "잠재적 실패 모드를 체계적으로 열거하고 심각도×발생×탐지로 우선순위 결정"
+one_liner: "Failure Mode and Effects Analysis — systematically enumerate failure modes and prioritize via Severity × Occurrence × Detection."
 ---
 
 # Failure Mode and Effects Analysis

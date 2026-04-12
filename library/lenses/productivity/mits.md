@@ -9,7 +9,7 @@ best_for:
   - Identifying which tasks move the needle on your goals
   - Fighting scope creep and decision fatigue
   - Ensuring accountability when priorities conflict
-one_liner: "매일 3가지 가장 중요한 작업을 명확히 하고 실행하는 우선순위 관리 프레임"
+one_liner: "Most Important Tasks — clarify and execute the three most important tasks each day."
 ---
 
 # Most Important Tasks

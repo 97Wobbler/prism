@@ -9,7 +9,7 @@ best_for:
   - Surfacing risks before they materialize
   - Building group consensus on failure modes
   - Moving past optimism bias in planning
-one_liner: "실패를 가정하고 그 원인을 역추적하여 현재의 맹점을 노출하라"
+one_liner: "Assume failure and work backward through its causes to expose present blind spots."
 ---
 
 # Pre-mortem

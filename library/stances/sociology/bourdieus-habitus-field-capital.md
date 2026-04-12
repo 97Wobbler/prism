@@ -9,7 +9,7 @@ best_for:
   - Reading social practices to see how they reproduce inequality while appearing inevitable or "natural"
   - Analyzing taste, credential systems, institutional hierarchies, and cultural reproduction
   - Understanding why certain groups dominate fields and how they make their dominance seem universal
-one_liner: "사회적 불평등을 자연화하는 관계적 배치의 역학 — 습성, 장, 자본의 순환"
+one_liner: "The relational dynamics of habitus, field, and capital that naturalize social inequality."
 ---
 
 # Bourdieu's Habitus, Field, and Capital

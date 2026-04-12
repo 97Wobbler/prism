@@ -9,7 +9,7 @@ best_for:
   - Reading historical events, institutions, and social formations to expose the material interests shaping them
   - Tracing how economic relations structure possibility and constraint across centuries
   - Identifying whose labor and exploitation remain invisible in the historical record
-one_liner: "생산 방식의 변화로 역사 읽기—계급 투쟁이 드러내는 권력 관계"
+one_liner: "Read history through the mode of production — class struggle as the revelation of power relations."
 ---
 
 # Historical Materialism

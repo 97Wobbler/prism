@@ -9,7 +9,7 @@ best_for:
   - Predicting universal critical behavior near phase transitions
   - Explaining why microscopic details vanish and long-range correlations dominate
   - Connecting behavior across vastly different length scales in physical systems
-one_liner: "스케일 흐름의 고정점 근처에서 미시적 상세가 소거되고 보편성이 나타나는 현상"
+one_liner: "Microscopic detail washes out near fixed points of scale flow, producing universality."
 ---
 
 # Renormalization Group

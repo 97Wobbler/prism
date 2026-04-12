@@ -8,7 +8,7 @@ source: Aldo Rossi, Architecture of the City, 1966
 best_for:
   - Classifying urban buildings or districts by their morphological and functional persistence
   - Distinguishing between elements that shape urban form versus those that are incidental to it
-one_liner: "도시 건축물을 형태적 지속성과 집단적 기억에 따라 분류하는 도시형태학 틀"
+one_liner: "Urban morphology framework that classifies buildings by formal persistence and collective memory."
 ---
 
 # Typology Analysis (Rossi)

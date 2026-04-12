@@ -9,7 +9,7 @@ best_for:
   - Testing whether a belief or practice is logically necessary to other commitments
   - Uncovering hidden dependencies in reasoning systems
   - Defending foundational claims that resist direct proof
-one_liner: "X를 거부하면 X가 필요하다는 모순을 초래하는가"
+one_liner: "Show that rejecting X leads to a contradiction that presupposes X."
 ---
 
 # Transcendental Argument

@@ -9,7 +9,7 @@ best_for:
   - Predicting the flow of genetic information through biological systems
   - Explaining how heritable mutations and environmental changes propagate to phenotype
   - Identifying where in the information pipeline a molecular defect will have phenotypic consequences
-one_liner: "유전 정보는 DNA → RNA → 단백질 단방향 흐름을 따르며, 각 단계에서 필터링과 변환이 발생함"
+one_liner: "Genetic information flows unidirectionally DNA → RNA → protein with filtering and transformation at each step."
 ---
 
 # Central Dogma (Crick)

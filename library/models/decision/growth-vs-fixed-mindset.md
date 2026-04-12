@@ -8,7 +8,7 @@ source: Carol S. Dweck, *Mindset: The New Psychology of Success*, 2006; foundati
 best_for:
   - Predicting persistence, effort allocation, and response to failure in learning and performance contexts
   - Explaining why identical challenges produce drastically different behavioral outcomes across individuals
-one_liner: "능력이 고정인지 발달 가능한지에 대한 신념이 도전·실패·노력에 대한 행동을 결정하는 모델"
+one_liner: "Belief about whether ability is fixed or developable drives behavior toward challenge, failure, and effort."
 ---
 
 # Growth vs Fixed Mindset

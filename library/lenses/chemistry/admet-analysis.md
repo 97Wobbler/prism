@@ -9,7 +9,7 @@ best_for:
   - Predicting whether a small molecule will make a viable drug candidate
   - Early-stage compound filtering before synthesis or animal testing
   - Identifying which molecular properties to optimize in lead compounds
-one_liner: "약물 후보의 흡수, 분포, 대사, 배출, 독성 5가지 축으로 임상 가능성 검증"
+one_liner: "Screen drug candidates for clinical viability across absorption, distribution, metabolism, excretion, and toxicity."
 ---
 
 # ADMET Analysis

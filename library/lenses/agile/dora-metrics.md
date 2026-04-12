@@ -9,7 +9,7 @@ best_for:
   - Measuring delivery performance across teams and pipelines
   - Identifying bottlenecks in deployment velocity and stability
   - Tracking operational resilience and incident response capability
-one_liner: "배포 빈도·리드 타임·MTTR·변경 실패율로 소프트웨어 전달 능력 측정"
+one_liner: "Measure software delivery capability via deployment frequency, lead time, MTTR, and change failure rate."
 ---
 
 # DORA Metrics

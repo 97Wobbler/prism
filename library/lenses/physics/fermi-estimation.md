@@ -9,7 +9,7 @@ best_for:
   - Quick magnitude estimates when precise data is unavailable
   - Sanity-checking the plausibility of claims or designs
   - Breaking down intractable problems into estimable components
-one_liner: "주어진 제약과 가정으로부터 합리적 근사값을 도출하는 오더-오브-매그니튜드 추론"
+one_liner: "Order-of-magnitude reasoning that derives reasonable approximations from constraints and assumptions."
 ---
 
 # Fermi Estimation

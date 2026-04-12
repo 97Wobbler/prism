@@ -9,7 +9,7 @@ best_for:
   - Structuring comprehensive marketing plans
   - Auditing existing campaigns for completeness
   - Aligning team on shared marketing strategy
-one_liner: "상황/목표/전략/전술/행동/통제를 단계적으로 수립하는 마케팅 계획 프레임워크"
+one_liner: "Six-step marketing planning framework — Situation / Objectives / Strategy / Tactics / Action / Control."
 ---
 
 # SOSTAC Framework

@@ -9,7 +9,7 @@ best_for:
   - Measuring cosmic distances across ten orders of magnitude
   - Cross-checking distance estimates between independent methods
   - Identifying systematic errors in distance measurements
-one_liner: "우주 거리 측정을 위한 다단계 표준촛불 계층 구조 (세페이드 → 초신성 Ia)"
+one_liner: "Multi-step cosmic distance ladder built from standard candles (Cepheids through Type Ia supernovae)."
 ---
 
 # Standard Candles Hierarchy

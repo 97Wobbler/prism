@@ -9,7 +9,7 @@ best_for:
   - Tracing root causes of environmental degradation from human activity through systemic impact
   - Structuring environmental policy responses around causal chains rather than isolated symptoms
   - Identifying intervention points in complex socio-ecological systems
-one_liner: "인간 활동에서 환경 변화까지의 인과 고리를 체계적으로 추적하고 대응책을 설계한다"
+one_liner: "Drivers-Pressures-State-Impact-Response — trace the causal chain from human activity to environmental change."
 ---
 
 # DPSIR Framework

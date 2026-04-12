@@ -9,7 +9,7 @@ best_for:
   - Analyzing how form, structure, and language create meaning in a text
   - Resisting biographical or historical contextualization to focus on the text itself
   - Identifying tension, paradox, and ambiguity as sites of literary significance
-one_liner: "형식과 구조만으로 의미를 추출하는 텍스트 분석"
+one_liner: "Extract meaning from form and structure alone — New Critical close reading."
 ---
 
 # Close Reading / New Criticism

@@ -9,7 +9,7 @@ best_for:
   - Predicting when a learner can succeed with support vs. unassisted
   - Designing instruction that targets the boundary between independent and assisted performance
   - Explaining why identical instruction fails for some learners and succeeds for others
-one_liner: "학습자가 독립적으로 수행할 수 있는 것과 도움을 받아 수행할 수 있는 것 사이의 거리"
+one_liner: "Zone of Proximal Development — the gap between what a learner can do alone and with help."
 ---
 
 # Zone of Proximal Development

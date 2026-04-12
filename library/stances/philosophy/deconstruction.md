@@ -9,7 +9,7 @@ best_for:
   - Reading binary oppositions to expose their internal instability
   - Finding what texts cannot say while organizing around it
   - Tracing how meaning depends on what is deferred, absent, or supplementary
-one_liner: "의미는 이항대립의 차연(différance)과 연기(deferral) 속에서만 존재한다"
+one_liner: "Meaning exists only within the différance and deferral of binary oppositions."
 ---
 
 # Deconstruction (Derrida)

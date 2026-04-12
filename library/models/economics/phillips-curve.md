@@ -9,7 +9,7 @@ best_for:
   - Predicting short-run inflation-unemployment trade-offs and the cost of disinflation
   - Explaining why policymakers face a choice between higher inflation with lower unemployment or lower inflation with higher unemployment
   - Diagnosing whether observed wage or price movements are driven by slack in the labor market
-one_liner: "실업률 하락이 인플레이션 상승을 초래하는 단기 거래 관계"
+one_liner: "Short-run trade-off between unemployment and inflation."
 ---
 
 # Phillips Curve

@@ -9,7 +9,7 @@ best_for:
   - Sorting narrative structures by their arc shape and conflict model
   - Choosing an appropriate story progression for a given intent
   - Analyzing how a narrative unfolds without relying on Western three-act assumptions
-one_liner: "동양 4막 구조: 도입-전개-전환-결말의 순차적 전개"
+one_liner: "East Asian four-act structure — introduction, development, twist, conclusion."
 ---
 
 # Kishōtenketsu

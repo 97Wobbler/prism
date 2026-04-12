@@ -9,7 +9,7 @@ best_for:
   - historical narrative analysis
   - retrospective causal claims
   - institutional or ideological origin stories
-one_liner: "과거를 현재의 승자 관점에서 재구성하지 말라"
+one_liner: "Do not reconstruct the past through the eyes of the present-day winners."
 ---
 
 # Whig History Critique

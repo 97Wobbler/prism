@@ -9,7 +9,7 @@ best_for:
   - Questioning whether an artifact privileges the observer's position unnecessarily
   - Revealing anthropocentric assumptions in scientific, cosmological, or organizational frameworks
   - Testing claims that appear to be universal but may reflect parochial perspective
-one_liner: "우주에서 인간 관찰자의 위치를 특권화하지 않는 해석적 입장"
+one_liner: "Interpretive stance that refuses to privilege the human observer's position in the universe."
 ---
 
 # Copernican Principle

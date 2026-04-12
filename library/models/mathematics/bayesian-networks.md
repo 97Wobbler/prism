@@ -9,7 +9,7 @@ best_for:
   - Encoding conditional-independence structure in a domain via directed acyclic graphs (DAGs)
   - Deriving exact or approximate probability queries using graph-aware inference algorithms
   - Handling missing data and causal reasoning in systems with latent variables
-one_liner: "조건부 독립성 구조를 방향성 비순환 그래프로 인코딩하고 효율적 추론 수행"
+one_liner: "Encode conditional independence as a directed acyclic graph for efficient inference."
 ---
 
 # Bayesian Networks

@@ -9,7 +9,7 @@ best_for:
   - Diagnosing fermentation failures or inconsistencies
   - Designing a new fermented product from first principles
   - Scaling or adapting a fermentation process to new conditions
-one_liner: "발효 결과를 예측하고 문제를 진단하기 위해 기질·미생물·환경·시간의 네 축을 체계적으로 검토"
+one_liner: "Predict and diagnose fermentation across four axes — substrate, microbe, environment, time."
 ---
 
 # Fermentation Frameworks

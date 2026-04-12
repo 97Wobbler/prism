@@ -9,7 +9,7 @@ best_for:
   - Computing fair contribution shares in cooperative settings
   - Allocating joint value among players with overlapping contributions
   - Predicting who claims credit or demands compensation in coalitions
-one_liner: "협력 게임에서 플레이어 기여도의 유일한 공정한 분배 방식"
+one_liner: "Unique fair allocation of contribution in cooperative games."
 ---
 
 # Shapley Value

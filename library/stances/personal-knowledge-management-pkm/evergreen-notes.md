@@ -9,7 +9,7 @@ best_for:
   - Evaluating personal knowledge systems for connectivity and reuse
   - Reading note collections to detect when notes remain isolated versus when they form emergent structure
   - Assessing whether a knowledge practice builds durable, generative ideas or accumulates inert archive
-one_liner: "원자적 개념 중심의 상호 연결 노트 체계를 통해 축적된 지식이 능동적으로 작동하는 구조"
+one_liner: "Structure in which accumulated knowledge acts actively through a network of atomic, interlinked notes."
 ---
 
 # Evergreen Notes (Matuschak)

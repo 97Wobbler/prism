@@ -9,7 +9,7 @@ best_for:
   - Quantifying whether measurement variation is acceptable or is masking real process variation
   - Deciding if a gauge or measurement protocol is fit for purpose before process improvement
   - Identifying which measurement sources (operator, instrument, environmental) contribute most to total variation
-one_liner: "측정 시스템의 반복성과 재현성을 정량화하여 신뢰도 판정"
+one_liner: "Measurement system analysis — quantify repeatability and reproducibility to judge measurement trust."
 ---
 
 # Measurement System Analysis

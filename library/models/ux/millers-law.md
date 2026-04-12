@@ -9,7 +9,7 @@ best_for:
   - Predicting when information presentation will exceed working memory limits
   - Explaining why users struggle with complex interfaces or dense content chunks
   - Designing chunking strategies for menus, forms, and information hierarchies
-one_liner: "작업 기억 용량 제약에 따른 인지 부하 예측 모델"
+one_liner: "Working-memory capacity constraint that predicts cognitive load."
 ---
 
 # Miller's Law (7±2)

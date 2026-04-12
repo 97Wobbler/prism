@@ -9,7 +9,7 @@ best_for:
   - Explaining why resource booms lead to economic contraction outside the resource sector
   - Predicting which economies are vulnerable to prolonged resource-driven decline
   - Identifying when a resource windfall will strengthen or weaken long-term competitiveness
-one_liner: "자원 급증이 제조업 침체와 구조적 의존성을 초래하는 경제 악순환"
+one_liner: "Vicious cycle where resource booms trigger manufacturing decline and structural dependence."
 ---
 
 # Resource Curse / Dutch Disease

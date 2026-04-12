@@ -9,7 +9,7 @@ best_for:
   - Diagnosing breakpoints in a marketing or sales message
   - Evaluating whether a campaign or ad moves prospects through the full funnel
   - Sequencing promotional content to match buyer psychology
-one_liner: "마케팅 메시지가 관심→흥미→욕망→행동의 네 단계를 모두 채우는지 검증"
+one_liner: "Check that a marketing message covers Attention → Interest → Desire → Action."
 ---
 
 # AIDA

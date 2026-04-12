@@ -9,7 +9,7 @@ best_for:
   - Untangling complex written or spoken arguments into their structural components
   - Identifying unstated assumptions and logical gaps in reasoning
   - Evaluating strength of evidence chains before making decisions
-one_liner: "주장·근거·반박을 시각적 트리 구조로 분해하여 논리 갭 찾기"
+one_liner: "Decompose claims, evidence, and rebuttals into a visual tree to expose logical gaps."
 ---
 
 # Argument Mapping

@@ -9,7 +9,7 @@ best_for:
   - Organizing differential diagnoses around temporal and pathophysiological patterns
   - Teaching clinical reasoning by mapping symptoms to disease trajectories
   - Stress-testing a diagnosis by checking symptom-timeline fit
-one_liner: "증상 궤적을 시간×위험×병리로 재구성하여 진단 신뢰성 검증"
+one_liner: "Reconstruct symptom trajectories across time, risk, and pathology to validate diagnostic confidence."
 ---
 
 # Illness Scripts

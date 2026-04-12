@@ -9,7 +9,7 @@ best_for:
   - Diagnosing reasoning failures in LLM outputs
   - Evaluating whether an LLM has actually solved a problem or merely pattern-matched
   - Improving answer quality by forcing intermediate justification
-one_liner: "명시적 추론 단계 생성을 통한 LLM 응답 품질 검증"
+one_liner: "Elicit explicit reasoning steps to verify and improve LLM response quality."
 ---
 
 # Chain-of-Thought Prompting

@@ -8,7 +8,7 @@ source: Leigh Van Valen, "A New Evolutionary Law," Evolutionary Theory, 1973; na
 best_for:
   - Explaining why organisms must continuously adapt just to maintain fitness in the face of coevolutionary pressure
   - Predicting patterns of sustained arms races and trait escalation in predator-prey and host-parasite systems
-one_liner: "공진화 무기 경쟁에서 적응하지 않으면 상대적 적응도는 계속 하락"
+one_liner: "In a coevolutionary arms race, relative fitness falls unless you keep adapting."
 ---
 
 # Red Queen Hypothesis

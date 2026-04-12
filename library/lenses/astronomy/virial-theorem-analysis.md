@@ -9,7 +9,7 @@ best_for:
   - Estimating total mass of gravitationally bound systems from kinetic and potential energy
   - Validating whether an observed system is in equilibrium
   - Cross-checking mass estimates from independent methods
-one_liner: "중력 평형 상태의 질량을 운동 에너지와 위치 에너지 비율로 추정하는 정량적 방법"
+one_liner: "Estimate gravitationally bound mass from the ratio of kinetic to potential energy."
 ---
 
 # Virial Theorem Analysis

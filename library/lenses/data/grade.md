@@ -9,7 +9,7 @@ best_for:
   - Assessing credibility of empirical claims and research findings
   - Ranking evidence strength in data-driven decision-making
   - Identifying gaps in supporting evidence for analytical conclusions
-one_liner: "증거의 질을 체계적으로 등급화하여 결론의 신뢰도를 정량화하기"
+one_liner: "Systematically rate evidence quality to quantify confidence in conclusions."
 ---
 
 # GRADE

@@ -8,7 +8,7 @@ source: Carl von Clausewitz, On War (1832), Book 1, Chapter 1
 best_for:
   - Explaining the durability and vulnerability of military campaigns by modeling tensions between government intent, army capability, and popular support
   - Predicting failure modes when one vertex of the trinity becomes misaligned or decoupled from the others
-one_liner: "정부/군대/국민의 3각형 상호작용 모델 — 전쟁의 지속성과 실패를 설명"
+one_liner: "Model of the government-army-people triangle that explains the endurance and failure of war."
 ---
 
 # Clausewitz's Trinity

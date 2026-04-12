@@ -8,7 +8,7 @@ source: Soren Bjornstad; popularized in focus and attention research
 best_for:
   - Uninterrupted deep work sessions when task boundaries are unclear
   - Protecting flow state from artificial time boundaries
-one_liner: "방해 없는 완료까지 작업하기—Pomodoro의 시간 제약 없는 대안"
+one_liner: "Work without interruption until the task is complete — the time-unbounded alternative to Pomodoro."
 ---
 
 # Flowtime Technique

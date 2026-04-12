@@ -9,7 +9,7 @@ best_for:
   - Decomposing a biblical text into source documents and redactional layers
   - Identifying tensions and seams that suggest multiple authorship
   - Tracing the transmission history of a passage from oral tradition to written form
-one_liner: "텍스트의 출처, 형식, 편집층을 계층적으로 분리하여 기원과 발전 과정 규명"
+one_liner: "Separate a text's sources, forms, and editorial layers to reconstruct origin and development."
 ---
 
 # Historical-Critical Method

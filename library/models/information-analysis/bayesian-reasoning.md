@@ -9,7 +9,7 @@ best_for:
   - Updating beliefs under uncertainty when new evidence arrives
   - Comparing competing hypotheses by weighting prior plausibility against likelihood of observed data
   - Detecting when new data is uninformative or when a prior is sufficiently strong that evidence cannot budge it
-one_liner: "사전확률 × 우도 → 사후확률; 증거가 신념을 어떻게 바꾸는가"
+one_liner: "Prior × likelihood → posterior; how evidence updates belief."
 ---
 
 # Bayesian Reasoning

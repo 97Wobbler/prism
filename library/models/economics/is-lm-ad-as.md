@@ -9,7 +9,7 @@ best_for:
   - Explaining equilibrium output and interest rates given monetary and fiscal policy shocks
   - Predicting how changes in government spending, money supply, or price levels propagate through the economy
   - Identifying whether an economy is demand-constrained or supply-constrained
-one_liner: "수요와 공급이 만나는 총체적 균형; 정책 변화가 산출과 물가에 미치는 파급"
+one_liner: "Aggregate equilibrium where demand meets supply — how policy changes propagate to output and prices."
 ---
 
 # IS-LM / AD-AS

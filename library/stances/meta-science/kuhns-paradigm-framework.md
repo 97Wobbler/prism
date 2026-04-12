@@ -9,7 +9,7 @@ best_for:
   - Reading scientific fields and communities to see which problems are invisible, which solutions are premature, and when crisis breaks coherence
   - Understanding why a field can be utterly certain about something that a later field abandons
   - Recognizing the difference between normal science (puzzle-solving within shared rules) and the rare moments when the rules themselves are at stake
-one_liner: "과학 분야의 규범적 합의(paradigm)가 어떻게 문제를 가시화하거나 은폐하는가"
+one_liner: "How the normative consensus (paradigm) of a scientific field reveals or conceals problems."
 ---
 
 # Kuhn's Paradigm Framework

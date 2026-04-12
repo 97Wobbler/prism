@@ -9,7 +9,7 @@ best_for:
   - Evaluating whether a use of copyrighted material is defensible as fair use
   - Assessing infringement risk before publication or distribution
   - Documenting the reasoning behind a fair use claim
-one_liner: "저작권 침해 주장에 대항하여 공정 이용 방어의 설득력 평가"
+one_liner: "Evaluate the strength of a fair-use defense against copyright infringement across four statutory factors."
 ---
 
 # 4-Factor Fair Use Test

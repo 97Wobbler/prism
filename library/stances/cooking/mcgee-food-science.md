@@ -9,7 +9,7 @@ best_for:
   - Reading recipes and cooking techniques to expose their chemical and physical mechanisms
   - Identifying where tradition persists without chemical justification
   - Deciding when technique matters and when folklore does
-one_liner: "요리를 화학과 물리학으로 환원하여 관례와 효과 사이의 간극을 드러내는 입장"
+one_liner: "Stance that reduces cooking to chemistry and physics to expose the gap between received technique and real effect."
 ---
 
 # McGee Food Science

@@ -9,7 +9,7 @@ best_for:
   - Visualizing how a business creates, delivers, and captures value
   - Stress-testing business assumptions across nine interdependent components
   - Communicating a business model to diverse stakeholders in a single artifact
-one_liner: "사업 가치 흐름을 9개 블록으로 시각화하고 검증하기"
+one_liner: "Visualize and validate value flow via nine business-model blocks."
 ---
 
 # Business Model Canvas

@@ -9,7 +9,7 @@ best_for:
   - Structuring large software systems to match business domains and reduce accidental complexity
   - Predicting where communication breakdowns and integration failures will occur in multi-team codebases
   - Deciding how to partition a monolith or coordinate microservices along domain boundaries
-one_liner: "비즈니스 도메인의 모델을 코드 구조에 반영하여 복잡성 관리 및 팀 간 소통 효율화"
+one_liner: "Reflect the business domain model in code structure to manage complexity and improve team communication."
 ---
 
 # Domain-Driven Design

@@ -9,7 +9,7 @@ best_for:
   - Reducing a composition to its underlying tonal structure
   - Identifying structural levels obscured by surface detail
   - Understanding how a piece unfolds from fundamental harmonic motion
-one_liner: "악곡의 표면 detail에서 근본적 조성 운동까지 3단계 축약"
+one_liner: "Reduce surface musical detail to fundamental tonal motion across three levels."
 ---
 
 # Schenkerian Analysis

@@ -9,7 +9,7 @@ best_for:
   - Evaluating the health and effectiveness of Scrum rituals in a team
   - Diagnosing dysfunction in sprint execution and team synchronization
   - Auditing ceremony compliance and time-boxing adherence
-one_liner: "스프린트 내 의식들의 목적 정렬 및 실행 효율성 검증"
+one_liner: "Check that each sprint ritual is aligned with its intended purpose and executed efficiently."
 ---
 
 # Scrum Ceremonies

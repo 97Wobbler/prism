@@ -9,7 +9,7 @@ best_for:
   - Eliminating defects and variation in repeatable processes
   - Data-driven root cause identification in operations
   - Staged improvement projects with measurable before/after impact
-one_liner: "프로세스 변동을 데이터로 측정하고 근본 원인을 제거하여 성능을 안정화하는 5단계 방법론"
+one_liner: "Five-step method (Define/Measure/Analyze/Improve/Control) to stabilize performance by eliminating root-cause variation."
 ---
 
 # Six Sigma DMAIC

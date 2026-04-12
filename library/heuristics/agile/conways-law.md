@@ -9,7 +9,7 @@ best_for:
   - system architecture review
   - org restructuring impact analysis
   - cross-team integration failures
-one_liner: "조직 구조가 시스템 구조를 결정한다"
+one_liner: "Organizational structure determines system structure."
 ---
 
 # Conway's Law

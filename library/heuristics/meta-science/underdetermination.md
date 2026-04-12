@@ -9,7 +9,7 @@ best_for:
   - theory selection
   - hypothesis testing
   - model evaluation
-one_liner: "데이터를 같게 설명하는 경쟁 이론들 중 어느 것도 유일하게 옳지 않을 수 있다"
+one_liner: "Among competing theories that explain the data equally well, none may be uniquely correct."
 ---
 
 # Underdetermination

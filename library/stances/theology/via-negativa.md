@@ -9,7 +9,7 @@ best_for:
   - Reading theological and metaphysical texts to see what they accomplish by negation rather than affirmation
   - Examining how language fails and what that failure reveals
   - Tracing encounters with the radically unknowable through structures of unsaying
-one_liner: "말할 수 없음을 통해 말할 수 없는 것을 향하는 인식론적 자세"
+one_liner: "Epistemic stance that approaches the unsayable through what cannot be said."
 ---
 
 # Via Negativa

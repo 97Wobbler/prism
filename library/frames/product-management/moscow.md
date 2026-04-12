@@ -8,7 +8,7 @@ source: Dai Clegg, Oracle, 1994
 best_for:
   - Sorting product requirements or features by delivery urgency and business impact
   - Breaking a roadmap into delivery tiers that align with stakeholder expectations
-one_liner: "요구사항을 Must/Should/Could/Won't로 분류하여 릴리스 범위와 우선순위를 명확히 함"
+one_liner: "Classify requirements as Must / Should / Could / Won't to set release scope and priority."
 ---
 
 # MoSCoW Prioritization

@@ -9,7 +9,7 @@ best_for:
   - Predicting athletic performance based on individual arousal and emotional state
   - Explaining performance variability across similar pre-competition conditions
   - Designing individualized mental preparation and emotional regulation protocols
-one_liner: "개인의 최적 각성 대역을 식별하고 성능을 예측하는 모델"
+one_liner: "Model that identifies each athlete's individual optimal arousal band and predicts performance."
 ---
 
 # Individual Zone of Optimal Functioning (IZOF)

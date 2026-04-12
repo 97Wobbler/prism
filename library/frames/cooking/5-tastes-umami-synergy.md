@@ -9,7 +9,7 @@ best_for:
   - Classifying ingredient combinations by their taste interaction pattern
   - Determining which taste compounds will potentiate or diminish each other
   - Building flavor layering strategies that maximize sensory impact
-one_liner: "글루타메이트 × 뉴클레오타이드 상승작용"
+one_liner: "Glutamate × nucleotide umami synergy."
 ---
 
 # 5 Tastes + Umami Synergy

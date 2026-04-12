@@ -9,7 +9,7 @@ best_for:
   - Unpacking cultural meanings embedded in surface actions
   - Distinguishing behavioral description from interpretive explanation
   - Analyzing rituals, symbols, and social practices
-one_liner: "행동의 표면 아래 겹겹이 쌓인 의미 구조를 지층별로 파헤치기"
+one_liner: "Excavate the layered meaning structures beneath the surface of behavior."
 ---
 
 # Thick Description (Geertz)

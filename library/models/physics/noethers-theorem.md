@@ -9,7 +9,7 @@ best_for:
   - Predicting conserved quantities in a physical system from its symmetries
   - Understanding why energy, momentum, and angular momentum are conserved
   - Identifying new conservation laws in unfamiliar Lagrangians
-one_liner: "계 대칭성 → 보존량 대응"
+one_liner: "Every continuous symmetry of a system corresponds to a conserved quantity."
 ---
 
 # Noether's Theorem

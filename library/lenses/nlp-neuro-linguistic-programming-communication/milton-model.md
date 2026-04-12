@@ -9,7 +9,7 @@ best_for:
   - Crafting persuasive language that bypasses conscious resistance
   - Designing ambiguous suggestions that allow listeners to fill in their own meaning
   - Analyzing how vague language patterns achieve psychological influence
-one_liner: "의도적 모호성으로 청자의 무의식적 수용성을 유도하는 언어 패턴 기법"
+one_liner: "Language pattern that uses deliberate ambiguity to induce unconscious receptivity."
 ---
 
 # Milton Model

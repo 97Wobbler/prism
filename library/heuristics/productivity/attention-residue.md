@@ -9,7 +9,7 @@ best_for:
   - task switching decisions
   - context-heavy work planning
   - productivity diagnosis
-one_liner: "작업 전환 후 이전 작업의 인지적 부담이 남아 성능을 해친다"
+one_liner: "After a task switch, cognitive residue from the prior task hurts performance."
 ---
 
 # Attention Residue

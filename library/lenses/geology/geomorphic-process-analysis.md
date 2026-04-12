@@ -9,7 +9,7 @@ best_for:
   - Reconstructing landform history from observable erosion and deposition patterns
   - Diagnosing landscape instability or sediment transport bottlenecks
   - Predicting where material will accumulate or be stripped in river systems
-one_liner: "풍화/침식/운반/퇴적의 네 단계를 현장 증거로 구별하고 해석"
+one_liner: "Distinguish weathering / erosion / transport / deposition from field evidence."
 ---
 
 # Geomorphic Process Analysis

@@ -9,7 +9,7 @@ best_for:
   - Predicting bargaining outcomes when a party voluntarily restricts its own future choices
   - Explaining why constraining oneself can increase negotiating power
   - Analyzing credible threats and promises in strategic interactions
-one_liner: "자신을 제약함으로써 협상력을 확보하는 전략적 자기기속"
+one_liner: "Gain bargaining leverage by strategically restricting your own options."
 ---
 
 # Commitment Devices (Schelling)

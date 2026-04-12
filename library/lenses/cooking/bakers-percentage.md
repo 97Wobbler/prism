@@ -9,7 +9,7 @@ best_for:
   - Scaling bread and pastry recipes consistently across batch sizes
   - Diagnosing balance problems in dough composition
   - Communicating precise ingredient ratios across kitchens and teams
-one_liner: "밀가루 기준 모든 재료의 무게 비율로 레시피 확장성과 재현성 확보"
+one_liner: "Express every ingredient as a weight ratio relative to flour for scalable, reproducible recipes."
 ---
 
 # Baker's Percentage

@@ -9,7 +9,7 @@ best_for:
   - Assessing production readiness of ML systems
   - Identifying technical debt in deployed models
   - Establishing a shared quality baseline across ML teams
-one_liner: "프로덕션 ML의 28가지 필수 점검 항목으로 기술 부채를 정량화"
+one_liner: "Quantify tech debt in production ML using the 28-item ML Test Score checklist."
 ---
 
 # ML Test Score

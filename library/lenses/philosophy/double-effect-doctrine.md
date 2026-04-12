@@ -9,7 +9,7 @@ best_for:
   - Evaluating the moral permissibility of actions with foreseen but unintended harmful side effects
   - Distinguishing ethically defensible trade-offs from mere rationalization
   - Stress-testing consequentialist objections to a proposed action
-one_liner: "의도된 효과와 예견된 부작용의 도덕적 차이 구분"
+one_liner: "Distinguish the moral weight of intended effects versus foreseen side effects."
 ---
 
 # Double Effect Doctrine

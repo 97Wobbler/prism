@@ -9,7 +9,7 @@ best_for:
   - Designing tasting menus and multi-course experiences
   - Sequencing ingredients and techniques to build flavor and textural narrative
   - Honoring seasonality while managing ingredient constraints
-one_liner: "계절성 + 기법 + 재료 순서로 미각 경험의 호를 설계하라"
+one_liner: "Design an arc of taste through seasonality, technique, and ingredient sequencing."
 ---
 
 # Kaiseki/Omakase Structure

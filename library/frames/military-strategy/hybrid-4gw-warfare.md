@@ -9,7 +9,7 @@ best_for:
   - Classifying a threat or conflict as conventional, non-conventional, or blended
   - Determining which operational and strategic response patterns are appropriate
   - Identifying whether the opponent is state, non-state, or a state using non-state proxies
-one_liner: "전통 전쟁과 비정규전의 혼합 위협을 식별하고 대응 범위를 결정하는 분류 틀"
+one_liner: "Framework for identifying hybrid threats blending conventional and irregular warfare and scoping the response."
 ---
 
 # Hybrid / 4GW Warfare

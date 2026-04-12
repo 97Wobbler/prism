@@ -9,7 +9,7 @@ best_for:
   - Reading psychological processes, behaviors, and conflicts as expressions of multiple sub-personalities or "parts" with distinct agendas, histories, and protective strategies
   - Identifying how internal multiplicity creates both symptom and resilience
   - Understanding why direct intervention on a symptom often fails — the symptom is serving a part's protective function
-one_liner: "내적 다중성의 관점에서 증상과 갈등을 분석하는 심리치료 입장"
+one_liner: "Internal Family Systems — therapeutic stance that analyzes symptoms and conflict as internal multiplicity."
 ---
 
 # Internal Family Systems

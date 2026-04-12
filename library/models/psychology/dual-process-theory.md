@@ -9,7 +9,7 @@ best_for:
   - Predicting when people will rely on intuition vs. deliberate reasoning
   - Explaining systematic errors, biases, and inconsistencies in judgment
   - Identifying conditions that overwhelm cognitive capacity and trigger mental shortcuts
-one_liner: "직관(System 1)과 분석(System 2)의 이원 인지 시스템 모델"
+one_liner: "Dual-system model — intuitive System 1 and analytic System 2."
 ---
 
 # Dual Process Theory

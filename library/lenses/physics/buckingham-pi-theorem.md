@@ -9,7 +9,7 @@ best_for:
   - Reducing physical problems to minimal dimensionless groups
   - Designing experiments and scaling laws without solving governing equations
   - Validating dimensional consistency of derived equations
-one_liner: "물리량 간 관계식을 최소 개수의 무차원 변수로 축약"
+one_liner: "Reduce relationships between physical quantities to the minimum number of dimensionless variables."
 ---
 
 # Buckingham Pi Theorem

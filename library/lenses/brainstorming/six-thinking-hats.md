@@ -9,7 +9,7 @@ best_for:
   - Breaking groupthink in brainstorms by enforcing sequential thinking modes
   - Preventing dominant voices from collapsing discussion into one perspective
   - Systematically covering emotional, critical, creative, and logistical dimensions
-one_liner: "6가지 사고 방식을 순차적으로 적용하여 편향 없는 종합적 검토"
+one_liner: "Apply six modes of thinking sequentially for a bias-free, comprehensive review."
 ---
 
 # Six Thinking Hats

@@ -9,7 +9,7 @@ best_for:
   - Mapping the logical structure of theistic arguments and their vulnerabilities
   - Predicting which objections will undermine each argument
   - Analyzing the load-bearing assumptions in a given theistic defense
-one_liner: "존재론, 우주론, 목적론, 칼람 논증의 4가지 고전적 신 존재 증명"
+one_liner: "The four classical arguments for God's existence — ontological, cosmological, teleological, and Kalam."
 ---
 
 # Classical Arguments for God's Existence

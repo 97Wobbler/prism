@@ -9,7 +9,7 @@ best_for:
   - Clustering qualitative research data into themes
   - Surfacing hidden patterns in user feedback
   - Building shared understanding across cross-functional teams
-one_liner: "정성적 데이터를 주제별로 묶어 패턴과 구조를 가시화하는 클러스터링 기법"
+one_liner: "Cluster qualitative data by theme to make patterns and structure visible."
 ---
 
 # Affinity Diagram

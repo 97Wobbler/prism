@@ -9,7 +9,7 @@ best_for:
   - Reading texts, institutions, and practices to expose how gender (and its entanglement with race, class, sexuality) structures meaning, authority, and access
   - Recovering erased or marginalized voices, especially women's labor and knowledge
   - Analyzing how power operates through representation, genre convention, and what counts as "universal"
-one_liner: "젠더와 권력이 텍스트와 제도를 구성하는 방식을 드러냄"
+one_liner: "Reveal how gender and power constitute texts and institutions."
 ---
 
 # Feminist Criticism

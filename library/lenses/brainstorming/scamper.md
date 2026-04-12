@@ -9,7 +9,7 @@ best_for:
   - Systematically generating product or service variations
   - Breaking mental blocks around existing designs or processes
   - Ensuring no transformation angle is overlooked
-one_liner: "기존 제품/서비스의 각 요소를 체계적으로 변형하여 혁신 아이디어 도출"
+one_liner: "Innovate by systematically transforming elements of an existing product or service (Substitute / Combine / Adapt / Modify / Put to another use / Eliminate / Reverse)."
 ---
 
 # SCAMPER

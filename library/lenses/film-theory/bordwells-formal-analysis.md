@@ -9,7 +9,7 @@ best_for:
   - Decomposing how a film constructs meaning through formal choices
   - Identifying the relationship between style, narrative structure, and viewer comprehension
   - Analyzing how cinematic technique shapes story information flow
-one_liner: "영화의 형식적 요소(카메라, 편집, 조명, 음향)가 어떻게 서사와 의미를 구성하는지 체계적으로 분석"
+one_liner: "Systematically analyze how a film's formal elements (camera, editing, lighting, sound) construct narrative and meaning."
 ---
 
 # Bordwell's Formal Analysis

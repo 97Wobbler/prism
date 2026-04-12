@@ -9,7 +9,7 @@ best_for:
   - Class and module design review
   - Refactoring over-coupled code
   - API boundary definition
-one_liner: "한 클래스는 변경 이유가 하나여야 한다"
+one_liner: "A class should have only one reason to change."
 ---
 
 # Single Responsibility Principle

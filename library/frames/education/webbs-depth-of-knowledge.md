@@ -9,7 +9,7 @@ best_for:
   - Classifying learning tasks by cognitive demand and complexity
   - Matching assessment items to intended instructional rigor
   - Identifying misalignment between instruction and assessment
-one_liner: "학습 과제의 인지적 요구도를 4단계로 분류하여 교수-학습-평가의 일관성 확보"
+one_liner: "Classify cognitive demand across four levels to align instruction, learning, and assessment."
 ---
 
 # Webb's Depth of Knowledge

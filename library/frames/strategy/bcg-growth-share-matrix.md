@@ -9,7 +9,7 @@ best_for:
   - Portfolio classification for resource allocation
   - Strategic positioning of business units or product lines
   - Capital deployment and divestment decisions
-one_liner: "성장률 × 시장점유율 2×2 포트폴리오 분류"
+one_liner: "Portfolio classification via growth rate × market share 2x2."
 ---
 
 # BCG Growth-Share Matrix

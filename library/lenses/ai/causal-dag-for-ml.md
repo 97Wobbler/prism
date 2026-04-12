@@ -9,7 +9,7 @@ best_for:
   - Identifying confounders before claiming causality from observational data
   - Documenting assumptions in a model's causal claims
   - Detecting when features are colliders or mediators, not confounders
-one_liner: "관측 데이터에서 인과관계 주장 시 교란변수 체크"
+one_liner: "Check for confounders when claiming causality from observational data in ML."
 ---
 
 # Causal DAG for ML

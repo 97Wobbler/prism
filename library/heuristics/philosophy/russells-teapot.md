@@ -9,7 +9,7 @@ best_for:
   - evaluating unfalsifiable claims
   - burden-of-proof arguments
   - distinguishing belief from knowledge
-one_liner: "증거 없는 주장은 증거 없이 기각할 수 있다"
+one_liner: "A claim made without evidence can be dismissed without evidence."
 ---
 
 # Russell's Teapot

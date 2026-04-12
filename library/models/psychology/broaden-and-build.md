@@ -9,7 +9,7 @@ best_for:
   - Explaining how positive emotions expand cognitive and behavioral scope
   - Predicting resource accumulation and resilience trajectories
   - Understanding the long-term effects of affect on capability and wellbeing
-one_liner: "긍정 정서의 인지 확장과 자원 축적 메커니즘"
+one_liner: "Positive emotions broaden cognition and build lasting resources."
 ---
 
 # Broaden-and-Build Theory

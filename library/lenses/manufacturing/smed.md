@@ -9,7 +9,7 @@ best_for:
   - Diagnosing where setup time is hidden in changeover operations
   - Separating internal setup (must stop production) from external setup (can happen while running)
   - Identifying quick wins in changeover reduction
-one_liner: "내부 준비를 외부로 전환하여 금형 교환 시간을 분 단위로 줄이는 방법론"
+one_liner: "Single-Minute Exchange of Die — convert internal setup to external setup to cut changeover time to minutes."
 ---
 
 # SMED (Single-Minute Exchange of Die)

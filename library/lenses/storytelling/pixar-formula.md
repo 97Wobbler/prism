@@ -9,7 +9,7 @@ best_for:
   - Diagnosing narrative momentum loss in screenplays and scripts
   - Testing whether a story premise has genuine conflict and stakes
   - Identifying underexplored consequences in plot sequences
-one_liner: "한 번에 한 사건, 그 때문에 다음 일이 일어나고, 또 다시 그 때문에... 인과 체인이 깨지면 이야기가 죽는다"
+one_liner: "One event at a time, 'because of that' next, and again — when the causal chain breaks, the story dies."
 ---
 
 # Pixar Formula

@@ -9,7 +9,7 @@ best_for:
   - Finding the profit-maximizing or cost-minimizing quantity in production, pricing, or resource allocation
   - Identifying whether a decision is efficient at the margin
   - Debugging overspending or underinvestment in a specific activity
-one_liner: "한계수익이 한계비용과 같을 때의 최적점을 찾아 의사결정 검증"
+one_liner: "Find the optimum where marginal revenue equals marginal cost."
 ---
 
 # Marginal Analysis (MR=MC)

@@ -8,7 +8,7 @@ source: Martin Seligman, University of Pennsylvania, 2011 ("Flourish")
 best_for:
   - Sorting wellbeing outcomes or interventions by the dimension of human flourishing they primarily address
   - Identifying gaps in a wellbeing strategy or program
-one_liner: "웰빙의 5가지 핵심 요소로 인생 영역 분류"
+one_liner: "Classify domains of life via the five pillars of wellbeing — PERMA."
 ---
 
 # PERMA Model

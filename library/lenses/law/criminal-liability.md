@@ -9,7 +9,7 @@ best_for:
   - Determining whether conduct meets the legal threshold for criminal culpability
   - Identifying gaps or weaknesses in a criminal charge or defense
   - Teaching criminal law doctrine through structured analysis
-one_liner: "행위 + 의도 + 인과관계 + 해악 구성 요건 점검을 통한 범죄 성립 여부 판단"
+one_liner: "Assess criminal liability via actus reus, mens rea, causation, and harm elements."
 ---
 
 # Criminal Liability Assessment

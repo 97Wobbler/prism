@@ -9,7 +9,7 @@ best_for:
   - Sorting a narrative or dramatic arc into structural phases
   - Identifying where tension, stakes, and resolution live in a story
   - Diagnosing pacing and narrative rhythm problems
-one_liner: "내러티브의 구조적 단계를 분류하여 각 단계의 목적과 장력 관리를 구별한다"
+one_liner: "Classify the structural stages of narrative and distinguish the purpose and tension management of each."
 ---
 
 # Freytag's Pyramid

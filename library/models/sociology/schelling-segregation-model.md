@@ -9,7 +9,7 @@ best_for:
   - Predicting emergent segregation patterns from weak individual preferences
   - Explaining how tolerance thresholds at the individual level produce homogeneous neighborhoods
   - Understanding tipping points and path dependence in residential integration
-one_liner: "약한 개별 선호 → 강한 분리 현상"
+one_liner: "Weak individual preferences → strong aggregate segregation."
 ---
 
 # Schelling Segregation Model

@@ -9,7 +9,7 @@ best_for:
   - Diagnosing underperformance in marketing funnel conversions
   - Aligning campaign metrics to business outcomes
   - Identifying which stage of the customer journey is the bottleneck
-one_liner: "마케팅 퍼널의 각 단계(도달/행동/전환/참여)를 진단하여 병목 지점 파악 및 개선 우선순위 결정"
+one_liner: "Diagnose each funnel stage (Reach / Act / Convert / Engage) to find bottlenecks and set improvement priorities."
 ---
 
 # RACE (Smart Insights)

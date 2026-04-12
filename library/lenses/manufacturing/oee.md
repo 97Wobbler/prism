@@ -9,7 +9,7 @@ best_for:
   - Diagnosing the true source of production shortfall (is it availability, speed, or quality?)
   - Prioritizing improvement investments across maintenance, process, and quality initiatives
   - Tracking operational health without conflating different failure modes
-one_liner: "설비 가동률 × 운영 속도 × 양품률로 생산 손실의 근본 원인 파악"
+one_liner: "Overall Equipment Effectiveness = availability × performance × quality — pinpoint the root cause of production loss."
 ---
 
 # Overall Equipment Effectiveness

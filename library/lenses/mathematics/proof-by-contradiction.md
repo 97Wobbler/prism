@@ -9,7 +9,7 @@ best_for:
   - Proving statements when direct construction is intractable
   - Establishing impossibility or necessity results
   - Testing whether a claim is internally consistent
-one_liner: "거짓이라 가정하면 모순이 생김을 보여 명제가 참임을 증명"
+one_liner: "Prove a proposition by assuming its negation and deriving a contradiction."
 ---
 
 # Proof by Contradiction

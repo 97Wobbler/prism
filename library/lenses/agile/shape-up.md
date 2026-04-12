@@ -9,7 +9,7 @@ best_for:
   - Scoping product work within fixed time horizons
   - Distinguishing genuine feature requests from scope creep
   - Aligning stakeholder appetite with development capacity
-one_liner: "고정 기간(6주) 내에서 실질적 배경(appetite)을 먼저 정하고 범위를 결정하는 계획 방식"
+one_liner: "Fixed-time (6-week) planning method that sets appetite first, then shapes scope to fit."
 ---
 
 # Shape Up (Basecamp)

@@ -9,7 +9,7 @@ best_for:
   - Evaluating whether a military or armed conflict meets ethical and legal criteria for legitimate use of force
   - Classifying stages of warfare to determine which conduct rules apply
   - Assessing post-conflict obligations and remedies
-one_liner: "전쟁 행위의 정당성을 개시, 수행, 종료 단계에서 평가하는 윤리-법적 프레임"
+one_liner: "Ethico-legal frame for evaluating the legitimacy of war across initiation, conduct, and termination."
 ---
 
 # Just War Theory

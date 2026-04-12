@@ -9,7 +9,7 @@ best_for:
   - OKR execution and team alignment
   - Performance management rituals
   - Feedback and recognition cadence design
-one_liner: "대화·피드백·인정을 정기적 의식으로 묶어야 목표 추진력이 유지된다"
+one_liner: "Conversations, feedback, and recognition must be bound into a regular ritual to keep goals on track."
 ---
 
 # CFR Ritual Cadence

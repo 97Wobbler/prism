@@ -8,7 +8,7 @@ source: Hans Selye, "A syndrome produced by diverse nocuous agents," Nature, 193
 best_for:
   - Predicting how an athlete's physiological and performance capacity changes across exposure phases to training or competition stress
   - Explaining why repeated or prolonged stressors lead to eventual performance decrement despite initial adaptation
-one_liner: "스트레스 노출 단계에 따른 생리적 적응과 피로 누적의 순환 모델"
+one_liner: "General Adaptation Syndrome — physiological adaptation and fatigue accumulation across stress exposure stages."
 ---
 
 # General Adaptation Syndrome (Selye)

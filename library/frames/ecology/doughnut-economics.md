@@ -8,7 +8,7 @@ source: Kate Raworth, University of Oxford, 2012 ("A Safe and Just Space for Hum
 best_for:
   - Classifying an economic activity, policy, or system state by its position relative to social and ecological boundaries
   - Identifying whether a proposed intervention risks overshooting one boundary while addressing another
-one_liner: "사회적 하한선과 생태적 상한선 사이의 안전한 공간 추구"
+one_liner: "Pursue the safe operating space between social foundations and ecological ceilings."
 ---
 
 # Doughnut Economics

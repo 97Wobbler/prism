@@ -9,7 +9,7 @@ best_for:
   - Measuring training program effectiveness across reaction, learning, behavior, and results
   - Diagnosing where training initiatives fail to translate to business outcomes
   - Designing evaluation strategies proportional to training investment
-one_liner: "훈련 효과를 반응·학습·행동·결과 4단계로 측정하여 ROI와 개선점 도출"
+one_liner: "Measure training effectiveness across reaction, learning, behavior, and results to compute ROI."
 ---
 
 # Kirkpatrick 4 Levels of Training Evaluation

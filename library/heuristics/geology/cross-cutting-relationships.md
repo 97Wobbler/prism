@@ -9,7 +9,7 @@ best_for:
   - relative age dating in stratigraphy
   - contact analysis in field mapping
   - interpreting igneous intrusions and fault displacement
-one_liner: "자르는 것이 더 어리다"
+one_liner: "The cross-cutter is younger than what it cuts."
 ---
 
 # Cross-cutting Relationships

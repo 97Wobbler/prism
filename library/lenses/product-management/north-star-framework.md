@@ -9,7 +9,7 @@ best_for:
   - Aligning cross-functional teams on a single measurable outcome
   - Identifying which input metrics drive the business outcome
   - Avoiding metric sprawl and conflicting optimization targets
-one_liner: "단일 북극성 지표와 기여도 입력 지표로 조직 정렬 달성"
+one_liner: "Align the organization via a single north star metric and its input drivers."
 ---
 
 # North Star Framework

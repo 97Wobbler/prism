@@ -9,7 +9,7 @@ best_for:
   - Predicting how molecular substituents affect reaction rates or equilibria
   - Comparing reactivity trends across structural analogues
   - Screening substituent effects before synthesis
-one_liner: "치환기 σ × ρ 선형 자유에너지 상관관계로 반응성 정량화"
+one_liner: "Quantify reactivity through the substituent σ × ρ linear free-energy relationship."
 ---
 
 # Hammett Equation

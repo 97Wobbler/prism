@@ -9,7 +9,7 @@ best_for:
   - Evaluating competing theories against evidence systematically
   - Avoiding confirmation bias in complex investigations
   - Identifying which hypotheses are truly ruled out by data
-one_liner: "가설 간 증거 일관성 매트릭스로 편향 제거하고 경쟁 이론 평가"
+one_liner: "Analysis of Competing Hypotheses — evidence-consistency matrix that removes bias when evaluating rival theories."
 ---
 
 # Analysis of Competing Hypotheses

@@ -8,7 +8,7 @@ source: Jerome McCarthy, Michigan State University, 1960 ("Basic Marketing"); ex
 best_for:
   - Sorting a go-to-market element into the dimension that constrains its execution strategy
   - Ensuring all levers of a marketing program are accounted for and prioritized correctly
-one_liner: "마케팅 믹스의 각 요소(Product/Price/Place/Promotion, 서비스 맥락에선 People/Process/Physical) 분류로 실행 전략 결정"
+one_liner: "Classify marketing mix elements (Product/Price/Place/Promotion, plus People/Process/Physical in services)."
 ---
 
 # 4P / 7P Marketing Mix

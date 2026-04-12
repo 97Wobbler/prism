@@ -9,7 +9,7 @@ best_for:
   - Predicting in-group bias and favoritism in group contexts
   - Explaining why minimal or trivial group distinctions drive discrimination
   - Understanding how group membership affects self-esteem and identity
-one_liner: "최소한의 집단 구분이라도 내집단 편향을 야기하는 정체성 기제"
+one_liner: "Mechanism by which even minimal group distinctions trigger in-group bias."
 ---
 
 # Social Identity Theory

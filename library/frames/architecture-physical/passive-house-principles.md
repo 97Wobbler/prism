@@ -8,7 +8,7 @@ source: Bo Adamson and Rolf Feist, Thermal Technology Institute / Swedish Univer
 best_for:
   - Classifying building design and envelope performance against Passive House certification criteria
   - Determining which thermal and air-tightness strategies are load-bearing vs. decorative
-one_liner: "기밀성·단열·열회수·정확한 계산으로 난방 거의 불필요한 건물 기준"
+one_liner: "Building standard requiring almost no heating via airtightness, insulation, heat recovery, and rigorous calculation."
 ---
 
 # Passive House Principles

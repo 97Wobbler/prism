@@ -9,7 +9,7 @@ best_for:
   - Identifying allocations where no agent can improve without harming another
   - Diagnosing inefficiency in resource distribution and negotiation outcomes
   - Evaluating whether a proposed change creates or destroys mutual gain
-one_liner: "한 쪽의 개선 없이 다른 쪽이 나아질 수 없는 상태"
+one_liner: "A state where no one can be made better off without making someone worse off."
 ---
 
 # Pareto Optimality

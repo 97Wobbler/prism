@@ -9,7 +9,7 @@ best_for:
   - Autoregulating training load without technology
   - Translating subjective feel into actionable training decisions
   - Bridging the gap between planned intensity and actual capacity on a given day
-one_liner: "주관적 강도 감지로 일일 훈련 용량을 즉시 조정하는 자동조절 프레임워크"
+one_liner: "Autoregulation framework that adjusts daily training volume via perceived exertion / reps in reserve."
 ---
 
 # RPE/RIR (Rate of Perceived Exertion / Reps in Reserve)

@@ -9,7 +9,7 @@ best_for:
   - Predicting ecosystem response to predator removal or reintroduction
   - Diagnosing unexpected community shifts after a single species intervention
   - Tracing indirect effects through food webs
-one_liner: "포식자 제거·복원이 하위 영양단계까지 미치는 연쇄 효과 추적"
+one_liner: "Trace the downstream effects of predator removal or restoration on lower trophic levels."
 ---
 
 # Trophic Cascade Analysis

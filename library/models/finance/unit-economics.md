@@ -9,7 +9,7 @@ best_for:
   - Predicting whether a business can achieve profitability and at what scale
   - Comparing unit economics across products or customer segments
   - Diagnosing whether a unit-level economics problem is rate-of-acquisition or rate-of-retention
-one_liner: "고객 평생가치와 획득비용의 비율로 사업의 수익성 구조를 진단한다"
+one_liner: "Diagnose business profitability via the LTV-to-CAC ratio."
 ---
 
 # Unit Economics (LTV/CAC)

@@ -9,7 +9,7 @@ best_for:
   - Proving statements that hold for all natural numbers
   - Verifying recursive algorithms and data structures
   - Establishing properties of sequences and series
-one_liner: "모든 자연수에 대한 명제를 기저 단계와 귀납 단계로 증명"
+one_liner: "Prove a proposition for all natural numbers via base case and inductive step."
 ---
 
 # Mathematical Induction

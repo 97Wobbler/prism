@@ -8,7 +8,7 @@ source: origin uncertain
 best_for:
   - Sorting an exoplanet discovery by observational method to understand detection sensitivity and bias
   - Choosing which method is best suited to find planets in a given orbital or stellar regime
-one_liner: "외계행성 탐지 방법에 따른 민감도, 바이어스, 행성 특성 관점 분류"
+one_liner: "Classify exoplanet detection methods by sensitivity, bias, and accessible planetary properties."
 ---
 
 # Exoplanet Detection Methods

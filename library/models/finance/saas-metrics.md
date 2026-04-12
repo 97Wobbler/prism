@@ -9,7 +9,7 @@ best_for:
   - Predicting cash burn trajectory and runway from recurring revenue, churn, and growth
   - Identifying which metric is the binding constraint on unit economics
   - Diagnosing why a SaaS company is capital-inefficient despite strong topline growth
-one_liner: "재발성 수익, 이탈, 순증가가 장기 수익성과 자본효율성을 결정"
+one_liner: "Recurring revenue, churn, and net new growth determine long-run profitability and capital efficiency."
 ---
 
 # SaaS Metrics

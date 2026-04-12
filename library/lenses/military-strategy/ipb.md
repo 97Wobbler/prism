@@ -9,7 +9,7 @@ best_for:
   - Systematic threat assessment before operations
   - Terrain and environmental analysis for tactical planning
   - Adversary capability and intention mapping
-one_liner: "전장 환경과 적 능력을 체계적으로 분석해 작전 계획의 근거 마련"
+one_liner: "Intelligence Preparation of the Battlefield — systematically analyze environment and enemy capability to ground planning."
 ---
 
 # Intelligence Preparation of the Battlefield

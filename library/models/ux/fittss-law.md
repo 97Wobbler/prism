@@ -9,7 +9,7 @@ best_for:
   - Predicting pointing and selection task completion time from target size and distance
   - Evaluating UI layouts for motor efficiency
   - Comparing input modalities (mouse, touchscreen, stylus, eye-gaze)
-one_liner: "목표 크기와 거리로부터 조작 시간을 예측하는 운동 성능 모델"
+one_liner: "Motor performance model predicting movement time from target size and distance."
 ---
 
 # Fitts's Law

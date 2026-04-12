@@ -9,7 +9,7 @@ best_for:
   - Diagnosing slow or rigid decision-making in organizations
   - Accelerating tactical/strategic response cycles
   - Identifying where feedback breaks down in iterative processes
-one_liner: "관찰→정향→결정→행동 사이클을 가속화하여 환경 변화에 빠르게 대응"
+one_liner: "Accelerate the Observe-Orient-Decide-Act cycle to adapt to changing conditions."
 ---
 
 # OODA Loop

@@ -9,7 +9,7 @@ best_for:
   - Designing training microcycles around match demands and team tactical model
   - Aligning player development with real competitive context
   - Breaking training into task-specific blocks keyed to upcoming opponents
-one_liner: "경기 모델 중심 훈련 설계 — 경쟁 상황의 전술적 구조를 훈련 계획에 직접 반영"
+one_liner: "Training design centered on the game model — reflect competition's tactical structure directly in training."
 ---
 
 # Tactical Periodization

@@ -9,7 +9,7 @@ best_for:
   - Predicting critical behavior and phase-transition properties near equilibrium critical points
   - Explaining symmetry breaking and universality in continuous phase transitions
   - Calculating critical exponents and phase diagrams from minimal microscopic information
-one_liner: "대칭 붕괴를 통한 상전이 설명: order parameter의 자유에너지 전개"
+one_liner: "Explain phase transitions through symmetry breaking and free-energy expansion in the order parameter."
 ---
 
 # Landau Theory of Phase Transitions

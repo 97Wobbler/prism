@@ -9,7 +9,7 @@ best_for:
   - Communicating system architecture to stakeholders at multiple abstraction levels
   - Identifying scope creep and boundary misalignment in microservice designs
   - Forcing discipline into vague "architecture diagrams"
-one_liner: "시스템 아키텍처를 4단계(Context/Container/Component/Code) 그림으로 정확히 표현하기"
+one_liner: "Describe system architecture precisely across four zoom levels — Context, Container, Component, Code."
 ---
 
 # C4 Model

@@ -9,7 +9,7 @@ best_for:
   - Diagnosing communication breakdowns and systemic problems
   - Mapping intervention points in conflict or performance gaps
   - Structuring feedback that connects observable symptoms to actionable outcomes
-one_liner: "증상/원인/결과/자원/효과를 체계적으로 매핑하여 문제의 근본 구조 파악"
+one_liner: "Systematically map Symptom / Cause / Outcome / Resource / Effect to understand the root structure of a problem."
 ---
 
 # SCORE Model

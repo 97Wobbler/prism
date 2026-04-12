@@ -9,7 +9,7 @@ best_for:
   - valuation and buy/sell decisions
   - risk management in equity analysis
   - portfolio construction
-one_liner: "내재가치 대비 충분한 할인 없으면 매수 금지"
+one_liner: "Do not buy without sufficient discount to intrinsic value."
 ---
 
 # Margin of Safety

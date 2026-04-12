@@ -9,7 +9,7 @@ best_for:
   - Sorting a narrative into its functional phases
   - Diagnosing structural imbalance in a story
   - Identifying which act needs development or repair
-one_liner: "이야기를 설정/대립/해결의 세 막으로 분류하여 구조적 강점과 약점을 판단"
+one_liner: "Classify a story into Setup / Confrontation / Resolution to judge structural strengths and weaknesses."
 ---
 
 # Three-Act Structure

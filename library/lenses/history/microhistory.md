@@ -9,7 +9,7 @@ best_for:
   - Reconstructing hidden structures of meaning from peripheral or anomalous evidence
   - Understanding how individual cases reveal systemic patterns
   - Detecting what was unspoken or taken-for-granted in a historical moment
-one_liner: "소수 사례의 미시적 탐구를 통해 거시 구조와 문화 체계 복원하기"
+one_liner: "Reconstruct macro structures and cultural systems through micro-level case studies."
 ---
 
 # Microhistory (Ginzburg)

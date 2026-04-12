@@ -9,7 +9,7 @@ best_for:
   - Predicting persistence or extinction of species in fragmented habitats
   - Understanding how patch connectivity and extinction rates interact to determine regional survival
   - Evaluating conservation strategies that trade off habitat area against patch isolation
-one_liner: "서식지 단편화 환경에서 개별군집의 멸종과 재정착의 동적 균형이 종 전체의 지속성을 결정하는 모델"
+one_liner: "In fragmented habitat, the balance of local extinction and recolonization drives persistence of the whole species."
 ---
 
 # Metapopulation Dynamics (Levins)

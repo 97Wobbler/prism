@@ -9,7 +9,7 @@ best_for:
   - Systematically generating solution variants when the design space feels constrained
   - Identifying overlooked combinations in complex multi-variable problems
   - Breaking out of incremental thinking by forcing exploration of all quadrants
-one_liner: "차원과 값의 조합 그리드로 모든 가능성을 체계적으로 탐색하기"
+one_liner: "Systematically explore the full combinatorial space across dimensions and values."
 ---
 
 # Morphological Analysis (Zwicky)

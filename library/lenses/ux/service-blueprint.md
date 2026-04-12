@@ -9,7 +9,7 @@ best_for:
   - Mapping all actors and touchpoints in a service delivery system
   - Identifying failure points where customer and operational realities diverge
   - Aligning front-stage (visible) and back-stage (hidden) operations
-one_liner: "고객/직원/지원부서/백오피스 4계층 서비스 생태계 매핑"
+one_liner: "Map the service ecosystem across four layers — customer, front-stage, back-stage, support."
 ---
 
 # Service Blueprint

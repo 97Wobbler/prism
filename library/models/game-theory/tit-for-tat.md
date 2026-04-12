@@ -9,7 +9,7 @@ best_for:
   - Predicting outcomes in repeated games where trust and reciprocity shape strategy
   - Explaining when simple strategies outperform complex ones in evolving populations
   - Modeling cooperation emergence in conditions of mutual self-interest
-one_liner: "처음 협력, 이후 상대 행동 모방 — 반복 게임에서 최소 비용 협력"
+one_liner: "Cooperate first, then mimic the opponent — minimal-cost cooperation in repeated games."
 ---
 
 # Tit-for-Tat (Axelrod)

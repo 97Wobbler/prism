@@ -9,7 +9,7 @@ best_for:
   - Evaluating whether a government deprivation requires procedural due process protections
   - Designing administrative procedures that meet constitutional standards
   - Challenging or defending the adequacy of notice and hearing procedures
-one_liner: "정부 박탈에 요구되는 절차적 정당한 절차 보호의 범위를 결정하는 세 요소 균형 테스트"
+one_liner: "Three-factor balancing test for procedural due process when the government deprives a protected interest."
 ---
 
 # Mathews v. Eldridge Balancing Test

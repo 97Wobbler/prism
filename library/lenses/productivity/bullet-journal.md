@@ -9,7 +9,7 @@ best_for:
   - Capturing fleeting tasks and notes without friction
   - Identifying work patterns through migration discipline
   - Reducing cognitive load by externalizing all commitments
-one_liner: "신속한 로깅과 주기적 검토로 의도적 우선순위 관리"
+one_liner: "Rapid logging plus periodic review for intentional priority management."
 ---
 
 # Bullet Journal

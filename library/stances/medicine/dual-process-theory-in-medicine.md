@@ -9,7 +9,7 @@ best_for:
   - Analyzing diagnostic reasoning and error patterns in clinical decision-making
   - Reading clinical cases to see which cognitive mode dominates and where the shift between them fails
   - Understanding when intuition (System 1) serves patients and when it obscures
-one_liner: "직관과 분석의 이중 인지 체계 — 임상 오류의 원인을 추적"
+one_liner: "Dual cognitive system of intuition and analysis — traces the source of clinical error."
 ---
 
 # Dual Process Theory in Medicine

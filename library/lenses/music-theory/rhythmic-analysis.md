@@ -9,7 +9,7 @@ best_for:
   - Identifying tension between notated meter and perceived grouping
   - Analyzing syncopation and rhythmic displacement in compositions
   - Evaluating whether a passage's metrical stress aligns with its structural phrasing
-one_liner: "악보 박자와 음악적 그룹화 사이의 긴장 관계를 매핑하고 리듬 영역 분석"
+one_liner: "Map tension between score meter and musical grouping and analyze rhythmic regions."
 ---
 
 # Rhythmic Analysis

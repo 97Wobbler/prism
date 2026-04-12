@@ -9,7 +9,7 @@ best_for:
   - Finding failure modes and unexpected behaviors in LLM outputs
   - Discovering jailbreaks and prompt injections
   - Assessing robustness before deployment
-one_liner: "LLM의 취약점을 체계적으로 탐색하고 실패 지점을 발견하는 적대적 프로빙"
+one_liner: "Adversarial probing that systematically surfaces LLM vulnerabilities and failure modes."
 ---
 
 # Red-Teaming LLMs

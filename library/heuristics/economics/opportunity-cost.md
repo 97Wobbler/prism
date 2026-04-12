@@ -9,7 +9,7 @@ best_for:
   - resource allocation decisions
   - trade-off evaluation
   - investment justification
-one_liner: "선택한 대안의 가치는 포기한 최선의 대안으로 측정된다"
+one_liner: "The value of a choice is measured by the next-best alternative foregone."
 ---
 
 # Opportunity Cost

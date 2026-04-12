@@ -9,7 +9,7 @@ best_for:
   - Decomposing a top-level business goal into measurable, cascading key performance indicators
   - Identifying which metrics actually move the needle versus vanity metrics
   - Clarifying ownership and dependencies between teams through metric alignment
-one_liner: "최상위 목표를 측정 가능한 KPI 계층으로 분해하여 팀 간 정렬 확보"
+one_liner: "Decompose the top-level goal into a measurable KPI hierarchy to secure cross-team alignment."
 ---
 
 # KPI Tree

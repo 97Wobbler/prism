@@ -9,7 +9,7 @@ best_for:
   - breaking idea fixation
   - escaping local optima in design
   - generating unexpected solution angles
-one_liner: "관련 없는 입력을 문제에 강제로 도입하여 사고의 고착을 타파하라"
+one_liner: "Force an unrelated input into the problem to break cognitive fixation."
 ---
 
 # Random Stimulus

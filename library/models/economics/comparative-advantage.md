@@ -9,7 +9,7 @@ best_for:
   - Predicting which goods or services a country/region will specialize in and export
   - Explaining why trade is mutually beneficial even when one party is more productive in all goods
   - Identifying the conditions under which trade patterns will shift
-one_liner: "상대적 기회비용에 따른 무역 특화 모델"
+one_liner: "Trade specialization model based on relative opportunity cost."
 ---
 
 # Comparative Advantage (Ricardo)

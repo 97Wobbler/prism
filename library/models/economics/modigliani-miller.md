@@ -6,7 +6,7 @@ underlying_class: native
 domain: economics
 source: Franco Modigliani & Merton H. Miller, "The Cost of Capital, Corporation Finance and the Theory of Investment," American Economic Review, 1958; extended Miller & Modigliani 1961, 1963
 best_for: Predicting firm value and cost of capital under different capital structures, and identifying when leverage creates or destroys value
-one_liner: "자본 구조는 기업 가치에 영향을 주지 않으며, 기업 현금흐름이 유일한 결정 요소"
+one_liner: "Capital structure does not affect firm value — cash flows are the sole determinant."
 ---
 
 # Modigliani-Miller

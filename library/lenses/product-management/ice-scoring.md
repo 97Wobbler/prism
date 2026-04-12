@@ -9,7 +9,7 @@ best_for:
   - Prioritizing features, initiatives, or experiments when velocity matters more than perfect prediction
   - Comparing disparate opportunities on a shared numerical scale
   - Making trade-offs between high-impact, high-confidence, but hard items versus easy wins
-one_liner: "영향도 × 신뢰도 × 용이성으로 우선순위 의사결정을 수량화하다"
+one_liner: "Quantify prioritization via Impact × Confidence × Ease."
 ---
 
 # ICE Scoring

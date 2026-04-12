@@ -8,7 +8,7 @@ source: Edwin Salpeter, 1955 ("The Luminosity Function and Stellar Evolution"); 
 best_for:
   - Sorting a stellar population by mass distribution to select appropriate population-synthesis model
   - Choosing weighting scheme for mass-dependent stellar evolution and observables
-one_liner: "별 개수-질량 분포를 분류하여 항성집단 모델링 접근법 결정"
+one_liner: "Classify star count versus mass distribution to pick a stellar-population modeling approach."
 ---
 
 # Initial Mass Function

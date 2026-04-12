@@ -9,7 +9,7 @@ best_for:
   - Diagnosing structural weakness in TV episodes, screenplays, or narrative arcs
   - Identifying where a story loses audience engagement or emotional coherence
   - Debugging why a story feels "off" even when individual scenes work
-one_liner: "8단계 순환 구조로 이야기의 감정적 궤도 추적"
+one_liner: "Eight-stage cyclical structure that tracks a story's emotional arc."
 ---
 
 # Dan Harmon's Story Circle

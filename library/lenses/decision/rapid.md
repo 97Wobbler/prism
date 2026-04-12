@@ -9,7 +9,7 @@ best_for:
   - Clarifying decision authority and unblocking stalled proposals
   - Mapping stakeholder roles in multi-party decisions
   - Preventing decision paralysis when consensus isn't achievable
-one_liner: "의사결정 권한과 역할을 명확히 하여 조직의 결정 속도를 높인다"
+one_liner: "Clarify decision rights and roles to speed up organizational decisions."
 ---
 
 # RAPID Decision Framework

@@ -9,7 +9,7 @@ best_for:
   - Sequencing product work by user journey and delivery priority
   - Identifying gaps and overlaps in feature coverage
   - Communicating scope and release boundaries to stakeholders
-one_liner: "사용자 여정을 우선순위 그리드로 시각화하여 릴리스 계획 수립"
+one_liner: "Visualize user journey on a priority grid to plan releases."
 ---
 
 # Story Mapping

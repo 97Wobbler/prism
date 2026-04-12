@@ -9,7 +9,7 @@ best_for:
   - Explaining trait evolution driven by mating preference rather than survival advantage
   - Predicting which traits persist or exaggerate despite fitness costs
   - Understanding sexual dimorphism and ornamental complexity in animal populations
-one_liner: "짝짓기 선호도에 의한 형질 진화 — 생존 이점과 무관하게 번식 성공을 높이는 특성의 과장"
+one_liner: "Trait evolution driven by mating preferences — exaggeration of features that raise reproductive success regardless of survival value."
 ---
 
 # Sexual Selection

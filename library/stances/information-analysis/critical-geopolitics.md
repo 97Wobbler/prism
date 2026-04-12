@@ -10,7 +10,7 @@ best_for:
   - Exposing how spatial claims naturalize political power
   - Reading maps, borders, and territorial claims as contested representations
   - Understanding how geographical imaginaries serve strategic interests
-one_liner: "지리적 표현과 공간 분할이 권력을 정당화하는 방식 분석"
+one_liner: "Analyze how geographic representation and spatial partition legitimize power."
 ---
 
 # Critical Geopolitics

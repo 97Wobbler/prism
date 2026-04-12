@@ -4,7 +4,7 @@ domain: education
 source: Korean National Curriculum (2015/2022 revisions), Ministry of Education; adapted from content-skill separation analysis used in K-12 curriculum review
 underlying_class: native
 best_for: Verifying that learning content, assessment items, or AI-generated problems are correctly aligned to a specific Korean national curriculum achievement standard
-one_liner: "한국 교육과정 성취기준의 내용 요소와 기능 요소를 분리하여 문항/콘텐츠의 정합성을 검증한다"
+one_liner: "Separate content and skill elements of Korean curriculum standards to verify item/content alignment."
 ---
 
 # Achievement Standard Alignment (성취기준 정합성)

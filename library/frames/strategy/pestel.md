@@ -8,7 +8,7 @@ source: origin uncertain; popularized in strategic planning literature, 1970s–
 best_for:
   - Auditing macro-environmental factors before strategic decisions
   - Sorting external pressures by category to avoid conflating unrelated forces
-one_liner: "전략적 외부 환경을 6가지 거시 요인별로 분류하여 영향도 분석"
+one_liner: "Classify strategic macro environment across Political, Economic, Social, Technological, Environmental, Legal factors."
 ---
 
 # PESTEL Framework

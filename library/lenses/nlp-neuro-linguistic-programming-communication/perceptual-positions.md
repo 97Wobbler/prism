@@ -9,7 +9,7 @@ best_for:
   - Resolving interpersonal conflict by shifting perspective systematically
   - Diagnosing communication breakdowns by modeling each participant's viewpoint
   - Stress-testing decisions by examining them from multiple psychological positions
-one_liner: "1인칭/2인칭/3인칭 관점 전환으로 갈등 구조 해석"
+one_liner: "Shift between 1st, 2nd, and 3rd-person perspectives to re-read a conflict structure."
 ---
 
 # Perceptual Positions

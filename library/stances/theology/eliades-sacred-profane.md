@@ -9,7 +9,7 @@ best_for:
   - Reading religious narratives, rituals, and symbols to recover their own logic rather than reducing them to social function
   - Analyzing how sacred space and time are constituted through hierophany (manifestation of the sacred)
   - Understanding religious meaning on its own terms, not as ideology or social cement
-one_liner: "종교의 신성함을 그 자체 논리로 읽기—사회 기능이나 심리로 환원하지 않기"
+one_liner: "Read religion's sacred on its own terms — no reduction to social function or psychology."
 ---
 
 # Eliade's Sacred/Profane

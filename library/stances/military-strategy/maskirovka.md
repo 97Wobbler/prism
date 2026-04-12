@@ -9,7 +9,7 @@ best_for:
   - Reading military operations to expose deception infrastructure, not just kinetic outcomes
   - Understanding how false signals, denied information, and layered decoys shape adversary decision-making
   - Analyzing conflict where the cognitive target is as important as the physical one
-one_liner: "거짓 신호와 정보 부인을 통해 적의 의사결정을 지배하는 군사 교리"
+one_liner: "Soviet military doctrine of deception and information denial to dominate enemy decision-making."
 ---
 
 # Maskirovka

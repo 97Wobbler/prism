@@ -9,7 +9,7 @@ best_for:
   - Explaining long-term climate oscillations on 10,000–100,000+ year timescales
   - Predicting ice-age and interglacial timing from orbital mechanics
   - Understanding climate forcing that is independent of greenhouse gases or solar output
-one_liner: "궤도 이심률·세차·경사 변화가 지구 일사 분포를 변화시켜 빙기-간빙기 순환 생성"
+one_liner: "Orbital eccentricity, precession, and obliquity shift solar insolation and drive glacial-interglacial cycles."
 ---
 
 # Milankovitch Cycles

@@ -10,7 +10,7 @@ best_for:
   - refactoring decisions
   - interface simplification
   - feature removal justification
-one_liner: "기능이 형태의 기원이다 — 형태가 기능을 선행하지 않는다"
+one_liner: "Function is the origin of form — form does not precede function."
 ---
 
 # Form Follows Function

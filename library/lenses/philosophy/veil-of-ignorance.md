@@ -9,7 +9,7 @@ best_for:
   - Testing fairness of policies, institutions, or distributions when stakeholders have conflicting interests
   - Surfacing hidden power asymmetries in rule design
   - Designing systems where designers cannot guarantee their own position
-one_liner: "이해관계자 입장을 모르는 상태에서 규칙 설계의 공정성 검증"
+one_liner: "Test rule fairness by designing without knowing your own stakeholder position."
 ---
 
 # Veil of Ignorance

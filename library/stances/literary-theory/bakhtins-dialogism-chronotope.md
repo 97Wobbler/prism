@@ -9,7 +9,7 @@ best_for:
   - Reading texts to expose competing voices and worldviews rather than authorial intention
   - Tracing how discourse absorbs history and social position through language itself
   - Analyzing temporal-spatial structures that reveal ideological stakes in narrative
-one_liner: "여러 목소리의 대화와 시간-공간이 담아낸 이념적 투쟁"
+one_liner: "Bakhtinian dialogism — the ideological struggle captured in multi-voiced dialogue and chronotope."
 ---
 
 # Bakhtin's Dialogism and Chronotope

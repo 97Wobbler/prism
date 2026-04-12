@@ -9,7 +9,7 @@ best_for:
   - Sorting a portfolio or set of initiatives by their time horizon and strategic intent
   - Allocating investment and attention across horizon-specific playbooks
   - Detecting portfolio imbalance (over-weighted to one horizon)
-one_liner: "H1/H2/H3 투자 배분에 따른 포트폴리오 시간지평 분류"
+one_liner: "Portfolio time-horizon classification across H1 / H2 / H3 investment allocation."
 ---
 
 # Three Horizons Framework

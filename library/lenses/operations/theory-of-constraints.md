@@ -9,7 +9,7 @@ best_for:
   - Identifying the real bottleneck in a system (not the loudest complaint)
   - Unlocking throughput without proportional cost increase
   - Breaking deadlock in multi-constraint environments
-one_liner: "병목 식별 → 최대 활용 → 하위 시스템 종속 → 제약 상향조정"
+one_liner: "Identify the bottleneck, exploit it, subordinate the rest, and elevate the constraint."
 ---
 
 # Theory of Constraints

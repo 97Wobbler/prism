@@ -9,7 +9,7 @@ best_for:
   - Predicting persistence and range shifts of species across fragmented habitat
   - Explaining why some populations collapse despite apparent refuge habitat
   - Designing reserve networks and connectivity corridors
-one_liner: "서식지 간 개체군 이동에 따른 지역적 개체군 동태 및 멸종 위험"
+one_liner: "Regional population dynamics and extinction risk driven by movement between source and sink habitats."
 ---
 
 # Source-Sink Dynamics

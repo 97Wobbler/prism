@@ -9,7 +9,7 @@ best_for:
   - Quantifying aggregate resource consumption and waste absorption demands relative to biocapacity
   - Comparing sustainability across regions, nations, and individual consumption patterns
   - Identifying whether a population lives within or beyond regenerative limits
-one_liner: "생태 수용력 대비 소비 수준을 전 지구 헥타르로 측정"
+one_liner: "Measure consumption against biocapacity in global hectares."
 ---
 
 # Ecological Footprint

@@ -9,7 +9,7 @@ best_for:
   - Classifying a cybersecurity capability or control maturity level
   - Sorting organizational security posture across functions
   - Mapping readiness to implement or scale security practices
-one_liner: "조직의 보안 기능을 식별/보호/탐지/대응/복구 단계별 성숙도로 분류"
+one_liner: "Classify organizational security functions by maturity across Identify, Protect, Detect, Respond, Recover."
 ---
 
 # NIST Cybersecurity Framework

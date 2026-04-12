@@ -9,7 +9,7 @@ best_for:
   - process design and error prevention
   - quality assurance in manufacturing and operations
   - system hardening against human error
-one_liner: "실수를 구조적으로 불가능하게 만들어라"
+one_liner: "Make mistakes structurally impossible."
 ---
 
 # Poka-yoke

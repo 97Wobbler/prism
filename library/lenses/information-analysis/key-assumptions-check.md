@@ -9,7 +9,7 @@ best_for:
   - Surfacing unstated beliefs before committing to a decision
   - Identifying which assumptions, if wrong, would change the outcome
   - Separating defensible premises from inherited folklore
-one_liner: "명시되지 않은 가정을 열거하고 검증 가능성을 표시하라"
+one_liner: "Enumerate unstated assumptions and flag each for testability."
 ---
 
 # Key Assumptions Check

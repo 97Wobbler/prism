@@ -9,7 +9,7 @@ best_for:
   - Classifying the developmental trajectory of an ecosystem after disturbance
   - Distinguishing which ecological mechanisms are acting in ecosystem recovery
   - Predicting long-term change versus short-term oscillation in plant communities
-one_liner: "교란 후 생태계 재개발의 단계와 기작 분류"
+one_liner: "Classify the stages and mechanisms of ecological redevelopment following disturbance."
 ---
 
 # Succession

@@ -9,7 +9,7 @@ best_for:
   - Predicting attitude change following forced compliance or behavioral commitment
   - Explaining why people rationalize decisions that contradict prior attitudes
   - Identifying conditions under which cognitive conflict drives internal change vs. external excuse-making
-one_liner: "인지 부조화 해소로 태도 변화 유도하는 동기"
+one_liner: "Attitude change motivated by the drive to resolve cognitive dissonance."
 ---
 
 # Cognitive Dissonance

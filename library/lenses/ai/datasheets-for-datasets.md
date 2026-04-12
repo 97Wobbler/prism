@@ -9,7 +9,7 @@ best_for:
   - Documenting dataset provenance, composition, and limitations before use
   - Identifying potential harms and biases embedded in training data
   - Enabling reproducibility and informed consent in ML projects
-one_liner: "데이터셋의 출처, 구성, 제약을 체계적으로 기록하여 위험과 편향을 사전 파악"
+one_liner: "Systematic dataset documentation (provenance, composition, constraints) to surface risk and bias early."
 ---
 
 # Datasheets for Datasets

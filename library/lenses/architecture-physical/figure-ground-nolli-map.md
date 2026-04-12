@@ -9,7 +9,7 @@ best_for:
   - Revealing hidden spatial relationships in urban layouts
   - Identifying underutilized or ambiguous voids in built environments
   - Reframing architectural critique by inverting foreground and background
-one_liner: "건물-공간 역전으로 도시 구조의 숨겨진 질서 노출"
+one_liner: "Reveal hidden urban order by inverting building and void in a Nolli-style map."
 ---
 
 # Figure-Ground / Nolli Map

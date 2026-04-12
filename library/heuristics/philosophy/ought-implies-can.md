@@ -9,7 +9,7 @@ best_for:
   - evaluating moral or practical demands on agents or systems
   - detecting impossible mandates disguised as obligations
   - sanity-checking requirement specifications against capability
-one_liner: "의무는 능력을 전제한다"
+one_liner: "Obligation presupposes ability."
 ---
 
 # Ought Implies Can

@@ -8,7 +8,7 @@ source: Walther, 1894 (Law of Facies); modern sedimentology practice
 best_for:
   - Interpreting ancient depositional environments from stratigraphic sequences
   - Reconstructing paleoenvironmental conditions from lithofacies assemblages
-one_liner: "퇴적 환경 재구성을 위해 암석 특성과 공간-시간 패턴을 분석하는 방법론"
+one_liner: "Reconstruct depositional environments from rock properties and spatiotemporal patterns."
 ---
 
 # Facies Analysis

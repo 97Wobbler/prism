@@ -9,7 +9,7 @@ best_for:
   - Systematic problem-solving when you're stuck or unsure where to start
   - Structuring solutions to novel or unfamiliar problem types
   - Teaching problem-solving discipline to others
-one_liner: "문제 이해 → 계획 수립 → 실행 → 검증의 4단계 반복 문제해결"
+one_liner: "Four-phase iterative problem solving — understand, plan, execute, verify."
 ---
 
 # Polya's How to Solve It

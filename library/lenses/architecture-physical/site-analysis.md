@@ -9,7 +9,7 @@ best_for:
   - Understanding how a location's physical and environmental context constrains design
   - Grounding design proposals in observable site conditions rather than assumptions
   - Identifying latent opportunities and constraints before programming
-one_liner: "부지의 맥락·기후·동선·조망을 체계적으로 조사하여 설계의 기초를 세우는 절차"
+one_liner: "Systematic survey of context, climate, circulation, and views to ground a design decision."
 ---
 
 # Site Analysis

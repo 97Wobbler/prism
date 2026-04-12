@@ -9,7 +9,7 @@ best_for:
   - Extracting signal from long-form content without losing context
   - Training attention and pattern recognition through layered refinement
   - Creating reusable knowledge assets from raw captures
-one_liner: "원문 → 굵게 → 하이라이트 → 요약 → 표현으로 단계적 응축"
+one_liner: "Progressively compress source → bold → highlight → summary → expression."
 ---
 
 # Progressive Summarization

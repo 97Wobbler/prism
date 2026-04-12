@@ -9,7 +9,7 @@ best_for:
   - Diagnosing failure modes in stabilization operations
   - Sequencing population security, governance, and economic development
   - Assessing whether a counterinsurgency campaign is attempting phases in the right order
-one_liner: "반란군 제거 후 점진적 안정화를 위한 3단계(Clear/Hold/Build) 순서화"
+one_liner: "Counterinsurgency's sequential three-step stabilization — Clear, Hold, Build."
 ---
 
 # COIN Doctrine

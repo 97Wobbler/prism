@@ -9,7 +9,7 @@ best_for:
   - Identifying the functional role of a cut in relation to narrative and visual rhythm
   - Diagnosing editing mistakes by understanding what each cut type is designed to accomplish
   - Building coherence across a sequence by matching cut types to dramatic intent
-one_liner: "컷 유형과 그 기능을 분석하여 편집의 의도와 효과를 진단한다"
+one_liner: "Diagnose editorial intent and effect by classifying cut types and their functions."
 ---
 
 # Editing Analysis

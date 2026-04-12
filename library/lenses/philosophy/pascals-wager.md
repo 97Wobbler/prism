@@ -8,7 +8,7 @@ source: Blaise Pascal (Pensées, 1669)
 best_for:
   - Evaluating decisions under radical uncertainty with asymmetric payoffs
   - Testing whether a choice is rational even if its probability is unknown
-one_liner: "불확실성 속에서 기댓값이 극단적으로 비대칭할 때의 의사결정 프레임"
+one_liner: "Decision framing for asymmetrical expected value under deep uncertainty."
 ---
 
 # Pascal's Wager

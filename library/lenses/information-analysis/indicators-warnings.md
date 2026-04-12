@@ -9,7 +9,7 @@ best_for:
   - Detecting early signs of a developing situation before it becomes acute
   - Building a shared baseline for what to monitor and when to escalate
   - Reducing surprise and false alarms through systematic precursor definition
-one_liner: "상황 변화의 선행 신호를 사전에 정의하고 추적하여 조기 경보 체계 구축"
+one_liner: "Pre-define leading signals of situational change and track them for early warning."
 ---
 
 # Indicators & Warnings

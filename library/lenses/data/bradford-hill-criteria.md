@@ -9,7 +9,7 @@ best_for:
   - Evaluating whether an observed association is causal or confounded
   - Pressure-testing causal claims in observational data
   - Structuring disagreement about causation between domain experts
-one_liner: "관찰 데이터에서 인과 추론의 신뢰성을 9가지 기준으로 평가하는 체크리스트"
+one_liner: "Nine-point checklist for assessing causal inference reliability from observational data."
 ---
 
 # Bradford Hill Criteria

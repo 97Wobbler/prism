@@ -9,7 +9,7 @@ best_for:
   - Building a retrievable personal knowledge archive
   - Capturing excerpts without losing them to later forgetting
   - Organizing ideas by concept rather than source
-one_liner: "인덱싱된 발췌문 모음으로 개인 지식을 체계적으로 축적하기"
+one_liner: "Accumulate personal knowledge systematically through an indexed collection of excerpts."
 ---
 
 # Commonplace Book (Locke)

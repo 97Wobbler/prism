@@ -9,7 +9,7 @@ best_for:
   - molecular formula to structure inference
   - double bond and ring counting
   - structural constraint identification
-one_liner: "분자식으로부터 불포화도를 계산하여 구조 가능성의 범위를 빠르게 제한한다"
+one_liner: "Compute degree of unsaturation from the molecular formula to quickly bound structural possibilities."
 ---
 
 # Degree of Unsaturation

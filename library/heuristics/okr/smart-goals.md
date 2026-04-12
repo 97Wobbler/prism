@@ -9,7 +9,7 @@ best_for:
   - Goal specification and vetting
   - OKR and planning reviews
   - Preventing vague commitments
-one_liner: "목표는 구체적, 측정 가능, 달성 가능, 관련성 있고, 시간 제약이 있어야 한다"
+one_liner: "Goals must be Specific, Measurable, Achievable, Relevant, and Time-bound."
 ---
 
 # SMART Goals

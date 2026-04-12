@@ -9,7 +9,7 @@ best_for:
   - cloud-native application design
   - deployment and operations planning
   - codebases migrating to managed platforms
-one_liner: "배포와 스케일링을 염두에 둔 구조적 규율 — 설정 분리, 의존성 명시, 상태 비저장"
+one_liner: "Structural discipline for deployable, scalable apps — separate config, explicit dependencies, stateless processes."
 ---
 
 # 12-Factor App Principle

@@ -9,7 +9,7 @@ best_for:
   - Validating product-market fit by stress-testing alignment between customer needs and solution offerings
   - Identifying gaps between what customers actually need and what you're building
   - Designing or pivoting a value proposition with evidence rather than intuition
-one_liner: "고객의 직무/고통/이득과 제품의 기능/해결책/창출물을 명시적으로 맞춘다"
+one_liner: "Explicitly match customer jobs/pains/gains to product features/pain-relievers/gain-creators."
 ---
 
 # Value Proposition Canvas

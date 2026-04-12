@@ -9,7 +9,7 @@ best_for:
   - Analyzing hierarchical structure in tonal compositions
   - Identifying listener perception points in melody and harmony
   - Testing whether a passage exhibits well-formedness in tonal syntax
-one_liner: "성조 음악의 4층 위계 구조 분석 및 청취자 인식 모델링"
+one_liner: "Generative Theory of Tonal Music — four-layer hierarchical analysis and listener cognition model."
 ---
 
 # Generative Theory of Tonal Music (GTTM)

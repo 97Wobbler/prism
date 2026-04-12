@@ -9,7 +9,7 @@ best_for:
   - Classifying health and disability states along functioning dimensions
   - Structuring clinical assessment and rehabilitation planning
   - Understanding interaction between body, activity, and environment
-one_liner: "신체기능/활동/참여 × 환경요인의 다차원 상호작용을 분류하는 국제표준"
+one_liner: "International standard that classifies the multidimensional interaction of body function / activity / participation × environmental factors."
 ---
 
 # ICF (International Classification of Functioning, Disability and Health)

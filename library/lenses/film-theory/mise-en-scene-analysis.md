@@ -9,7 +9,7 @@ best_for:
   - Reading intentional spatial and compositional choices in a film frame
   - Identifying how production design, blocking, and camera placement construct meaning
   - Distinguishing between what is shown and what is meant
-one_liner: "프레임 내 모든 요소의 의도적 배치를 읽어 이미지의 의미를 해석하기"
+one_liner: "Read meaning by interpreting every deliberately placed element within the frame."
 ---
 
 # Mise-en-scène Analysis

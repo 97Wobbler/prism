@@ -9,7 +9,7 @@ best_for:
   - Sorting moral dilemmas by the distinction between action and omission
   - Distinguishing deontological from consequentialist reasoning under pressure
   - Testing whether an agent privileges duty or outcomes
-one_liner: "행동과 부작위의 도덕적 지위를 구분하는 의무론 vs 결과주의 압력 테스트"
+one_liner: "Stress test of deontology versus consequentialism via the moral status of acts and omissions."
 ---
 
 # Trolley Problem

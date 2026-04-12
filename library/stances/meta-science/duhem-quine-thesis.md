@@ -9,7 +9,7 @@ best_for:
   - Reading scientific disputes to see how theory, auxiliary hypothesis, and data are entangled
   - Examining why experiments fail to falsify in the way textbooks claim
   - Understanding how competing interpretations of the same empirical result persist
-one_liner: "이론 전체가 한 번에 시험되므로 어떤 관찰도 직접 이론을 거부할 수 없다"
+one_liner: "Because entire theories are tested at once, no observation can directly refute a theory."
 ---
 
 # Duhem-Quine Thesis

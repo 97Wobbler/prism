@@ -9,7 +9,7 @@ best_for:
   - Decision analysis under uncertainty
   - Diagnostic reasoning and root-cause investigation
   - Risk assessment and forecasting
-one_liner: "앵커링·가용성·대표성 편향을 인식하고 판단 오류의 주요 경로 세 가지를 먼저 확인하라"
+one_liner: "Recognize anchoring, availability, and representativeness biases — check the three main routes of judgment error first."
 ---
 
 # Cognitive Biases Taxonomy

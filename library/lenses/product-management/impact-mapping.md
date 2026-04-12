@@ -9,7 +9,7 @@ best_for:
   - Aligning delivery roadmap to measurable business outcomes
   - Surfacing hidden dependencies between actors and features
   - Shifting conversations from feature lists to impact hypotheses
-one_liner: "비즈니스 목표→영향받는 사람→행동 변화→구현 기능을 계층적으로 매핑하여 가치 기여도 명확히 함"
+one_liner: "Hierarchically map business goal → actors → behavior change → deliverable to make contribution explicit."
 ---
 
 # Impact Mapping

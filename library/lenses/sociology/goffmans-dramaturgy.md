@@ -9,7 +9,7 @@ best_for:
   - Analyzing asymmetries in how teams or individuals present themselves across contexts
   - Identifying performance gaps between official narrative and backstage reality
   - Understanding power dynamics embedded in information control
-one_liner: "무대 앞뒤 상호작용 분석을 통해 조직 내 역할 연기와 정보 통제의 불균형 발견"
+one_liner: "Analyze front-stage and back-stage interaction to surface role performance and information-control asymmetries inside organizations."
 ---
 
 # Goffman's Dramaturgy

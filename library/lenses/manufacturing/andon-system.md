@@ -9,7 +9,7 @@ best_for:
   - Detecting and escalating production problems before they cascade
   - Building operator accountability and rapid response culture
   - Identifying systemic bottlenecks through anomaly visibility
-one_liner: "생산 중단 신호로 문제를 즉시 노출하고 집단 대응 촉발"
+one_liner: "Stop-the-line signals that surface problems immediately and trigger collective response."
 ---
 
 # Andon System

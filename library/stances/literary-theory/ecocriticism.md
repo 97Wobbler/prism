@@ -9,7 +9,7 @@ best_for:
   - Reading cultural artifacts to expose how they naturalize human dominion over nonhuman life
   - Tracing what remains invisible when humans are treated as the only subjects that matter
   - Identifying how texts participate in ecological destruction or resistance
-one_liner: "비인간 세계의 주체성과 행위성을 되찾는 해석적 입장"
+one_liner: "Interpretive stance that restores the agency and subjectivity of the non-human world."
 ---
 
 # Ecocriticism

@@ -9,7 +9,7 @@ best_for:
   - Analyzing narrative structure and character arc
   - Identifying which stage of a story or personal journey an instance occupies
   - Recognizing archetypal patterns in myth, film, and lived experience
-one_liner: "영웅의 여정 12단계 — 소명부터 귀환까지의 단계별 변환"
+one_liner: "12-stage hero's journey — the stages of transformation from call to return."
 ---
 
 # Hero's Journey (Campbell)

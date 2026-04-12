@@ -9,7 +9,7 @@ best_for:
   - Evaluating scientific theories to see which are degenerating and which are progressive
   - Reading the history of a field to identify when a research programme lost its heuristic power
   - Assessing whether a new method or approach represents genuine progress or defensive maneuvering
-one_liner: "과학이론은 불가침적 핵심과 변형 가능한 보호대로 구성되며, 진행하는 프로그램과 퇴행하는 프로그램을 구별하는 것이 진정한 이성적 판단이다"
+one_liner: "Scientific theories consist of a hard core and a protective belt — distinguishing progressive from degenerating programmes is the real test of rationality."
 ---
 
 # Lakatos's Research Programmes

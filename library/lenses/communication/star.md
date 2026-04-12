@@ -9,7 +9,7 @@ best_for:
   - Structuring behavioral interview responses
   - Communicating past experience with clear narrative arc
   - Demonstrating problem-solving capability to interviewers or audiences
-one_liner: "상황-과제-행동-결과를 통해 경험을 구조화하고 설득력 있게 전달하기"
+one_liner: "Structure experience narratives through Situation / Task / Action / Result for clarity and persuasion."
 ---
 
 # STAR Method

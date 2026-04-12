@@ -9,7 +9,7 @@ best_for:
   - Generating volume of ideas in parallel without groupthink
   - Capturing ideas from introverted participants who speak less in group settings
   - Running brainstorms with distributed teams or time constraints
-one_liner: "침묵 병렬 작성으로 참여 균등화 및 아이디어 수렴 가속"
+one_liner: "Silent parallel ideation that equalizes participation and accelerates convergence."
 ---
 
 # Brainwriting 6-3-5

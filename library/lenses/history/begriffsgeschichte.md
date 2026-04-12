@@ -9,7 +9,7 @@ best_for:
   - Tracing how historical actors understood key concepts and how those understandings shifted
   - Detecting when a concept's meaning changed and what historical pressures caused the shift
   - Exposing anachronism by identifying when modern meanings are read backward into earlier periods
-one_liner: "역사적 행위자의 개념 변화를 추적하여 시대정신과 권력 관계를 해석하는 방법"
+one_liner: "Trace conceptual change among historical actors to read the age's spirit and power relations."
 ---
 
 # Begriffsgeschichte (Koselleck)

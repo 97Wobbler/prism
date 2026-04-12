@@ -113,6 +113,15 @@ existing catalog.
   defects in the generated batch (1 slug mismatch, 11 unquoted colons
   in `source:` fields where book titles contained colons), all fixed
   in commit `db58f78` before the version bump.
+- **v0.2.3 follow-through — library frontmatter sync.** v0.2.3
+  translated the 658 catalog `one_liner` fields to English but left the
+  matching `library/.md` frontmatter `one_liner` fields in Korean,
+  creating a permanent mismatch between the LLM-consumed catalog
+  surface and the human-readable instrument files. v0.3.0 closes this
+  gap by patching all 646 library frontmatters in place (only the
+  `one_liner` field; bodies remain Korean). After the patch, every
+  instrument's frontmatter `one_liner` matches its catalog entry
+  byte-for-byte.
 - **Instrument-count limit acknowledged** — the project's stated
   out-of-scope item ("growing the bundle beyond ~700 instruments")
   is now within ~10 of its ceiling. Future contributions should
@@ -171,6 +180,39 @@ Extensions on top of the v0.3 structure.
   cookbook compositions.
 - Community curation workflow for accepted upstream contributions, including
   review criteria and a lightweight acceptance pipeline.
+
+### Carry-over from v0.3.0 (deferred)
+
+- **ISO 42001 in `applied-ethics`** — explicitly deferred during the
+  v0.3.0 contributor batch. The certification framework's application
+  context is too narrow for general-purpose triage to benefit, but it
+  belongs in the catalog as soon as a concrete use case appears.
+- **`psychoanalysis` domain expansion** — Klein, Winnicott, Bion (object
+  relations and post-Freudian schools) are the natural next stances for
+  this domain, which currently holds Freud / Lacan / Jung. Adding them
+  would also unlock comparison lenses across schools.
+- **`prism_batch.py` hardening** — two recurring failure modes appeared
+  in the v0.3.0 generation run and were fixed by hand: (1) Haiku
+  occasionally writes a frontmatter `name` slug that does not match the
+  spec slug (e.g. `transit-oriented-development` for spec `tod`), so
+  the catalog registers under the long form; (2) Haiku embeds book
+  titles with colons directly into `source:` values, breaking strict
+  YAML parsing (the `_shallow_parse` fallback in `sync_catalog.py`
+  hides this at catalog generation time but the underlying frontmatter
+  is still invalid). The fix is two prompt updates: enforce that the
+  generated frontmatter `name` echo the spec slug verbatim, and require
+  any `source:` value containing a colon to be wrapped in double quotes.
+- **`nist-ai-rmf` cross-class duplication** — v0.3.0 added an
+  `applied-ethics/nist-ai-rmf` lens (Govern/Map/Measure/Manage walk-
+  through procedure) without noticing the catalog already had an
+  `ai/nist-ai-rmf` frame from the original 656. Both files now coexist
+  with the same `name` slug under different `(class, domain)` pairs.
+  Catalog integrity is preserved (`(class, name)` uniqueness still
+  holds), but semantically one of the two is redundant. Decision
+  pending: keep the lens (richer, applied-ethics fits the governance
+  framing better) and remove the frame, OR rename one to disambiguate.
+  The pre-`prism_batch` triage step should grow a "name collision
+  detection across all classes" check to prevent recurrence.
 
 ## Out of scope
 

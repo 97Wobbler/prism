@@ -9,7 +9,7 @@ best_for:
   - Reading institutions and social arrangements to understand what functions they perform and what needs they meet
   - Identifying system-level problems by tracing what happens when institutions fail to integrate or adapt
   - Analyzing how social practices persist and what structural purposes they serve
-one_liner: 사회를 자기조절하는 시스템으로 읽고, 각 제도가 AGIL 기능을 통해 체계를 안정화하는 방식을 추적
+one_liner: "Read society as a self-regulating system, tracing how each institution stabilizes the whole through AGIL functions."
 ---
 
 # Structural Functionalism (Parsons)

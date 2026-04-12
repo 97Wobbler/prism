@@ -9,7 +9,7 @@ best_for:
   - Predicting retention and comprehension when material is encoded verbally, visually, or both
   - Explaining why some instructional formats outperform others in memory tasks
   - Designing multimedia or blended learning interventions
-one_liner: "언어와 시각 정보를 독립적으로 부호화하여 검색 경로를 이중화"
+one_liner: "Encode verbal and visual information independently to double the retrieval pathways."
 ---
 
 # Dual Coding Theory

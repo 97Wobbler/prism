@@ -9,7 +9,7 @@ best_for:
   - Decomposing soundtrack layers to understand emotional and narrative function
   - Identifying gaps between image and sound that create meaning
   - Diagnosing why a scene feels off despite correct dialogue/music
-one_liner: "음성/비음성 사운드를 분류하고 이미지와의 괴리를 추적하여 사운드의 의미작용 파악"
+one_liner: "Classify diegetic versus non-diegetic sound and track divergences between image and audio for meaning."
 ---
 
 # Sound Analysis

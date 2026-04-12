@@ -9,7 +9,7 @@ best_for:
   - Diagnosing performance plateaus rooted in energy depletion rather than time management
   - Designing sustainable work rhythms across physical, emotional, mental, and spiritual dimensions
   - Recovering from burnout by rebalancing energy sources
-one_liner: "신체, 감정, 정신, 영혼의 에너지를 균형있게 관리하여 지속 가능한 고성과 달성"
+one_liner: "Balance physical, emotional, mental, and spiritual energy for sustainable high performance."
 ---
 
 # Energy Management (Schwartz/Loehr)

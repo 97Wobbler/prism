@@ -9,7 +9,7 @@ best_for:
   - design trade-offs under time or resource pressure
   - shipping decisions when perfection blocks progress
   - evaluating competing architectural proposals
-one_liner: "단순하고 배포된 것이 완벽하지만 지연된 것을 이긴다"
+one_liner: "Simple and shipped beats perfect but delayed."
 ---
 
 # Worse is Better

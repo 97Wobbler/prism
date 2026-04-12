@@ -9,7 +9,7 @@ best_for:
   - designing learning interventions
   - evaluating retention strategies
   - scheduling review cycles
-one_liner: "분산된 반복 연습이 집중 반복보다 장기 기억력 형성에 더 효과적"
+one_liner: "Distributed practice beats massed practice for long-term retention."
 ---
 
 # Spaced Repetition

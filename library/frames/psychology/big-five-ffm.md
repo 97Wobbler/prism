@@ -9,7 +9,7 @@ best_for:
   - Classifying personality traits along five stable dimensions
   - Predicting behavioral patterns and interpersonal dynamics
   - Sorting individuals into segments that demand different management or communication approaches
-one_liner: "성격을 5개 차원(개방성, 성실성, 외향성, 친화성, 신경증)으로 분류하여 행동 예측"
+one_liner: "Classify personality along five dimensions — Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism."
 ---
 
 # Big Five / FFM

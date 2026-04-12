@@ -8,7 +8,7 @@ source: U.S. military intelligence community, origin uncertain; widespread use i
 best_for:
   - Decomposing a geopolitical or operational situation into eight independent analytical dimensions
   - Ensuring systematic coverage of all major factors in strategic assessment
-one_liner: "지정학적 상황을 8개 차원으로 분석하는 체계적 분류 틀"
+one_liner: "Eight-dimension framework for systematically classifying a geopolitical situation."
 ---
 
 # PMESII-PT Framework

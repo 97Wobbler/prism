@@ -9,7 +9,7 @@ best_for:
   - Evaluating which resonance structure contributes most to molecular ground state
   - Predicting site reactivity and nucleophile/electrophile character
   - Diagnosing errors in Lewis structure drawing
-one_liner: "공식 전하를 이용한 공명 구조 안정성 판정"
+one_liner: "Judge resonance structure stability via formal charge."
 ---
 
 # Lewis Structures + Formal Charge

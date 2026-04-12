@@ -9,7 +9,7 @@ best_for:
   - Building trust and receptiveness before introducing change or persuasion
   - De-escalating resistance in conversations by meeting the other person where they are
   - Increasing compliance and buy-in by establishing synchrony first
-one_liner: "상대의 현재 상태에 맞춘 후 원하는 방향으로 이끌기"
+one_liner: "Match the other party's current state, then lead them in the desired direction."
 ---
 
 # Rapport Building (Pacing & Leading)

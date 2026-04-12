@@ -13,7 +13,7 @@ best_for:
   - Training program design
   - Load prescription
   - Performance plateau diagnosis
-one_liner: "신체는 부과된 자극에만 적응한다 — 구체적 수요 없이는 변화 없음"
+one_liner: "The body adapts only to specifically imposed demands — no specific demand, no change."
 ---
 
 # SAID Principle

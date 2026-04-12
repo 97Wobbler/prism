@@ -9,7 +9,7 @@ best_for:
   - confirmation logic in empirical inquiry
   - hypothesis testing and evidence interpretation
   - reasoning about negative evidence
-one_liner: "긍정 사례와 음성 사례의 논리적 동등성을 구분하라"
+one_liner: "Distinguish the logical equivalence of positive and negative instances."
 ---
 
 # Hempel's Raven Paradox

@@ -9,7 +9,7 @@ best_for:
   - Identifying the critical vulnerability or dependency in an opponent's system
   - Distinguishing between targets of symbolic vs. operational significance
   - Allocating effort where disruption cascades across multiple nodes
-one_liner: "적 체계의 핵심 약점을 찾아 최소 자원으로 최대 효과 달성하기"
+one_liner: "Find the enemy's critical vulnerability to achieve maximum effect with minimum resources."
 ---
 
 # Center of Gravity Analysis

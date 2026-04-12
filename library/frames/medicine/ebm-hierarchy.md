@@ -9,7 +9,7 @@ best_for:
   - Sorting medical evidence by methodological rigor and susceptibility to bias
   - Deciding which evidence base is sufficient to support a clinical decision
   - Identifying gaps when lower-level evidence dominates a question
-one_liner: "임상근거의 방법론적 강건성을 계층화하는 증거 피라미드"
+one_liner: "Evidence-pyramid that tiers clinical evidence by methodological rigor."
 ---
 
 # EBM Hierarchy

@@ -8,7 +8,7 @@ source: Nam P. Suh, "The Principles of Design," Oxford University Press, 1990; d
 best_for:
   - Diagnosing whether a design is inherently complex or elegant by mapping the functional requirements → design parameters → process variables chain
   - Predicting design cycle time, manufacturability, and robustness by measuring independence and information content
-one_liner: "독립성과 정보량 공리로 설계의 우아함과 제조성을 예측하는 공리적 설계"
+one_liner: "Predict design elegance and manufacturability via the independence and information axioms."
 ---
 
 # Axiomatic Design

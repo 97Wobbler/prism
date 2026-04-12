@@ -9,7 +9,7 @@ best_for:
   - Quantifying vulnerability severity for triage and remediation prioritization
   - Communicating risk in standardized terms across security teams and vendors
   - Comparing vulnerabilities across different systems and contexts
-one_liner: "8가지 기본 지표로 취약점 심각도를 0.0~10.0으로 정량화"
+one_liner: "Quantify vulnerability severity on a 0.0–10.0 scale via eight base metrics."
 ---
 
 # CVSS v3.1

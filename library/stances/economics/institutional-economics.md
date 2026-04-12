@@ -9,7 +9,7 @@ best_for:
   - Reading economic arrangements to see how rules, norms, and enforcement mechanisms shape what transactions are possible
   - Examining why identical "rational choices" produce different outcomes in different institutional contexts
   - Understanding path dependency and why institutions persist even when alternatives exist
-one_liner: "거래비용과 제도 구조가 경제적 결과를 결정하는 규칙 게임"
+one_liner: "Stance that treats transaction costs and institutional structure as the rules of the game driving economic outcomes."
 ---
 
 # Institutional Economics (North)

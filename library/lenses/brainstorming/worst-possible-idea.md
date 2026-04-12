@@ -9,7 +9,7 @@ best_for:
   - Unblocking stuck brainstorms by inverting the problem
   - Extracting quality attributes from constraint avoidance
   - Stress-testing assumptions by exploring failure modes
-one_liner: "역설적으로 최악의 아이디어를 설계한 후 역상으로 돌려 최고의 속성을 추출"
+one_liner: "Design the worst idea on purpose, then invert it to extract the best attributes."
 ---
 
 # Worst Possible Idea

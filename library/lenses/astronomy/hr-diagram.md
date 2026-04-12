@@ -9,7 +9,7 @@ best_for:
   - Classifying stars by their physical properties
   - Identifying stellar evolutionary stages
   - Predicting stellar lifespans and fates
-one_liner: "항성의 광도-온도 관계로 진화 단계와 특성을 분류하는 표준 도구"
+one_liner: "Classify stellar evolution stages and properties via the luminosity-temperature relation."
 ---
 
 # HR Diagram

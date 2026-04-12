@@ -9,7 +9,7 @@ best_for:
   - Classifying interpersonal relational patterns by early attachment experience
   - Understanding how early caregiver relationships shape ongoing social behavior
   - Identifying which attachment style constrains which kinds of relationship outcomes
-one_liner: "초기 양육자와의 관계 경험에 따라 애착 스타일을 분류하고 관계 행동 패턴을 예측하는 틀"
+one_liner: "Classify attachment styles by early caregiver experience and predict relational behavior patterns."
 ---
 
 # Attachment Theory (Bowlby)

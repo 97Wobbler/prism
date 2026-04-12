@@ -9,7 +9,7 @@ best_for:
   - Classifying technology integration in instruction by the depth of pedagogical transformation
   - Distinguishing between tool substitution and genuine instructional redesign
   - Guiding decisions about where to invest professional development effort
-one_liner: "기술 통합이 교육 방식을 얼마나 본질적으로 변화시키는지에 따른 분류"
+one_liner: "Classify how deeply technology integration transforms instructional practice — Substitution / Augmentation / Modification / Redefinition."
 ---
 
 # SAMR Model

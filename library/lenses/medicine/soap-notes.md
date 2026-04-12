@@ -8,7 +8,7 @@ source: Lawrence Weed (Problem-Oriented Medical Record, 1960s); standard in clin
 best_for:
   - Organizing patient encounters into a structured, reproducible format
   - Ensuring clinical decision-making is traceable from observation to plan
-one_liner: "환자 상태를 주관적/객관적/평가/계획으로 체계적으로 기록하여 임상 추론의 연쇄를 투명하게 만든다"
+one_liner: "Structure patient records into Subjective / Objective / Assessment / Plan to make clinical reasoning auditable."
 ---
 
 # SOAP Notes

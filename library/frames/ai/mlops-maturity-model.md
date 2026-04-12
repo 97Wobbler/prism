@@ -9,7 +9,7 @@ best_for:
   - Assessing production ML infrastructure readiness
   - Prioritizing MLOps investment areas
   - Matching response patterns to operational capability
-one_liner: "ML 배포 자동화 및 운영 성숙도에 따른 5단계 분류"
+one_liner: "Five-stage classification of ML deployment automation and operational maturity."
 ---
 
 # MLOps Maturity Model

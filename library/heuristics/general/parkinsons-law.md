@@ -9,7 +9,7 @@ best_for:
   - estimation and deadline setting
   - scope creep diagnosis
   - process bloat review
-one_liner: "일정에 맞춰 업무가 팽창한다 — 제약이 없으면 여유는 소비된다"
+one_liner: "Work expands to fill the time allotted — slack gets consumed without constraints."
 ---
 
 # Parkinson's Law

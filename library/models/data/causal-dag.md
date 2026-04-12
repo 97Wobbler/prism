@@ -9,7 +9,7 @@ best_for:
   - Identifying confounders and causal paths in observational data
   - Distinguishing association from causation using graphical criteria
   - Determining what variables must be controlled for to estimate causal effects
-one_liner: "그래프 구조를 통한 인과 관계 식별 및 교란 변수 진단"
+one_liner: "Causal identification and confounder diagnosis via graph structure."
 ---
 
 # Causal DAG (Pearl)

@@ -9,7 +9,7 @@ best_for:
   - Systematic threat enumeration across attack stages
   - Attack-surface prioritization for defense
   - Communication of threat landscape to non-technical stakeholders
-one_liner: "공격 시나리오를 7단계로 분해하여 위협을 체계적으로 모델링하는 방법"
+one_liner: "Seven-stage threat modeling that decomposes attack scenarios systematically."
 ---
 
 # PASTA Threat Model

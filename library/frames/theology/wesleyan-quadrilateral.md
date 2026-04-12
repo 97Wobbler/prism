@@ -8,7 +8,7 @@ source: John Wesley, Methodist Church, 18th century
 best_for:
   - Classifying theological claims or ethical decisions by their source of authority
   - Identifying which epistemic grounds are weighted in a doctrinal dispute
-one_liner: "신학적 판단에서 성서/전통/이성/경험의 네 가지 권위를 정렬하는 프레임"
+one_liner: "Align theological judgment across Scripture, Tradition, Reason, and Experience."
 ---
 
 # Wesleyan Quadrilateral

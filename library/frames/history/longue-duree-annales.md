@@ -9,7 +9,7 @@ best_for:
   - Sorting a historical phenomenon by its timescale and causal depth
   - Determining which analytical methods and evidence types are appropriate for a given historical question
   - Avoiding anachronism and false causation by matching explanation type to temporal scope
-one_liner: "사건/국면/구조 3층 시간의 역사적 현상 분류"
+one_liner: "Annales-school classification of historical phenomena across event / conjuncture / structure time layers."
 ---
 
 # Longue Durée / Annales

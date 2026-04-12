@@ -9,7 +9,7 @@ best_for:
   - Designing instructional sequences that maximize task performance and retention
   - Evaluating whether a curriculum or training program activates all five core conditions
   - Debugging instruction that teaches concepts but fails to transfer to real tasks
-one_liner: "현실의 과제에서 배운 내용을 실제로 써먹도록 강제하는 다섯 가지 필수 조건 검증"
+one_liner: "Check five essential conditions that force transfer of learning to real-world tasks."
 ---
 
 # Merrill's First Principles of Instruction

@@ -9,7 +9,7 @@ best_for:
   - Valuing a business or asset based on expected cash generation
   - Comparing intrinsic value to market price
   - Stress-testing assumptions about growth, margins, and terminal value
-one_liner: "미래 현금흐름을 현재가치로 할인하여 내재가치를 산출하는 기본 가치평가 방법"
+one_liner: "Core valuation method — discount future cash flows to present value to compute intrinsic value."
 ---
 
 # Discounted Cash Flow Valuation

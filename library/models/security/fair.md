@@ -9,7 +9,7 @@ best_for:
   - Quantifying information risk in monetary terms by decomposing it into frequency, loss magnitude, and control effectiveness
   - Comparing and prioritizing security investments across heterogeneous assets and threat scenarios
   - Communicating risk to non-technical stakeholders using a transparent, auditable factor model
-one_liner: "정보 위험을 빈도 × 손실액 모델로 분해하여 정량적으로 측정하는 프레임워크"
+one_liner: "Factor Analysis of Information Risk — decompose risk into frequency × magnitude for quantitative measurement."
 ---
 
 # FAIR (Factor Analysis of Information Risk)

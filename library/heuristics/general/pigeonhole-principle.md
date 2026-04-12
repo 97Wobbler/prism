@@ -9,7 +9,7 @@ best_for:
   - capacity planning
   - collision analysis
   - scheduling constraints
-one_liner: "n개 항목을 n-1개 상자에 넣으면 반드시 어떤 상자는 2개 이상을 담아야 한다"
+one_liner: "If you put n items into n-1 boxes, at least one box must hold two or more."
 ---
 
 # Pigeonhole Principle

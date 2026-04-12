@@ -9,7 +9,7 @@ best_for:
   - Predicting when cascading collective action (riots, strikes, revolutions, fads) ignites given heterogeneous participation thresholds
   - Explaining why seemingly small changes in conditions can trigger sudden large shifts in aggregate participation
   - Understanding how the distribution of individual thresholds drives macro-level tipping points
-one_liner: "이질적 임계값의 분포에 의해 집단행동 전환점이 결정되는 연쇄 메커니즘"
+one_liner: "Collective-action tipping points driven by the distribution of heterogeneous thresholds."
 ---
 
 # Granovetter Threshold Models

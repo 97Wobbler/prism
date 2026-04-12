@@ -8,7 +8,7 @@ source: Auguste Escoffier, Le Guide Culinaire, 1903
 best_for:
   - Sorting a sauce into its base category to determine thickening method and derivative potential
   - Selecting the correct mother sauce as a starting point for a derivative sauce
-one_liner: "5가지 기본 소스로 모든 파생 소스를 분류하는 틀"
+one_liner: "Five mother sauces from which every derivative sauce is classified."
 ---
 
 # Mother Sauces (Escoffier)

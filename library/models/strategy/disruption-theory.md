@@ -9,7 +9,7 @@ best_for:
   - Predicting when incumbent firms will lose market dominance to entrants via low-end or new-market disruption
   - Explaining why incumbents' rational strategies make them vulnerable to disruptive technologies
   - Identifying which innovations threaten an industry and which do not
-one_liner: "기존 기업의 우월성이 역설적으로 분업적 위협에 취약하게 만드는 메커니즘"
+one_liner: "Mechanism by which incumbent superiority paradoxically creates vulnerability to disruptive threats."
 ---
 
 # Disruption Theory

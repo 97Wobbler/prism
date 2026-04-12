@@ -9,7 +9,7 @@ best_for:
   - Rapid evaluation of interface usability without formal user testing
   - Identifying recurring patterns of poor design across products
   - Training non-specialists to spot usability problems
-one_liner: "인터페이스 유용성을 10가지 휴리스틱으로 체크리스트 평가하기"
+one_liner: "Check interface usability against Nielsen's 10 heuristics."
 ---
 
 # Nielsen's 10 Usability Heuristics

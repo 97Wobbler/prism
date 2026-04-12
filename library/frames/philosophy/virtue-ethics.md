@@ -8,7 +8,7 @@ source: Aristotle, *Nicomachean Ethics*, 4th century BCE
 best_for:
   - Sorting a character disposition or action into a virtue, vice, or state of moral development
   - Determining whether a person has cultivated the stable trait needed to act well
-one_liner: "탁월함(arete)과 실천지(phronesis)를 통한 성격 윤리학"
+one_liner: "Character ethics of excellence (arete) and practical wisdom (phronesis)."
 ---
 
 # Virtue Ethics (Aristotle)

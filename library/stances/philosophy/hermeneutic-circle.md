@@ -9,7 +9,7 @@ best_for:
   - Reading texts, artifacts, and practices where meaning depends on moving between parts and wholes
   - Artifacts where no single local interpretation is stable without reference to larger context
   - Situations where initial understanding must be revised as you deepen engagement
-one_liner: "부분과 전체 사이의 순환적 의존성을 통해 의미를 구성하는 해석 입장"
+one_liner: "Interpretive stance that constructs meaning through the circular dependence of part and whole."
 ---
 
 # Hermeneutic Circle

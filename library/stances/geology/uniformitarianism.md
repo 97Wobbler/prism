@@ -9,7 +9,7 @@ best_for:
   - Reading geological formations and strata to infer deep time processes from present-day mechanisms
   - Evaluating claims about catastrophic versus gradual change
   - Interpreting the relationship between observable processes and the fossil record
-one_liner: "현재의 지질 과정이 과거를 해석하는 열쇠다"
+one_liner: "The present geological process is the key to interpreting the past."
 ---
 
 # Uniformitarianism

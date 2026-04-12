@@ -9,7 +9,7 @@ best_for:
   - Classifying a rock specimen or formation by its origin and transformation history
   - Understanding which geological processes created or modified a rock
   - Predicting how a rock will respond to weathering, pressure, or heat
-one_liner: "암석의 생성과 변성 과정에 따른 분류 — 화성암/퇴적암/변성암의 순환 관계"
+one_liner: "Classify rocks (igneous / sedimentary / metamorphic) through the cyclic relationships of their formation processes."
 ---
 
 # Rock Cycle

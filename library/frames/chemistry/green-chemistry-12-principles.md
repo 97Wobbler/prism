@@ -8,7 +8,7 @@ source: Paul Anastas and John C. Warner, EPA / Yale University, 1998
 best_for:
   - Sorting a chemical synthesis or manufacturing process by alignment with sustainability objectives
   - Classifying reaction design decisions by resource efficiency and hazard profile
-one_liner: "화학 반응을 12가지 지속 가능성 원칙에 대한 준수도로 분류하여 프로세스 개선 우선순위 결정"
+one_liner: "Rate chemical processes against 12 sustainability principles to set improvement priorities."
 ---
 
 # Green Chemistry 12 Principles

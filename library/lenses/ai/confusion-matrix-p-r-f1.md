@@ -9,7 +9,7 @@ best_for:
   - Evaluating binary or multiclass classifiers beyond accuracy
   - Diagnosing class imbalance and type I/II error trade-offs
   - Selecting thresholds when cost of false positives differs from false negatives
-one_liner: "분류 모델의 실제 성능을 정확도 이상으로 진단하는 메트릭 조합"
+one_liner: "Diagnose real classifier performance beyond accuracy using precision, recall, and F1."
 ---
 
 # Confusion Matrix + P/R/F1

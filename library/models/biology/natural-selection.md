@@ -9,7 +9,7 @@ best_for:
   - Explaining evolutionary change in populations over time
   - Predicting which traits will increase or decrease in frequency
   - Understanding how heritable variation and differential reproduction interact to drive adaptation
-one_liner: "변이 + 유전성 + 차등 재생산 = 진화적 변화"
+one_liner: "Variation + heritability + differential reproduction = evolutionary change."
 ---
 
 # Natural Selection

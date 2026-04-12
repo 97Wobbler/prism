@@ -8,7 +8,7 @@ source: IUCN (International Union for Conservation of Nature), 1994–present
 best_for:
   - Classifying species by extinction risk based on quantitative population and range data
   - Standardizing conservation priority across taxa and geographies
-one_liner: "정량 기준 기반 멸종 위험도 5단계 분류"
+one_liner: "Five-tier extinction risk classification grounded in quantitative criteria."
 ---
 
 # IUCN Red List Criteria

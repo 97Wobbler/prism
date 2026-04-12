@@ -8,7 +8,7 @@ source: Phishing Tactics, Techniques, and Procedures (Mandiant/FireEye, 2013–2
 best_for:
   - Structuring intrusion analysis when attribution or threat actor motive is unclear
   - Separating observable facts (infrastructure, capabilities, victims) from inference (adversary identity)
-one_liner: "침입 인시던트를 적대자·역량·인프라·피해자 축으로 분해하여 구조화된 위협 분석 수행"
+one_liner: "Decompose an intrusion incident along adversary, capability, infrastructure, and victim axes for structured threat analysis."
 ---
 
 # Diamond Model

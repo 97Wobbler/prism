@@ -9,7 +9,7 @@ best_for:
   - Reading systems, artifacts, and institutions to see how they hold together through networks of human and nonhuman actors
   - Tracing how stability is achieved and maintained, rather than assumed
   - Understanding how power emerges from associations, not from intention or structure alone
-one_liner: "행위자-네트워크 구성으로서의 사회 안정성"
+one_liner: "Social stability as an actor-network assembly."
 ---
 
 # Actor-Network Theory (Latour)

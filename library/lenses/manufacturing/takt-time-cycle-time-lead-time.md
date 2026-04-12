@@ -9,7 +9,7 @@ best_for:
   - Diagnosing flow bottlenecks in production lines
   - Aligning production rhythm to customer demand
   - Identifying where work queues and delays accumulate
-one_liner: "고객 수요 리듬, 작업 사이클, 전체 리드타임을 측정해 흐름 상태를 진단하라"
+one_liner: "Diagnose flow state by measuring customer demand rhythm, work cycle, and total lead time."
 ---
 
 # Takt Time / Cycle Time / Lead Time

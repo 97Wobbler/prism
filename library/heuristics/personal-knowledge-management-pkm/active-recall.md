@@ -9,7 +9,7 @@ best_for:
   - study material selection
   - retention strategy choice
   - learning habit design
-one_liner: "재학습보다 상기를 우선하라"
+one_liner: "Prioritize recall over rereading."
 ---
 
 # Active Recall

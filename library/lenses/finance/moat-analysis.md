@@ -9,7 +9,7 @@ best_for:
   - Evaluating durability of competitive advantage
   - Identifying sustainable pricing power
   - Assessing long-term business defensibility
-one_liner: "지속 가능한 경쟁 우위의 구조적 원천 식별 및 평가"
+one_liner: "Identify and evaluate structural sources of sustainable competitive advantage."
 ---
 
 # Moat Analysis (Buffett)

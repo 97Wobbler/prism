@@ -9,7 +9,7 @@ best_for:
   - Diagnosing visual storytelling choices in shot sequences
   - Training eye to see compositional intent vs. accident
   - Auditing whether image supports narrative or undermines it
-one_liner: "프레이밍·광학·움직임·조명·색감을 체계적으로 분석해 시각적 의도 파악"
+one_liner: "Read visual intent through framing, optics, movement, lighting, and color."
 ---
 
 # Cinematography Analysis

@@ -9,7 +9,7 @@ best_for:
   - Auditing public and semi-public spaces for crime vulnerability
   - Designing layouts that reduce opportunity and increase informal surveillance
   - Retrofitting existing environments without major reconstruction
-one_liner: "환경 설계로 범죄 기회를 제거하고 감시 능력을 강화하는 물리적 통제"
+one_liner: "Crime Prevention Through Environmental Design — physical controls that remove opportunity and amplify natural surveillance."
 ---
 
 # Crime Prevention Through Environmental Design

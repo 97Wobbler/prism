@@ -9,7 +9,7 @@ best_for:
   - Predicting whether prices in a market reflect all available information
   - Explaining why active management persistently underperforms passive indices
   - Identifying what type of information asymmetry could support a trading edge
-one_liner: "시장이 정보를 얼마나 빠르고 완전하게 반영하는지에 따라 초과수익 가능성이 결정됨"
+one_liner: "The possibility of excess returns depends on how quickly and fully markets reflect information."
 ---
 
 # Efficient Market Hypothesis

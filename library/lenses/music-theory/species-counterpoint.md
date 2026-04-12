@@ -9,7 +9,7 @@ best_for:
   - Training contrapuntal voice independence and harmonic constraint satisfaction
   - Evaluating whether melodic lines move with proper independence and direction
   - Building foundational skill in constructing multi-voice compositions
-one_liner: "5가지 종별로 진행하는 대위법 훈련 체계"
+one_liner: "Counterpoint training system progressing through five species."
 ---
 
 # Species Counterpoint (Fux)

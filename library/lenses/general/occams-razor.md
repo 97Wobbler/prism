@@ -4,7 +4,7 @@ domain: general
 source: William of Ockham, 14th century (principle of parsimony); reformulated by modern philosophy of science
 underlying_class: heuristic
 best_for: Selecting between competing explanations or solutions when multiple account for the same evidence
-one_liner: "경쟁 가설들의 숨은 가정을 명시적으로 열거·가중 비교해서 최소 가정 가설을 선택한다"
+one_liner: "Enumerate and weight hidden assumptions across competing hypotheses and pick the one with fewest assumptions."
 ---
 
 # Occam's Razor

@@ -9,7 +9,7 @@ best_for:
   - Structuring legal arguments for memoranda, briefs, and opinion letters
   - Ensuring complete coverage of issue analysis before conclusion
   - Training legal writers to separate rule statement from application
-one_liner: "법적 논증을 쟁점-규칙-적용-결론 구조로 체계화하기"
+one_liner: "Organize legal argument into Issue-Rule-Application-Conclusion form."
 ---
 
 # IRAC / CREAC / FIRAC

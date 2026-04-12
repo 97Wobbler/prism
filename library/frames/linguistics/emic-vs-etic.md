@@ -9,7 +9,7 @@ best_for:
   - Sorting linguistic or cultural data by perspective source
   - Choosing which analytical lens matches the observer's position
   - Recognizing when insider and outsider accounts conflict
-one_liner: "내부자/외부자 관점에서 언어 또는 문화 현상을 분류하기"
+one_liner: "Classify linguistic or cultural phenomena through insider (emic) versus outsider (etic) perspectives."
 ---
 
 # Emic vs Etic

@@ -9,7 +9,7 @@ best_for:
   - Sorting a negotiation into a value-creation or value-claiming posture
   - Choosing between collaborative problem-solving and positional tactics
   - Identifying when parties are leaving value on the table
-one_liner: "확장 vs 분배 — 협상의 구조적 접근 방식"
+one_liner: "Expand-versus-distribute — the two structural approaches to negotiation."
 ---
 
 # Integrative vs Distributive Bargaining

@@ -4,7 +4,7 @@ domain: security
 source: FIRST.org, Common Vulnerability Scoring System v3.1 Specification
 underlying_class: model
 best_for: Assigning an objective, comparable severity score to a discovered vulnerability so remediation can be prioritized across a portfolio
-one_liner: "발견된 취약점에 CVSS v3.1 8개 Base Metrics로 객관적 점수를 부여하고 remediation SLA를 산정한다"
+one_liner: "Assign objective scores to discovered vulnerabilities via the eight CVSS v3.1 Base Metrics and compute remediation SLAs."
 ---
 
 # CVSS v3.1 Scoring

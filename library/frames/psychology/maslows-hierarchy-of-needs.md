@@ -9,7 +9,7 @@ best_for:
   - Classifying human needs or motivations to understand which category of intervention is appropriate
   - Sorting organizational or individual goals by the type of need they satisfy
   - Predicting behavior based on which need level is currently unsatisfied
-one_liner: "욕구 수준에 따라 행동 동기와 만족도가 결정된다"
+one_liner: "Behavioral motivation and satisfaction determined by needs level."
 ---
 
 # Maslow's Hierarchy of Needs

@@ -9,7 +9,7 @@ best_for:
   - Mapping negotiable space before or during talks
   - Identifying whether a deal exists without capitulating
   - Diagnosing why negotiations stall
-one_liner: "협상 당사자들의 수용 가능 범위를 파악하고 합의 영역 존재 여부를 판단하는 틀"
+one_liner: "Identify the Zone of Possible Agreement and whether an overlap exists between parties' acceptable ranges."
 ---
 
 # Zone of Possible Agreement

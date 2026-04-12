@@ -9,7 +9,7 @@ best_for:
   - Executing tactical cycles with clear phase gates
   - Rapid targeting and strike planning
   - Iterative intelligence-driven operations
-one_liner: "목표 발견부터 결과 확산까지 폐쇄 루프 운영 사이클"
+one_liner: "Find-Fix-Finish-Exploit-Analyze-Disseminate — closed-loop operations cycle from target discovery to result dissemination."
 ---
 
 # F3EAD Loop

@@ -9,7 +9,7 @@ best_for:
   - Analyzing pitch-class relationships in atonal and twelve-tone music
   - Identifying and comparing pitch-class sets across compositions
   - Understanding structural coherence without reliance on traditional harmony
-one_liner: "음정류 집합의 구조를 체계적으로 분석하여 무조음악의 음정 관계를 규명"
+one_liner: "Systematically analyze pitch-class sets to reveal interval relationships in atonal music."
 ---
 
 # Set Theory (Forte)

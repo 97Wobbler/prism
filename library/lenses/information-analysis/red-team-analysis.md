@@ -9,7 +9,7 @@ best_for:
   - Finding blind spots and unexamined vulnerabilities in a plan before execution
   - Stress-testing strategy by simulating adversarial intent
   - Uncovering assumptions about what will or won't work
-one_liner: "자신의 계획을 적의 관점에서 공격하여 치명적 결함을 사전에 발견"
+one_liner: "Attack your own plan from the adversary's perspective to surface fatal flaws in advance."
 ---
 
 # Red Team Analysis

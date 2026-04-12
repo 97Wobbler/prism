@@ -9,7 +9,7 @@ best_for:
   - Reading texts to expose desire, lack, and repression that structure meaning beneath conscious intention
   - Tracing how language and symbolic systems shape the unconscious
   - Locating what a text *cannot say* and what that foreclosure reveals
-one_liner: "무의식적 욕망과 상징적 질서가 의미를 구성하는 방식을 드러내는 해석 입장"
+one_liner: "Interpretive stance that reveals how unconscious desire and the symbolic order construct meaning."
 ---
 
 # Psychoanalytic Criticism

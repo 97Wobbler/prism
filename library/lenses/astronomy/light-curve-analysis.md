@@ -9,7 +9,7 @@ best_for:
   - Characterizing periodic and non-periodic brightness variations in stars
   - Detecting exoplanets via transit photometry
   - Identifying stellar activity, pulsations, and eruptions
-one_liner: "시간별 밝기 변화를 분해하여 천체의 물리적 성질을 도출하기"
+one_liner: "Decompose brightness versus time to infer the physical properties of a celestial object."
 ---
 
 # Light Curve Analysis

@@ -9,7 +9,7 @@ best_for:
   - New product design with tight tolerance and defect-rate targets
   - Translating customer voice into hard specifications before prototyping
   - Eliminating design-stage rework by front-loading variation analysis
-one_liner: "신제품 설계 시 고객 요구를 엄격한 규격으로 변환하고 변동성을 사전 제거"
+one_liner: "Design for Six Sigma — translate customer needs into strict specifications and remove variability up front."
 ---
 
 # Design for Six Sigma (DMADV)

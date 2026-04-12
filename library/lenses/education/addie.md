@@ -9,7 +9,7 @@ best_for:
   - Structuring instructional design from initial problem to validated outcomes
   - Identifying gaps between learner performance and instructional objectives
   - Ensuring each phase of course/training development has clear criteria for completion
-one_liner: "학습 목표에서 평가까지 다섯 단계의 체계적 설계 및 검증 프로세스"
+one_liner: "Five-step systematic instructional design and verification — Analysis, Design, Development, Implementation, Evaluation."
 ---
 
 # ADDIE Model

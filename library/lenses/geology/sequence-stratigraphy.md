@@ -9,7 +9,7 @@ best_for:
   - Correlating strata across basins using sea-level cycles
   - Predicting reservoir geometry in clastic and carbonate systems
   - Dating and subdividing sedimentary sequences without radiometric control
-one_liner: "해수면 변화로 층서 구간을 식별하고 예측모델 구축"
+one_liner: "Use sea-level changes to delineate stratigraphic intervals and build predictive models."
 ---
 
 # Sequence Stratigraphy

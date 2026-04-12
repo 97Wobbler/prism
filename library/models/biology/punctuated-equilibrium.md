@@ -9,7 +9,7 @@ best_for:
   - Explaining fossil record patterns of stasis and rapid morphological change
   - Predicting when speciation will produce observable trait shifts
   - Diagnosing whether apparent gaps in the fossil record are artifacts or real windows into evolutionary dynamics
-one_liner: "종분화 동안 급속한 형태 변화, 그 외 장시간의 정체 — 화석 기록의 단속적 패턴 설명"
+one_liner: "Rapid morphological change during speciation bracketed by long stasis — explains the punctuated fossil record."
 ---
 
 # Punctuated Equilibrium

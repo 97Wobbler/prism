@@ -9,7 +9,7 @@ best_for:
   - Validating product ideas before committing engineering effort
   - Keeping discovery and delivery synchronized without blocking each other
   - Identifying when a product team is conflating learning with shipping
-one_liner: "발견과 전달을 병렬로 진행하며 검증된 아이디어만 개발"
+one_liner: "Run discovery and delivery in parallel so only validated ideas are built."
 ---
 
 # Dual-Track Agile

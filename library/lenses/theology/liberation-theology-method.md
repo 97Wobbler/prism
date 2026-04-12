@@ -9,7 +9,7 @@ best_for:
   - Analyzing social or spiritual problems through the lens of structural injustice
   - Grounding theological reflection in concrete community experience
   - Designing interventions that address root causes rather than symptoms
-one_liner: "구조적 억압을 직시하고, 신학적으로 판단하고, 해방적 행동으로 응답하라"
+one_liner: "See-judge-act — confront structural oppression, judge theologically, respond with liberative action."
 ---
 
 # Liberation Theology Method

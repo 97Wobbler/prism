@@ -9,7 +9,7 @@ best_for:
   - Explaining and predicting the distribution of earthquakes, volcanoes, and mountain belts across the globe
   - Understanding the long-term evolution of continental and oceanic crust
   - Predicting crustal deformation and stress accumulation in plate-boundary zones
-one_liner: "지구 표면을 움직이는 판들의 상호작용으로 지진·화산·산맥 형성을 설명하는 통합 모델"
+one_liner: "Unified model explaining earthquakes, volcanoes, and mountain building via moving plates on Earth's surface."
 ---
 
 # Plate Tectonics

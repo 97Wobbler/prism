@@ -9,7 +9,7 @@ best_for:
   - Recovering missing information in vague statements
   - Uncovering hidden assumptions in claims or proposals
   - Deepening shallow explanations to actionable specifics
-one_liner: "일반화/삭제/왜곡 질문으로 숨겨진 정보와 가정 복구하기"
+one_liner: "Recover hidden information and assumptions through generalization, deletion, and distortion questions."
 ---
 
 # Meta Model

@@ -9,7 +9,7 @@ best_for:
   - Characterizing transient cosmic events by combining independent detection channels
   - Identifying systematic blind spots in single-messenger observations
   - Constraining source physics through correlated timing and spectrum analysis
-one_liner: "독립적 신호채널(전자기파+중력파+중성자+우주선)을 시간·공간·에너지로 상관분석하여 천체현상 규명"
+one_liner: "Correlate independent signal channels (EM + gravitational waves + neutrinos + cosmic rays) across time, space, and energy."
 ---
 
 # Multi-messenger Astronomy

@@ -9,7 +9,7 @@ best_for:
   - Sorting instances along two independent dimensions
   - Revealing hidden structure in trade-offs or tensions
   - Creating a decision framework when one axis is insufficient
-one_liner: "직교하는 두 축으로 상황을 네 가지 범주로 분류하는 기본 틀"
+one_liner: "Basic framework that classifies situations into four categories via two orthogonal axes."
 ---
 
 # 2×2 Matrix (generic)

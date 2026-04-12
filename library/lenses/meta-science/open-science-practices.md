@@ -9,7 +9,7 @@ best_for:
   - Assessing whether a research project follows reproducibility-enabling practices
   - Identifying which transparency mechanisms are absent or partial
   - Evaluating whether results can be independently verified
-one_liner: "사전등록·공개데이터·재현성 검증으로 연구의 신뢰도와 투명성을 평가하는 틀"
+one_liner: "Assess research credibility and transparency through preregistration, open data, and replication."
 ---
 
 # Open Science Practices

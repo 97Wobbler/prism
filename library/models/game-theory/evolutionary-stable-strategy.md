@@ -9,7 +9,7 @@ best_for:
   - Predicting which behavioral or strategic phenotypes persist in populations under mutation and invasion
   - Explaining stable polymorphisms and frequency-dependent selection
   - Analyzing arms races and escalation dynamics in contests
-one_liner: "침략에 저항하는 전략이 진화적으로 안정된 조건"
+one_liner: "Conditions under which a strategy resists invasion and is evolutionarily stable."
 ---
 
 # Evolutionary Stable Strategy

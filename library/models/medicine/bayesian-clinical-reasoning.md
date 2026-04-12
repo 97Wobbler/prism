@@ -9,7 +9,7 @@ best_for:
   - Updating disease probability after a test result using pretest probability and test accuracy
   - Deciding whether a diagnostic test changes clinical action
   - Explaining why test results mean different things in different populations
-one_liner: "테스트 결과 이전의 질병 확률에 우도비를 곱하면 이후 확률이 나온다"
+one_liner: "Pre-test probability × likelihood ratio → post-test probability."
 ---
 
 # Bayesian Clinical Reasoning

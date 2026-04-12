@@ -9,7 +9,7 @@ best_for:
   - Testing functional fit and spatial efficiency of building volumes
   - Rapid iteration on envelope geometry before detailed design
   - Identifying conflicts between program requirements and physical constraints
-one_liner: "건물 볼륨의 기능적 관계와 공간 효율성을 테스트하는 입방체 분석"
+one_liner: "Block-level analysis that tests the functional relationships and spatial efficiency of building volumes."
 ---
 
 # Massing Study

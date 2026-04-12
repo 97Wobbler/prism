@@ -9,7 +9,7 @@ best_for:
   - Reading institutions, beliefs, and social arrangements to see how they are collectively produced and maintained as "objective" reality
   - Tracing the historical contingency of what appears self-evident or natural
   - Examining how shared meanings crystallize into institutions and then into taken-for-granted facts
-one_liner: "사회적으로 구성된 현실이 어떻게 객관적 사실처럼 느껴지는가"
+one_liner: "How socially constructed reality comes to feel objective."
 ---
 
 # Social Construction of Reality

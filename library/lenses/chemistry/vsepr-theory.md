@@ -9,7 +9,7 @@ best_for:
   - Predicting molecular geometry from electron-pair repulsion
   - Explaining bond angles and molecular shape
   - Rationalizing chemical reactivity based on steric arrangement
-one_liner: "전자쌍 반발을 이용한 분자 기하학 예측"
+one_liner: "Predict molecular geometry from valence shell electron-pair repulsion."
 ---
 
 # VSEPR Theory

@@ -9,7 +9,7 @@ best_for:
   - Quantifying the clinical benefit of a treatment in absolute terms
   - Comparing the practical impact of competing interventions
   - Making treatment decisions when baseline risk varies across patients
-one_liner: "치료 효과를 절대 위험 감소로 표현하여 임상 의사결정의 구체성을 높이는 지표"
+one_liner: "Number Needed to Treat — express treatment effect as absolute risk reduction for concrete clinical decisions."
 ---
 
 # Number Needed to Treat

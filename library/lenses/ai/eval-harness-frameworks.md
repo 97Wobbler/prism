@@ -9,7 +9,7 @@ best_for:
   - Structuring benchmark design for language models
   - Identifying coverage gaps in evaluation suites
   - Comparing model behavior across standardized tasks
-one_liner: "언어 모델 평가의 체계적 구조화: 벤치마크 설계, 과제 범위, 메트릭 일관성 검증"
+one_liner: "Structure language-model evaluation: benchmark design, task coverage, metric consistency."
 ---
 
 # Evaluation Harness Frameworks

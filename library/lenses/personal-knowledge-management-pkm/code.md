@@ -9,7 +9,7 @@ best_for:
   - Auditing a personal knowledge system for coherence and actionability
   - Identifying gaps between captured knowledge and synthesized insight
   - Measuring knowledge maturity from raw input to applied output
-one_liner: "수집한 지식을 체계적으로 정제하고 실행 가능한 인사이트로 전환하는 워크플로우"
+one_liner: "Capture-Organize-Distill-Express — refine knowledge into actionable insight."
 ---
 
 # CODE (Capture, Organize, Develop, Evolve)

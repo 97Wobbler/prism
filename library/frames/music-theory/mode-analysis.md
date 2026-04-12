@@ -9,7 +9,7 @@ best_for:
   - Classifying melodic or harmonic material by its modal center and characteristic interval patterns
   - Determining which mode a scale, melody, or chord progression inhabits
   - Understanding the tonal character and listening implications of different modes
-one_liner: "특정 음계나 멜로디가 속한 교회 선법(mode)을 판별하고, 각 선법의 음향적 특성을 파악하는 분류 프레임"
+one_liner: "Identify the church mode of a scale or melody and grasp each mode's characteristic sound."
 ---
 
 # Mode Analysis

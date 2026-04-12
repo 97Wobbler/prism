@@ -8,7 +8,7 @@ source: William Osler (bedside method, early 1900s); formalized in modern diagno
 best_for:
   - Systematic narrowing of multiple candidate diagnoses to identify the most likely and most dangerous
   - Structuring diagnostic reasoning when presentation is ambiguous or overlapping
-one_liner: "열거 → 가능도×중증도로 좁혀서 검사 우선순위 결정"
+one_liner: "Enumerate, then narrow by likelihood × severity to prioritize testing."
 ---
 
 # Differential Diagnosis

@@ -9,7 +9,7 @@ best_for:
   - Evaluating whether a law or regulation withstands constitutional challenge
   - Assessing the relationship between governmental means and legitimate ends
   - Determining the appropriate standard of review for a contested classification or right
-one_liner: "법률이 헌법적 정당성을 갖는지 정부 목적과 수단의 관계로 심사하는 다단계 검증 프레임워크"
+one_liner: "Multi-tier constitutional review weighing government ends against the means employed."
 ---
 
 # Balancing Tests

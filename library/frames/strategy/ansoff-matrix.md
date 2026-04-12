@@ -9,7 +9,7 @@ best_for:
   - Classifying growth initiatives by market and product novelty
   - Sorting strategic options to match risk tolerance and capability requirements
   - Structuring a growth portfolio by complexity and resource demands
-one_liner: "기존/신규 시장 × 기존/신규 제품 2×2 성장전략 분류"
+one_liner: "Growth strategy 2x2 — existing/new market × existing/new product."
 ---
 
 # Ansoff Matrix

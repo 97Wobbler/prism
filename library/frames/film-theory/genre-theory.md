@@ -9,7 +9,7 @@ best_for:
   - Classifying a film by its pattern of generic conventions and audience contract
   - Predicting which interpretive lenses and critical frameworks apply
   - Understanding why a film succeeds or fails on its own generic terms
-one_liner: "반복과 차이의 긴장 관계를 통한 영화 장르 분류"
+one_liner: "Classify film genres through the tension between repetition and difference."
 ---
 
 # Genre Theory

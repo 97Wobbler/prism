@@ -9,7 +9,7 @@ best_for:
   - Aligning teams around a shared vision with explicit trade-off analysis
   - Identifying obstacles before they derail execution
   - Translating high-level aspirations into measurable outcomes
-one_liner: "비전-가치-방법-장애물-측정을 통해 전략 실행을 체계화하고 실패 위험을 선제적으로 관리"
+one_liner: "Vision / Values / Methods / Obstacles / Measures — structure strategic execution and manage failure risk proactively."
 ---
 
 # V2MOM (Salesforce)

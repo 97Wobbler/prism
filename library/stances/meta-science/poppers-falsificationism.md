@@ -9,7 +9,7 @@ best_for:
   - Evaluating whether a theory or claim has scientific standing
   - Identifying pseudoscientific reasoning disguised as inquiry
   - Assessing the logical structure of causal arguments and predictions
-one_liner: "과학은 거짓임이 증명 가능한 명제들로만 이루어진다"
+one_liner: "Science consists only of falsifiable propositions."
 ---
 
 # Popper's Falsificationism

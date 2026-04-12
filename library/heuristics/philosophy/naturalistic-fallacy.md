@@ -9,7 +9,7 @@ best_for:
   - value judgments disguised as facts
   - policy arguments that slip from "is" to "ought"
   - design and product reasoning
-one_liner: "자연스러운 것이 반드시 옳은 것은 아니다"
+one_liner: "What is natural is not necessarily what is right."
 ---
 
 # Naturalistic Fallacy

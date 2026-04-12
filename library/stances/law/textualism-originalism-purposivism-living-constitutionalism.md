@@ -9,7 +9,7 @@ best_for:
   - Reading judicial opinions to see what commitment to text, original meaning, purpose, or living doctrine reveals and forecloses
   - Understanding why the same constitutional provision generates opposite holdings across different interpretive frames
   - Analyzing how judicial language about "the Constitution" masks choices about interpretive method
-one_liner: "헌법 해석의 4가지 방법론적 입장: 문자, 원래 의도, 목적, 생명력"
+one_liner: "Four methodological stances on constitutional interpretation — text, original intent, purpose, living constitution."
 ---
 
 # Textualism/Originalism/Purposivism/Living Constitutionalism

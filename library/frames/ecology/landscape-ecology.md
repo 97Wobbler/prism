@@ -9,7 +9,7 @@ best_for:
   - Sorting a spatial ecological structure into functional units
   - Identifying which management interventions are appropriate to landscape composition
   - Understanding connectivity and fragmentation effects on species and processes
-one_liner: "패치/회랑/매트릭스 구조에 따라 생태계 관리 전략 결정"
+one_liner: "Decide ecosystem management strategy from patch / corridor / matrix structure."
 ---
 
 # Landscape Ecology

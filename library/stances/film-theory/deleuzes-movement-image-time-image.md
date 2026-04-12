@@ -10,7 +10,7 @@ best_for:
   - Tracking how film encodes temporal and causal relations
   - Distinguishing montage regimes and their ontological commitments
   - Exposing how narrative cinema naturalizes sensorimotor action
-one_liner: "영화를 시간과 운동의 철학적 문제로 읽기; 감각-운동 이미지에서 순수 시간 이미지로의 전환"
+one_liner: "Read cinema as a philosophical problem of time and motion — the shift from sensory-motor to pure time-image."
 ---
 
 # Deleuze's Movement-Image / Time-Image

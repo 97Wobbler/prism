@@ -9,7 +9,7 @@ best_for:
   - Sorting a building project by its primary certification goal and compliance burden
   - Choosing which sustainability/wellness framework should guide design decisions
   - Matching stakeholder priorities to the certification system that addresses them
-one_liner: "건축 프로젝트의 지속가능성·웰니스 목표를 기반으로 인증 프레임워크를 분류"
+one_liner: "Classify sustainability and wellness certification frameworks by project goal."
 ---
 
 # Green Building Certification Systems

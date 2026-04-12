@@ -9,7 +9,7 @@ best_for:
   - Classifying historical explanations and causal narratives
   - Sorting analytical disagreements about what drives historical change
   - Choosing appropriate evidence and explanation strategy for a historical claim
-one_liner: "영웅 대 조건 긴장; 개인 행위력 vs 구조적 결정론"
+one_liner: "The individual-agency versus structural-determinism tension in historical explanation."
 ---
 
 # Great Man vs Structural History

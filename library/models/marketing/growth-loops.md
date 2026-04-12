@@ -9,7 +9,7 @@ best_for:
   - Designing self-sustaining user acquisition where output of one cohort becomes input to the next
   - Predicting sustainable growth rates when direct spend holds constant
   - Identifying which product features or mechanics create loop closure
-one_liner: "상품 산출물이 신규 사용자 유입 자산이 되는 피드백 루프 설계"
+one_liner: "Design feedback loops where product output becomes an input for acquiring new users."
 ---
 
 # Growth Loops

@@ -9,7 +9,7 @@ best_for:
   - Evaluating player contribution independent of team context
   - Comparing players across eras with normalized statistics
   - Identifying undervalued or overvalued talent in roster decisions
-one_liner: "맥락을 반영한 베이스볼 통계로 선수 기여도를 정량화"
+one_liner: "Context-adjusted baseball statistics that quantify player contribution."
 ---
 
 # Sabermetrics

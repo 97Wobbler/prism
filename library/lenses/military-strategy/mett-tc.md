@@ -9,7 +9,7 @@ best_for:
   - Structuring operational estimates under time pressure
   - Ensuring no major planning factor is overlooked
   - Briefing commanders on decision-critical variables
-one_liner: "작전 계획의 6가지 핵심 변수(임무/적/지형/병력/시간/민간)를 체계적으로 분석하는 상황평가 프레임워크"
+one_liner: "Situational assessment framework across six key variables — Mission, Enemy, Terrain, Troops, Time, Civil."
 ---
 
 # METT-TC Analysis

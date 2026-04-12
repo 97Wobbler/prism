@@ -8,7 +8,7 @@ source: Louis Camille Maillard, "Action of Amino Acids on Sugars," Comptes Rendu
 best_for:
   - Predicting browning, flavor development, and crust formation in heated foods
   - Explaining why cooking method (temperature, duration, moisture) drives taste and appearance
-one_liner: "아미노산과 환원당의 비효소적 갈변 반응으로 풍미와 색상 생성"
+one_liner: "Non-enzymatic browning of amino acids and reducing sugars that creates flavor and color."
 ---
 
 # Maillard Reaction

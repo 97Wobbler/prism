@@ -9,7 +9,7 @@ best_for:
   - Clarifying decision authority and participation in a specific decision or project
   - Preventing bottlenecks caused by unclear ownership
   - Reducing rework due to miscommunication about who decides vs. who advises
-one_liner: "의사결정 또는 업무별 권한/책임/협의/보고 역할을 명시하여 혼란과 지연 제거"
+one_liner: "Assign Responsible / Accountable / Consulted / Informed per task to remove role ambiguity and delay."
 ---
 
 # RACI Matrix

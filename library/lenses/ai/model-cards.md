@@ -9,7 +9,7 @@ best_for:
   - Documenting model capabilities and limitations systematically
   - Surfacing fairness and performance blindspots before deployment
   - Communicating model behavior to non-technical stakeholders
-one_liner: "모델의 의도된 용도, 성능, 한계를 구조화된 문서로 기록하여 책임감 있는 배포 보장"
+one_liner: "Document intended use, performance, and limitations of a model for responsible deployment."
 ---
 
 # Model Cards

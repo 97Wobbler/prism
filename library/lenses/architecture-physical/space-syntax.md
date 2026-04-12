@@ -9,7 +9,7 @@ best_for:
   - Diagnosing how spatial layout affects movement, visibility, and social interaction
   - Comparing building or urban designs without user studies
   - Identifying bottlenecks, dead zones, and integration patterns in layouts
-one_liner: "공간 그래프를 분석해 동선, 시야, 사회적 상호작용 패턴을 진단한다"
+one_liner: "Graph-analyze spatial configuration to diagnose circulation, visibility, and social interaction patterns."
 ---
 
 # Space Syntax (Hillier)

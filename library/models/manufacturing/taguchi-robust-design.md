@@ -9,7 +9,7 @@ best_for:
   - Identifying parameter settings that minimize product sensitivity to uncontrollable noise factors
   - Predicting which design choices will produce the most stable performance across real-world variation
   - Reducing the cost of quality improvement by shifting focus from tolerance-tightening to robust parameter selection
-one_liner: "제어 불가능한 노이즈 변동 속에서도 성능이 안정적인 파라미터 조합 발견"
+one_liner: "Find parameter combinations whose performance is insensitive to uncontrollable noise variation."
 ---
 
 # Taguchi Robust Design

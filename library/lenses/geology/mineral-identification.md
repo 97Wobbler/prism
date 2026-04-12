@@ -9,7 +9,7 @@ best_for:
   - Field identification of unknown mineral specimens
   - Narrowing possibilities before laboratory analysis
   - Training geologists and collectors in systematic observation
-one_liner: "체계적 관찰로 미지의 광물을 식별하는 필드 절차 — 경도, 쪼개짐, 광택, 줄무늬"
+one_liner: "Field procedure for identifying unknown minerals — hardness, cleavage, luster, streak."
 ---
 
 # Mineral Identification

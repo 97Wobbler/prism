@@ -9,7 +9,7 @@ best_for:
   - Tracking thematic material through transformation and recurrence
   - Identifying structural coherence in multi-movement works
   - Distinguishing motivic variation from genuine new material
-one_liner: "음악 모티프의 변형과 재현을 추적하여 작품의 통일성 검증"
+one_liner: "Track the transformation and recurrence of motifs to verify a work's unity."
 ---
 
 # Motivic Analysis

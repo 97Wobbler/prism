@@ -9,7 +9,7 @@ best_for:
   - Extracting and retaining key concepts from dense texts
   - Transforming passive reading into active interrogation
   - Building durable mental models from technical or academic material
-one_liner: "텍스트에서 핵심 개념을 추출하고 장기 기억에 고정하는 단계별 읽기 방법"
+one_liner: "Stepwise reading method for extracting key concepts and fixing them in long-term memory."
 ---
 
 # SQ3R / PQ4R

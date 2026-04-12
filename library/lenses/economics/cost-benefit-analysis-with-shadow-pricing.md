@@ -9,7 +9,7 @@ best_for:
   - Valuing non-market goods (environmental, social, health impacts)
   - Infrastructure and policy decisions where market prices don't exist or are distorted
   - Comparing projects across sectors with heterogeneous externalities
-one_liner: "시장 밖 가치를 화폐화하여 사회편익 평가의 완성도를 높이는 분석"
+one_liner: "Monetize non-market values via shadow prices to strengthen social welfare evaluation."
 ---
 
 # Cost-Benefit Analysis with Shadow Pricing

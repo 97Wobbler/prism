@@ -9,7 +9,7 @@ best_for:
   - Clarifying market structure and competitive position
   - Validating product-market fit before scaling
   - Identifying gaps between intended and actual positioning
-one_liner: "시장을 분할하고, 타겟을 선택하고, 차별화를 명확히 하는 3단계 전략 프레임"
+one_liner: "Three-step strategic framework — Segment, Target, Position — to sharpen differentiation."
 ---
 
 # Segmentation, Targeting, Positioning

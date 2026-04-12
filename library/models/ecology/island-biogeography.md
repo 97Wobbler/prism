@@ -9,7 +9,7 @@ best_for:
   - Predicting species richness on islands as a function of area and isolation
   - Understanding colonization-extinction dynamics in fragmented habitats
   - Explaining why larger, closer islands harbor more species
-one_liner: "섬의 크기와 거리가 종 다양성의 균형점을 결정한다"
+one_liner: "Island size and distance set the equilibrium point of species diversity."
 ---
 
 # Island Biogeography

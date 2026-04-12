@@ -9,7 +9,7 @@ best_for:
   - Analyzing how societies construct threats and scapegoat groups
   - Tracing media amplification and policy overreaction cycles
   - Evaluating whether institutional responses are proportional to actual risk
-one_liner: "사회가 특정 집단을 '악마화'하는 5단계 위협 구성 메커니즘 분석"
+one_liner: "Analyze the five-stage mechanism by which society demonizes a specific group."
 ---
 
 # Moral Panic Analysis

@@ -9,7 +9,7 @@ best_for:
   - Inferring evolutionary relationships from sequence or morphological data
   - Choosing between parsimony, maximum likelihood, and Bayesian tree-building methods
   - Evaluating tree quality and confidence in inferred relationships
-one_liner: "진화 관계 추론을 위해 데이터 특성에 맞는 나무 구성 방법 선택 및 검증"
+one_liner: "Pick and validate the right tree-building method for the data when inferring evolutionary relationships."
 ---
 
 # Phylogenetic Reconstruction

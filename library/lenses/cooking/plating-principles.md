@@ -9,7 +9,7 @@ best_for:
   - Composing visually coherent plated dishes
   - Diagnosing why a plate feels unfinished or chaotic
   - Training plating consistency across a kitchen
-one_liner: "높이/색상/리듬/여백/초점을 통한 시각적 구성"
+one_liner: "Visual composition via height, color, rhythm, negative space, and focal point."
 ---
 
 # Plating Principles

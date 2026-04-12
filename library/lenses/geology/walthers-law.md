@@ -9,7 +9,7 @@ best_for:
   - Inferring paleoenvironments from stratigraphic sequences
   - Predicting subsurface lithology in undrilled wells
   - Validating depositional models against core and outcrop data
-one_liner: "수직 층서 변화 = 측방 환경 변화, 고환경 복원의 핵심 원리"
+one_liner: "Vertical stratigraphic change equals lateral environmental change — the core principle of paleoenvironmental reconstruction."
 ---
 
 # Walther's Law

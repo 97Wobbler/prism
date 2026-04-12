@@ -9,7 +9,7 @@ best_for:
   - Reading narrative cinema to expose the camera's position and whose desire it encodes
   - Analyzing how film form (framing, editing, point-of-view) constructs gendered spectatorship
   - Examining the relationship between looking, power, and the construction of sexual difference
-one_liner: "영화적 시선의 젠더 정치 — 카메라와 내러티브가 여성을 응시의 대상으로 구성하는 방식"
+one_liner: "Gender politics of the cinematic gaze — how camera and narrative construct women as objects of looking."
 ---
 
 # Mulvey's Male Gaze

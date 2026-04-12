@@ -9,7 +9,7 @@ best_for:
   - Evaluating preference-based model training setups
   - Diagnosing alignment failures or reward model brittleness
   - Choosing between RLHF and DPO based on constraints
-one_liner: "선호도 기반 학습이 보상 신호를 올바르게 포착하고 강화하는지 검증하기"
+one_liner: "Verify whether preference-based learning captures and reinforces the intended reward signal."
 ---
 
 # RLHF / DPO Assessment

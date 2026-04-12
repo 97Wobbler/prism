@@ -9,7 +9,7 @@ best_for:
   - strategic planning and campaign design
   - evaluating military or competitive operations
   - detecting when a plan violates doctrine without explicit justification
-one_liner: "전쟁의 9대 원칙 준수 여부로 작전 건전성 검증"
+one_liner: "Judge operational soundness against the nine principles of war."
 ---
 
 # Principles of War

@@ -9,7 +9,7 @@ best_for:
   - Reading experiences, policies, and institutions that affect people positioned at multiple axes of subordination
   - Exposing how single-axis frameworks erase or distort lived experience
   - Analyzing how systems of oppression reinforce each other rather than simply adding up
-one_liner: "여러 축의 억압이 만나는 지점에서 생성되는 고유한 해악 읽기"
+one_liner: "Read the specific harms produced at the intersection of multiple axes of oppression."
 ---
 
 # Intersectionality (Crenshaw)

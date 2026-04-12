@@ -8,7 +8,7 @@ source: Henri Le Chatelier, "Sur un énoncé général des lois des équilibres 
 best_for:
   - Predicting how chemical equilibria shift in response to changes in concentration, pressure, or temperature
   - Explaining why and in which direction a system at equilibrium will respond to a perturbation
-one_liner: "평형계의 외부 교란에 대한 자발적 반응 방향"
+one_liner: "Spontaneous direction of an equilibrium system's response to external perturbation."
 ---
 
 # Le Chatelier's Principle

@@ -9,7 +9,7 @@ best_for:
   - Aligning learning objectives with assessment and instruction
   - Preventing misalignment between what you claim to teach and what you actually test
   - Designing coherent learning experiences instead of teaching isolated content
-one_liner: "목표 명확화 → 평가 설계 → 수업 구성의 역순 설계로 정렬된 교육 경험 창출"
+one_liner: "Clarify goals first, then design assessment, then build lessons — reverse-engineered alignment."
 ---
 
 # Backward Design (UbD)

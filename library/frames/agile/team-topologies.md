@@ -8,7 +8,7 @@ source: Matthew Skelton & Manuel Pais, "Team Topologies", O'Reilly, 2019
 best_for:
   - Sorting an organizational unit or team by its primary interaction mode and flow of work
   - Diagnosing misalignment between team structure and the architecture/dependencies they manage
-one_liner: "스트림/플랫폼/복잡-서브시스템/활성화 4가지 팀 유형으로 분류"
+one_liner: "Classify teams into four types — stream-aligned, platform, complicated-subsystem, enabling."
 ---
 
 # Team Topologies

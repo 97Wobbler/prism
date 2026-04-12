@@ -10,7 +10,7 @@ best_for:
   - urgent briefings
   - written reports
   - cross-functional updates
-one_liner: "결론부터 먼저 제시하라. 독자의 시간을 존중하고 맥락을 빠르게 제공한다."
+one_liner: "Bottom Line Up Front — lead with the conclusion to respect the reader's time and give context fast."
 ---
 
 # BLUF

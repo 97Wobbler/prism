@@ -9,7 +9,7 @@ best_for:
   - Understanding user behavior and motivations across six dimensions
   - Surfacing gaps between assumed and actual customer experience
   - Grounding product decisions in observed user needs rather than internal assumptions
-one_liner: "고객의 생각/느낌/보는 것/듣는 것/말하는 것/하는 것을 6개 축으로 매핑하여 기저 욕구 발견"
+one_liner: "Six-axis map of what customers think / feel / see / hear / say / do to surface underlying needs."
 ---
 
 # Empathy Map

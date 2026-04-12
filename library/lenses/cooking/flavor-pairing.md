@@ -9,7 +9,7 @@ best_for:
   - Discovering unexpected ingredient combinations grounded in shared flavor compounds
   - Breaking monotony in menu design or recipe development
   - Validating or challenging intuitive pairings with chemical evidence
-one_liner: "공통 향미 화합물을 기반으로 한 재료 친화성 데이터베이스"
+one_liner: "Ingredient affinity database built on shared flavor compounds."
 ---
 
 # Flavor Pairing

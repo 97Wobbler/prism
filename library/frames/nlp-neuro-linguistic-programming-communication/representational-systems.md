@@ -9,7 +9,7 @@ best_for:
   - Classifying how an individual preferentially processes and encodes information
   - Tailoring communication, teaching, or problem-solving to match cognitive style
   - Identifying why two people describe the same situation in structurally different ways
-one_liner: "시각/청각/운동감각 선호도에 따른 정보 처리 양식 분류"
+one_liner: "Classify information processing by visual / auditory / kinesthetic modality preference."
 ---
 
 # Representational Systems (VAK)

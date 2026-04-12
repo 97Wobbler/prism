@@ -9,7 +9,7 @@ best_for:
   - Designing injury-prevention warmups for team sports
   - Evaluating whether a warmup addresses known injury mechanisms
   - Structuring training sessions to reduce ACL, hamstring, and ankle injuries
-one_liner: "팀 스포츠 선수의 부상 위험을 줄이기 위한 동적 워밍업 프로토콜 설계"
+one_liner: "Dynamic warm-up protocol designed to cut injury risk in team-sport athletes."
 ---
 
 # FIFA 11+ / RAMP Protocol

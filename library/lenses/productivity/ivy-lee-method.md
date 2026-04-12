@@ -9,7 +9,7 @@ best_for:
   - Breaking decision paralysis through radical daily constraint
   - Validating whether a task list is actually prioritized or merely exhaustive
   - Diagnosing when "busy" is masking lack of direction
-one_liner: "매일 6개 과제 우선순위화로 산만함 제거"
+one_liner: "Prioritize six daily tasks to eliminate distraction."
 ---
 
 # Ivy Lee Method

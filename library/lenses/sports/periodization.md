@@ -9,7 +9,7 @@ best_for:
   - Structuring multi-month training plans with peak performance targets
   - Managing fatigue and adaptation across training blocks
   - Preventing overtraining and plateaus in competitive athletes
-one_liner: "매크로/메조/마이크로 사이클을 조합해 경기력 피크를 예측 가능하게 구성"
+one_liner: "Combine macro, meso, and micro cycles to make performance peaks predictable."
 ---
 
 # Periodization (Matveyev)

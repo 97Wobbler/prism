@@ -9,7 +9,7 @@ best_for:
   - Evaluating melodic independence and harmonic smoothness in polyphonic writing
   - Identifying voice crossing, parallels, and registration problems
   - Teaching counterpoint and part-writing discipline
-one_liner: "성부 간 독립성과 부드러운 음정 진행을 보장하는 규칙 체계"
+one_liner: "Rule system for maintaining voice independence and smooth interval motion."
 ---
 
 # Voice Leading Rules

@@ -10,7 +10,7 @@ best_for:
   - Training periodization review
   - Injury prevention assessment
   - Fitness progression evaluation
-one_liner: "운동 프로그램의 4가지 변수(빈도·강도·시간·유형)를 체계적으로 조정하지 않으면 정체와 부상이 온다"
+one_liner: "Without systematic adjustment of Frequency, Intensity, Time, and Type, training plateaus and injury follow."
 ---
 
 # FITT Principle

@@ -9,7 +9,7 @@ best_for:
   - Explaining mutual escalation traps where backing down first is costlier than collision
   - Predicting commitment strategies and brinkmanship in bilateral conflicts
   - Understanding why parties may rationally drive toward mutually destructive outcomes
-one_liner: "양쪽 모두 먼저 항복하면 안 되므로 공멸 경계까지 간다"
+one_liner: "Neither side can back down first, so both head toward mutual destruction."
 ---
 
 # Chicken Game

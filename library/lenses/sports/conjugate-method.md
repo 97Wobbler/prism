@@ -9,7 +9,7 @@ best_for:
   - Programming strength and power across concurrent movement patterns
   - Breaking through plateaus by rotating exercise stimulus
   - Managing fatigue and injury risk in high-intensity training
-one_liner: "병렬 최대근력/동적/반복 작업으로 강도와 탄성을 동시 개발"
+one_liner: "Develop strength and speed concurrently through parallel maximal, dynamic, and repetition efforts."
 ---
 
 # Conjugate Method (Westside)

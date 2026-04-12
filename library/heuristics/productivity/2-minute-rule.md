@@ -9,7 +9,7 @@ best_for:
   - task triage and inbox processing
   - reducing decision friction on small items
   - breaking procrastination patterns
-one_liner: "2분 이내면 지금 실행하라—지연이 비용이다"
+one_liner: "If it takes less than two minutes, do it now — delay is cost."
 ---
 
 # Two-Minute Rule

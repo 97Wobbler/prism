@@ -9,7 +9,7 @@ best_for:
   - Estimating the number of communicative civilizations in the galaxy
   - Decomposing SETI search assumptions into discrete, independently assessable factors
   - Identifying which variables dominate uncertainty in the prevalence of detectable extraterrestrial intelligence
-one_liner: "우주 통신 문명 개수를 요인 곱셈으로 추정하는 틀"
+one_liner: "Estimate the number of communicating civilizations in the universe via a product of factors."
 ---
 
 # Drake Equation

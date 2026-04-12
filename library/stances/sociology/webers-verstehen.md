@@ -9,7 +9,7 @@ best_for:
   - Reading social action to recover the subjective meanings actors attach to their conduct
   - Understanding how meanings shift across contexts and historical periods
   - Tracing how interpretations of legitimacy sustain institutions
-one_liner: "행위자의 주관적 의미 해석을 통해 사회질서의 논리를 복원하는 관점"
+one_liner: "Reconstruct the logic of social order through interpretation of the actor's subjective meaning."
 ---
 
 # Weber's Verstehen

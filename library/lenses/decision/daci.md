@@ -9,7 +9,7 @@ best_for:
   - Clarifying decision ownership when multiple stakeholders are involved
   - Preventing deadlock by separating who decides from who inputs
   - Scaling decisions in matrixed organizations
-one_liner: "의사결정 역할을 Driver/Approver/Contributors/Informed로 명시하여 책임과 합의를 분리한다"
+one_liner: "Split accountability and consensus by assigning Driver / Approver / Contributors / Informed to a decision."
 ---
 
 # DACI Decision Framework

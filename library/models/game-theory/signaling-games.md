@@ -9,7 +9,7 @@ best_for:
   - Explaining why agents with private information incur costly actions to separate themselves from lower-quality types
   - Predicting which equilibria emerge when signaling costs differ by type
   - Analyzing credential inflation, warranty commitments, and disclosure patterns in markets with asymmetric information
-one_liner: "비용을 수반하는 신호 균형에서 유형 분리"
+one_liner: "Type separation via costly signaling equilibria."
 ---
 
 # Signaling Games (Spence)

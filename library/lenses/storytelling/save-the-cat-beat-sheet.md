@@ -9,7 +9,7 @@ best_for:
   - Structuring a screenplay or narrative arc
   - Diagnosing pacing problems in a draft
   - Ensuring emotional turning points land at the right moments
-one_liner: "15개 비트로 스토리의 감정적 호와 구조적 전환점을 추적하고 검증하는 틀"
+one_liner: "Track and verify a story's emotional arc and structural turning points across 15 beats."
 ---
 
 # Save the Cat Beat Sheet

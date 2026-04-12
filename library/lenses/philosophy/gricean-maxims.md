@@ -9,7 +9,7 @@ best_for:
   - Diagnosing breakdowns in dialogue and collaboration
   - Detecting when speakers are being misleading or evasive
   - Clarifying implicit expectations in written or spoken communication
-one_liner: "협력 원칙의 4가지 격률로 대화 품질과 진정성 검증"
+one_liner: "Check conversation quality and sincerity against four cooperative maxims."
 ---
 
 # Gricean Maxims

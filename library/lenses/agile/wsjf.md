@@ -9,7 +9,7 @@ best_for:
   - Prioritizing a backlog of features or initiatives when multiple trade-offs exist
   - Comparing work items across teams to identify the highest-value sequence
   - Breaking ties between similar-sized features competing for limited capacity
-one_liner: "비용 대비 효과(CoD) 대비 작업량(Job Size) 가중 우선순위 결정"
+one_liner: "Weighted Shortest Job First — prioritize by Cost of Delay divided by job size."
 ---
 
 # WSJF (Weighted Shortest Job First)

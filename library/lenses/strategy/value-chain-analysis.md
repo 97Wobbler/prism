@@ -9,7 +9,7 @@ best_for:
   - Identifying where margin is created or destroyed across a business
   - Finding cost reduction and differentiation opportunities in specific activities
   - Understanding competitive advantage through operational efficiency
-one_liner: "각 활동별 부가가치와 비용을 추적하여 경쟁우위의 원천 발견"
+one_liner: "Trace value added and cost per activity to find the source of competitive advantage."
 ---
 
 # Value Chain Analysis (Porter)

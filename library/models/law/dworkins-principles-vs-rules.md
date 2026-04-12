@@ -9,7 +9,7 @@ best_for:
   - Explaining how hard cases are resolved when rules run out
   - Predicting which interpretation will prevail in contentious legal disputes
   - Distinguishing between rule-based systems and principle-based adjudication
-one_liner: "규칙과 원칙의 이원 구조로 법 해석의 경계 판단"
+one_liner: "Judge legal interpretation through Dworkin's dual structure of rules and principles."
 ---
 
 # Dworkin's Principles vs Rules

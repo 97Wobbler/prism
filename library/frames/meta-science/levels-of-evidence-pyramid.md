@@ -8,7 +8,7 @@ source: origin uncertain; widely used in evidence-based medicine and systematic 
 best_for:
   - Sorting a claim or finding by the strength and type of evidence supporting it
   - Determining which response pattern (acceptance, skepticism, further investigation) is warranted
-one_liner: "증거의 질과 유형에 따른 신뢰도 계층 구조"
+one_liner: "Hierarchy of evidence confidence based on type and quality."
 ---
 
 # Levels of Evidence Pyramid

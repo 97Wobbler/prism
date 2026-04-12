@@ -9,7 +9,7 @@ best_for:
   - Quantifying demand response to price, income, or competitor-price changes
   - Identifying which product or service lever will move quantity most efficiently
   - Setting pricing strategy when you have historical sales and price data
-one_liner: "가격/소득/교차 변화에 대한 수량 반응도 정량화"
+one_liner: "Quantify how quantity responds to price, income, or cross-price changes."
 ---
 
 # Elasticity Analysis

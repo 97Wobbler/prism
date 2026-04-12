@@ -9,7 +9,7 @@ best_for:
   - Diagnosing developer productivity bottlenecks across multiple dimensions
   - Aligning team structure and process to remove friction
   - Measuring and tracking organizational health signals
-one_liner: "개발자 생산성을 5개 축으로 분석하고 조직 문제의 근본 원인을 찾기"
+one_liner: "Diagnose developer productivity along five axes to find root causes of organizational friction."
 ---
 
 # SPACE Framework

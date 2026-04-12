@@ -9,7 +9,7 @@ best_for:
   - Go/no-go decisions on product viability
   - Early-stage retention and engagement analysis
   - Post-launch pivoting or perseverance decisions
-one_liner: "40% 이상이 '매우 아쉽다'고 응답하면 시장 적합성 신호"
+one_liner: "If 40% or more of users say they would be 'very disappointed' to lose it, you have product-market fit."
 ---
 
 # Product-Market Fit (Sean Ellis 40% Rule)

@@ -9,7 +9,7 @@ best_for:
   - Deducing molecular structure from spectroscopic data
   - Assigning functional groups and connectivity patterns
   - Validating proposed structures against experimental evidence
-one_liner: "분광학적 신호를 체계적으로 해석하여 구조 결정"
+one_liner: "Determine molecular structure by systematically interpreting spectroscopic signals."
 ---
 
 # Spectroscopy Interpretation (NMR/IR/MS)

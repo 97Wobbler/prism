@@ -9,7 +9,7 @@ best_for:
   - Analyzing orientations of planar and linear features in rock
   - Identifying fold axes, fault planes, and fracture sets
   - Detecting structural patterns and kinematic indicators
-one_liner: "암석 평면/선형 구조의 방향성을 구면 투영으로 정량화하고 기하학적 패턴 추출"
+one_liner: "Quantify planar and linear rock structures via spherical projection to extract geometric patterns."
 ---
 
 # Stereonet Analysis

@@ -9,7 +9,7 @@ best_for:
   - Choosing between competing fairness definitions
   - Evaluating fairness claims in ML systems
   - Identifying hidden value judgments in fairness audits
-one_liner: "공정성 지표는 상충한다 — 셋 이상을 동시에 만족할 수 없다."
+one_liner: "Fairness metrics trade off — you cannot satisfy three or more simultaneously."
 ---
 
 # Fairness Metric Tradeoff

@@ -9,7 +9,7 @@ best_for:
   - Sorting a drug candidate by oral bioavailability likelihood
   - Filtering chemical libraries for drug-likeness
   - Early-stage compound screening before expensive in vivo testing
-one_liner: "경구 약물 유사성: 다섯 규칙으로 약물화 가능성 판별"
+one_liner: "Oral drug-likeness — judge druggability via five simple physicochemical rules."
 ---
 
 # Lipinski's Rule of Five

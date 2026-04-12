@@ -8,7 +8,7 @@ source: Karl Jaspers, "The Origin and Goal of History", 1953
 best_for:
   - Classifying religious or philosophical movements by their historical emergence and structural role
   - Distinguishing between transformative axial traditions and localized or derivative beliefs
-one_liner: "BCE 800-200 시대에 동시다발적으로 출현한 초월적 종교 전통 분류"
+one_liner: "Classification of transcendental religious traditions that emerged simultaneously between 800–200 BCE."
 ---
 
 # Axial Age Framework

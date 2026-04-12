@@ -8,7 +8,7 @@ source: Islamic jurisprudence tradition, foundational methodology developed 8th�
 best_for:
   - Classifying a legal or ethical question into the source(s) of Islamic law that apply
   - Determining which interpretive authority or methodological tool is appropriate for a ruling
-one_liner: "이슬람 법학의 네 가지 법원(꾸란/순나/이즈마/끼야스)에 따라 법적 질문을 분류하는 위계적 틀"
+one_liner: "Hierarchical framework classifying legal questions by the four sources of Islamic jurisprudence — Qur'an, Sunna, Ijma, Qiyas."
 ---
 
 # Usul al-Fiqh

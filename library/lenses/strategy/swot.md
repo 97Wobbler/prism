@@ -9,7 +9,7 @@ best_for:
   - Situational assessment before strategy formation
   - Portfolio review against competitive environment
   - Risk identification and opportunity mapping
-one_liner: "내부 강점/약점과 외부 기회/위협을 4분면으로 정렬하여 전략 입력값 도출"
+one_liner: "Align internal strengths/weaknesses with external opportunities/threats in a 2x2 to derive strategy inputs."
 ---
 
 # SWOT Analysis

@@ -9,7 +9,7 @@ best_for:
   - Reading AI system behaviors to expose what principles are actually being enforced
   - Identifying gaps between stated constitutional values and enacted constraints
   - Understanding how natural-language rules encode and reproduce particular framings of harm
-one_liner: "자연언어 원칙으로 AI 동작을 규제하되, 원칙과 실제 행동의 괴리를 드러내는 해석 입장"
+one_liner: "Stance that governs AI behavior via natural-language principles and surfaces the gap between principle and action."
 ---
 
 # Constitutional AI

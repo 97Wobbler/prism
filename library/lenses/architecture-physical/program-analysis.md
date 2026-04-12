@@ -9,7 +9,7 @@ best_for:
   - Auditing building layouts against functional requirements
   - Validating spatial adjacency decisions
   - Identifying program gaps or conflicts early
-one_liner: "기능 요구사항과 공간 인접성을 맞춰 프로그램 구성 검증하기"
+one_liner: "Check program composition by matching functional requirements against spatial adjacencies."
 ---
 
 # Program Analysis

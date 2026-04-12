@@ -8,7 +8,7 @@ source: Hugo Riemann, Vereinfachte Harmonielehre, 1893; refined in pedagogy by l
 best_for:
   - Sorting a chord or harmonic moment by its functional role in tonal structure
   - Determining which harmonic progressions are stable, directive, or transitional
-one_liner: "음향의 기능적 역할(안정·진행·해결)에 따른 화성 분류"
+one_liner: "Classify harmony by its functional role — tonic stability, subdominant motion, dominant tension and resolution."
 ---
 
 # Functional Harmony (T-S-D)

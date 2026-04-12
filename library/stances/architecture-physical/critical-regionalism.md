@@ -9,7 +9,7 @@ best_for:
   - Reading buildings and urban ensembles to expose how they resist or capitulate to universalizing forces
   - Identifying which sensory and material particulars anchor place and which ones are erased by standardization
   - Understanding how regional geology, climate, craft tradition, and topography become agency in design
-one_liner: "지역의 구체성으로 표준화 저항하는 건축적 태도"
+one_liner: "Architectural stance that resists standardization through site-specific particularity."
 ---
 
 # Critical Regionalism

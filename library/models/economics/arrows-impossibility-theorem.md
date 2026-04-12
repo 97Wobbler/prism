@@ -8,7 +8,7 @@ source: Kenneth J. Arrow, "A Difficulty in the Concept of Social Welfare," Journ
 best_for:
   - Proving that no voting system or preference-aggregation rule can simultaneously satisfy a minimal set of democratic fairness criteria
   - Explaining why collective choice always involves tradeoffs between rationality, fairness, and decisiveness
-one_liner: "민주적 집단선택 불가능성: 합리성과 공정성을 동시에 만족하는 투표제도는 존재하지 않음"
+one_liner: "Impossibility of democratic collective choice — no voting system can jointly satisfy rationality and fairness."
 ---
 
 # Arrow's Impossibility Theorem

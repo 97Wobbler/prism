@@ -10,7 +10,7 @@ best_for:
   - code review of "how do I do X?" questions
   - requirement intake and stakeholder interviews
   - PR descriptions that justify a solution but not a problem
-one_liner: "사용자가 묻는 Y는 진짜 문제 X가 아니다 — 해법이 아니라 동기를 먼저 캐물어라"
+one_liner: "The Y the user asks about is not the real problem X — dig into motive before solution."
 ---
 
 # XY Problem

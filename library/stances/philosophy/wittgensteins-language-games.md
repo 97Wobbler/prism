@@ -9,7 +9,7 @@ best_for:
   - Reading utterances, concepts, and meanings to see how they derive their sense from use within rule-governed practices
   - Examining what goes wrong when words are torn from their native contexts and treated as having intrinsic meanings
   - Exposing conceptual confusions that arise from seeking a single unified account of how language works
-one_liner: "의미는 사용에 있다는 것을 드러내기 위한 관점"
+one_liner: "Stance that reveals meaning as use."
 ---
 
 # Wittgenstein's Language Games

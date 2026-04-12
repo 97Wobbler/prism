@@ -9,7 +9,7 @@ best_for:
   - prioritization under resource constraints
   - root-cause and impact analysis
   - identifying where to focus effort
-one_liner: "분포의 80%는 원인의 20%에서 비롯된다 — 모든 것이 균등하지 않다"
+one_liner: "80% of outcomes come from 20% of causes — nothing is uniform."
 ---
 
 # Pareto 80/20

@@ -8,7 +8,7 @@ source: U.S. Joint Chiefs of Staff, Joint Publication 3-0 (Operations), 2011–p
 best_for:
   - Sorting a military or strategic operation into its current phase to determine which operational objectives and resource allocation patterns are appropriate
   - Aligning tactical actions with theater-wide strategic intent across campaign duration
-one_liner: "작전 단계별 목표 및 역할 구분 — 형성/억지/장악/지배/안정화/능력화"
+one_liner: "Classify operations by phase and role — shape / deter / seize / dominate / stabilize / enable."
 ---
 
 # Phase Operations (0-V)

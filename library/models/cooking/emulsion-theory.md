@@ -9,7 +9,7 @@ best_for:
   - Predicting stability and texture in oil-water systems
   - Explaining why emulsions break and how to rescue them
   - Understanding the role of emulsifiers, temperature, and mechanical energy in dispersion
-one_liner: "유화액의 안정성은 분산상 입자의 크기, 계면활성제 피복, 기계적 에너지의 균형에 의해 결정된다"
+one_liner: "Emulsion stability as a balance of dispersed droplet size, surfactant coverage, and mechanical energy."
 ---
 
 # Emulsion Theory

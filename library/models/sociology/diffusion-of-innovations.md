@@ -9,7 +9,7 @@ best_for:
   - Predicting the adoption trajectory and timeline of a new technology or innovation across a population
   - Explaining why different segments adopt at different rates and identifying which segment is currently adopting
   - Designing communication and marketing strategies targeted to each adopter segment
-one_liner: "혁신의 확산은 5개 채택자 집단의 S자 곡선을 따르며, 각 집단의 심리적 특성과 정보원 선호도가 입양 시점을 결정한다"
+one_liner: "Innovations diffuse along an S-curve across five adopter groups whose psychology and information sources set adoption timing."
 ---
 
 # Diffusion of Innovations

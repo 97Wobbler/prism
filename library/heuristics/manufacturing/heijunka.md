@@ -9,7 +9,7 @@ best_for:
   - production scheduling
   - demand variability
   - capacity planning
-one_liner: "수요 변동을 시간 단위로 분산하여 장비와 인력의 균등 부하 유지"
+one_liner: "Level production by spreading demand fluctuations across time to balance equipment and labor load."
 ---
 
 # Heijunka

@@ -9,7 +9,7 @@ best_for:
   - Predicting when organisms will sacrifice fitness for relatives
   - Explaining the evolution of altruism and cooperation in family groups
   - Analyzing inclusive fitness payoffs across genealogical relationships
-one_liner: "혈연 계수 × 이타적 이득이 개인 비용을 초과할 때 이타적 행동이 진화한다"
+one_liner: "Altruism evolves when relatedness × benefit exceeds individual cost."
 ---
 
 # Kin Selection / Inclusive Fitness

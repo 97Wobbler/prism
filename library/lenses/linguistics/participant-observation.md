@@ -9,7 +9,7 @@ best_for:
   - Documenting natural language use in its social and cultural context
   - Identifying unstated norms, presuppositions, and indexical meanings
   - Capturing code-switching, register shifts, and metalinguistic awareness
-one_liner: "실제 상황에서 언어 사용의 맥락, 규범, 암묵적 의미를 기록하는 참여 관찰"
+one_liner: "Fieldwork method that records context, norms, and implicit meaning of language use in situ."
 ---
 
 # Participant Observation

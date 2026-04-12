@@ -9,7 +9,7 @@ best_for:
   - Systematic hazard identification in process systems
   - Uncovering deviations from intended design and operation
   - Breaking free from "it's never happened" assumptions
-one_liner: "파라미터 × 가이드워드 조합으로 모든 편차와 위험을 체계적으로 노출"
+one_liner: "Systematically expose deviations and hazards via parameter × guideword combinations."
 ---
 
 # HAZOP (Hazard and Operability Study)

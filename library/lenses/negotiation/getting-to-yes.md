@@ -9,7 +9,7 @@ best_for:
   - Moving past positional deadlock to agreement on underlying interests
   - Separating people-problems from the substantive dispute
   - Generating creative options before evaluating trade-offs
-one_liner: "이해관계를 드러내고 선택지를 늘려 공동이득 합의에 도달"
+one_liner: "Surface interests and expand options to reach mutual-gain agreement."
 ---
 
 # Getting to Yes

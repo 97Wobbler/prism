@@ -9,7 +9,7 @@ best_for:
   - Explaining autonomic nervous system responses to threat and social engagement
   - Predicting physiological and behavioral states under different levels of perceived safety
   - Understanding the hierarchy of defensive and social mechanisms
-one_liner: "위협 감지에 따른 신경 계층적 반응 패턴"
+one_liner: "Hierarchical neural response patterns triggered by threat detection."
 ---
 
 # Polyvagal Theory

@@ -9,7 +9,7 @@ best_for:
   - Identifying your true walk-away point before entering a negotiation
   - Evaluating whether an offer is better than your alternatives
   - Increasing negotiating leverage by clarifying what you'll do if talks fail
-one_liner: "협상 결렬 시 최선의 대안을 명확히 하여 협상력 강화"
+one_liner: "Clarify your Best Alternative To a Negotiated Agreement to secure negotiation leverage."
 ---
 
 # BATNA (Fisher/Ury)

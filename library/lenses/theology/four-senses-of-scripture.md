@@ -9,7 +9,7 @@ best_for:
   - Extracting multiple layers of meaning from a text
   - Training readers to move past surface interpretation
   - Evaluating whether an interpretation respects the text's full semantic depth
-one_liner: "텍스트의 네 가지 의미 층위를 체계적으로 추출하여 단순 해석을 넘어선다"
+one_liner: "Systematically extract four meaning layers from a text to go beyond literal interpretation."
 ---
 
 # Four Senses of Scripture

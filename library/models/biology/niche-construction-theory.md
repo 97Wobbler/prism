@@ -9,7 +9,7 @@ best_for:
   - Explaining how organisms modify their environment and how those modifications feed back to shape selection pressures on future generations
   - Predicting evolutionary dynamics when environmental change is organism-driven rather than exogenous
   - Understanding the co-evolutionary trajectory of species and their ecological contexts
-one_liner: "생물이 환경을 개조하고, 개조된 환경이 다시 생물의 선택압으로 작용하는 순환"
+one_liner: "Feedback loop in which organisms modify their environment and the modified environment feeds back as selective pressure."
 ---
 
 # Niche Construction Theory

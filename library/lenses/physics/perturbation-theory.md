@@ -9,7 +9,7 @@ best_for:
   - Approximating solutions to complex systems when an exact solution is intractable
   - Validating whether small changes to a known system preserve qualitative behavior
   - Deciding whether to solve a problem exactly or accept an approximate solution
-one_liner: "풀이 가능한 기저에서 시작해 작은 보정항으로 전개하는 근사 기법"
+one_liner: "Approximation technique that starts from a solvable base and expands via small correction terms."
 ---
 
 # Perturbation Theory

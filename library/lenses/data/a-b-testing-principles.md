@@ -9,7 +9,7 @@ best_for:
   - Validating that observed differences are real, not noise or artifacts
   - Detecting when a test is underpowered or when peeking invalidates results
   - Choosing between fixed-horizon and sequential testing designs
-one_liner: "통계적 유효성 확보: 검정력/최소탐지효과/순차분석/피킹 위험 식별"
+one_liner: "Secure statistical validity: power, MDE, sequential analysis, peeking risks."
 ---
 
 # A/B Testing Principles

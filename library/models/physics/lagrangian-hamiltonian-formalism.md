@@ -9,7 +9,7 @@ best_for:
   - Deriving equations of motion for complex mechanical systems without choosing coordinates first
   - Identifying conserved quantities and symmetries in physical systems
   - Transitioning between classical and quantum mechanics
-one_liner: "대칭성과 작용 최소화로부터 운동 방정식을 유도하는 좌표 독립적 역학"
+one_liner: "Coordinate-independent mechanics that derives equations of motion from symmetry and action minimization."
 ---
 
 # Lagrangian/Hamiltonian Formalism

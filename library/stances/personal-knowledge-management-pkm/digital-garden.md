@@ -9,7 +9,7 @@ best_for:
   - Reading knowledge systems to see what emerges from linking and growth over time
   - Understanding how thinking changes when knowledge is public and unfinished
   - Examining the tension between polish and authenticity in shared knowledge work
-one_liner: "미완성과 공개성을 통해 사고가 자라나는 방식을 읽는 태도"
+one_liner: "Stance of reading thought as growing through incompleteness and openness."
 ---
 
 # Digital Garden

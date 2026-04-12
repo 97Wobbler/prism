@@ -9,7 +9,7 @@ best_for:
   - calendar design and meeting policy
   - workload assessment for deep work roles
   - conflict resolution between synchronous and asynchronous work cultures
-one_liner: "메이커는 4시간 블록, 매니저는 1시간 단위로 최적화됨"
+one_liner: "Makers optimize for four-hour blocks, managers for one-hour slots."
 ---
 
 # Maker's vs Manager's Schedule

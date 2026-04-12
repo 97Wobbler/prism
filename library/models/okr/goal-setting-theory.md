@@ -9,7 +9,7 @@ best_for:
   - Predicting task performance and motivation from goal characteristics
   - Explaining why some goal-setting systems drive higher effort and outcomes than others
   - Diagnosing performance failures in organizational OKR or MBO programs
-one_liner: "목표의 구체성과 난이도가 성과를 결정하며, 피드백과 몰입도가 이를 조절한다"
+one_liner: "Goal specificity and difficulty drive performance, moderated by feedback and commitment."
 ---
 
 # Goal-Setting Theory (Locke/Latham)

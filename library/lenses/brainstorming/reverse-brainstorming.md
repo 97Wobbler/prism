@@ -9,7 +9,7 @@ best_for:
   - Uncovering hidden assumptions in a problem
   - Finding root causes by inverting the question
   - Breaking through cognitive fixation on existing solutions
-one_liner: "문제를 악화시키는 방법을 찾아 원인을 역으로 추론하기"
+one_liner: "Look for ways to make the problem worse, then invert to surface causes."
 ---
 
 # Reverse Brainstorming

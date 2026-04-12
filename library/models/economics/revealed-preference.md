@@ -9,7 +9,7 @@ best_for:
   - Inferring preferences from observed choices without assuming utility functions
   - Testing whether behavior is consistent with rational choice
   - Predicting future choices from historical choice data
-one_liner: "관찰된 선택으로부터 선호도를 추론하고 선택 일관성을 검증하는 이론"
+one_liner: "Infer preferences from observed choices and check consistency."
 ---
 
 # Revealed Preference (Samuelson)

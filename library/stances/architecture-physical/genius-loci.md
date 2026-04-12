@@ -9,7 +9,7 @@ best_for:
   - Reading architectural and spatial design to understand how places gather meaning through their material, cultural, and phenomenological particularity
   - Analyzing how built environments embody and sustain ways of dwelling
   - Examining what makes a place *itself* rather than generic or interchangeable
-one_liner: "장소의 고유성을 물질·지형·문화의 얽힘으로 읽는 현상학적 비평"
+one_liner: "Phenomenological criticism reading the spirit of place through the entanglement of matter, topography, and culture."
 ---
 
 # Genius Loci

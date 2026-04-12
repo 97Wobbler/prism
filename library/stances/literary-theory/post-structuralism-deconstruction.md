@@ -9,7 +9,7 @@ best_for:
   - Reading texts to expose the instability of meaning and the work required to produce apparent coherence
   - Tracing how texts undermine their own claims and harbor irreducible contradictions
   - Examining how meaning depends on deferral, différance, and the trace of what is excluded
-one_liner: "의미의 불안정성과 구조의 자기 해체 과정을 드러내는 해석 입장"
+one_liner: "Interpretive stance that foregrounds the instability of meaning and the self-deconstruction of structure."
 ---
 
 # Post-structuralism / Deconstruction

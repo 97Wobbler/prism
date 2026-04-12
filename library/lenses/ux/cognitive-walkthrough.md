@@ -9,7 +9,7 @@ best_for:
   - Evaluating UI clarity for first-time users
   - Identifying gaps between designer intent and user mental model
   - Catching task-blocking friction before testing
-one_liner: "신규 사용자가 실제로 마주칠 인지적 단계를 체계적으로 걷고 검증하기"
+one_liner: "Walk systematically through the cognitive steps a new user will actually face."
 ---
 
 # Cognitive Walkthrough

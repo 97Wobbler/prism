@@ -9,7 +9,7 @@ best_for:
   - Quantifying income or wealth inequality in a population
   - Comparing inequality across regions, time periods, or datasets
   - Identifying whether redistribution efforts are working
-one_liner: "소득/자산 불평등을 정량화하고 분포 변화를 추적하는 표준 수치"
+one_liner: "Standard measure for quantifying income or wealth inequality and tracking distributional change."
 ---
 
 # Gini Coefficient & Lorenz Curve

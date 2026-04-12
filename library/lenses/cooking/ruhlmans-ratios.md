@@ -9,7 +9,7 @@ best_for:
   - Designing reproducible dishes without memorizing recipes
   - Scaling recipes up or down while maintaining proportions
   - Debugging a failed dish by understanding what went wrong in the ratio
-one_liner: "비율 중심의 요리 설계로 레시피 의존성 탈피"
+one_liner: "Ratio-driven cooking that frees recipes from rigid instructions."
 ---
 
 # Ruhlman's Ratios

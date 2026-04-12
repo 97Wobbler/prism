@@ -9,7 +9,7 @@ best_for:
   - Diagnosing narrative momentum and pacing problems in scripts or films
   - Identifying missing structural beats that leave audiences emotionally unresolved
   - Reverse-engineering why a story feels incomplete or manipulative
-one_liner: "사건의 인과 관계로 캐릭터를 변화시키는 구조 진단"
+one_liner: "Diagnose structure that transforms character through the causal chain of events."
 ---
 
 # McKee's Story Structure

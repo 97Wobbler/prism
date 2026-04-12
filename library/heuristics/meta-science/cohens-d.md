@@ -9,7 +9,7 @@ best_for:
   - effect size interpretation
   - meta-analysis synthesis
   - statistical significance traps
-one_liner: "작은 효과도 큰 샘플에서 통계적 유의성을 얻을 수 있다"
+one_liner: "A small effect can reach statistical significance in a large sample."
 ---
 
 # Cohen's d

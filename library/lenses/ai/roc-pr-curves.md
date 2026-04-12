@@ -9,7 +9,7 @@ best_for:
   - Evaluating binary classifiers across thresholds without choosing one upfront
   - Comparing models when class imbalance makes accuracy misleading
   - Understanding precision-recall trade-offs in high-stakes prediction tasks
-one_liner: "임계값 독립적 분류기 평가 및 비교"
+one_liner: "Threshold-independent classifier evaluation and comparison."
 ---
 
 # ROC/PR Curves

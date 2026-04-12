@@ -9,7 +9,7 @@ best_for:
   - Structuring end-to-end data science projects with clear handoff points
   - Ensuring stakeholder alignment across business, data, and deployment phases
   - Reducing rework by explicit validation before phase transitions
-one_liner: "데이터 과학 프로젝트의 6단계 순환 프로세스. 비즈니스 이해부터 배포까지 반복 가능한 체계."
+one_liner: "Six-phase iterative data-science process from business understanding to deployment."
 ---
 
 # CRISP-DM

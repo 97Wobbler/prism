@@ -8,7 +8,7 @@ source: Erik Erikson, Harvard University, 1950–1968 ("Childhood and Society", 
 best_for:
   - Sorting a person's developmental moment into a life stage that dictates which psychosocial conflicts are salient
   - Understanding age-linked identity formation and the kind of relational work required at each stage
-one_liner: "생애주기별 심리사회적 갈등과 발달 과제 분류"
+one_liner: "Classify psychosocial conflicts and developmental tasks by life stage (Erikson)."
 ---
 
 # Erikson's Psychosocial Stages

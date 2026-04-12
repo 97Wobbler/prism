@@ -9,7 +9,7 @@ best_for:
   - Sorting an environmental impact or policy intervention by which planetary boundary it affects
   - Assessing whether an activity or system operates within safe operating space
   - Prioritizing climate and environmental action across competing concerns
-one_liner: "지구 시스템 안정성의 9가지 경계 분류"
+one_liner: "Classification of Earth system stability across nine planetary boundaries."
 ---
 
 # Planetary Boundaries

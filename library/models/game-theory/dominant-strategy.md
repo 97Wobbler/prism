@@ -9,7 +9,7 @@ best_for:
   - Identifying unconditionally optimal moves in strategic interactions
   - Predicting behavior when one player has a move that dominates all alternatives
   - Diagnosing when strategic advice is robust across opponent uncertainty
-one_liner: "상대 전략과 무관하게 항상 최적인 행동"
+one_liner: "An action that is always optimal regardless of the opponent's strategy."
 ---
 
 # Dominant Strategy

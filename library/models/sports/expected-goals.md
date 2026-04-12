@@ -9,7 +9,7 @@ best_for:
   - Predicting shot conversion likelihood from spatial and contextual shot characteristics
   - Quantifying shot quality independently of whether it resulted in a goal
   - Comparing player and team shooting efficiency on a model-adjusted basis
-one_liner: "슈팅 위치, 각도, 방어 압박을 바탕으로 득점 확률을 산출하는 샷 품질 모델"
+one_liner: "Shot-quality model that estimates scoring probability from shot location, angle, and defensive pressure."
 ---
 
 # Expected Goals (xG)

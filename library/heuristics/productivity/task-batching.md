@@ -9,7 +9,7 @@ best_for:
   - time-block scheduling
   - interrupt-heavy environments
   - deep work protection
-one_liner: "유사 작업을 묶어 컨텍스트 스위칭 비용을 줄인다"
+one_liner: "Group similar tasks to cut context-switching cost."
 ---
 
 # Task Batching

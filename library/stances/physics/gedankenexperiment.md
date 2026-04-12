@@ -9,7 +9,7 @@ best_for:
   - Reading theoretical physics to see how conceptual constraints (limiting cases, symmetries, invariances) can force revisions to fundamental concepts
   - Exposing assumptions hidden in mathematical formalisms and operational definitions
   - Identifying where intuition breaks down and what that rupture reveals about the theory
-one_liner: "물리적 현실의 경계를 개념적 실험으로 탐색하기"
+one_liner: "Probe the boundaries of physical reality through conceptual experiments."
 ---
 
 # Gedankenexperiment (Einstein)

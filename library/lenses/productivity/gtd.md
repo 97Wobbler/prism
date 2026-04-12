@@ -9,7 +9,7 @@ best_for:
   - Auditing personal or team task systems for completeness and cognitive load
   - Diagnosing why work feels chaotic or why deadlines slip
   - Designing capture and clarification workflows
-one_liner: "모든 일을 외부화하고 명확히 하여 실행 중심으로 정렬—인지 부하 제거의 시스템"
+one_liner: "Getting Things Done — externalize and clarify all open loops to align execution and unload cognitive overhead."
 ---
 
 # Getting Things Done (GTD)

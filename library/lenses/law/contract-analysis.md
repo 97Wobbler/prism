@@ -9,7 +9,7 @@ best_for:
   - Determining whether a binding agreement exists
   - Identifying gaps or ambiguities that create enforcement risk
   - Assessing which party bears performance risk under silent contract terms
-one_liner: "제시/승인/대가/합의/능력/합법성을 체계적으로 검증하여 계약의 성립 여부와 강행 가능성을 판정하라"
+one_liner: "Test formation and enforceability via offer, acceptance, consideration, mutuality, capacity, and legality."
 ---
 
 # Contract Analysis

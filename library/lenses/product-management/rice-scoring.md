@@ -9,7 +9,7 @@ best_for:
   - Prioritizing product features and initiatives across a portfolio
   - Making explicit the trade-offs between reach, impact, effort, and confidence
   - Surfacing disagreements about relative priority before committing resources
-one_liner: "도달 범위 × 영향도 ÷ 노력으로 기능 우선순위를 정량적으로 평가하고 투명성 있게 의사결정"
+one_liner: "Quantitatively prioritize features via Reach × Impact × Confidence / Effort."
 ---
 
 # RICE Scoring

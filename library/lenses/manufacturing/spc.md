@@ -9,7 +9,7 @@ best_for:
   - Distinguishing common-cause variation from assignable-cause signals in production
   - Detecting process drift before defects occur
   - Building operator confidence in when to adjust vs. when to leave a process alone
-one_liner: "공정 변동을 실시간으로 모니터링하고 개입의 신호를 식별하는 통계적 방법"
+one_liner: "Statistical Process Control — monitor process variation in real time and detect intervention signals."
 ---
 
 # Statistical Process Control

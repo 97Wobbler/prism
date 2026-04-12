@@ -8,7 +8,7 @@ source: Gautama Buddha (circa 5th century BCE); systematized in Pali Canon texts
 best_for:
   - Diagnosing root causes of suffering or dysfunction in a system, person, or organization
   - Prescribing a graduated remediation path from root cause to sustainable change
-one_liner: "고통의 근원을 진단하고 단계적 처방을 통해 치유하는 분석 프레임"
+one_liner: "Diagnostic frame for the roots of suffering and its stepwise remedy."
 ---
 
 # Four Noble Truths + Eightfold Path

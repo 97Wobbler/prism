@@ -9,7 +9,7 @@ best_for:
   - Structuring arguments and recommendations for maximum clarity and persuasion
   - Diagnosing why a document or presentation fails to land with its audience
   - Building top-down narratives that respect reader attention
-one_liner: "결론 우선, 계층적 근거로 설득력 있는 논증 구조화"
+one_liner: "Conclusion first, hierarchical support — structure arguments for persuasion (Minto)."
 ---
 
 # Pyramid Principle

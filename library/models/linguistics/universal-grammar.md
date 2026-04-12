@@ -9,7 +9,7 @@ best_for:
   - Explaining why children acquire language so rapidly despite limited input
   - Predicting which grammatical patterns are universally learnable vs. impossible
   - Diagnosing why certain language disorders follow predictable patterns
-one_liner: "모든 인간 언어를 생성하는 보편적인 문법 구조를 지닌 선천적 장치"
+one_liner: "Innate grammatical structure capable of generating all human languages."
 ---
 
 # Universal Grammar

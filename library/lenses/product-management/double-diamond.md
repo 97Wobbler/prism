@@ -9,7 +9,7 @@ best_for:
   - Separating problem discovery from solution design
   - Validating problem scope before committing to development
   - Reducing rework caused by building the wrong solution
-one_liner: "발산-수렴 사이클을 두 번 거쳐 올바른 문제를 올바르게 해결하기"
+one_liner: "Two cycles of divergence and convergence — solve the right problem the right way."
 ---
 
 # Double Diamond

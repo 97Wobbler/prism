@@ -9,7 +9,7 @@ best_for:
   - shot sequencing in dialogue scenes
   - action coverage and match-on-action cuts
   - maintaining spatial coherence across edits
-one_liner: "화면 180도 경계를 넘으면 관객의 공간 지각이 뒤바뀐다"
+one_liner: "Crossing the 180-degree line flips the audience's spatial orientation."
 ---
 
 # 180-Degree Rule

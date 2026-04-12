@@ -9,7 +9,7 @@ best_for:
   - Reducing part count and assembly labor before tooling
   - Identifying manufacturability problems in design phase
   - Quantifying the cost impact of design choices on production
-one_liner: "설계 단계에서 제조성과 조립성을 평가하여 원가와 공정 복잡도를 낮추기"
+one_liner: "Design for Manufacturing and Assembly — score designs to reduce cost and process complexity early."
 ---
 
 # Design for Manufacturing & Assembly

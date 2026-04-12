@@ -9,7 +9,7 @@ best_for:
   - Predicting equilibrium price and quantity in duopoly when firms choose different strategic variables
   - Explaining why the same market structure can yield vastly different outcomes depending on whether competition is quantity-based or price-based
   - Identifying which competitive mode (Cournot or Bertrand) better describes an industry
-one_liner: "기업들이 수량 또는 가격 중 어느 것을 경쟁 변수로 삼느냐에 따라 결정되는 시장 결과의 차이"
+one_liner: "Market outcomes differ depending on whether firms compete on quantity or price."
 ---
 
 # Cournot vs. Bertrand Competition

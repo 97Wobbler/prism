@@ -9,7 +9,7 @@ best_for:
   - Reconstructing paleotemperature and paleoenvironment from skeletal carbonate
   - Tracing water and organic matter provenance in sediments
   - Detecting diagenetic alteration in fossil records
-one_liner: "대리석과 생물 스켈레톤의 산소·탄소 동위원소 비율로 과거 기후와 환경을 복원하는 프록시"
+one_liner: "Reconstruct past climate and environment from oxygen and carbon isotope ratios in carbonates and biogenic skeletons."
 ---
 
 # Stable Isotope Analysis

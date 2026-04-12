@@ -9,7 +9,7 @@ best_for:
   - Reading texts to expose their layered quotations, echoes, and dialogic absorption of prior discourse
   - Understanding how meaning emerges from a text's position within a network of other texts, not from authorial intention
   - Identifying how literary works both preserve and transform the voices they incorporate
-one_liner: "텍스트는 다른 텍스트들의 모자이크; 의미는 간텍스트성 안에서 생성된다"
+one_liner: "A text is a mosaic of other texts — meaning is generated within intertextuality."
 ---
 
 # Intertextuality (Kristeva)

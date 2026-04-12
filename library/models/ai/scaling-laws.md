@@ -9,7 +9,7 @@ best_for:
   - Predicting loss and capability scaling as a function of model size, dataset size, and compute budget
   - Allocating training compute optimally between model parameters and training tokens
   - Planning infrastructure and budgets for large-scale AI training
-one_liner: "모델 크기, 데이터, 컴퓨트의 거듭제곱 법칙 관계로 성능 확장성 예측"
+one_liner: "Predict performance scalability via power-law relationships between model size, data, and compute."
 ---
 
 # Scaling Laws (Chinchilla, Kaplan)

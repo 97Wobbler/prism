@@ -9,7 +9,7 @@ best_for:
   - Breaking rigid problem-solving patterns
   - Generating alternatives when vertical thinking exhausts options
   - Surfacing hidden assumptions in group reasoning
-one_liner: "고정된 논리 우회, 우연의 진입점, 새로운 연결 강제"
+one_liner: "Detour around fixed logic — inject random entry points and force novel connections."
 ---
 
 # Lateral Thinking (de Bono)

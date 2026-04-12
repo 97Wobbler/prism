@@ -9,7 +9,7 @@ best_for:
   - policy design
   - constraint satisfaction in systems
   - feasibility assessment
-one_liner: "목표 N개를 달성하려면 독립적 수단 ≥N개 필요"
+one_liner: "To hit N independent targets you need at least N independent instruments."
 ---
 
 # Tinbergen Rule

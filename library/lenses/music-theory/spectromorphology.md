@@ -9,7 +9,7 @@ best_for:
   - Analyzing timbral and morphological evolution in electroacoustic compositions
   - Describing spectral transformation without recourse to pitch-based notation
   - Training perception of microtimbral gesture and spectral motion
-one_liner: "스펙트럼의 시간적 형태 변화를 세밀하게 분석하는 전자음향음악 해석 도구"
+one_liner: "Electroacoustic analysis tool that tracks the temporal evolution of spectral shape."
 ---
 
 # Spectromorphology

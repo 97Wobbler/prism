@@ -9,7 +9,7 @@ best_for:
   - Measuring customer sentiment across lifecycle touchpoints
   - Diagnosing which friction points drive loyalty or churn
   - Tracking sentiment trend and segmenting by driver
-one_liner: "고객 만족도·충성도·노력도의 세 지표로 감정 신호 포착"
+one_liner: "Capture customer sentiment through three signals — satisfaction, loyalty, and effort."
 ---
 
 # NPS / CES / CSAT

@@ -9,7 +9,7 @@ best_for:
   - Rating threats to software features during design and threat modeling
   - Comparing relative risk across multiple attack vectors
   - Structuring security discussions with technical and non-technical stakeholders
-one_liner: "소프트웨어 위협에 5가지 요소로 위험도 점수 매기기"
+one_liner: "Score software threats across five elements — Damage, Reproducibility, Exploitability, Affected users, Discoverability."
 ---
 
 # DREAD Risk Rating

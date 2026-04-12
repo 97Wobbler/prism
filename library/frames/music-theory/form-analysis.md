@@ -9,7 +9,7 @@ best_for:
   - Classifying musical form structures
   - Choosing appropriate analytical lenses for tonal music
   - Understanding formal constraints and listener expectations
-one_liner: "음악 형식을 이진/삼진/론도/통주곡으로 분류하여 분석 전략 결정"
+one_liner: "Classify musical form (binary / ternary / rondo / through-composed) to pick an analytic strategy."
 ---
 
 # Form Analysis

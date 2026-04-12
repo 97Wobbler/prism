@@ -9,7 +9,7 @@ best_for:
   - Isolating drivers of return on equity
   - Diagnosing profitability vs. efficiency vs. leverage issues
   - Comparing peer companies on individual performance levers
-one_liner: "자산 효율성, 수익성, 재무 레버리지로 ROE를 분해하여 실제 성과 동인 파악"
+one_liner: "Decompose ROE into asset efficiency, profitability, and financial leverage to find the real performance drivers."
 ---
 
 # DuPont Analysis

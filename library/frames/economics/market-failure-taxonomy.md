@@ -9,7 +9,7 @@ best_for:
   - Diagnosing why a market produces suboptimal allocations
   - Choosing which intervention (price control, subsidy, regulation, property rights) matches the failure mode
   - Distinguishing between genuine market failures and other sources of dissatisfaction
-one_liner: "시장 실패의 근본 원인을 분류하여 적절한 정책 대응을 결정"
+one_liner: "Classify the root causes of market failure to match them to appropriate policy responses."
 ---
 
 # Market Failure Taxonomy

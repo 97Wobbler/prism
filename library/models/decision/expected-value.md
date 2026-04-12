@@ -9,7 +9,7 @@ best_for:
   - Computing the long-run average payoff of a risky choice
   - Comparing alternatives when outcomes and probabilities are known
   - Identifying when emotional or reference-dependent reasoning diverges from expected value
-one_liner: "확률로 가중한 결과들의 합을 계산하여 선택지 비교"
+one_liner: "Compare options by summing probability-weighted outcomes."
 ---
 
 # Expected Value

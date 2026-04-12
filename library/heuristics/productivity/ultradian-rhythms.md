@@ -9,7 +9,7 @@ best_for:
   - scheduling deep work blocks
   - pacing sprints and focus sessions
   - predicting attention collapse in long meetings
-one_liner: "90-120분 주기로 집중력 하강 후 회복 필요"
+one_liner: "Focus falls on a 90–120 minute cycle and must be followed by recovery."
 ---
 
 # Ultradian Rhythms

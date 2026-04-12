@@ -9,7 +9,7 @@ best_for:
   - Sorting an intervention or problem by the level of system it addresses
   - Determining which kind of change is needed and at what depth
   - Identifying why surface-level fixes fail to stick
-one_liner: "환경→행동→능력→신념→정체성→목적 계층구조에서 문제의 근본 수준 파악"
+one_liner: "Locate the root level of a problem in the environment → behavior → capability → belief → identity → purpose hierarchy."
 ---
 
 # Neurological Levels (Dilts)

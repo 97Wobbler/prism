@@ -9,7 +9,7 @@ best_for:
   - Predicting mineral crystallization order in cooling magma
   - Determining the sequence of minerals that will form from a melt
   - Understanding compositional evolution in igneous rocks
-one_liner: "냉각하는 마그마에서 광물의 결정화 순서를 예측하는 분류 틀"
+one_liner: "Classification that predicts mineral crystallization order as magma cools."
 ---
 
 # Bowen's Reaction Series

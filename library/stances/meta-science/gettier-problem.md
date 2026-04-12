@@ -9,7 +9,7 @@ best_for:
   - Testing whether an analysis of knowledge is robust to counterexamples
   - Exposing gaps between necessary conditions and sufficient conditions
   - Reading claims about justified belief and truth to locate where justification can diverge from warrant
-one_liner: "정당화·참·신념 분석의 충분조건 부재를 드러내는 반례 생성 방법론"
+one_liner: "Counterexample methodology that reveals the insufficiency of the justified-true-belief analysis."
 ---
 
 # Gettier Problem

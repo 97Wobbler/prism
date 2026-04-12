@@ -9,7 +9,7 @@ best_for:
   - Exposing consensus blindness before committing to a decision
   - Pressure-testing a proposal by forcing articulation of its weaknesses
   - Breaking echo chambers in strategy and planning sessions
-one_liner: "합의 오류를 드러내기 위해 체계적으로 반대 입장을 구성하고 방어"
+one_liner: "Systematically construct and defend the opposing position to reveal consensus errors."
 ---
 
 # Devil's Advocacy

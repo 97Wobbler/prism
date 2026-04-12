@@ -9,7 +9,7 @@ best_for:
   - Sorting ecological or complex adaptive systems by their response mode to perturbation
   - Distinguishing recovery capacity from absorption capacity in system design
   - Predicting which interventions preserve system identity versus stability
-one_liner: "복원 능력과 저항 능력의 구조적 차이; 같은 '안정성'도 운영 원리가 다름"
+one_liner: "Structural distinction between ability to recover and ability to resist — same 'stability' with different operating principles."
 ---
 
 # Resilience vs Resistance (Holling)

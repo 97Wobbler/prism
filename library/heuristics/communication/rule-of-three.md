@@ -9,7 +9,7 @@ best_for:
   - Structuring memorable messages
   - Organizing lists and arguments
   - Designing presentations and pitches
-one_liner: "3개 항목 그룹핑으로 기억력 극대화"
+one_liner: "Group items in threes to maximize memorability."
 ---
 
 # Rule of Three

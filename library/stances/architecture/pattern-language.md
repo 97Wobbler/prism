@@ -9,7 +9,7 @@ best_for:
   - Reading designed artifacts and spatial systems to see what recurring problems they solve and what human invariants they encode
   - Understanding how constraints and locality shape design decisions
   - Surfacing the generative structure beneath surface variety
-one_liner: "반복되는 문제와 그 해결책을 패턴으로 읽어내는 설계 철학"
+one_liner: "Design philosophy that reads recurring problems and their solutions as patterns."
 ---
 
 # Pattern Language (Alexander)

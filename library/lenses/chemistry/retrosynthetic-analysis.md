@@ -9,7 +9,7 @@ best_for:
   - Planning multi-step organic syntheses by working backward from target
   - Identifying key bond disconnections and synthetic bottlenecks
   - Teaching strategic thinking in organic chemistry
-one_liner: "표적 분자에서 전구체로 역방향 해석하여 합성 경로 설계"
+one_liner: "Design synthetic routes by working backward from target to precursors."
 ---
 
 # Retrosynthetic Analysis

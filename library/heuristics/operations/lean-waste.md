@@ -9,7 +9,7 @@ best_for:
   - process waste audits
   - value stream mapping
   - operational improvement prioritization
-one_liner: "낭비 8가지를 찾아 제거하면 효율이 따라온다"
+one_liner: "Find and eliminate the eight wastes and efficiency follows."
 ---
 
 # Lean Waste (TIMWOODS)

@@ -9,7 +9,7 @@ best_for:
   - Determining the original oral/written context of a text
   - Identifying layers of tradition and editorial modification
   - Understanding how a passage functioned before canonization
-one_liner: "문학 형식과 생활 상황(Sitz im Leben)을 통해 텍스트의 원래 기능과 역사 추적"
+one_liner: "Trace a text's original function and history via literary form and Sitz im Leben."
 ---
 
 # Form Criticism

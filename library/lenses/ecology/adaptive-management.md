@@ -9,7 +9,7 @@ best_for:
   - Managing systems with high uncertainty and irreversible outcomes
   - Designing interventions where consequences reveal themselves only over years
   - Escaping lock-in from policies that proved wrong but cannot be reversed
-one_liner: "불확실성 속에서 정책을 시험하고 모니터링 데이터로 지속 개선하는 의사결정 틀"
+one_liner: "Decision framework that treats policies as experiments and improves them via monitoring data."
 ---
 
 # Adaptive Management

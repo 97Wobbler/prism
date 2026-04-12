@@ -9,7 +9,7 @@ best_for:
   - Structuring multi-year talent development pathways
   - Validating whether an athlete's current training load and focus matches their developmental stage
   - Identifying training or competition errors (e.g., specializing too early, peaking at wrong age)
-one_liner: "7단계 장기 선수 개발 모델—훈련 강도·전문화·경쟁 시점을 연령별로 정렬"
+one_liner: "Long-Term Athlete Development — seven-stage model aligning training intensity, specialization, and competition to age."
 ---
 
 # LTAD (Long-Term Athlete Development)

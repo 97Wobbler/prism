@@ -9,7 +9,7 @@ best_for:
   - Diagnosing why a dish tastes flat or unbalanced
   - Teaching foundational flavor principles to cooks
   - Troubleshooting recipes that feel "off"
-one_liner: "4가지 맛 요소로 요리의 풍미 불균형을 진단하고 교정하는 체계"
+one_liner: "Four-element taste framework for diagnosing and correcting flavor imbalances."
 ---
 
 # Salt Fat Acid Heat

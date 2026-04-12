@@ -9,7 +9,7 @@ best_for:
   - curriculum design
   - study strategy recommendations
   - assessment planning
-one_liner: "시험처럼 배우면 기억이 오래간다"
+one_liner: "Learning by testing produces longer-lasting memory."
 ---
 
 # Retrieval Practice

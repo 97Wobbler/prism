@@ -9,7 +9,7 @@ best_for:
   - Systematic root cause analysis when a defect or failure reaches the customer
   - Corrective and preventive action (CAPA) planning in manufacturing
   - Cross-functional problem solving where blame diffusion is a risk
-one_liner: "고객 영향 문제의 근본 원인을 8단계로 체계적으로 해결하고 재발 방지"
+one_liner: "Eight-discipline method for systematically resolving customer-impact problems and preventing recurrence."
 ---
 
 # 8D Problem Solving

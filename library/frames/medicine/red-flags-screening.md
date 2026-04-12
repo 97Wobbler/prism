@@ -9,7 +9,7 @@ best_for:
   - Rapid triage of symptom clusters
   - Early identification of emergency vs. routine presentation
   - Disambiguation of life-threatening from benign findings
-one_liner: "증상 군집을 위험도별로 분류하여 대응 수준 결정"
+one_liner: "Classify symptom clusters by risk level to decide intervention intensity."
 ---
 
 # Red Flags Screening

@@ -9,7 +9,7 @@ best_for:
   - Validating completeness of systematic review reporting
   - Identifying gaps in transparency before publication
   - Benchmarking review quality against reporting standards
-one_liner: "체계적 문헌고찰 완성도를 27개 항목으로 검증하는 보고 표준"
+one_liner: "27-item reporting standard for systematic literature reviews."
 ---
 
 # PRISMA Checklist

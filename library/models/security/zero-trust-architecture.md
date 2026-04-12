@@ -9,7 +9,7 @@ best_for:
   - Explaining how attack surface and lateral movement scope shrink as trust granularity increases
   - Predicting security posture improvement as implicit-trust assumptions are replaced with continuous verification
   - Diagnosing which trust boundaries are doing load-bearing work in a system
-one_liner: "모든 접근에 대해 연속 검증을 강제하면 공격 범위와 피해 반경이 축소된다"
+one_liner: "Continuous verification on every access shrinks attack surface and blast radius."
 ---
 
 # Zero Trust Architecture

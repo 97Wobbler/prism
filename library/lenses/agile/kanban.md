@@ -9,7 +9,7 @@ best_for:
   - Diagnosing bottlenecks and queue buildup in workflow
   - Validating that work-in-progress limits are set correctly
   - Predicting delivery time from current queue state
-one_liner: "흐름 기반 업무 관리에서 WIP 제한과 사이클 타임의 수학적 관계 측정"
+one_liner: "Flow-based work management that makes the mathematical relationship between WIP limits and cycle time visible."
 ---
 
 # Kanban (WIP, CFD, Little's Law)

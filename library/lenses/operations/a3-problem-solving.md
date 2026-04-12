@@ -9,7 +9,7 @@ best_for:
   - Structured root-cause analysis and countermeasure planning
   - Cross-functional problem documentation that survives leadership handoff
   - Disciplines teams to distinguish observation from interpretation
-one_liner: "한 장짜리 문제 분석과 개선 계획 — 관찰 → 근본 원인 → 대책 → 효과 확인"
+one_liner: "One-page problem analysis and improvement plan — observation, root cause, countermeasure, effect check."
 ---
 
 # A3 Problem Solving

@@ -9,7 +9,7 @@ best_for:
   - Predicting how users will parse visual layouts and group elements without explicit instruction
   - Explaining visual hierarchy and affordance clarity in interface design
   - Diagnosing why a layout feels "confusing" or "coherent"
-one_liner: "시각 요소의 근접성, 유사성, 폐쇄성, 연속성으로 사용자의 자동 지각 구조 예측"
+one_liner: "Predict automatic perceptual structure via proximity, similarity, closure, and continuity."
 ---
 
 # Gestalt Principles

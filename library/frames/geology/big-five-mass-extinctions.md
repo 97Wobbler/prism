@@ -9,7 +9,7 @@ best_for:
   - Sorting a mass extinction event by severity, causal mechanism, and recovery timeline
   - Comparing deep-time biodiversity crises to understand extinction drivers
   - Contextualizing modern biodiversity loss within paleontological baselines
-one_liner: "대규모 멸종 사건을 심각도와 복구 특성으로 분류하는 심층 시간 표본틀"
+one_liner: "Deep-time framework classifying the Big Five mass extinction events by severity and recovery."
 ---
 
 # Big Five Mass Extinctions

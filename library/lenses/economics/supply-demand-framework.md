@@ -9,7 +9,7 @@ best_for:
   - Diagnosing price instability and allocation inefficiency in markets
   - Identifying whether a shortage or surplus is demand-driven or supply-driven
   - Predicting the direction and magnitude of price movement when conditions shift
-one_liner: "공급과 수요의 불균형을 가격 변화로 진단하고 시장 재균형 메커니즘을 분석"
+one_liner: "Diagnose imbalances via price signals and analyze rebalancing mechanisms."
 ---
 
 # Supply-Demand Framework

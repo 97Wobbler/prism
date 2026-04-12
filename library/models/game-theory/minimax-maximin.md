@@ -9,7 +9,7 @@ best_for:
   - Choosing strategy under worst-case adversarial conditions
   - Equilibrium analysis in zero-sum and near-zero-sum games
   - Risk-averse decision-making with incomplete information
-one_liner: "적대적 상황에서 최악의 경우를 최적화하는 전략 선택 원리"
+one_liner: "Optimize for the worst case in adversarial settings."
 ---
 
 # Minimax / Maximin

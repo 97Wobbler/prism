@@ -9,7 +9,7 @@ best_for:
   - Auditing organizational resilience against cascading failures
   - Diagnosing which tier of command breakdown is causing strategic failure
   - Allocating resources to shore up weakest interdependent rings
-one_liner: "조직 복원력의 다섯 계층(지휘부/절차/기반시설/인적자원/전력)을 체계적으로 감사하고 취약점을 순위 매기기"
+one_liner: "Audit organizational resilience across five strategic layers — leadership, processes, infrastructure, population, forces — and rank vulnerabilities."
 ---
 
 # Warden's Five Rings

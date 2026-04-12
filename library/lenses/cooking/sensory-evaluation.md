@@ -10,7 +10,7 @@ best_for:
   - Detecting small differences between two products (triangle test)
   - Building a detailed sensory vocabulary for a dish or ingredient
   - Measuring consumer preference or acceptance
-one_liner: "삼각형 검사/기술적 기술/선호도 평가로 음식의 감각적 품질을 체계적으로 측정"
+one_liner: "Systematic sensory measurement via triangle tests, descriptive analysis, and preference testing."
 ---
 
 # Sensory Evaluation

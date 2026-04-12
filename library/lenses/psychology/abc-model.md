@@ -9,7 +9,7 @@ best_for:
   - Tracing emotional distress to underlying beliefs rather than circumstances
   - Breaking cycles of maladaptive thinking in clinical or coaching contexts
   - Identifying which beliefs, not events, drive behavioral outcomes
-one_liner: "사건-신념-결과 연쇄를 분석해 인지적 개입점을 찾는 심리 진단 모델"
+one_liner: "Analyze the Activating event → Belief → Consequence chain to find points of cognitive intervention."
 ---
 
 # ABC Model (Ellis REBT)

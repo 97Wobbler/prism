@@ -9,7 +9,7 @@ best_for:
   - Capturing lectures or source material with minimal post-processing
   - Building retrievable study materials during active learning
   - Organizing notes for spaced repetition and review
-one_liner: "3-zone 페이지 구조로 강의 기록과 복습 자료를 동시에 생성"
+one_liner: "Three-zone page layout that produces lecture notes and review material at the same time."
 ---
 
 # Cornell Note-Taking

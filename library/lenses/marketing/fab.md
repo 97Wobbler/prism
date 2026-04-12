@@ -9,7 +9,7 @@ best_for:
   - Translating product specs into customer-facing value propositions
   - Aligning sales messaging with buyer pain points
   - Stress-testing claims about competitive differentiation
-one_liner: "제품 속성을 고객 니즈에 맞춘 이득으로 변환하는 프레임워크"
+one_liner: "Translate product features into advantages and benefits aligned with customer needs."
 ---
 
 # Features, Advantages, Benefits

@@ -8,7 +8,7 @@ source: John C. Harsanyi, "Games with Incomplete Information Played by 'Bayesian
 best_for:
   - Modeling strategic interaction when players have private information
   - Predicting equilibrium outcomes when uncertainty is asymmetric or mutual
-one_liner: "불완전정보 게임에서 플레이어의 사적 정보와 믿음을 명시적으로 다루는 균형 분석"
+one_liner: "Equilibrium analysis of incomplete-information games that explicitly handle private information and beliefs."
 ---
 
 # Bayesian Games (Harsanyi)

@@ -9,7 +9,7 @@ best_for:
   - Clarifying product vision before committing engineering resources
   - Testing whether a feature solves a real customer problem
   - Aligning stakeholders on the "why" before debating the "how"
-one_liner: "고객이 원하는 결과부터 시작해 역순으로 설계하기"
+one_liner: "Start from the customer outcome and design backwards via a press release and FAQ."
 ---
 
 # Working Backwards / PR-FAQ

@@ -9,7 +9,7 @@ best_for:
   - Sorting a team's current developmental state to determine which interventions are appropriate
   - Diagnosing why a team is stuck or underperforming
   - Predicting and normalizing team friction during formation
-one_liner: "팀의 발전 단계를 분류하여 적절한 리더십 개입과 팀 기반 개선 전략을 결정"
+one_liner: "Classify team development stages to choose appropriate leadership intervention and improvement strategy."
 ---
 
 # Tuckman's Stages

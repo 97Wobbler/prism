@@ -9,7 +9,7 @@ best_for:
   - Mapping adversary behavior to defensive controls
   - Threat model validation and gap analysis
   - Incident response timeline reconstruction
-one_liner: "공격자의 전체 침입 경로를 7단계로 분해해 각 단계별 탐지·차단 전략 수립"
+one_liner: "Break down the adversary's full intrusion path into seven stages and plan detection/block strategies per stage."
 ---
 
 # Kill Chain Analysis

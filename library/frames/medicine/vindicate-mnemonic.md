@@ -9,7 +9,7 @@ best_for:
   - Differential diagnosis of acute headache or focal neurological deficit
   - Systematic triage of vascular emergencies in emergency medicine
   - Teaching framework for medical students and residents
-one_liner: "혈관/감염/신경/약물 등 급성 증상의 원인을 체계적으로 분류하는 감별진단 체크리스트"
+one_liner: "Differential diagnosis mnemonic that systematically classifies the causes of acute symptoms (vascular, infectious, neurologic, drugs, etc.)."
 ---
 
 # VINDICATE Mnemonic

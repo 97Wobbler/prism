@@ -9,7 +9,7 @@ best_for:
   - Evaluating site or regional vulnerability to earthquakes, volcanic activity, landslides, or tsunamis
   - Prioritizing mitigation investments across multiple hazard types
   - Screening new development sites for acceptable risk
-one_liner: "지진·화산·산사태·쓰나미 위험도를 체계적으로 평가하고 우선순위를 매기는 다중재해 프레임워크"
+one_liner: "Multi-hazard framework that systematically ranks earthquake, volcano, landslide, and tsunami risks."
 ---
 
 # Geohazard Assessment

@@ -9,7 +9,7 @@ best_for:
   - Systematically reconstructing an industry's value proposition
   - Escaping zero-sum competition by redefining the playing field
   - Identifying which competitive factors to shed, amplify, or invent
-one_liner: "경쟁 요소를 제거·감소·강화·창출해 새로운 시장 공간을 열기"
+one_liner: "Eliminate / Reduce / Raise / Create competitive factors to open new market space."
 ---
 
 # Blue Ocean ERRC Grid

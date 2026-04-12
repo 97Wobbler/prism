@@ -8,7 +8,7 @@ source: Sergei Eisenstein, Soviet filmmaker and theorist, 1920s–1940s
 best_for:
   - Classifying a montage sequence by the primary principle linking its shots
   - Choosing an editing strategy that matches the emotional or intellectual effect desired
-one_liner: "영상의 결합 원리에 따른 다섯 가지 몽타주 유형 — 리듬에서 지성까지의 스펙트럼"
+one_liner: "Five Eisensteinian montage types classified by editing principle — from rhythmic to intellectual."
 ---
 
 # Eisenstein's 5 Types of Montage

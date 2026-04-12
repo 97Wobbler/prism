@@ -9,7 +9,7 @@ best_for:
   - Quantifying how much margin a process has relative to specification limits
   - Predicting the rate of out-of-spec defects under stable conditions
   - Diagnosing whether process centering or variation reduction is the binding constraint
-one_liner: "공정이 스펙 범위를 얼마나 여유 있게 충족하는지를 정량화하는 지표"
+one_liner: "Indicator quantifying how comfortably a process meets specification limits."
 ---
 
 # Process Capability (Cp, Cpk)

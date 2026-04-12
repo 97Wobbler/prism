@@ -9,7 +9,7 @@ best_for:
   - Reading mathematical structures to see what is preserved under transformation rather than what is built from elements
   - Exposing hidden structural isomorphisms across domains
   - Analyzing how abstractions emerge from repeated patterns
-one_liner: "관계와 변환을 통해 숨겨진 구조적 동형을 드러내는 틀"
+one_liner: "Framework that reveals hidden structural isomorphisms through relations and transformations."
 ---
 
 # Category Theory

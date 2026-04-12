@@ -9,7 +9,7 @@ best_for:
   - Retaining high-volume source material without rereading entire texts
   - Balancing breadth and depth in knowledge acquisition
   - Detecting when a text deserves deeper study vs. abandonment
-one_liner: "대량의 텍스트를 조각으로 나누어 반복 노출하되, 관심도에 따라 학습 깊이를 동적으로 조정하는 기법"
+one_liner: "Split large texts into fragments for repeated exposure, dynamically adjusting depth by interest."
 ---
 
 # Incremental Reading (SuperMemo)

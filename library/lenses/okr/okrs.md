@@ -9,7 +9,7 @@ best_for:
   - Translating strategic intent into measurable, bounded outcomes
   - Aligning teams across an organization toward shared results
   - Decoupling effort from results and surfacing misalignment early
-one_liner: "목표 + 3~5개 핵심결과로 의도를 측정가능한 성과로 변환"
+one_liner: "Convert intent into measurable outcomes via an objective plus three to five key results."
 ---
 
 # OKRs (Doerr)

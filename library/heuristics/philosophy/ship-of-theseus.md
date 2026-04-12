@@ -9,7 +9,7 @@ best_for:
   - identity persistence across incremental change
   - continuity vs. replacement reasoning
   - organizational or system refactoring decisions
-one_liner: "점진적 변화 속 동일성을 보존하되, 교체된 부분이 원본의 본질을 가지는지 문제 삼아라"
+one_liner: "Preserve identity through gradual change, but question whether replaced parts carry the original's essence."
 ---
 
 # Ship of Theseus

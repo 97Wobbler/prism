@@ -9,7 +9,7 @@ best_for:
   - Prioritizing features or product improvements by impact potential
   - Identifying underserved customer needs
   - Avoiding feature bloat by scoring ROI
-one_liner: "고객이 중요하게 여기지만 만족하지 못하는 기회를 체계적으로 발굴하고 점수화"
+one_liner: "Systematically surface and score opportunities that customers rate important but unsatisfied."
 ---
 
 # Opportunity Scoring (Ulwick ODI)

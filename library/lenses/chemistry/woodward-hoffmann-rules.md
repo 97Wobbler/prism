@@ -9,7 +9,7 @@ best_for:
   - Predicting which pericyclic reactions proceed thermally vs. photochemically
   - Rationalizing unexpected selectivity or reaction barriers in cycloadditions and rearrangements
   - Designing synthetic routes that avoid symmetry-forbidden pathways
-one_liner: "궤도 대칭성으로 페리사이클 반응의 허용/금지 여부 판단"
+one_liner: "Decide whether a pericyclic reaction is allowed or forbidden via orbital symmetry."
 ---
 
 # Woodward-Hoffmann Rules

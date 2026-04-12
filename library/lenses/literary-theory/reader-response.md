@@ -9,7 +9,7 @@ best_for:
   - Analyzing how a text creates meaning through reader participation
   - Identifying gaps and indeterminacies that force interpretive work
   - Tracing the temporal unfolding of comprehension during reading
-one_liner: "텍스트와 독자의 상호작용으로 의미가 생성되는 과정 분석"
+one_liner: "Analyze how meaning is generated through reader-text interaction."
 ---
 
 # Reader-Response (Iser)

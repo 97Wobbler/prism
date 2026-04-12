@@ -9,7 +9,7 @@ best_for:
   - Reading films to locate directorial vision and consistent thematic/stylistic preoccupations
   - Recovering the agency and signature of directors working within studio systems or genre constraints
   - Tracking how a director's visual and narrative choices persist across different material conditions
-one_liner: "감독의 일관된 미학적·서사적 서명을 추적하고, 제도적 제약 속에서의 창의적 에이전시를 복원하는 관점"
+one_liner: "Trace the director's consistent aesthetic and narrative signature to recover creative agency within institutional constraint."
 ---
 
 # Auteur Theory

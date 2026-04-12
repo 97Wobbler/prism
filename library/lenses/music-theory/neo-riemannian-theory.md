@@ -9,7 +9,7 @@ best_for:
   - Mapping harmonic relationships between chords without functional tonality
   - Analyzing smooth voice-leading in chromatic or post-tonal music
   - Understanding chord progressions as geometric transformations
-one_liner: "조화음 간의 최소 음성 이동을 기반으로 음악적 거리를 정의하는 분석 프레임워크"
+one_liner: "Define musical distance by minimal voice leading between chords."
 ---
 
 # Neo-Riemannian Theory

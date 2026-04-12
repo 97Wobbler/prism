@@ -9,7 +9,7 @@ best_for:
   - Discovering hidden business logic and process flows
   - Aligning technical and non-technical stakeholders on domain events
   - Identifying gaps, redundancies, and ambiguities in system behavior
-one_liner: "도메인 이벤트 기반 협업 워크숍으로 비즈니스 프로세스 전체 흐름을 시각화하고 이해도 갭을 노출"
+one_liner: "Collaborative workshop that maps an entire business process through domain events and surfaces understanding gaps."
 ---
 
 # Event Storming

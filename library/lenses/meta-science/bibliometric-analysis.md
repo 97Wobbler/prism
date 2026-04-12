@@ -9,7 +9,7 @@ best_for:
   - Measuring research impact and influence through citation patterns
   - Identifying seminal works and research clusters in a field
   - Comparing researcher productivity and visibility across disciplines
-one_liner: "인용 네트워크와 h-지수로 연구 영향력과 분야 구조를 정량화"
+one_liner: "Quantify research impact and field structure via citation networks and the h-index."
 ---
 
 # Bibliometric Analysis

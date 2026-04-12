@@ -9,7 +9,7 @@ best_for:
   - Preventing context-switch tax and fragmentation
   - Aligning calendar to priorities, not just reactivity
   - Validating whether a schedule actually protects focus work
-one_liner: "캘린더 기반 의도적 스케줄링으로 시간 단편화 방지"
+one_liner: "Intentional calendar-based scheduling to prevent time fragmentation."
 ---
 
 # Time Blocking

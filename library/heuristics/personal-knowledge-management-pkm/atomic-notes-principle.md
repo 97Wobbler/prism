@@ -9,7 +9,7 @@ best_for:
   - Note-taking system design
   - Knowledge synthesis and retrieval
   - Long-form writing from notes
-one_liner: "한 가지 아이디어 한 장에 담아야 쉽게 조합하고 재사용할 수 있다"
+one_liner: "One idea per note — it becomes easier to combine and reuse."
 ---
 
 # Atomic Notes Principle

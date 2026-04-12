@@ -9,7 +9,7 @@ best_for:
   - Sorting an observed adversary behavior or artifact into a standardized TTP category
   - Aligning defensive controls to known attack patterns
   - Building threat models grounded in real-world adversary behavior
-one_liner: "적대자의 관찰된 행동을 표준화된 TTP 카테고리로 분류하는 행렬"
+one_liner: "Matrix that classifies observed adversary behavior into standardized TTP categories."
 ---
 
 # MITRE ATT&CK

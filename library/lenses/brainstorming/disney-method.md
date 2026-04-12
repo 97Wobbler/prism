@@ -9,7 +9,7 @@ best_for:
   - Generating ideas without premature criticism
   - Balancing imaginative vision with practical constraints
   - Breaking deadlock between visionary and pragmatic thinkers
-one_liner: "꿈꾸기/현실화/비판 역할 순환으로 창의적 아이디어를 검증하기"
+one_liner: "Cycle through Dreamer / Realist / Critic roles to stress-test a creative idea."
 ---
 
 # Disney Method

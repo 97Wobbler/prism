@@ -9,7 +9,7 @@ best_for:
   - Predicting whether a threat to use force will deter adversary action or provoke escalation
   - Explaining why credibility and cost imposition matter more than raw capability
   - Diagnosing deterrence failures and designing stable threat communication
-one_liner: "위협의 신뢰성은 능력과 의지, 그리고 명확한 소통의 곱으로 결정된다"
+one_liner: "Threat credibility is set by capability × will × clarity of communication."
 ---
 
 # Deterrence Theory (Schelling)

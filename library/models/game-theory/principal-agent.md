@@ -9,7 +9,7 @@ best_for:
   - Explaining why agents do not always act in principals' interests
   - Predicting the cost of misaligned incentives in hierarchies
   - Designing contracts and monitoring systems to reduce agency loss
-one_liner: "주인이 대리인의 행동을 완전히 관찰할 수 없을 때 발생하는 인센티브 불일치"
+one_liner: "Incentive misalignment arising when the principal cannot fully observe the agent's actions."
 ---
 
 # Principal-Agent Problem

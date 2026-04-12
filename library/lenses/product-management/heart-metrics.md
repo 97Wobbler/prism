@@ -9,7 +9,7 @@ best_for:
   - Measuring user experience holistically across five dimensions
   - Defining success metrics for product features and user flows
   - Diagnosing why a product change succeeded or failed
-one_liner: "사용자 행복도, 참여도, 채택률, 유지율, 작업 성공도를 통합 측정하는 프레임워크"
+one_liner: "Integrated UX measurement — Happiness, Engagement, Adoption, Retention, Task Success."
 ---
 
 # HEART Metrics

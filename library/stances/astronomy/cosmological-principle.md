@@ -9,7 +9,7 @@ best_for:
   - Reading observational data and models to see what large-scale isotropy and homogeneity assumptions enable and foreclose
   - Recognizing when local structure is being interpreted as universal law
   - Identifying where symmetry breaks the ability to explain particular features
-one_liner: "우주적 규모에서 모든 방향과 장소가 동등하다는 가정이 관측과 이론을 어떻게 형성하는가"
+one_liner: "Assumption that at cosmic scales every direction and place is equivalent, and how this shapes observation and theory."
 ---
 
 # Cosmological Principle

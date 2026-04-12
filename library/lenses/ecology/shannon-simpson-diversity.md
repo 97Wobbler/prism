@@ -9,7 +9,7 @@ best_for:
   - Quantifying species richness and evenness in ecological communities
   - Comparing biodiversity across sites or time periods
   - Detecting dominance patterns that affect ecosystem function
-one_liner: "종다양성을 정량화하여 생태계 건강도와 안정성을 평가한다"
+one_liner: "Quantify species diversity to assess ecosystem health and stability."
 ---
 
 # Shannon / Simpson Diversity

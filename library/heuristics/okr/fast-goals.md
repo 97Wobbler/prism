@@ -9,7 +9,7 @@ best_for:
   - OKR design and validation
   - Goal-setting rituals and check-ins
   - Team alignment and transparency reviews
-one_liner: "자주 검토하고, 높은 목표를 세우되, 구체적으로 정의하고, 모두에게 공개하라"
+one_liner: "Review frequently, set ambitious goals, define them specifically, and make them transparent to everyone."
 ---
 
 # FAST Goals

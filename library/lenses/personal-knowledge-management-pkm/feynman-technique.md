@@ -9,7 +9,7 @@ best_for:
   - Testing depth of understanding by explaining to a non-expert
   - Identifying gaps in knowledge before teaching or publishing
   - Simplifying complex concepts for retention and clarity
-one_liner: "개념을 어린이 수준으로 설명할 수 있는가를 기준으로 이해도 검증"
+one_liner: "Test understanding by checking whether you can explain a concept at a child's level."
 ---
 
 # Feynman Technique

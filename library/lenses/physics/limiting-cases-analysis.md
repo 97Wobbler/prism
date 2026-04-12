@@ -9,7 +9,7 @@ best_for:
   - Validating formulas and models by testing behavior at extremes
   - Catching sign errors, missing factors, and conceptual inconsistencies
   - Building confidence in derived equations before full implementation
-one_liner: "극단값에서 공식의 거동을 점검하여 유도 오류와 물리적 부조화 적발"
+one_liner: "Probe formulas at extreme values to catch derivation errors and physical inconsistencies."
 ---
 
 # Limiting Cases Analysis

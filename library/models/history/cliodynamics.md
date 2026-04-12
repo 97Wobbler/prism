@@ -9,7 +9,7 @@ best_for:
   - Predicting periods of political instability and state collapse
   - Understanding the long-term dynamics of population, inequality, and institutional capacity
   - Identifying when a civilization is approaching a "crisis of the 13th century" pattern
-one_liner: "수학적 모델로 국가 권력 순환과 붕괴 예측 (세속적 주기)"
+one_liner: "Predict state-power cycles and collapses via mathematical models (secular cycles)."
 ---
 
 # Cliodynamics (Turchin)

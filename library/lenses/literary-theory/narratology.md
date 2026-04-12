@@ -9,7 +9,7 @@ best_for:
   - Analyzing the gap between what happens (story) and how it is told (discourse)
   - Identifying temporal manipulation and unreliability in narration
   - Mapping focalization shifts and their rhetorical effect
-one_liner: "사건(story)과 서술(discourse) 간 거리를 통해 내러티브 기법의 의도와 효과를 밝히다"
+one_liner: "Reveal narrative technique and effect through the distance between story and discourse."
 ---
 
 # Narratology (Genette)

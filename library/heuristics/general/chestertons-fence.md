@@ -9,7 +9,7 @@ best_for:
   - refactoring and simplification decisions
   - process or policy elimination
   - schema or configuration cleanup
-one_liner: "목적을 모르는 규칙은 함부로 제거하지 말라"
+one_liner: "Do not remove a rule whose purpose you do not yet understand."
 ---
 
 # Chesterton's Fence

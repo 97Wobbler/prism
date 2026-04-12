@@ -9,7 +9,7 @@ best_for:
   - Cascading strategic objectives through an organization with feedback loops
   - Aligning annual plans to multi-year vision without siloing departments
   - Identifying and breaking misalignment between strategy and execution
-one_liner: "전략을 X-매트릭스로 시각화하여 조직 전체에 흐르도록 배포"
+one_liner: "Visualize strategy as an X-matrix and cascade it through the organization."
 ---
 
 # Hoshin Kanri

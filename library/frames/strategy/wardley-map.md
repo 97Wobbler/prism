@@ -9,7 +9,7 @@ best_for:
   - Sorting a value chain component by its maturity and visibility to position strategy
   - Identifying which parts of an organization should be standardized vs. differentiated
   - Mapping supply-chain leverage and strategic vulnerability
-one_liner: "가치사슬 × 진화 단계; 전략적 우위와 취약점 지도 그리기"
+one_liner: "Value chain × evolution — map strategic advantage and exposure."
 ---
 
 # Wardley Map

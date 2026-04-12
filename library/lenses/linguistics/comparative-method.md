@@ -9,7 +9,7 @@ best_for:
   - Reconstructing proto-language sound systems from attested descendant languages
   - Establishing genetic relationships between languages
   - Dating language divergence and identifying sound change patterns
-one_liner: "계통 언어들의 규칙적 음운 대응을 통해 원시언어 음운을 복원하는 방법론"
+one_liner: "Reconstruct proto-language phonology by tracing regular sound correspondences across related languages."
 ---
 
 # Comparative Method

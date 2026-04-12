@@ -9,7 +9,7 @@ best_for:
   - Predicting population ceiling and overshoot dynamics in resource-limited systems
   - Explaining why populations stabilize, crash, or oscillate under constraint
   - Identifying which resource scarcity is binding and which growth phase a population occupies
-one_liner: "자원 제약 하의 인구 성장 상한선과 동역학"
+one_liner: "Upper bound and dynamics of population growth under resource constraints."
 ---
 
 # Carrying Capacity

@@ -8,7 +8,7 @@ source: U.S. Preventive Services Task Force, Agency for Healthcare Research and 
 best_for:
   - Sorting clinical preventive recommendations by strength of evidence and net benefit
   - Determining clinical action urgency and confidence level for screening/prevention interventions
-one_liner: "근거 강도와 순이득 평가에 따른 예방의학 권고안 등급"
+one_liner: "Preventive-medicine recommendation grades based on evidence strength and net benefit."
 ---
 
 # USPSTF Grade Recommendations

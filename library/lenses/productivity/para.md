@@ -9,7 +9,7 @@ best_for:
   - Organizing personal or team knowledge into actionable and retrievable form
   - Deciding where to place new information to maximize future utility
   - Auditing an existing information system for coherence and saturation
-one_liner: "프로젝트, 영역, 자원, 아카이브로 정보를 분류하여 실행 가능성을 극대화하라"
+one_liner: "Classify information into Projects, Areas, Resources, Archives to maximize actionability."
 ---
 
 # PARA Method (Forte)

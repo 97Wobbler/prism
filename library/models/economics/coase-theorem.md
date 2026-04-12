@@ -9,7 +9,7 @@ best_for:
   - Predicting whether property rights or liability rules minimize total costs in the presence of externalities
   - Explaining why legal allocation of rights may not affect final allocation if transaction costs are zero
   - Identifying where transaction costs are the binding constraint on efficiency
-one_liner: "거래비용이 존재하면 법적 권리배분이 배분효율에 영향을 미친다"
+one_liner: "With positive transaction costs, the initial legal assignment of rights affects allocative efficiency."
 ---
 
 # Coase Theorem

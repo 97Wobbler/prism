@@ -9,7 +9,7 @@ best_for:
   - Breaking deadlocked design trade-offs by mapping to solved analogies
   - Identifying the actual contradiction blocking progress
   - Generating non-obvious solutions from 40 inventive principles
-one_liner: "모순 매트릭스와 40가지 발명원리로 설계 교착 상태 돌파"
+one_liner: "Break design deadlocks via the contradiction matrix and 40 inventive principles."
 ---
 
 # TRIZ (Theory of Inventive Problem Solving)

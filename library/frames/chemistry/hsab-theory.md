@@ -9,7 +9,7 @@ best_for:
   - Classifying chemical reactivity between acids and bases
   - Predicting reaction pathways and product selectivity
   - Understanding coordination chemistry and ligand preferences
-one_liner: "산 염기의 경도(경-연)와 염기성도에 따른 화학 반응성 분류"
+one_liner: "Classify acid-base reactivity by hardness/softness (HSAB)."
 ---
 
 # HSAB Theory (Pearson)

@@ -9,7 +9,7 @@ best_for:
   - End-to-end data analysis workflows
   - Structuring ad-hoc exploratory work into repeatable phases
   - Identifying which stage of analysis is bottlenecking insight
-one_liner: "데이터 수집부터 해석까지 다섯 단계의 명확한 분석 워크플로우"
+one_liner: "Five-step analysis workflow from data collection to interpretation."
 ---
 
 # OSEMN

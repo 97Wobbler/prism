@@ -9,7 +9,7 @@ best_for:
   - Explaining and predicting why repeated exposure to uncontrollable events produces passivity, lowered motivation, and emotional distress
   - Diagnosing when a person or animal will stop trying to escape aversive situations
   - Understanding the link between perceived uncontrollability and depression
-one_liner: "통제 불가능한 사건 반복 노출 → 무기력 상태 → 동기 상실 및 정서 장애"
+one_liner: "Repeated exposure to uncontrollable events → helplessness → loss of motivation and affective disorder."
 ---
 
 # Learned Helplessness

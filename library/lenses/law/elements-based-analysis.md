@@ -9,7 +9,7 @@ best_for:
   - Proving or defending a cause of action by isolating and evaluating each required element
   - Identifying gaps in proof before trial
   - Structuring settlement discussions or summary judgment motions
-one_liner: "소송 원인의 각 요소를 독립적으로 검증하여 입증 책임 충족 여부 판단"
+one_liner: "Verify each element of a cause of action independently to judge whether the burden of proof is met."
 ---
 
 # Elements-Based Analysis

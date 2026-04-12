@@ -9,7 +9,7 @@ best_for:
   - Predicting whether a product feature or behavior loop will drive habit formation
   - Designing user engagement loops that increase frequency of use
   - Diagnosing why a product fails to create repeat engagement
-one_liner: "트리거→액션→가변보상→투자 사이클의 반복이 습관 형성 유도"
+one_liner: "Trigger → Action → Variable Reward → Investment cycle that forms habits."
 ---
 
 # Hooked Model

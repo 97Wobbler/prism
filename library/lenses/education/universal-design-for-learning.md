@@ -9,7 +9,7 @@ best_for:
   - Auditing course materials and learning activities for accessibility barriers
   - Designing instruction that doesn't require retrofit accommodation
   - Evaluating whether learners have genuine choice or just token optionality
-one_liner: "학습 활동의 표현·행동·감정 경로를 검토하여 설계 단계에서 배제 제거"
+one_liner: "Audit representation, action, and affective pathways to remove exclusion at design time."
 ---
 
 # Universal Design for Learning (UDL)

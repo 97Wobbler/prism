@@ -9,7 +9,7 @@ best_for:
   - Matching leadership style to follower maturity on a specific task
   - Diagnosing why a directive or delegative approach is failing
   - Deciding when to shift from coaching to autonomy
-one_liner: "과제별 부하 성숙도에 맞춘 리더십 스타일 선택"
+one_liner: "Pick a leadership style matched to subordinate task maturity."
 ---
 
 # Situational Leadership (Hersey-Blanchard)

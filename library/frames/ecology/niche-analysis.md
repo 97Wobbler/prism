@@ -9,7 +9,7 @@ best_for:
   - Distinguishing between the theoretical space of resources available to an organism and the actual subset it occupies
   - Predicting whether a species' range is limited by environment, competition, or realized behavior
   - Understanding why a population may persist in a subset of seemingly suitable habitat
-one_liner: "이론적 가능 공간과 실제 점유 공간의 차이 인식"
+one_liner: "Distinguish the fundamental (possible) niche from the realized (occupied) niche."
 ---
 
 # Niche Analysis

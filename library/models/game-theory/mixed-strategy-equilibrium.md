@@ -9,7 +9,7 @@ best_for:
   - Predicting behavior in simultaneous-move games where pure strategies lead to inefficient or unstable outcomes
   - Explaining randomization and apparent irrationality in competitive or coordination failures
   - Analyzing equilibrium in sports, auctions, bargaining, and zero-sum conflicts
-one_liner: "순수전략이 아닌 확률 혼합으로 균형을 이루는 상황에서의 최적 행동 예측"
+one_liner: "Predict optimal behavior when equilibrium is reached via probabilistic rather than pure strategies."
 ---
 
 # Mixed Strategy Equilibrium

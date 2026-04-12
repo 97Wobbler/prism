@@ -4,7 +4,7 @@ domain: security
 source: OWASP Foundation, API Security Top 10 — 2023 Edition
 underlying_class: native
 best_for: Endpoint-by-endpoint vulnerability review of an HTTP/REST/GraphQL API
-one_liner: "API 엔드포인트를 OWASP API Top 10 2023의 10개 범주로 점검하고 루트 원인별로 클러스터링한다"
+one_liner: "Audit API endpoints against the OWASP API Top 10 2023 categories and cluster findings by root cause."
 ---
 
 # OWASP API Security Top 10 (2023)

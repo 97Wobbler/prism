@@ -9,7 +9,7 @@ best_for:
   - Analyzing utterances to separate what is said from what is done
   - Debugging communication failures by tracing breakdown points across three layers
   - Evaluating whether an utterance achieves its intended effect
-one_liner: "발화의 3층 분해(locution/illocution/perlocution)로 의사소통 의도와 효과 추적"
+one_liner: "Track communicative intent and effect via the three-layer decomposition — locution, illocution, perlocution."
 ---
 
 # Speech Act Theory

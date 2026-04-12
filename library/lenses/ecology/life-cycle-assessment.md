@@ -9,7 +9,7 @@ best_for:
   - Quantifying total environmental cost of a product or service from extraction through disposal
   - Comparing two designs, materials, or processes on environmental impact, not just operational phase
   - Identifying which stage of production or use causes the most damage
-one_liner: "상품의 전체 생명주기에 걸친 환경 영향을 정량화하고 단계별 핫스팟 파악"
+one_liner: "Quantify environmental impact across a product's full life cycle and identify stage-level hotspots."
 ---
 
 # Life Cycle Assessment

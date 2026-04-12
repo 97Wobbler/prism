@@ -9,7 +9,7 @@ best_for:
   - Reading legal doctrine, institutions, and procedures to expose how law naturalizes power relations and reproduces hierarchy
   - Analyzing contracts, statutes, and case law to surface whose interests are encoded as "neutrality"
   - Examining how legal professions, education, and practice instantiate and legitimize inequality
-one_liner: "법은 지배계급의 이익을 정당화하는 이데올로기이며, 중립적 규칙이 아니라 권력 관계를 재생산하는 장치"
+one_liner: "Law as ideology that legitimates ruling-class interests — not neutral rules but devices reproducing power relations."
 ---
 
 # Critical Legal Studies

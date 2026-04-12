@@ -9,7 +9,7 @@ best_for:
   - Weekly planning and task batching
   - Role-switching overhead reduction
   - Deep work protection
-one_liner: "요일별 역할 고정으로 컨텍스트 스위칭 비용 감소"
+one_liner: "Fix one role per weekday to cut context-switching cost."
 ---
 
 # Theme Days

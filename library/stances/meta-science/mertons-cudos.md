@@ -9,7 +9,7 @@ best_for:
   - Reading scientific institutions, practices, and claims to see which norms they invoke and which they actually enforce
   - Exposing gaps between what science claims about itself and what it does
   - Understanding why certain forms of scientific conduct are rewarded or penalized
-one_liner: "과학이 자신이 따른다고 주장하는 규범과 실제 규범의 간극을 읽기"
+one_liner: "Read the gap between the norms science claims to follow and the norms it actually follows."
 ---
 
 # Merton's CUDOS

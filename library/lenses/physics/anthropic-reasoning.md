@@ -9,7 +9,7 @@ best_for:
   - Testing whether an observation is fundamental or observer-dependent
   - Validating physical theories against measurement constraints
   - Detecting hidden assumptions in experimental setup
-one_liner: "관찰자 존재가 물리 현상의 기초인지 검증하는 추론 방법"
+one_liner: "Reasoning method that tests whether observer existence is foundational to physical phenomena."
 ---
 
 # Anthropic Reasoning

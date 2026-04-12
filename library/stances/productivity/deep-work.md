@@ -9,7 +9,7 @@ best_for:
   - Evaluating knowledge work practices and organizational norms
   - Diagnosing attention fragmentation and its structural causes
   - Reading work environments to see what enables or blocks sustained cognitive engagement
-one_liner: "집중력이 능력이 아닌 구조적 선택으로 작동하는 방식을 읽기"
+one_liner: "Read focus as a structural choice rather than an innate capacity."
 ---
 
 # Deep Work

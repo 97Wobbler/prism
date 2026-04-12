@@ -9,7 +9,7 @@ best_for:
   - Translating strategy into measurable outcomes across organizational silos
   - Detecting performance gaps between financial results and operational health
   - Aligning execution to strategy through multi-perspective metrics
-one_liner: "전략을 4가지 관점 KPI로 체계화하여 재무·고객·프로세스·학습 성과를 균형있게 추적"
+one_liner: "Structure strategy across four KPI perspectives — financial, customer, process, learning — for balanced tracking."
 ---
 
 # Balanced Scorecard

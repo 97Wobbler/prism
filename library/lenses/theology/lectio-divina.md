@@ -9,7 +9,7 @@ best_for:
   - Deep textual interpretation grounded in personal resonance
   - Transformative reading practices that move beyond intellectual analysis
   - Spiritual formation through iterative engagement with sacred texts
-one_liner: "본문 읽기에서 명상·기도·관상으로 진행하는 네 단계 영적 독서법"
+one_liner: "Four-step spiritual reading — lectio, meditatio, oratio, contemplatio."
 ---
 
 # Lectio Divina

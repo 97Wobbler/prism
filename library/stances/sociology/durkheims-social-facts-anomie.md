@@ -9,7 +9,7 @@ best_for:
   - Reading institutions and practices to see what collective norms they embody and enforce
   - Identifying where social integration is breaking down or where regulation is absent
   - Understanding suicide, deviance, and collective distress as symptoms of social structure, not individual pathology
-one_liner: "사회적 사실로서의 집단 규범 — 개인의 행동을 제약하고 구성하는 외적 강제력"
+one_liner: "Collective norms as social facts — an external force constraining and constituting individual behavior."
 ---
 
 # Durkheim's Social Facts / Anomie

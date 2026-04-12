@@ -8,7 +8,7 @@ source: J. Tuzo Wilson, University of Toronto, 1966
 best_for:
   - Classifying continental configurations into stages of a supercontinent cycle
   - Predicting plate tectonic behavior and continental reassembly
-one_liner: "초대륙 분열과 재결합의 주기적 단계를 분류하는 프레임"
+one_liner: "Classification of the cyclical phases of supercontinent breakup and reassembly."
 ---
 
 # Wilson Cycle

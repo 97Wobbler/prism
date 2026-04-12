@@ -9,7 +9,7 @@ best_for:
   - Establishing or shifting emotional/behavioral states through sensory or contextual cues
   - Diagnosing why a state persists despite intervention attempts
   - Designing interventions that reliably trigger desired states
-one_liner: "감각-상태 연결을 매핑하고 재설정하는 신경언어적 상태 전환 기법"
+one_liner: "NLP state-change technique — map and reset sensory-state associations."
 ---
 
 # Anchoring

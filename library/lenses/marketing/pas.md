@@ -9,7 +9,7 @@ best_for:
   - Structuring persuasive messages that move an audience from awareness to action
   - Diagnosing why a pitch or advertisement fails to convert
   - Testing copy coherence and emotional progression
-one_liner: "청중의 통증점을 자극한 후 유일한 해결책으로 제품을 제시하는 설득 구조"
+one_liner: "Problem-Agitate-Solve — persuasion structure that heightens the pain then positions the product as the unique fix."
 ---
 
 # Problem/Agitate/Solution

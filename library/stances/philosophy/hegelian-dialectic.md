@@ -9,7 +9,7 @@ best_for:
   - Reading processes, institutions, and conceptual systems to trace how contradictions generate motion and transformation
   - Analyzing artifacts that claim universality or inevitability to expose the negations and exclusions they depend on
   - Understanding how opposites are internally related rather than externally opposed
-one_liner: "모순과 부정의 운동을 통해 개념이 진화하고 역사가 진행된다는 입장"
+one_liner: "Concepts evolve and history proceeds through the movement of contradiction and negation."
 ---
 
 # Hegelian Dialectic

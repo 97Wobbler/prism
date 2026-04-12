@@ -9,7 +9,7 @@ best_for:
   - Analyzing harmonic function in tonal music
   - Teaching chord progressions and voice leading
   - Identifying structural patterns in classical and contemporary compositions
-one_liner: "성악 화성의 기능적 역할을 로마 숫자로 분석하여 조성음악의 구조를 파악하는 틀"
+one_liner: "Analyze functional harmonic roles via Roman numerals to grasp tonal structure."
 ---
 
 # Roman Numeral Analysis

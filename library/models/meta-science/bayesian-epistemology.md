@@ -6,7 +6,7 @@ underlying_class: native
 domain: meta-science
 source: Thomas Bayes, "An Essay Towards Solving a Problem in the Doctrine of Chances," 1763; formalized in modern form by Harold Jeffreys, Theory of Probability (1939); extended by E.T. Jaynes, Probability Theory: The Logic of Science (2003)
 best_for: Explaining how rational agents update beliefs in the face of evidence, predicting which hypotheses will be favored after observing data, and diagnosing systematic departures from Bayesian updating in human reasoning
-one_liner: "사전 신념을 데이터로 갱신하는 수학적 규칙; 증거의 무게를 정량화"
+one_liner: "Mathematical rules for updating prior belief with data — quantify the weight of evidence."
 ---
 
 # Bayesian Epistemology

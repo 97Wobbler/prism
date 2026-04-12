@@ -9,7 +9,7 @@ best_for:
   - Designing coherent lesson sequences that move students from curiosity to mastery
   - Diagnosing where a lesson unit breaks down in student engagement or understanding
   - Auditing curriculum materials for pedagogical completeness
-one_liner: "학생의 흥미 유발부터 평가까지 다섯 단계로 구성된 순환적 학습 설계 프레임워크"
+one_liner: "Five-phase cyclical instructional design — Engage, Explore, Explain, Elaborate, Evaluate."
 ---
 
 # 5E Model

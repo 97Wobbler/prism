@@ -9,7 +9,7 @@ best_for:
   - Reading how deviance gets defined and enforced in institutions
   - Understanding the mechanics of stigmatization and social exclusion
   - Examining how labeling practices reproduce inequality
-one_liner: "낙인이 편차를 만드는 과정에 주목하는 관점"
+one_liner: "Stance that focuses on how labeling produces deviance."
 ---
 
 # Labeling Theory (Becker)

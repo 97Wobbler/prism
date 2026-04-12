@@ -9,7 +9,7 @@ best_for:
   - Identifying bottlenecks and waste in manufacturing or service workflows
   - Visualizing handoffs and information delays between process steps
   - Prioritizing which process segments to optimize first
-one_liner: "물질 및 정보 흐름을 시각화하여 낭비와 병목을 명확히 하기"
+one_liner: "Visualize material and information flow to make waste and bottlenecks explicit."
 ---
 
 # Value Stream Mapping

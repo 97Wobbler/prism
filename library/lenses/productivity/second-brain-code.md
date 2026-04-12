@@ -9,7 +9,7 @@ best_for:
   - Systematizing how information flows from capture through expression
   - Auditing whether a knowledge system is losing value at each stage
   - Identifying where bottlenecks prevent insights from becoming output
-one_liner: "정보 입수부터 결과 도출까지의 흐름을 재설계하여 지식의 손실을 최소화"
+one_liner: "Redesign the flow from capture to output to minimize knowledge loss."
 ---
 
 # Second Brain CODE

@@ -9,7 +9,7 @@ best_for:
   - Classifying reproductive strategies along the slow-fast continuum
   - Predicting life-history trade-offs in a population or species
   - Understanding how environmental stability shapes organism evolution
-one_liner: "번식 전략의 스펙트럼 — 개수 vs 투자 간 진화 트레이드오프"
+one_liner: "Reproduction-strategy spectrum — quantity vs investment evolutionary trade-off."
 ---
 
 # r/K Selection

@@ -9,7 +9,7 @@ best_for:
   - Rapid patient assessment in emergency settings
   - Organizing information gathering under time pressure
   - Ensuring critical life threats are not missed
-one_liner: "응급 환자의 생명 위협 요소를 체계적으로 식별하고 우선순위를 정하는 평가 프로토콜"
+one_liner: "Emergency assessment protocol for systematically identifying and prioritizing life threats."
 ---
 
 # ABCDE Approach

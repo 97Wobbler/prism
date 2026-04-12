@@ -8,7 +8,7 @@ source: Heinrich von Stackelberg, "Marktform und Gleichgewicht," 1934; formalize
 best_for:
   - Predicting equilibrium output and prices when one firm moves first (leader) and others respond (followers)
   - Explaining why first-mover advantage in quantity-setting competition yields higher profit than Cournot equilibrium
-one_liner: "선도자가 먼저 생산량을 정하고 추종자가 반응하는 순차 게임의 균형"
+one_liner: "Sequential-game equilibrium where a leader sets quantity first and the follower responds."
 ---
 
 # Stackelberg Competition

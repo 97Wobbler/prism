@@ -9,7 +9,7 @@ best_for:
   - De-escalating high-stakes interpersonal conflict
   - Extracting information without triggering defensiveness
   - Building rapport and trust under pressure
-one_liner: "상대방의 감정을 인식하고 반영하며 교정된 질문으로 신뢰를 구축하는 협상 기법"
+one_liner: "Negotiation technique that builds trust via emotional labeling and calibrated questions."
 ---
 
 # Tactical Empathy

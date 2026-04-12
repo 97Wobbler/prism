@@ -9,7 +9,7 @@ best_for:
   - Extracting multiple layers of meaning from a single text
   - Integrating literal, metaphorical, allegorical, and mystical interpretations
   - Testing whether a reading is coherent across four distinct hermeneutical frames
-one_liner: "텍스트의 네 층위(문자/암시/설해/비의)를 동시에 해석하여 의미 풍성함 검증"
+one_liner: "Simultaneously interpret a text through four layers — Peshat, Remez, Derash, Sod — to test richness."
 ---
 
 # PaRDeS

@@ -9,7 +9,7 @@ best_for:
   - evaluating design proposals for balance across multiple criteria
   - resolving trade-offs between structural, functional, and aesthetic demands
   - auditing existing solutions for hidden weaknesses in one dimension
-one_liner: "견고함·유용함·미를 동등하게 심사하라. 셋 중 하나를 무시하는 설계는 실패한다."
+one_liner: "Judge firmness, commodity, and delight equally — ignoring any one of the three is design failure."
 ---
 
 # Vitruvian Triad

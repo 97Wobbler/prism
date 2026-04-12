@@ -9,7 +9,7 @@ best_for:
   - Designing a complete instructional sequence from attention to transfer
   - Auditing existing instruction for gaps in cognitive support
   - Ensuring each learning objective receives the events it requires
-one_liner: "학습 목표 달성을 위해 9가지 인지 사건을 순서대로 설계하고 배치하라"
+one_liner: "Sequence nine cognitive events to reliably drive a learning objective home."
 ---
 
 # Gagne's 9 Events of Instruction

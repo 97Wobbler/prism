@@ -9,7 +9,7 @@ best_for:
   - Finding hidden structure in dynamic systems
   - Proving properties that hold regardless of execution path
   - Simplifying proofs by identifying what cannot change
-one_liner: "변하지 않는 양을 찾아 문제의 본질 구조를 드러내기"
+one_liner: "Find quantities that do not change to reveal the essential structure of a problem."
 ---
 
 # Invariant Analysis

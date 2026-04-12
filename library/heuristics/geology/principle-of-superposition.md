@@ -9,7 +9,7 @@ best_for:
   - Stratigraphic interpretation
   - Relative dating of rock layers
   - Sedimentary sequence analysis
-one_liner: "지층이 변형되지 않았다면 아래층이 위층보다 오래되었다"
+one_liner: "In undeformed strata, lower layers are older than upper layers."
 ---
 
 # Principle of Superposition

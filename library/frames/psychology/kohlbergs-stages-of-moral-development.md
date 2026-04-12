@@ -8,7 +8,7 @@ source: Lawrence Kohlberg, Harvard University, 1958–1984
 best_for:
   - Sorting moral reasoning into developmental stages
   - Understanding what kind of ethical argument will resonate with a given actor
-one_liner: "도덕적 추론의 발달 단계별 분류"
+one_liner: "Classify stages in the development of moral reasoning (Kohlberg)."
 ---
 
 # Kohlberg's Stages of Moral Development

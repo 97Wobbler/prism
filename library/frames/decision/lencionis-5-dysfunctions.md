@@ -9,7 +9,7 @@ best_for:
   - Sorting team or organizational dysfunction into a specific failure mode
   - Identifying which dysfunction is the root cause blocking progress
   - Determining what kind of intervention is needed to restore trust and performance
-one_liner: "신뢰 부족으로 발생하는 팀 기능장애의 피라미드 구조"
+one_liner: "Pyramid of team dysfunctions stemming from lack of trust."
 ---
 
 # Lencioni's 5 Dysfunctions

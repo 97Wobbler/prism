@@ -9,7 +9,7 @@ best_for:
   - Reading legal rules, doctrines, and institutions to expose the efficiency logic they encode and optimize for
   - Identifying wealth transfers, hidden allocative costs, and distributional consequences that formal legal reasoning obscures
   - Analyzing contract formation, tort liability, property regimes, and regulatory schemes as solutions to coordination problems
-one_liner: "효율성을 극대화하는 법적 규칙과 제도의 경제 논리를 드러냄"
+one_liner: "Surface the economic logic of legal rules and institutions that maximize efficiency."
 ---
 
 # Law and Economics (Posner)

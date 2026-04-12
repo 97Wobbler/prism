@@ -9,7 +9,7 @@ best_for:
   - Predicting which site(s) in a molecule will undergo electrophilic or nucleophilic attack
   - Explaining regioselectivity and reactivity in organic reactions
   - Rationalizing reaction pathways without computing activation barriers
-one_liner: "반응성 위치는 HOMO-LUMO 에너지 간격과 궤도 오버랩으로 결정된다"
+one_liner: "Frontier molecular orbital theory — reactive sites are set by the HOMO-LUMO gap and orbital overlap."
 ---
 
 # FMO Theory (Fukui)

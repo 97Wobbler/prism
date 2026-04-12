@@ -9,7 +9,7 @@ best_for:
   - time-critical execution
   - high-stakes deployments
   - incident response
-one_liner: "실행 전 모든 준비물을 정리하고 검증하라"
+one_liner: "Organize and verify every ingredient and tool before execution."
 ---
 
 # Mise en Place

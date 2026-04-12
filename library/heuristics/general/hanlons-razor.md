@@ -9,7 +9,7 @@ best_for:
   - incident post-mortems
   - cross-team conflict diagnosis
   - security incident triage
-one_liner: "악의로 돌릴 수 있는 것을 무능으로 설명하라"
+one_liner: "Explain by incompetence what can be attributed to incompetence rather than malice."
 ---
 
 # Hanlon's Razor

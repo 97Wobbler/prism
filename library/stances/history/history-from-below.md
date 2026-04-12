@@ -9,7 +9,7 @@ best_for:
   - Reading historical documents and artifacts to recover agency and experience of ordinary people whose lives are absent from official records
   - Exposing how dominant narratives silence or misrepresent subaltern experience
   - Understanding how subordinate groups made and remade their own history through practice, resistance, and culture
-one_liner: "지배 세력의 기록에서 벗어난 평민들의 능동적 삶과 저항의 흔적을 복원하는 입장"
+one_liner: "Recover the active lives and resistance of ordinary people outside the archives of the powerful."
 ---
 
 # History from Below

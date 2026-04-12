@@ -9,7 +9,7 @@ best_for:
   - Predicting biological activity from molecular structure
   - Identifying key structural features that drive potency
   - Screening large chemical libraries before synthesis
-one_liner: "분자 구조로부터 생물활성을 정량 예측하는 회귀 모델링"
+one_liner: "Quantitative structure-activity relationship — regression modeling of bioactivity from molecular descriptors."
 ---
 
 # Quantitative Structure-Activity Relationship (QSAR)

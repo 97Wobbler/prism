@@ -9,7 +9,7 @@ best_for:
   - Decomposing narrative structure in folktales and folklore-derived fiction
   - Identifying recurrent functional units across story variants
   - Reverse-engineering plot from character actions and story beats
-one_liner: "민담의 31가지 기능 단위로 서사 구조 분해"
+one_liner: "Decompose folktale narrative structure into Propp's 31 functional units."
 ---
 
 # Propp's Morphology

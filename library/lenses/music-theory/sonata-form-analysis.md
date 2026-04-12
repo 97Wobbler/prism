@@ -9,7 +9,7 @@ best_for:
   - Analyzing large-scale instrumental works (symphonies, concertos, chamber music)
   - Identifying structural coherence and harmonic goals in Classical and Romantic compositions
   - Teaching compositional architecture and thematic development
-one_liner: "세 부분 악곡 형식의 박람, 발전, 재현을 통해 음악적 아키텍처 분석"
+one_liner: "Analyze musical architecture through exposition, development, and recapitulation of sonata form."
 ---
 
 # Sonata Form Analysis

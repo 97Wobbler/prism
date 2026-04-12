@@ -9,7 +9,7 @@ best_for:
   - Validating or falsifying a theoretical claim through systematic observation
   - Designing experiments that can produce conclusive results
   - Detecting when an explanation is unfalsifiable or circular
-one_liner: "가설 수립 → 예측 도출 → 관찰/실험으로 검증하는 과학적 추론"
+one_liner: "Scientific reasoning cycle — hypothesize, derive predictions, test by observation or experiment."
 ---
 
 # Hypothetico-Deductive Method

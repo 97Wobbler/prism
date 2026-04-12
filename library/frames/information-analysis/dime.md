@@ -9,7 +9,7 @@ best_for:
   - Sorting geopolitical or strategic influence into instrument categories
   - Analyzing how state power is exercised across four distinct domains
   - Identifying which levers are available for a given policy objective
-one_liner: "국가 권력의 4가지 수단(외교, 정보, 군사, 경제)으로 상황을 분류"
+one_liner: "Classify situations via the four instruments of national power — Diplomatic, Information, Military, Economic."
 ---
 
 # DIME Framework

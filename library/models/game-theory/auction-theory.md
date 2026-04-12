@@ -9,7 +9,7 @@ best_for:
   - Predicting equilibrium bidding behavior and revenue across different auction formats
   - Explaining why sealed-bid second-price auctions induce truthful bidding
   - Comparing efficiency and revenue properties of first-price, second-price, and English auctions
-one_liner: "입찰 형식에 따른 균형 전략과 수익 차이 — 진실 공시, 수익 동등성, 효율성"
+one_liner: "Equilibrium strategies and revenue differences across auction formats — truth-telling, revenue equivalence, efficiency."
 ---
 
 # Auction Theory

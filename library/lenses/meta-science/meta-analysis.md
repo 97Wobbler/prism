@@ -9,7 +9,7 @@ best_for:
   - Synthesizing effect sizes across multiple independent studies
   - Quantifying heterogeneity and detecting publication bias
   - Producing a single estimate of treatment effect with confidence bounds
-one_liner: "여러 연구의 효과크기를 가중평균으로 통합하고 이질성을 정량화"
+one_liner: "Integrate effect sizes across studies via weighted averaging and quantify heterogeneity."
 ---
 
 # Meta-analysis (Cochrane)

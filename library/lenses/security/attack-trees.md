@@ -9,7 +9,7 @@ best_for:
   - Systematically enumerating attack vectors against a system or asset
   - Identifying which defenses stop which attacks
   - Prioritizing security investments by attack cost and impact
-one_liner: "공격 경로를 AND/OR 트리로 구조화하여 모든 침투 벡터를 망라"
+one_liner: "Structure attack paths as AND/OR trees to enumerate every infiltration vector."
 ---
 
 # Attack Trees

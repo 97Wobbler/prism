@@ -9,7 +9,7 @@ best_for:
   - Reading religious texts, practices, and experiences to recover what is irrational, non-conceptual, and affectively overwhelming
   - Surfacing the aesthetic and emotional dimensions of belief that doctrinal analysis flattens
   - Examining how institutions and rationalization erode encounters with radical otherness
-one_liner: "초월적 낯선 것과의 만남—두려움과 매력이 함께 울려 나는 경험의 근거"
+one_liner: "Encounter with the transcendentally Other — the ground of experience where dread and fascination resonate."
 ---
 
 # Otto's Numinous

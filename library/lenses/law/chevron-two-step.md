@@ -9,7 +9,7 @@ best_for:
   - Evaluating statutory ambiguity and agency interpretation deference
   - Judicial review of regulatory action
   - Predicting likelihood of agency action surviving challenge
-one_liner: "모호한 법령의 합리성 심사 — Chevron 이단계 기준"
+one_liner: "Two-step reasonableness review of agency interpretations of ambiguous statutes."
 ---
 
 # Chevron Two-Step

@@ -9,7 +9,7 @@ best_for:
   - Sorting a moral decision or policy choice by the mechanism through which it produces utility
   - Classifying competing claims about what counts as happiness or well-being
   - Distinguishing between hedonistic and eudaimonic accounts of the good life
-one_liner: "도덕적 행동을 최대행복 원칙으로 분류하는 틀"
+one_liner: "Frame that classifies moral action via the greatest-happiness principle."
 ---
 
 # Utilitarianism (Bentham/Mill)

@@ -9,7 +9,7 @@ best_for:
   - Evaluating likelihood of confusion in trademark disputes
   - Assessing trademark strength and infringement risk
   - Comparing competing marks in the same or related markets
-one_liner: "상표 혼동 가능성을 다각적으로 평가하는 표준화된 8가지 요인"
+one_liner: "Standardized eight-factor test for likelihood of trademark confusion."
 ---
 
 # Polaroid 8 Factors

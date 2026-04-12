@@ -8,7 +8,7 @@ source: origin uncertain
 best_for:
   - Classifying discrete moments in match play into phases that demand structurally different tactical responses
   - Sorting video clips or play sequences by the phase transition they occupy
-one_liner: "공격/수비 × 전환 = 4가지 경기 순간; 각각 다른 전술적 우선순위"
+one_liner: "Attack/Defense × Transition — the four moments of football, each with distinct tactical priority."
 ---
 
 # Four Moments of Football

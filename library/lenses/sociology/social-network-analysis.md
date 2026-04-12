@@ -9,7 +9,7 @@ best_for:
   - Mapping influence, information flow, and structural advantage in groups
   - Identifying connectors, brokers, and isolated actors
   - Finding hidden dependencies and bottlenecks in organizations
-one_liner: "네트워크 구조에서 중심성, 연결성, 구조적 공백을 통해 개인과 집단의 영향력과 기회를 분석"
+one_liner: "Analyze influence and opportunity of individuals and groups through centrality, ties, and structural holes."
 ---
 
 # Social Network Analysis

@@ -9,7 +9,7 @@ best_for:
   - Reading technology adoption patterns to identify what is genuinely value-aligned versus what is socially contagious or attention-extractive
   - Evaluating digital practices and tools for coherence with stated goals and values
   - Surfacing the gap between explicit intentionality and actual use patterns in knowledge work
-one_liner: "의도적 기술 사용과 명시된 가치의 정렬 여부를 읽는 태도"
+one_liner: "Stance that reads whether intentional technology use aligns with explicit values."
 ---
 
 # Digital Minimalism

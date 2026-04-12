@@ -9,7 +9,7 @@ best_for:
   - Clarifying vague goals before committing resources
   - Identifying hidden obstacles in stated objectives
   - Testing whether a goal is actionable or merely aspirational
-one_liner: "목표가 구체적이고 달성 가능하며 영향을 측정할 수 있도록 5가지 조건으로 검증"
+one_liner: "Verify a goal against five conditions so it is specific, achievable, and measurable."
 ---
 
 # Well-Formed Outcomes

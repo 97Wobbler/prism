@@ -9,7 +9,7 @@ best_for:
   - Explaining why growth rates differ persistently across countries and firms
   - Predicting how R&D investment and human capital affect long-run productivity
   - Understanding why technology is non-rival and why knowledge spillovers matter
-one_liner: "R&D 투자와 지식축적이 기술진보를 내생화하여 지속성장을 가능하게 하는 메커니즘"
+one_liner: "Mechanism where R&D investment and knowledge accumulation endogenize technical progress and enable sustained growth."
 ---
 
 # Endogenous Growth (Romer)

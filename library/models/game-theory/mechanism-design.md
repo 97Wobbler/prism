@@ -8,7 +8,7 @@ source: Leonid Hurwicz, "The Design of Mechanisms for Resource Allocation," Amer
 best_for:
   - Engineering rules and incentives to induce desired outcomes when participants have private information and conflicting interests
   - Predicting which allocation mechanisms will succeed or fail given the structure of information asymmetry and strategic behavior
-one_liner: "참여자의 사적 정보와 전략적 행동을 고려하여 원하는 결과를 유도하는 규칙 설계"
+one_liner: "Design rules that induce a desired outcome given private information and strategic behavior."
 ---
 
 # Mechanism Design

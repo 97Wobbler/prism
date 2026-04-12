@@ -8,7 +8,7 @@ source: Mishra & Koehler, Michigan State University, 2006
 best_for:
   - Diagnosing gaps in teacher readiness for technology-integrated instruction
   - Sorting instructional design challenges by knowledge domain
-one_liner: "기술·교수법·내용 지식의 교집합 영역을 진단하는 교사 역량 분류"
+one_liner: "Diagnose teacher capability at the intersection of technology, pedagogy, and content knowledge."
 ---
 
 # TPACK Framework

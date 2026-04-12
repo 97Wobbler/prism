@@ -9,7 +9,7 @@ best_for:
   - Predicting decision latency as a function of choice complexity
   - Diagnosing UI bottlenecks caused by option overload
   - Optimizing information architecture and menu design
-one_liner: "선택지 개수의 로그값이 의사결정 시간을 결정한다"
+one_liner: "Decision time grows with the logarithm of the number of choices."
 ---
 
 # Hick's Law

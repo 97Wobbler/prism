@@ -9,7 +9,7 @@ best_for:
   - task prioritization
   - motivation under procrastination
   - daily planning
-one_liner: "가장 어려운 일을 먼저 처리하면 심리적 모멘텀이 생긴다."
+one_liner: "Tackle the hardest task first to build psychological momentum."
 ---
 
 # Eat That Frog

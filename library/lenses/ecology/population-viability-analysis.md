@@ -9,7 +9,7 @@ best_for:
   - Assessing extinction risk for threatened or endangered populations
   - Designing minimum viable population sizes for conservation plans
   - Evaluating management strategies before implementation
-one_liner: "멸종 확률을 시뮬레이션하여 개별군 장기 생존성 평가"
+one_liner: "Simulate extinction probability to assess long-term viability of a population."
 ---
 
 # Population Viability Analysis

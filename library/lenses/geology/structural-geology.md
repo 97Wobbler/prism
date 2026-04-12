@@ -9,7 +9,7 @@ best_for:
   - Deciphering deformation history from fold and fault geometry
   - Reconstructing strain magnitude and stress orientation in rock bodies
   - Distinguishing syn-kinematic from post-kinematic structures
-one_liner: "암석 변형의 기하학과 운동학적 지표로부터 지각 응력장과 변형 이력 복원"
+one_liner: "Reconstruct crustal stress fields and deformation history from the geometry and kinematics of rock deformation."
 ---
 
 # Structural Geology

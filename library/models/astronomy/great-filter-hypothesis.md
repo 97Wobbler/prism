@@ -9,7 +9,7 @@ best_for:
   - Explaining the apparent paradox of high expected alien civilizations but zero observed contact
   - Predicting where intelligent life most likely fails in the developmental pipeline
   - Diagnosing whether humanity faces an existential risk or has already passed the hard step
-one_liner: "우주적 침묵의 원인을 식별하는 생존 여과기 모델"
+one_liner: "Survival-filter model for identifying the cause of cosmic silence."
 ---
 
 # Great Filter Hypothesis

@@ -9,7 +9,7 @@ best_for:
   - Mapping the competitive ecosystem before strategy formulation
   - Identifying gaps and opportunities in market structure
   - Pressure-testing assumptions about who your stakeholders are
-one_liner: "회사·고객·경쟁사·협력사·맥락을 체계적으로 스캔하여 전략적 입지 확인"
+one_liner: "Scan Company, Customers, Competitors, Collaborators, Context to locate strategic position."
 ---
 
 # 5C Analysis

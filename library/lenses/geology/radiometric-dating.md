@@ -9,7 +9,7 @@ best_for:
   - Establishing absolute ages of rock and mineral samples
   - Constraining geological timescales and depositional sequences
   - Validating relative dating frameworks with numeric calibration
-one_liner: "방사능 감쇠 곡선으로 암석의 절대 연령 결정"
+one_liner: "Determine absolute rock age via radioactive decay curves."
 ---
 
 # Radiometric Dating

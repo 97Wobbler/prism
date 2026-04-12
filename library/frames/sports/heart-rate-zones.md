@@ -9,7 +9,7 @@ best_for:
   - Classifying exercise intensity to match training goal and physiological adaptation
   - Selecting appropriate work-to-rest ratios and duration for a workout
   - Interpreting aerobic vs. anaerobic effort in real time
-one_liner: "심박수 기반 운동 강도 5단계 분류로 트레이닝 목표별 전술 결정"
+one_liner: "Heart-rate-based five-zone intensity classification for training prescription."
 ---
 
 # Heart Rate Zones

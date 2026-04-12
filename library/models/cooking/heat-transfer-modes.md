@@ -9,7 +9,7 @@ best_for:
   - Predicting how quickly and evenly food will cook given equipment, food properties, and cooking method
   - Diagnosing uneven cooking outcomes and selecting the right heat-transfer mechanism for a given dish
   - Explaining why searing, braising, steaming, and baking produce different textures and flavors
-one_liner: "열 전달의 세 가지 메커니즘(전도/대류/복사)이 식재의 온도 상승 속도와 표면 변화를 결정한다"
+one_liner: "The three heat transfer modes (conduction / convection / radiation) determine how food heats and browns."
 ---
 
 # Heat Transfer Modes

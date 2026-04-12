@@ -8,7 +8,7 @@ source: Robert L. Trivers, "The Evolution of Reciprocal Altruism," Quarterly Rev
 best_for:
   - Explaining the evolution and stability of cooperative behavior in repeated interactions
   - Predicting when altruism will emerge, persist, or break down in populations
-one_liner: "반복 상호작용에서 이타적 협력의 진화적 안정성"
+one_liner: "Evolutionary stability of altruistic cooperation under repeated interaction."
 ---
 
 # Reciprocal Altruism (Trivers)

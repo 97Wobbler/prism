@@ -9,7 +9,7 @@ best_for:
   - Closing the loop between intention and outcome in repeated processes
   - Surfacing whether failures are execution gaps or design flaws
   - Building organizational muscle for continuous incremental improvement
-one_liner: "계획-실행-검증-개선 사이클을 통해 프로세스 개선을 체계화하고 학습을 내재화"
+one_liner: "Plan-Do-Check-Act — structure process improvement and institutionalize learning."
 ---
 
 # PDCA Cycle

@@ -9,7 +9,7 @@ best_for:
   - Diagnosing which stage of the user lifecycle is underperforming
   - Allocating optimization effort across acquisition, activation, retention, referral, and revenue
   - Communicating product health to non-technical stakeholders
-one_liner: "사용자 생명주기 5단계(획득/활성화/유지/추천/수익)의 전환율과 이탈 패턴을 측정하는 프레임워크"
+one_liner: "Measure conversion and churn across the five-stage user lifecycle — Acquisition, Activation, Retention, Referral, Revenue."
 ---
 
 # AARRR Pirate Metrics

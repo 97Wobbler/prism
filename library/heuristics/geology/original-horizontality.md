@@ -9,7 +9,7 @@ best_for:
   - stratigraphic interpretation
   - structural geology analysis
   - depositional environment reconstruction
-one_liner: "퇴적층은 처음에 수평으로 쌓인다"
+one_liner: "Sedimentary layers are originally deposited horizontally."
 ---
 
 # Original Horizontality

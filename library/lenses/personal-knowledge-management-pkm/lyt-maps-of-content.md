@@ -9,7 +9,7 @@ best_for:
   - Structuring a personal knowledge base around central MOC hubs
   - Reducing navigation friction in large note collections
   - Building emergence through intentional hub design
-one_liner: "중심 노트를 기반으로 지식 네트워크 구성하기"
+one_liner: "Build a knowledge network around central hub notes (Linking Your Thinking)."
 ---
 
 # LYT / Maps of Content

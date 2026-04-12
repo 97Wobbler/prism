@@ -9,7 +9,7 @@ best_for:
   - Sorting narrative film sequences into structural types based on temporal and causal logic
   - Understanding how films construct meaning through sequence organization
   - Analyzing the relationship between diegetic time and screen time
-one_liner: "내러티브 영화의 8가지 시퀀스 유형 분류"
+one_liner: "Metz's classification of the eight sequence types in narrative film."
 ---
 
 # Metz's Grande Syntagmatique

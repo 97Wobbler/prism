@@ -9,7 +9,7 @@ best_for:
   - Explaining health outcomes and illness behavior as products of biological, psychological, and social forces
   - Predicting treatment adherence and recovery trajectory given the full causal landscape
   - Identifying why two patients with the same diagnosis have radically different outcomes
-one_liner: "생물-심리-사회 세 영역의 상호작용이 건강과 질병을 결정하는 통합 모델"
+one_liner: "Integrated model where biology, psychology, and social factors jointly determine health and disease."
 ---
 
 # Biopsychosocial Model

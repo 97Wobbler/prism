@@ -9,7 +9,7 @@ best_for:
   - Identifying gaps and friction points across the customer lifecycle
   - Aligning teams around shared understanding of customer experience
   - Prioritizing touchpoint improvements by impact and effort
-one_liner: "고객 인식→옹호 전체 터치포인트 매핑 및 감정/행동 추적"
+one_liner: "Map every touchpoint from awareness to advocacy and track emotion and behavior along the way."
 ---
 
 # Customer Journey Map

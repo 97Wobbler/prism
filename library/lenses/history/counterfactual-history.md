@@ -9,7 +9,7 @@ best_for:
   - Testing whether a historical outcome was inevitable or contingent
   - Exposing hidden causal assumptions in historical narratives
   - Evaluating the robustness of explanations for major events
-one_liner: "\"what if\" 인과 가중치 분석으로 역사적 필연성과 우연성 구분하기"
+one_liner: "Weight 'what if' causes to distinguish historical necessity from contingency."
 ---
 
 # Counterfactual History

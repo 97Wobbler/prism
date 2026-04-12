@@ -9,7 +9,7 @@ best_for:
   - Classifying chord relationships by geometric distance in pitch space
   - Sorting harmonic progressions into categories based on voice-leading efficiency
   - Determining whether a chord transition is parsimonious or requires larger jumps
-one_liner: "음정 공간의 3차원 격자 위에서 화음 간 거리를 측정하여 음성 주도의 경제성을 판단"
+one_liner: "Measure chord distance on a 3D lattice of the pitch space to judge voice-leading economy."
 ---
 
 # Tonnetz

@@ -9,7 +9,7 @@ best_for:
   - Breaking anchoring bias in diagnostic reasoning
   - Reducing premature closure in clinical decision-making
   - Forcing re-examination of working diagnoses before committing to treatment
-one_liner: "진단적 편향을 깨기 위한 강제적 인지 재평가 절차"
+one_liner: "Forced cognitive reappraisal procedures that break diagnostic bias."
 ---
 
 # Cognitive Forcing Strategies

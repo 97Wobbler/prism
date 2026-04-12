@@ -9,7 +9,7 @@ best_for:
   - Reading how language structures constrain and enable thought
   - Examining linguistic categories and their cultural specificity
   - Understanding the feedback loop between grammar and worldview
-one_liner: "언어의 구조가 사고와 지각을 형성하는 방식 규명"
+one_liner: "Stance examining how the structure of language shapes thought and perception."
 ---
 
 # Sapir-Whorf Hypothesis

@@ -9,7 +9,7 @@ best_for:
   - Quantifying non-market benefits of natural systems for policy decisions
   - Comparing conservation investments across competing land uses
   - Identifying ecosystem dependencies in supply chains and infrastructure
-one_liner: "생태계 서비스를 4가지 범주로 분류하여 정량화하고 가치를 산정하는 틀"
+one_liner: "Classify ecosystem services into four categories to quantify and value them."
 ---
 
 # Ecosystem Services Valuation (TEEB/MA)

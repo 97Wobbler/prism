@@ -9,7 +9,7 @@ best_for:
   - Reading improvement practices to see how routine problem-solving builds capability
   - Examining how organizations embed learning into daily work
   - Identifying whether improvement is episodic or structural
-one_liner: "개선을 일상의 습관으로 만드는 스탠스"
+one_liner: "Stance that turns improvement into a daily habit."
 ---
 
 # Toyota Kata

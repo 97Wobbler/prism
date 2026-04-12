@@ -9,7 +9,7 @@ best_for:
   - Understanding why customers choose a product by mapping the functional, emotional, and social jobs they are trying to accomplish
   - Predicting which product features will drive adoption by identifying misalignment between product capabilities and customer job requirements
   - Generating non-obvious product concepts by uncovering underserved or overserved job dimensions
-one_liner: "고객이 제품을 '채용'하는 이유를 찾기 위해 수행하려는 작업(job)의 기능적·감정적·사회적 차원을 매핑"
+one_liner: "Map the functional, emotional, and social dimensions of the job customers hire a product to do."
 ---
 
 # Jobs-to-be-Done

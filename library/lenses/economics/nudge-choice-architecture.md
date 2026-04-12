@@ -9,7 +9,7 @@ best_for:
   - Designing interventions that steer behavior without restricting choice
   - Auditing decision environments for hidden bias or friction
   - Increasing desired outcomes (savings, health, organ donation) with minimal coercion
-one_liner: "선택지 설계를 통해 개인의 자율성을 유지하면서 의사결정을 유도하는 개입 기법"
+one_liner: "Guide decisions while preserving autonomy by designing the choice environment."
 ---
 
 # Nudge / Choice Architecture

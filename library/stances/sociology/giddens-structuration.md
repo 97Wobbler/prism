@@ -9,7 +9,7 @@ best_for:
   - Reading social practices and institutions to see how they are simultaneously constrained by structure and remade by agents
   - Analyzing how routines, norms, and material conditions persist yet change through recursive enactment
   - Understanding technology, organizations, and social change without reducing to either determinism or pure voluntarism
-one_liner: "구조와 행위의 상호구성 — 행위자는 구조를 재생산하면서 동시에 변경한다"
+one_liner: "Mutual constitution of structure and action — agents reproduce structure while changing it."
 ---
 
 # Giddens' Structuration

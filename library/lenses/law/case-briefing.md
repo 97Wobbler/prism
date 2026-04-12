@@ -9,7 +9,7 @@ best_for:
   - Extracting the legal essence of a judicial opinion
   - Building a comparable library of precedents
   - Teaching case analysis to junior lawyers
-one_liner: "판례의 사실·소송 진행·법적 쟁점·판결·논리를 체계적으로 추출"
+one_liner: "Systematically extract facts, procedural history, issues, holding, and reasoning from a case."
 ---
 
 # Case Briefing

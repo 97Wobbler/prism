@@ -9,7 +9,7 @@ best_for:
   - task estimation and scheduling
   - sustained focus in fragmented workdays
   - preventing burnout from unbroken work
-one_liner: "고정 간격으로 집중과 회복을 강제하면 시간 감각을 되찾는다"
+one_liner: "Force focus and recovery on fixed intervals to reclaim a sense of time."
 ---
 
 # Pomodoro Interval Discipline

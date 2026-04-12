@@ -9,7 +9,7 @@ best_for:
   - Predicting the large-scale geometry, expansion history, and age of the universe given matter-energy composition
   - Explaining the cosmic distance ladder, the cosmic microwave background, and structure formation timescales
   - Diagnosing which cosmological parameters matter most for a specific observational constraint
-one_liner: "우주의 기하학과 팽창 이력을 결정하는 표준 우주론 기준틀"
+one_liner: "Standard cosmological baseline model determining the geometry and expansion history of the universe."
 ---
 
 # Lambda-CDM Concordance Model

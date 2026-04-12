@@ -9,7 +9,7 @@ best_for:
   - Training program design
   - Performance plateau diagnosis
   - Load management decisions
-one_liner: "점진적 스트레스 증가가 적응을 유도한다"
+one_liner: "Gradually increasing stress drives adaptation."
 ---
 
 # Progressive Overload

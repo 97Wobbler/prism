@@ -9,7 +9,7 @@ best_for:
   - Organizing documents where readers scan or stop mid-read
   - Prioritizing what matters in reports, summaries, and announcements
   - Testing whether your most important claim is actually leading
-one_liner: "가장 중요한 것부터, 나머지는 지원 자료 (저널리즘)"
+one_liner: "Journalism lede: most important first, supporting material after."
 ---
 
 # Inverted Pyramid

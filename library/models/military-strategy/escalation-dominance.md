@@ -9,7 +9,7 @@ best_for:
   - Predicting conflict outcomes when both sides have graduated options and incomplete information about the other's tolerance for escalation
   - Explaining why wars persist or terminate despite apparent mutual losses
   - Identifying asymmetries in resolve that determine who controls the escalation ladder
-one_liner: "각 단계에서 누가 먼저 물러나는가에 따라 전쟁의 승패가 결정된다"
+one_liner: "Who backs down first at each rung determines who wins the war."
 ---
 
 # Escalation Dominance

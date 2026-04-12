@@ -9,7 +9,7 @@ best_for:
   - Predicting the trajectory of a system by finding the path that minimizes (or extremizes) total action
   - Deriving equations of motion for mechanical systems without explicitly writing force laws
   - Understanding why physical systems follow the paths they do — the variational perspective
-one_liner: "작용의 최소 원리 — 물리계가 작용(action)을 극값화하는 경로를 따른다"
+one_liner: "Physical systems follow the path that extremizes action."
 ---
 
 # Principle of Least Action

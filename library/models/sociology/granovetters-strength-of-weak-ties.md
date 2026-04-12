@@ -9,7 +9,7 @@ best_for:
   - Predicting information flow and access across social networks
   - Explaining job search success and career mobility
   - Understanding how novel information reaches individuals
-one_liner: "약한 관계가 강한 관계보다 새로운 정보를 더 효율적으로 전달하는 네트워크 모델"
+one_liner: "Weak ties transmit novel information more efficiently than strong ties."
 ---
 
 # Granovetter's Strength of Weak Ties

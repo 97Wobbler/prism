@@ -8,7 +8,7 @@ source: origin uncertain
 best_for:
   - Classifying data or concept shift in ML systems by the type of distribution change
   - Deciding which monitoring or retraining strategy is appropriate
-one_liner: "공변량/레이블/개념 드리프트 분류"
+one_liner: "Classify covariate, label, and concept drift."
 ---
 
 # Drift Detection

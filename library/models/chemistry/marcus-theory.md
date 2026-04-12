@@ -9,7 +9,7 @@ best_for:
   - Predicting electron transfer rates between donor and acceptor species
   - Understanding reorganization energy and its role in redox kinetics
   - Explaining the inverted region and Marcus parabolas in electron transfer
-one_liner: "전자 이동 활성화 에너지를 재편성 에너지와 반응 구동력으로 설명하는 반응 속도 모델"
+one_liner: "Electron-transfer rate model explaining activation energy via reorganization energy and driving force."
 ---
 
 # Marcus Theory

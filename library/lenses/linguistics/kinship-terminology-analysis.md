@@ -9,7 +9,7 @@ best_for:
   - Inferring social structure and kinship norms from terminology patterns
   - Identifying marriage rules, residence patterns, and descent systems
   - Cross-cultural comparison of family organization
-one_liner: "용어 체계에서 사회 구조와 혼인 규칙 도출"
+one_liner: "Derive social structure and marriage rules from kinship term systems."
 ---
 
 # Kinship Terminology Analysis
