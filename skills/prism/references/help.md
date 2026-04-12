@@ -13,8 +13,13 @@
 
 ## For catalog browsing
 
-That's a separate skill: use `catalog-browse` for queries like "what
-lenses exist for security?" or "show me frames for product strategy".
+Use `/prism search` for queries like "what lenses exist for security?"
+or "show me frames for product strategy".
+
+## For loading instruments into subagents
+
+Use `/prism fetch <instrument-names>` to get a ready-made instruction
+block for subagent prompts. Example: `/prism fetch stride owasp-top10`.
 
 ## For batch generation
 

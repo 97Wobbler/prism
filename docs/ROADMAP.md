@@ -22,7 +22,7 @@ today and what each upcoming minor version changes.
 Structural changes that align the plugin with its clarified identity.
 
 - **New skills**
-  - `catalog-browse` — read-only skill for exploring the instrument catalog by
+  - `search` — read-only skill for exploring the instrument catalog by
     class, domain, or free-text query. Returns candidate instruments for
     whatever the caller is building (an agent, a skill, or a one-off prompt).
   - `make-instrument` — interview-style skill for creating a new instrument.

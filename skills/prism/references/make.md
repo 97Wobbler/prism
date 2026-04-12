@@ -33,7 +33,7 @@ here once a framework name is present.
 - **Batch generation** (many instruments at once) → use
   `python3 scripts/prism_batch.py` with the appropriate prompt template.
   This workflow creates exactly one file per invocation.
-- **Browsing the catalog** → use the `catalog-browse` skill.
+- **Browsing the catalog** → use the `search` skill.
 - **Editing an existing instrument** → read and edit the file directly.
 - **Creating an agent config** → that is Claude Code's native agent
   mechanism; Prism only provides the catalog.
@@ -169,7 +169,7 @@ After writing, tell the user exactly one follow-up command:
 
 This refreshes only the layer you wrote to. Do NOT run the command
 yourself — the user may be in a different working directory. Remind
-the user that `catalog-browse` will include the new instrument in its
+the user that `search` will include the new instrument in its
 merged view once the catalog is refreshed.
 
 ## Examples

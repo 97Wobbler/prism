@@ -1,5 +1,5 @@
 phase: 2
-goal: "Restructure Prism as a pure catalog reference plugin. Replace agent-creator with catalog-browse + make-instrument skills. Introduce 3-layer custom instrument storage. Convert agents/examples/ into docs/cookbook/ compositions. Ship as v0.2.0."
+goal: "Restructure Prism as a pure catalog reference plugin. Replace agent-creator with search + make-instrument skills. Introduce 3-layer custom instrument storage. Convert agents/examples/ into docs/cookbook/ compositions. Ship as v0.2.0."
 
 predecessor: "Phase 1 completed at v0.1.0 (5f41be0). Rename lenslab → Prism, framework → instrument, lenslab_batch.py → prism_batch.py done. All infrastructure intact."
 
@@ -14,7 +14,7 @@ scope:
   in:
     - "Remove commands/create-agent.md"
     - "Remove skills/agent-creator/ entirely (replaced by new skills)"
-    - "Create skills/catalog-browse/SKILL.md (new, read-only catalog reference skill)"
+    - "Create skills/search/SKILL.md (new, read-only catalog reference skill)"
     - "Create skills/make-instrument/SKILL.md (new, interview-style LLM-driven instrument creation)"
     - "Convert agents/examples/*.yml → docs/cookbook/*.md (4 files: security-analyst, curriculum-reviewer, product-strategist, film-critic)"
     - "Remove agents/ directory after conversion (it becomes empty)"
@@ -56,11 +56,11 @@ conventions:
 
 tasks:
   - id: T1
-    subject: "Scaffold skills/catalog-browse/SKILL.md"
+    subject: "Scaffold skills/search/SKILL.md"
     blocked_by: []
     parallelizable: true
     description: >
-      Create a new SKILL.md at skills/catalog-browse/. This is a READ-ONLY reference
+      Create a new SKILL.md at skills/search/. This is a READ-ONLY reference
       skill. When invoked, it should guide Claude to read catalog.yml (the bundle
       catalog), optionally the global catalog at ~/.claude/prism/catalog.yml if it
       exists, and optionally the project catalog at ./.claude/prism/catalog.yml if
@@ -68,7 +68,7 @@ tasks:
       class, free text).
 
       The SKILL.md should include:
-      - Frontmatter (name: catalog-browse, description: explorable instrument catalog...)
+      - Frontmatter (name: search, description: explorable instrument catalog...)
       - When to invoke it (triggers: "what instruments exist for X", "show me the
         catalog for Y domain", "what lenses are available for security")
       - What NOT to invoke it for (do not try to create anything — that is
@@ -81,8 +81,8 @@ tasks:
       - Brief examples
       - Length target: 100-180 lines
     deliverables:
-      - skills/catalog-browse/SKILL.md
-    commit_on_done: "v0.2.0-rc: T1 scaffold catalog-browse skill"
+      - skills/search/SKILL.md
+    commit_on_done: "v0.2.0-rc: T1 scaffold search skill"
 
   - id: T2
     subject: "Scaffold skills/make-instrument/SKILL.md"
@@ -113,7 +113,7 @@ tasks:
         Y domain", "make an instrument for Z"
       - When NOT to invoke: when the user wants to batch-generate many instruments
         (that is scripts/prism_batch.py's job), when the user just wants to browse
-        (that is catalog-browse's job)
+        (that is search's job)
       - Interview protocol: the 5 canonical questions and their decision trees
       - Save location decision tree (project > global, never bundle)
       - Reference to CLASSES.md for file format templates
@@ -134,13 +134,13 @@ tasks:
       - Verify no remaining file references to these paths: grep the repo for
         "agent-creator", "create-agent", "create_agent"
       - If any references exist in docs/ (README, CLASSES.md, etc.), update them
-        to point to catalog-browse or make-instrument as appropriate
+        to point to search or make-instrument as appropriate
       - Do NOT touch docs/archive/ or docs/ROADMAP.md references (those are
         historical / planned)
     deliverables:
       - agent-creator skill and create-agent command removed
       - All cross-references updated
-    commit_on_done: "v0.2.0-rc: T3 remove agent-creator (replaced by catalog-browse + make-instrument)"
+    commit_on_done: "v0.2.0-rc: T3 remove agent-creator (replaced by search + make-instrument)"
 
   - id: T4
     subject: "Convert agents/examples/*.yml → docs/cookbook/*.md"
@@ -188,7 +188,7 @@ tasks:
       - --source project: scan ./.claude/prism/library/ and rewrite ./.claude/prism/catalog.yml
       - --source all (default): scan all three layers, build composite view at
         runtime, but do NOT write to disk. Output to stdout as a preview.
-        This is useful for make-instrument and catalog-browse to read a live
+        This is useful for make-instrument and search to read a live
         merged view.
 
       Implement merge precedence project > global > bundle: when the same
@@ -213,7 +213,7 @@ tasks:
     description: >
       Update README.md to reflect:
       - Installation and usage section: remove /prism:create-agent references,
-        add /prism:catalog-browse and /prism:make-instrument usage examples
+        add /prism:search and /prism:make-instrument usage examples
       - Extending the library section: update to mention 3-layer storage
         (global and project layers in addition to bundle)
       - Included items section: keep, maybe add a note that cookbook
@@ -224,7 +224,7 @@ tasks:
         leave untouched
     deliverables:
       - README.md updated
-    commit_on_done: "v0.2.0-rc: T6 update README for catalog-browse + make-instrument + cookbook"
+    commit_on_done: "v0.2.0-rc: T6 update README for search + make-instrument + cookbook"
 
   - id: T7
     subject: "Bump plugin manifest to v0.2.0 and sanity check"
@@ -261,7 +261,7 @@ tasks:
       - git push origin v0.2.0
       - Fetch raw plugin.json from raw.githubusercontent.com and verify version=0.2.0
       - Prompt user to clean Claude Code plugin caches and re-install prism to
-        verify the new skill lineup (catalog-browse, make-instrument) shows up
+        verify the new skill lineup (search, make-instrument) shows up
         and agent-creator does NOT show up
     deliverables:
       - Pushed to github.com/97Wobbler/prism

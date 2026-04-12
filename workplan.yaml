@@ -150,7 +150,7 @@ tasks:
     name: "prism 라우터 SKILL.md 업데이트"
     blocked_by: [T01, T02]
     human_gate: null
-    done: false
+    done: true
     category: refactor
     spec: |
       skills/prism/SKILL.md를 편집하여:
@@ -178,7 +178,7 @@ tasks:
     name: "references (about/help/make) 업데이트"
     blocked_by: [T01, T02]
     human_gate: null
-    done: false
+    done: true
     category: refactor
     spec: |
       skills/prism/references/ 아래 3개 파일을 편집한다:
@@ -214,7 +214,7 @@ tasks:
     name: "README.md 업데이트"
     blocked_by: [T01, T02]
     human_gate: null
-    done: false
+    done: true
     category: docs
     spec: |
       README.md에서:
@@ -235,7 +235,7 @@ tasks:
     name: "docs/ 업데이트 + 구 디렉토리 삭제"
     blocked_by: [T01]
     human_gate: null
-    done: false
+    done: true
     category: refactor
     spec: |
       1. docs/ROADMAP.md: "catalog-browse" → "search" 치환

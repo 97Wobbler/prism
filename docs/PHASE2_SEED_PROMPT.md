@@ -68,7 +68,7 @@ After reading those three, read these for context as needed:
 ## The one-sentence goal
 
 Prism v0.2.0 is a **pure catalog reference plugin**. Remove `agent-creator` and
-`create-agent`. Add `catalog-browse` (read-only catalog exploration) and
+`create-agent`. Add `search` (read-only catalog exploration) and
 `make-instrument` (interview-style instrument creation). Introduce 3-layer
 custom instrument storage (bundle / global / project). Convert
 `agents/examples/` into `docs/cookbook/` composition recipes. Ship as v0.2.0.
@@ -93,7 +93,7 @@ reasons.
    instruments that those native mechanisms can reference.
 
 4. **Two and only two skills in v0.2.0**:
-   - `catalog-browse` — read-only. Answers "what instruments exist for X?"
+   - `search` — read-only. Answers "what instruments exist for X?"
    - `make-instrument` — interactive. Creates a single new instrument file via
      a short interview followed by LLM-driven body generation.
 
@@ -166,7 +166,7 @@ long commands yourself. Your job is:
 
 | Round | Tasks | Execution mode |
 |---|---|---|
-| 1 | T1 (catalog-browse), T2 (make-instrument), T4 (cookbook conversion), T5 (sync_catalog --source) | 4 parallel background subagents |
+| 1 | T1 (search), T2 (make-instrument), T4 (cookbook conversion), T5 (sync_catalog --source) | 4 parallel background subagents |
 | 2 | T3 (remove agent-creator) | sequential, after T1 and T2 complete |
 | 3 | T6 (update README) | sequential, after all content tasks |
 | 4 | T7 (bump manifest + sanity check), T8 (push + user install verification) | sequential |
@@ -236,7 +236,7 @@ After T8 push, the user will manually verify the plugin:
 /plugin marketplace add 97Wobbler/prism
 /plugin install prism
 /reload-plugins
-# Check that /prism:catalog-browse and /prism:make-instrument appear
+# Check that /prism:search and /prism:make-instrument appear
 # Check that /prism:create-agent does NOT appear
 ```
 

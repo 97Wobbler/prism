@@ -91,12 +91,13 @@ which items to load and what `usage` tag each has (`always`,
 
 ## Installation and usage
 
-Prism is a Claude Code plugin. It ships two skills
-(`catalog-browse`, a proactive recommender that should be consulted
-whenever you are about to build an agent or skill, and `/prism`, the
-user-facing router for explaining Prism and creating new instruments
-via an interview) and the `library/` + `catalog.yml` pair that both
-consume.
+Prism is a Claude Code plugin. It ships three skills
+(`search`, a proactive recommender that should be consulted
+whenever you are about to build an agent or skill; `fetch`, which
+prepares selected instruments in a form ready to hand off to a
+sub-agent; and `/prism`, the user-facing router for explaining Prism
+and creating new instruments via an interview) and the `library/` +
+`catalog.yml` pair that all three consume.
 
 ### Step 1. Install the plugin
 
@@ -116,20 +117,29 @@ git clone https://github.com/97Wobbler/prism.git
 # Then follow your plugin loader's instructions for local plugins.
 ```
 
-After install, the `catalog-browse` and `prism` skills should
+After install, the `search`, `fetch`, and `prism` skills should
 appear in Claude Code's skill list and the 657 files under `library/`
 are reachable via `catalog.yml`.
 
 ### Step 2. Explore the catalog and compose an agent
 
 Whenever you are about to build an agent or skill, consult the
-`catalog-browse` skill first — it is a proactive recommender, not just
-a lookup tool, and it will surface instruments from the 657-file
-library that match your domain before you write any prompt. It reads
+`search` skill first — it is a proactive recommender, not just a
+lookup tool, and it will surface instruments from the 657-file library
+that match your domain before you write any prompt. It reads
 `catalog.yml` as a triage index and returns a grouped-by-class view
-filtered by your query. Then open Claude Code's native `/agents` flow
-and build an agent that references the `library/` paths you picked,
+filtered by your query. Once you have picked the instruments you need,
+use `fetch` to prepare them in a form that can be handed off directly
+to a sub-agent. Then open Claude Code's native `/agents` flow and
+build an agent that references the `library/` paths you picked,
 optionally following a recipe in `docs/cookbook/` (see below).
+
+A typical two-step workflow looks like this:
+
+```
+1. /prism search security lens   — browse security-related lenses
+2. /prism fetch stride owasp-top10 — prepare selected instruments for a sub-agent
+```
 
 If the catalog is missing an instrument you need, invoke `/prism
 <framework name>`: the prism skill runs an interview, classifies the
@@ -229,8 +239,8 @@ that runs Haiku 4.5 in parallel against a curated seed catalog (see
 `scripts/PHASE3_RUN.md` and the `v0.3: add … generated … files` commits
 for the full batch history).
 
-Use `catalog.yml` as the single triage index — the `catalog-browse`
-skill reads it first and only loads individual files when the domain
+Use `catalog.yml` as the single triage index — the `search` skill
+reads it first and only loads individual files when the domain
 matches.
 
 ### By class

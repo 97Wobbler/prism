@@ -1,6 +1,6 @@
 ---
 name: prism
-description: User-facing entry point for the Prism plugin. Use this skill to EXPLAIN what Prism is and to CREATE new instruments (lens / frame / model / stance / heuristic) from a named framework. Triggers on "/prism", "/prism help", "/prism <framework>", "prism이 뭐야?", "prism 소개해줘", "prism 써보고싶어", "새 lens 만들어줘", "새 렌즈/프레임 만들어줘 <X>", "make a lens", "create a new prism instrument", "add <framework> as a frame". NOT for browsing or looking up what already exists in the catalog — route those requests to the `catalog-browse` skill instead.
+description: User-facing entry point for the Prism plugin. Use this skill to EXPLAIN what Prism is and to CREATE new instruments (lens / frame / model / stance / heuristic) from a named framework. Triggers on "/prism", "/prism help", "/prism <framework>", "prism이 뭐야?", "prism 소개해줘", "prism 써보고싶어", "새 lens 만들어줘", "새 렌즈/프레임 만들어줘 <X>", "make a lens", "create a new prism instrument", "add <framework> as a frame". NOT for browsing or looking up what already exists in the catalog — route those requests to the `search` skill instead. NOT for loading instruments into subagents — route those to the `fetch` skill.
 ---
 
 # prism (router)
@@ -40,12 +40,12 @@ below. When ambiguous, default to **about** (first-contact friendliness).
    - Action: load `skills/prism/references/help.md` in full and render
      it to the user.
 
-## NOT this skill — route to catalog-browse
+## NOT this skill — route to search or fetch
 
 If the user is asking **what instruments already exist** (a lookup or
-browse request), stop here and route them to the `catalog-browse` skill.
+browse request), stop here and route them to the `search` skill.
 Do not try to answer catalog queries from this router. Signals that this
-is a `catalog-browse` job, not a `/prism` job:
+is a `search` job, not a `/prism` job:
 
 - "what lenses exist for security?"
 - "show me the catalog", "what's in the prism catalog?"
@@ -53,9 +53,16 @@ is a `catalog-browse` job, not a `/prism` job:
 - "list instruments for <domain>"
 - "any heuristics for <topic>?"
 
-In those cases, tell the user one sentence: "That is the `catalog-browse`
+In those cases, tell the user one sentence: "That is the `search`
 skill's job — invoke it and it will walk the 3-layer catalog for you."
 Do not enumerate catalog entries from this skill.
+
+If the user wants to **load instruments for a subagent prompt**, route them to the `fetch` skill.
+Signals that this is a `fetch` job:
+
+- "이 instrument를 서브에이전트에 넘겨줘"
+- "fetch stride for my subagent"
+- "instrument 로드해줘"
 
 Editing an existing instrument is also out of scope: open and edit the
 file directly. Building an agent config is also out of scope: use Claude

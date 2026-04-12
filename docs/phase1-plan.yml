@@ -15,7 +15,7 @@ scope:
   out:
     - "agents/examples/*.yml → docs/cookbook/*.md conversion (Phase 2)"
     - "skills/agent-creator removal (Phase 2)"
-    - "New skills: catalog-browse, make-instrument (Phase 2)"
+    - "New skills: search, make-instrument (Phase 2)"
     - "3-layer custom instrument storage (Phase 2)"
     - "sync_catalog.py --source flag (Phase 2)"
     - "Any library/ content edits (out of scope for rename)"
@@ -97,7 +97,7 @@ tasks:
       Create docs/ROADMAP.md describing v0.1.0 (current), v0.2.0 (next), v0.3.0 (later),
       and 'out of scope' sections. Based on the conversation notes:
       - v0.1.0: renamed from lenslab, 657 instruments, catalog reference plugin identity
-      - v0.2.0: new skills (catalog-browse, make-instrument), 3-layer custom storage,
+      - v0.2.0: new skills (search, make-instrument), 3-layer custom storage,
                 agent-creator removed, cookbook for compositions, make-instrument uses
                 interview-style input then auto-generates via LLM
       - v0.3.0: contribute-instrument skill (upstream PR), enhanced catalog search

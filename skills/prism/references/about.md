@@ -17,5 +17,6 @@ Prism의 instrument는 다섯 가지 클래스 중 하나에 속합니다:
 ## 바로 시작
 
 - **새 instrument 만들기** → `/prism CVSS` 또는 `/prism 칸반 방식`
-- **기존 카탈로그 탐색** → `catalog-browse` 스킬
+- **기존 카탈로그 탐색** → `/prism search`
+- **서브에이전트에 instrument 장착** → `/prism fetch`
 - **사용법 전체** → `/prism help`
