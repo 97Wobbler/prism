@@ -4,7 +4,7 @@ display_name: Bystander Effect (Latané-Darley)
 class: model
 underlying_class: native
 domain: psychology
-source: Bibb Latané & John M. Darley, "The Unresponsive Bystander: Why doesn't he help?" Appleton-Century-Crofts, 1970; foundational experiments 1968–1970
+source: "Bibb Latané & John M. Darley, \"The Unresponsive Bystander: Why doesn't he help?\" Appleton-Century-Crofts, 1970; foundational experiments 1968–1970"
 best_for:
   - Predicting individual intervention rates in emergencies as a function of group size
   - Explaining why diffusion of responsibility reduces helping behavior

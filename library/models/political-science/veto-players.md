@@ -4,7 +4,7 @@ display_name: Veto Players
 class: model
 underlying_class: native
 domain: political-science
-source: George Tsebelis, Veto Players: How Political Institutions Work, Princeton University Press, 2002
+source: "George Tsebelis, Veto Players: How Political Institutions Work, Princeton University Press, 2002"
 best_for:
   - Predicting the likelihood and magnitude of policy change under different institutional configurations
   - Explaining stability and gridlock in legislative systems

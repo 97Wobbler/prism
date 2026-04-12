@@ -4,7 +4,7 @@ display_name: Situationism (Ross-Nisbett)
 class: model
 underlying_class: native
 domain: psychology
-source: Lee Ross & Richard Nisbett, "The Person and the Situation: Perspectives of Social Psychology," 1991
+source: "Lee Ross & Richard Nisbett, \"The Person and the Situation: Perspectives of Social Psychology,\" 1991"
 best_for:
   - Predicting behavior by correctly weighting situational constraints over personality traits
   - Diagnosing fundamental attribution error in organizational and interpersonal contexts

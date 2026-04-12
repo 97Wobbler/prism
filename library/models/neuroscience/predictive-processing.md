@@ -4,7 +4,7 @@ display_name: Predictive Processing
 class: model
 underlying_class: native
 domain: neuroscience
-source: Karl Friston, "The Free-Energy Principle: A Unified Brain Theory," Nature Reviews Neuroscience, 2010; Andy Clark, "Whatever Next? Predictive Minds in Engaging World," Behavioral and Brain Sciences, 2013
+source: "Karl Friston, \"The Free-Energy Principle: A Unified Brain Theory,\" Nature Reviews Neuroscience, 2010; Andy Clark, \"Whatever Next? Predictive Minds in Engaging World,\" Behavioral and Brain Sciences, 2013"
 best_for:
   - Explaining perception, action, and learning as error minimization
   - Predicting how uncertainty, precision, and attention allocate neural resources

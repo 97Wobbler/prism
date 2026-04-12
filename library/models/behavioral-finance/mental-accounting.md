@@ -4,7 +4,7 @@ display_name: Mental Accounting
 class: model
 underlying_class: native
 domain: behavioral-finance
-source: Richard H. Thaler, "Mental Accounting and Consumer Choice," Marketing Science, 1985; "Mental Accounting: An Analysis of Buying Behavior," Journal of Decision Making, 1999
+source: "Richard H. Thaler, \"Mental Accounting and Consumer Choice,\" Marketing Science, 1985; \"Mental Accounting: An Analysis of Buying Behavior,\" Journal of Decision Making, 1999"
 best_for:
   - Explaining and predicting spending, saving, and investment decisions that violate monetary fungibility
   - Understanding how framing by source or intended use overrides rational preferences

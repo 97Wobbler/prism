@@ -4,7 +4,7 @@ display_name: Social Proof (Cialdini)
 class: model
 underlying_class: native
 domain: psychology
-source: Robert B. Cialdini, Influence: The Psychology of Persuasion (1984); extended in Pre-Suasion (2016)
+source: "Robert B. Cialdini, Influence: The Psychology of Persuasion (1984); extended in Pre-Suasion (2016)"
 best_for:
   - Predicting conformity and adoption behavior under uncertainty
   - Explaining cascades and rapid norm shifts in groups

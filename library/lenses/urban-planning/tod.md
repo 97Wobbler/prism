@@ -1,5 +1,5 @@
 ---
-name: transit-oriented-development
+name: tod
 display_name: Transit-Oriented Development (Calthorpe)
 class: lens
 underlying_class: native

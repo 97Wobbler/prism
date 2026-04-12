@@ -4,7 +4,7 @@ display_name: Framing Theory
 class: stance
 underlying_class: native
 domain: media-studies
-source: Erving Goffman — Frame Analysis (1974); Robert Entman — "Framing: Toward Clarification of a Fractured Paradigm" (1993), "Projections of Power" (2004); Todd Gitlin — The Whole World Is Watching (1980)
+source: "Erving Goffman — Frame Analysis (1974); Robert Entman — \"Framing: Toward Clarification of a Fractured Paradigm\" (1993), \"Projections of Power\" (2004); Todd Gitlin — The Whole World Is Watching (1980)"
 best_for:
   - Reading media texts, news coverage, and public discourse to expose how selection and emphasis construct meaning
   - Analyzing how political actors, institutions, and media outlets make certain aspects salient while backgrounding others

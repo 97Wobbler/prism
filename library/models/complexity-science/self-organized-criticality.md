@@ -4,7 +4,7 @@ display_name: Self-Organized Criticality
 class: model
 underlying_class: native
 domain: complexity-science
-source: Per Bak, Chao Tang, and Kurt Wiesenfeld, "Self-Organized Criticality: An Explanation of the 1/f Noise," Physical Review Letters, 1987; developed further in Bak's How Nature Works (1996)
+source: "Per Bak, Chao Tang, and Kurt Wiesenfeld, \"Self-Organized Criticality: An Explanation of the 1/f Noise,\" Physical Review Letters, 1987; developed further in Bak's How Nature Works (1996)"
 best_for:
   - Predicting power-law distributions of event sizes in systems with local interactions and energy dissipation
   - Explaining why complex systems naturally tune to criticality without external parameter adjustment

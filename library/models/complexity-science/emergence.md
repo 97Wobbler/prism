@@ -4,7 +4,7 @@ display_name: Emergence (Anderson, Holland)
 class: model
 underlying_class: native
 domain: complexity-science
-source: Philip W. Anderson, "More is Different," Science, 1972; John H. Holland, Hidden Order: How Adaptation Builds Complexity, 1995
+source: "Philip W. Anderson, \"More is Different,\" Science, 1972; John H. Holland, Hidden Order: How Adaptation Builds Complexity, 1995"
 best_for:
   - Predicting when and why system-level properties cannot be derived from component-level rules
   - Identifying when reductionist analysis will fail

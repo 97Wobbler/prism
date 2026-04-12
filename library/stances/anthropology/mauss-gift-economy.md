@@ -4,7 +4,7 @@ display_name: Maussian Gift Economy
 class: stance
 underlying_class: native
 domain: anthropology
-source: Marcel Mauss — The Gift: The Form and Reason for Exchange in Archaic Societies (1950, original 1924); anthropological extensions by Mary Douglas, Arjun Appadurai, David Graeber
+source: "Marcel Mauss — The Gift: The Form and Reason for Exchange in Archaic Societies (1950, original 1924); anthropological extensions by Mary Douglas, Arjun Appadurai, David Graeber"
 best_for:
   - Reading exchange practices to see obligation, reciprocity, and social binding rather than pure economic calculation
   - Surfacing the moral and relational dimensions of transactions presented as "merely economic"

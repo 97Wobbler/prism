@@ -4,7 +4,7 @@ display_name: Disposition Effect (Shefrin-Statman)
 class: model
 underlying_class: native
 domain: behavioral-finance
-source: Hersh Shefrin & Meir Statman, "The Disposition to Sell Winners Too Early and Hold Losers Too Long: Theory and Evidence," Journal of Finance, 1985
+source: "Hersh Shefrin & Meir Statman, \"The Disposition to Sell Winners Too Early and Hold Losers Too Long: Theory and Evidence,\" Journal of Finance, 1985"
 best_for:
   - Predicting when investors will realize gains or losses in their portfolios
   - Explaining systematic trading patterns and portfolio turnover that deviate from tax-loss harvesting and rebalancing logic

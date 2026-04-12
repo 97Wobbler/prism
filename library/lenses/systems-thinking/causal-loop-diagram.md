@@ -4,7 +4,7 @@ display_name: Causal Loop Diagram (Sterman)
 class: lens
 underlying_class: native
 domain: systems-thinking
-source: John D. Sterman, "Business Dynamics: Systems Thinking and Modeling for a Complex World" (2000)
+source: "John D. Sterman, \"Business Dynamics: Systems Thinking and Modeling for a Complex World\" (2000)"
 best_for:
   - Mapping feedback structures in complex systems
   - Identifying reinforcing vs. balancing mechanisms
