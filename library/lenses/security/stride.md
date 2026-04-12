@@ -4,7 +4,7 @@ domain: security
 source: Loren Kohnfelder & Praerit Garg, Microsoft, 1999 (original memo); formalized by Microsoft SDL
 underlying_class: native
 best_for: Systematic threat enumeration for a system or feature at design time, before code is written
-one_liner: "DFD의 각 element × 6카테고리(S/T/R/I/D/E)로 위협을 체계적으로 열거한다"
+one_liner: "Enumerate threats systematically via DFD element × six categories (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege)."
 ---
 
 # STRIDE

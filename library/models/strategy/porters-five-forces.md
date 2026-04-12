@@ -3,7 +3,7 @@ name: Porter's Five Forces
 domain: strategy
 source: Michael E. Porter, "How Competitive Forces Shape Strategy," Harvard Business Review, 1979; expanded in Competitive Strategy (1980)
 best_for: Explaining and predicting the long-run profitability of an industry by mapping the structural forces that determine where value accrues
-one_liner: "산업을 5가지 힘(경쟁/진입/대체/구매자/공급자)으로 매핑해 수익성 구조와 경쟁 동학을 읽는다"
+one_liner: "Read industry profitability and competitive dynamics via rivalry, entry, substitutes, buyers, and suppliers."
 ---
 
 # Porter's Five Forces

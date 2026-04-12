@@ -3,7 +3,7 @@ name: Cynefin Framework
 domain: general
 source: Dave Snowden, IBM Global Services / Cognitive Edge, 1999–2003
 best_for: Sorting a problem or decision context into a domain that dictates which kind of response is appropriate
-one_liner: "문제를 Clear/Complicated/Complex/Chaotic/Confused로 분류하여 어떤 대응 패턴이 적합한지 결정한다"
+one_liner: "Classify a problem as Clear / Complicated / Complex / Chaotic / Confused to choose the fitting response pattern."
 ---
 
 # Cynefin Framework

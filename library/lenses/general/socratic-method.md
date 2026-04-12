@@ -4,7 +4,7 @@ domain: general
 source: Socrates (via Plato); modern pedagogical adaptation by Richard Paul (Foundation for Critical Thinking)
 underlying_class: native
 best_for: Stress-testing a claim, proposal, or conclusion by surfacing hidden assumptions and unexamined implications
-one_liner: "명확화/가정/증거/관점/함의/메타 6범주 질문으로 주장의 내구성을 시험한다"
+one_liner: "Stress-test claims via six question categories — clarification, assumption, evidence, perspective, implication, meta."
 ---
 
 # Socratic Method

@@ -3,7 +3,7 @@ name: General-purpose Heuristics Bundle
 domain: general
 source: Assorted — see each entry for attribution
 best_for: A sanity-gate bundle applied at the end of analysis to catch common reasoning failures across almost any domain
-one_liner: "Occam, Hanlon, Chesterton's Fence, Hickam, Pigeonhole, Pareto, Parkinson, Mise en Place 번들"
+one_liner: "Bundle — Occam, Hanlon, Chesterton's Fence, Hickam, Pigeonhole, Pareto, Parkinson, Mise en Place."
 ---
 
 # General-purpose Heuristics Bundle

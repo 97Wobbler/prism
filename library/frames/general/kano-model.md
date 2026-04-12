@@ -3,7 +3,7 @@ name: Kano Model
 domain: general
 source: Noriaki Kano, Tokyo University of Science, 1984 ("Attractive Quality and Must-Be Quality")
 best_for: Classifying product features or quality attributes by the non-linear relationship between their presence and customer satisfaction
-one_liner: "제품 기능을 Must-be/Performance/Attractive/Indifferent/Reverse로 분류해 투자 우선순위를 판단한다"
+one_liner: "Classify product features as Must-be / Performance / Attractive / Indifferent / Reverse to judge investment priority."
 ---
 
 # Kano Model
