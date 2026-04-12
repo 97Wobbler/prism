@@ -263,7 +263,7 @@ tasks:
     name: "전체 검증"
     blocked_by: [T03, T04, T05, T06]
     human_gate: null
-    done: false
+    done: true
     category: test
     spec: |
       프로젝트 전체에서:
