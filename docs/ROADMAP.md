@@ -69,7 +69,40 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.3.0 (Current)
+## v0.3.1 (Current)
+
+A patch release that drains the immediately-actionable carry-over from
+the v0.3.0 follow-through audit. No new instruments, no new domains,
+no user-facing surface changes — only catalog deconfliction and a
+generation-pipeline hardening.
+
+- **`nist-ai-rmf` deconfliction.** v0.3.0 added an `applied-ethics`
+  lens version of NIST AI RMF without noticing the catalog already
+  held an `ai` frame version with the same name slug. Both files
+  coexisted under different `(class, domain)` pairs, leaving
+  semantically duplicate entries in triage. v0.3.1 removes the frame
+  (`library/frames/ai/nist-ai-rmf.md`) and keeps the lens. Total
+  instrument count drops from 712 to 711; the `ai` domain loses one
+  frame; `applied-ethics` is unchanged.
+- **`scripts/prism_batch.py` prompt hardening.** Two recurring failure
+  modes from the v0.3.0 generation run were patched in all five
+  class-specific system prompts (`lens` / `frame` / `model` / `stance`
+  / `heuristic`):
+  - **Slug enforcement** — the prompt now states explicitly that the
+    frontmatter `name` field MUST be byte-identical to the spec slug
+    given in the user prompt, citing the v0.3.0 incident where Haiku
+    expanded `tod` into `transit-oriented-development` and silently
+    broke the spec/catalog mapping.
+  - **`source:` colon escaping** — the prompt now requires any
+    frontmatter value containing a colon (most commonly book titles
+    and subtitles in `source:`) to be wrapped in double quotes, to
+    keep strict YAML parsers happy without relying on the
+    `_shallow_parse` fallback in `sync_catalog.py`.
+
+  These changes do not affect existing instruments — only future
+  `prism_batch.py` runs.
+
+## v0.3.0
 
 A 12-domain expansion driven by an external contributor batch. The
 catalog grows from 658 to 712 instruments — about 8% — and the domain
@@ -191,28 +224,14 @@ Extensions on top of the v0.3 structure.
   relations and post-Freudian schools) are the natural next stances for
   this domain, which currently holds Freud / Lacan / Jung. Adding them
   would also unlock comparison lenses across schools.
-- **`prism_batch.py` hardening** — two recurring failure modes appeared
-  in the v0.3.0 generation run and were fixed by hand: (1) Haiku
-  occasionally writes a frontmatter `name` slug that does not match the
-  spec slug (e.g. `transit-oriented-development` for spec `tod`), so
-  the catalog registers under the long form; (2) Haiku embeds book
-  titles with colons directly into `source:` values, breaking strict
-  YAML parsing (the `_shallow_parse` fallback in `sync_catalog.py`
-  hides this at catalog generation time but the underlying frontmatter
-  is still invalid). The fix is two prompt updates: enforce that the
-  generated frontmatter `name` echo the spec slug verbatim, and require
-  any `source:` value containing a colon to be wrapped in double quotes.
-- **`nist-ai-rmf` cross-class duplication** — v0.3.0 added an
-  `applied-ethics/nist-ai-rmf` lens (Govern/Map/Measure/Manage walk-
-  through procedure) without noticing the catalog already had an
-  `ai/nist-ai-rmf` frame from the original 656. Both files now coexist
-  with the same `name` slug under different `(class, domain)` pairs.
-  Catalog integrity is preserved (`(class, name)` uniqueness still
-  holds), but semantically one of the two is redundant. Decision
-  pending: keep the lens (richer, applied-ethics fits the governance
-  framing better) and remove the frame, OR rename one to disambiguate.
-  The pre-`prism_batch` triage step should grow a "name collision
-  detection across all classes" check to prevent recurrence.
+- **Pre-`prism_batch` triage check for cross-class name collisions.**
+  v0.3.1 fixed the one duplicate (`nist-ai-rmf`) and updated the
+  generation prompts so future spec slugs are enforced verbatim, but
+  the spec-authoring step itself still has no automated check that a
+  proposed `name` does not already exist somewhere else in the
+  catalog under a different class. Adding a pre-batch validator that
+  rejects spec slugs colliding with any existing `(class, name)` (or
+  even just `name`) would prevent recurrence at the source.
 
 ## Out of scope
 

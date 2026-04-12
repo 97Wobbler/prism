@@ -2426,12 +2426,6 @@ frames:
     path: library/frames/ai/mlops-maturity-model.md
     one_liner: "Five-stage classification of ML deployment automation and operational maturity."
 
-  - name: nist-ai-rmf
-    class: frame
-    domain: ai
-    path: library/frames/ai/nist-ai-rmf.md
-    one_liner: "Classify governance, mapping, measurement, and management activities across the AI system lifecycle."
-
   - name: prompt-taxonomy
     class: frame
     domain: ai

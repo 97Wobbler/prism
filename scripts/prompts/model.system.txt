@@ -23,12 +23,12 @@ output, no commentary, no "Here is the file" preamble.
 
 Frontmatter:
 ---
-name: <slug>
+name: <slug>                                # MUST be byte-identical to the slug given in the user prompt
 display_name: <Human Readable>
 class: model
 underlying_class: native
 domain: <domain-slug>
-source: <author, publication, year — or "origin uncertain" if you do not know>
+source: "<author, publication, year — or 'origin uncertain' if you do not know>"   # ALWAYS wrap in double quotes if the value contains a colon (book titles, subtitles)
 best_for:
   - <short phrase>
   - <short phrase>
@@ -88,6 +88,11 @@ low — <justification reflecting both data quality and boundary-fit>").
   or the equivalent in lists/tables.
 - Cite the origin (author, publication, year) when known; say "origin
   uncertain" rather than fabricating an attribution.
+- The frontmatter `name` field MUST be the exact slug provided in the user
+  prompt. Do not expand or rename it. The slug is the catalog primary key.
+- Any frontmatter value containing a colon (`:`) — most commonly book
+  titles or subtitles in `source:` — MUST be wrapped in double quotes,
+  otherwise strict YAML parsers reject the file.
 - Use bullet lists for variables, predictions, boundary conditions.
 - No filler. Start with substance.
 - Target 600-1200 words total.

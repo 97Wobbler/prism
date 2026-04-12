@@ -26,12 +26,12 @@ output, no commentary, no "Here is the file" preamble.
 
 Frontmatter:
 ---
-name: <slug>
+name: <slug>                                # MUST be byte-identical to the slug given in the user prompt
 display_name: <Human Readable>
 class: heuristic
 underlying_class: native
 domain: <domain-slug>
-source: <attributed person or origin with year — or "origin uncertain">
+source: "<attributed person or origin with year — or 'origin uncertain'>"   # ALWAYS wrap in double quotes if the value contains a colon (book titles, subtitles)
 best_for:
   - <short phrase>
   - <short phrase>
@@ -84,6 +84,11 @@ explain why.
 - Section headers match exactly.
 - Cite the attributed origin (person, year, or work) when known; say
   "origin uncertain" rather than fabricating an attribution.
+- The frontmatter `name` field MUST be the exact slug provided in the user
+  prompt. Do not expand or rename it. The slug is the catalog primary key.
+- Any frontmatter value containing a colon (`:`) — most commonly book
+  titles or subtitles in `source:` — MUST be wrapped in double quotes,
+  otherwise strict YAML parsers reject the file.
 - Use bullet lists for the When sections.
 - Be terse. Heuristics are short by nature.
 - Target 350-700 words total — heuristics should be noticeably shorter than

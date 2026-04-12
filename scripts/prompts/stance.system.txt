@@ -23,12 +23,12 @@ output, no commentary, no "Here is the file" preamble.
 
 Frontmatter:
 ---
-name: <slug>
+name: <slug>                                # MUST be byte-identical to the slug given in the user prompt
 display_name: <Human Readable>
 class: stance
 underlying_class: native
 domain: <domain-slug>
-source: <key thinkers and texts, with years where known — or "origin uncertain">
+source: "<key thinkers and texts, with years where known — or 'origin uncertain'>"   # ALWAYS wrap in double quotes if the value contains a colon (book titles, subtitles)
 best_for:
   - <short phrase>
   - <short phrase>
@@ -88,6 +88,11 @@ exposes the relations the stance reads for>").
   or the equivalent in lists/tables.
 - Cite key thinkers and texts (with years where known); say "origin
   uncertain" rather than fabricating attributions.
+- The frontmatter `name` field MUST be the exact slug provided in the user
+  prompt. Do not expand or rename it. The slug is the catalog primary key.
+- Any frontmatter value containing a colon (`:`) — most commonly book
+  titles or subtitles in `source:` — MUST be wrapped in double quotes,
+  otherwise strict YAML parsers reject the file.
 - Be intellectually honest about the stance's blind spots — "What It
   Obscures" must be substantive, not a token disclaimer.
 - No filler. Start with substance.
