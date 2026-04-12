@@ -2222,6 +2222,15 @@ lenses:
     path: library/lenses/strategy/value-proposition-canvas.md
     one_liner: "Explicitly match customer jobs/pains/gains to product features/pain-relievers/gain-creators."
 
+  # ---------- systems-thinking ----------
+
+  - name: causal-loop-diagram
+    class: lens
+    underlying_class: native
+    domain: systems-thinking
+    path: library/lenses/systems-thinking/causal-loop-diagram.md
+    one_liner: "Extract variables and signed causal links, identify reinforcing and balancing loops to expose system behavior drivers."
+
   # ---------- theology ----------
 
   - name: form-criticism
@@ -2916,6 +2925,14 @@ frames:
     path: library/frames/strategy/wardley-map.md
     one_liner: "Value chain × evolution — map strategic advantage and exposure."
 
+  # ---------- systems-thinking ----------
+
+  - name: system-archetypes
+    class: frame
+    domain: systems-thinking
+    path: library/frames/systems-thinking/system-archetypes.md
+    one_liner: "Classify a recurring system problem as one of 8 archetypes (Limits to Growth, Shifting the Burden, Tragedy of Commons, etc.) to predict which interventions will backfire."
+
   # ---------- theology ----------
 
   - name: axial-age-framework
@@ -3064,6 +3081,32 @@ models:
     domain: chemistry
     path: library/models/chemistry/marcus-theory.md
     one_liner: "Electron-transfer rate model explaining activation energy via reorganization energy and driving force."
+
+  # ---------- complexity-science ----------
+
+  - name: emergence
+    class: model
+    domain: complexity-science
+    path: library/models/complexity-science/emergence.md
+    one_liner: "Macroscale patterns arise from interaction-generated constraints that make component-level rules inadequate for prediction."
+
+  - name: np-hardness
+    class: model
+    domain: complexity-science
+    path: library/models/complexity-science/np-hardness.md
+    one_liner: "Classify decision problems as tractable (P) or likely intractable (NP-hard); if NP-hard, polynomial-time optimality is implausible and you must reframe."
+
+  - name: power-laws-scale-free-networks
+    class: model
+    domain: complexity-science
+    path: library/models/complexity-science/power-laws-scale-free-networks.md
+    one_liner: "Heavy-tail degree distribution emerges from preferential attachment; hubs dominate topology and fragility."
+
+  - name: self-organized-criticality
+    class: model
+    domain: complexity-science
+    path: library/models/complexity-science/self-organized-criticality.md
+    one_liner: "Systems with local interactions and avalanche dynamics self-tune to critical state, producing power-law-distributed events without external tuning."
 
   # ---------- cooking ----------
 
@@ -3676,6 +3719,14 @@ models:
     domain: strategy
     path: library/models/strategy/porters-five-forces.md
     one_liner: "Read industry profitability and competitive dynamics via rivalry, entry, substitutes, buyers, and suppliers."
+
+  # ---------- systems-thinking ----------
+
+  - name: stock-and-flow
+    class: model
+    domain: systems-thinking
+    path: library/models/systems-thinking/stock-and-flow.md
+    one_liner: "Predict system dynamics via stocks (accumulations), flows (rates), and feedback delays—not via goals or intentions."
 
   # ---------- theology ----------
 
