@@ -169,6 +169,43 @@ lenses:
     path: library/lenses/ai/shap-lime.md
     one_liner: "Local attribution methods that decompose a model's contribution to individual predictions."
 
+  # ---------- applied-ethics ----------
+
+  - name: bioethics-4-principles
+    class: lens
+    underlying_class: native
+    domain: applied-ethics
+    path: library/lenses/applied-ethics/bioethics-4-principles.md
+    one_liner: "Score four irreducible ethical principles against a case, identify which conflict, and justify the resolution."
+
+  - name: eu-ai-act
+    class: lens
+    underlying_class: native
+    domain: applied-ethics
+    path: library/lenses/applied-ethics/eu-ai-act.md
+    one_liner: "Classify AI system into risk tier (unacceptable/high/limited/minimal), then verify tier-specific obligations are met."
+
+  - name: gdpr
+    class: lens
+    underlying_class: native
+    domain: applied-ethics
+    path: library/lenses/applied-ethics/gdpr.md
+    one_liner: "Map personal data flows, verify lawful basis under Article 6, confirm data subject rights implementation, and evaluate Data Protection Impact Assessment necessity."
+
+  - name: nist-ai-rmf
+    class: lens
+    underlying_class: native
+    domain: applied-ethics
+    path: library/lenses/applied-ethics/nist-ai-rmf.md
+    one_liner: "Walk Govern / Map / Measure / Manage functions to identify and score AI risks across intent, development, and deployment."
+
+  - name: research-ethics
+    class: lens
+    underlying_class: native
+    domain: applied-ethics
+    path: library/lenses/applied-ethics/research-ethics.md
+    one_liner: "Evaluate human subjects research against three principles — respect for persons, beneficence, and justice — via informed consent, risk-benefit analysis, and vulnerable population safeguards."
+
   # ---------- architecture-physical ----------
 
   - name: cpted
@@ -915,6 +952,15 @@ lenses:
     path: library/lenses/geology/walthers-law.md
     one_liner: "Vertical stratigraphic change equals lateral environmental change — the core principle of paleoenvironmental reconstruction."
 
+  # ---------- graph-theory ----------
+
+  - name: network-analysis
+    class: lens
+    underlying_class: native
+    domain: graph-theory
+    path: library/lenses/graph-theory/network-analysis.md
+    one_liner: "Compute centrality measures (degree, betweenness, eigenvector, PageRank) and detect communities to map structural roles and influence patterns."
+
   # ---------- history ----------
 
   - name: begriffsgeschichte
@@ -1550,6 +1596,15 @@ lenses:
     path: library/lenses/negotiation/zopa.md
     one_liner: "Identify the Zone of Possible Agreement and whether an overlap exists between parties' acceptable ranges."
 
+  # ---------- neuroscience ----------
+
+  - name: connectome-mapping
+    class: lens
+    underlying_class: native
+    domain: neuroscience
+    path: library/lenses/neuroscience/connectome-mapping.md
+    one_liner: "Parcellate brain regions, measure pairwise connectivity, compute graph metrics, and detect disrupted network patterns."
+
   # ---------- nlp-neuro-linguistic-programming-communication ----------
 
   - name: anchoring
@@ -1784,6 +1839,13 @@ lenses:
     path: library/lenses/philosophy/speech-act-theory.md
     one_liner: "Track communicative intent and effect via the three-layer decomposition — locution, illocution, perlocution."
 
+  - name: toulmin-argument-model
+    class: lens
+    underlying_class: native
+    domain: philosophy
+    path: library/lenses/philosophy/toulmin-argument-model.md
+    one_liner: "Decompose arguments into claim, grounds, warrant, backing, qualifier, and rebuttal; assess each component's strength and dependencies."
+
   - name: transcendental-argument
     class: lens
     underlying_class: native
@@ -2001,6 +2063,22 @@ lenses:
     domain: psychology
     path: library/lenses/psychology/abc-model.md
     one_liner: "Analyze the Activating event → Belief → Consequence chain to find points of cognitive intervention."
+
+  # ---------- public-policy ----------
+
+  - name: regulatory-impact-analysis
+    class: lens
+    underlying_class: native
+    domain: public-policy
+    path: library/lenses/public-policy/regulatory-impact-analysis.md
+    one_liner: "Compare policy options on cost-benefit and distributional impact, quantify trade-offs, and recommend with confidence."
+
+  - name: stakeholder-mapping
+    class: lens
+    underlying_class: native
+    domain: public-policy
+    path: library/lenses/public-policy/stakeholder-mapping.md
+    one_liner: "Map stakeholders on power and interest axes, derive engagement strategy per quadrant to surface misalignment and guide resource allocation."
 
   # ---------- security ----------
 
@@ -2282,6 +2360,15 @@ lenses:
     path: library/lenses/theology/pardes.md
     one_liner: "Simultaneously interpret a text through four layers — Peshat, Remez, Derash, Sod — to test richness."
 
+  # ---------- urban-planning ----------
+
+  - name: transit-oriented-development
+    class: lens
+    underlying_class: native
+    domain: urban-planning
+    path: library/lenses/urban-planning/tod.md
+    one_liner: "Score density, mix, walkability, transit access — evaluate TOD viability."
+
   # ---------- ux ----------
 
   - name: affinity-diagram
@@ -2350,6 +2437,28 @@ frames:
     domain: ai
     path: library/frames/ai/prompt-taxonomy.md
     one_liner: "Select reasoning strategies by task complexity and error surface."
+
+  # ---------- anthropology ----------
+
+  - name: polanyi-reciprocity-redistribution-market
+    class: frame
+    domain: anthropology
+    path: library/frames/anthropology/polanyi-reciprocity-redistribution-market.md
+    one_liner: "Classify economic integration as Reciprocity / Redistribution / Market to identify the organizing principle (symmetry, authority, or price) at work."
+
+  - name: van-gennep-rites-of-passage
+    class: frame
+    domain: anthropology
+    path: library/frames/anthropology/van-gennep-rites-of-passage.md
+    one_liner: "Classify a transition or rite as Separation / Liminal / Incorporation to understand which social structures and ritual obligations govern behavior."
+
+  # ---------- applied-ethics ----------
+
+  - name: oecd-ai-principles
+    class: frame
+    domain: applied-ethics
+    path: library/frames/applied-ethics/oecd-ai-principles.md
+    one_liner: "Classify an AI system or decision against 5 principles—inclusive growth, human-centered fairness, transparency, robustness, accountability—to determine which governance and mitigation controls apply."
 
   # ---------- architecture-physical ----------
 
@@ -2645,11 +2754,29 @@ frames:
 
   # ---------- linguistics ----------
 
+  - name: classical-canons
+    class: frame
+    domain: linguistics
+    path: library/frames/linguistics/classical-canons.md
+    one_liner: "Classify rhetorical work as inventio / dispositio / elocutio / memoria / pronuntiatio to apply the right craft at each production stage."
+
   - name: emic-vs-etic
     class: frame
     domain: linguistics
     path: library/frames/linguistics/emic-vs-etic.md
     one_liner: "Classify linguistic or cultural phenomena through insider (emic) versus outsider (etic) perspectives."
+
+  - name: peirce-icon-index-symbol
+    class: frame
+    domain: linguistics
+    path: library/frames/linguistics/peirce-icon-index-symbol.md
+    one_liner: "Classify a sign as Icon / Index / Symbol by its relation to referent — resemblance, causal connection, or convention — to understand how meaning is established."
+
+  - name: stasis-theory
+    class: frame
+    domain: linguistics
+    path: library/frames/linguistics/stasis-theory.md
+    one_liner: "Classify a disagreement as Conjecture / Definition / Quality / Procedure to identify which kind of evidence resolves it."
 
   # ---------- marketing ----------
 
@@ -2793,6 +2920,14 @@ frames:
     path: library/frames/philosophy/virtue-ethics.md
     one_liner: "Character ethics of excellence (arete) and practical wisdom (phronesis)."
 
+  # ---------- political-science ----------
+
+  - name: electoral-systems
+    class: frame
+    domain: political-science
+    path: library/frames/political-science/electoral-systems.md
+    one_liner: "Classify an electoral system as FPTP / PR / MMP / Runoff / AV to predict party-system fragmentation and representation type."
+
   # ---------- product-management ----------
 
   - name: moscow
@@ -2838,6 +2973,14 @@ frames:
     domain: psychology
     path: library/frames/psychology/perma-model.md
     one_liner: "Classify domains of life via the five pillars of wellbeing — PERMA."
+
+  # ---------- public-policy ----------
+
+  - name: policy-cycle
+    class: frame
+    domain: public-policy
+    path: library/frames/public-policy/policy-cycle.md
+    one_liner: "Classify a policy initiative as Agenda-Setting / Formulation / Decision / Implementation / Evaluation to determine the dominant constraints and levers at that stage."
 
   # ---------- security ----------
 
@@ -2965,6 +3108,14 @@ frames:
     path: library/frames/theology/wesleyan-quadrilateral.md
     one_liner: "Align theological judgment across Scripture, Tradition, Reason, and Experience."
 
+  # ---------- urban-planning ----------
+
+  - name: zoning-theory
+    class: frame
+    domain: urban-planning
+    path: library/frames/urban-planning/zoning-theory.md
+    one_liner: "Classify zoning as Euclidean / form-based / inclusionary / performance to match regulatory mechanism and development outcome."
+
 # =====================================================================
 # MODELS — descriptive / predictive theoretical models
 # =====================================================================
@@ -3005,6 +3156,20 @@ models:
     domain: astronomy
     path: library/models/astronomy/lambda-cdm-concordance-model.md
     one_liner: "Standard cosmological baseline model determining the geometry and expansion history of the universe."
+
+  # ---------- behavioral-finance ----------
+
+  - name: disposition-effect
+    class: model
+    domain: behavioral-finance
+    path: library/models/behavioral-finance/disposition-effect.md
+    one_liner: "Predict portfolio trading patterns via loss aversion and mental accounting: investors overweight recent gains and losses relative to fundamental value."
+
+  - name: mental-accounting
+    class: model
+    domain: behavioral-finance
+    path: library/models/behavioral-finance/mental-accounting.md
+    one_liner: "Predict spending and saving biases via mental accounts keyed to income source, spending category, and time horizon."
 
   # ---------- biology ----------
 
@@ -3370,6 +3535,12 @@ models:
     path: library/models/game-theory/prisoners-dilemma.md
     one_liner: "Archetype of non-cooperative games where individual rationality leads to collective irrationality."
 
+  - name: schelling-focal-points
+    class: model
+    domain: game-theory
+    path: library/models/game-theory/schelling-focal-points.md
+    one_liner: "In coordination games without communication, players converge on outcomes with cultural salience, historical precedent, or mathematical prominence."
+
   - name: shapley-value
     class: model
     domain: game-theory
@@ -3407,6 +3578,14 @@ models:
     domain: geology
     path: library/models/geology/plate-tectonics.md
     one_liner: "Unified model explaining earthquakes, volcanoes, and mountain building via moving plates on Earth's surface."
+
+  # ---------- graph-theory ----------
+
+  - name: spanning-trees
+    class: model
+    domain: graph-theory
+    path: library/models/graph-theory/spanning-trees.md
+    one_liner: "Minimum-cost connecting subgraph — selects n−1 edges to span n nodes while minimizing total weight."
 
   # ---------- history ----------
 
@@ -3476,6 +3655,14 @@ models:
     path: library/models/mathematics/bayesian-networks.md
     one_liner: "Encode conditional independence as a directed acyclic graph for efficient inference."
 
+  # ---------- media-studies ----------
+
+  - name: agenda-setting
+    class: model
+    domain: media-studies
+    path: library/models/media-studies/agenda-setting.md
+    one_liner: "Media coverage volume and prominence determine public issue salience — not attitudes, but which issues matter."
+
   # ---------- medicine ----------
 
   - name: bayesian-clinical-reasoning
@@ -3530,6 +3717,20 @@ models:
     path: library/models/military-strategy/escalation-dominance.md
     one_liner: "Who backs down first at each rung determines who wins the war."
 
+  # ---------- neuroscience ----------
+
+  - name: hebbian-learning
+    class: model
+    domain: neuroscience
+    path: library/models/neuroscience/hebbian-learning.md
+    one_liner: "Correlated presynaptic and postsynaptic firing strengthens synapses; uncorrelated or anti-correlated activity weakens them."
+
+  - name: predictive-processing
+    class: model
+    domain: neuroscience
+    path: library/models/neuroscience/predictive-processing.md
+    one_liner: "Brain minimizes prediction error via generative models: top-down predictions suppress bottom-up error signals; precision-weighted errors drive learning and attention."
+
   # ---------- okr ----------
 
   - name: goal-setting-theory
@@ -3576,6 +3777,20 @@ models:
     path: library/models/physics/renormalization-group.md
     one_liner: "Microscopic detail washes out near fixed points of scale flow, producing universality."
 
+  # ---------- political-science ----------
+
+  - name: state-capacity
+    class: model
+    domain: political-science
+    path: library/models/political-science/state-capacity.md
+    one_liner: "Regime effectiveness and stability depend on state extractive, administrative, and coercive capacity; capacity constraints define the binding institutional constraint."
+
+  - name: veto-players
+    class: model
+    domain: political-science
+    path: library/models/political-science/veto-players.md
+    one_liner: "More and more-distant veto players reduce the win-set for policy change; policy stability increases with player number and ideological distance."
+
   # ---------- product-management ----------
 
   - name: hooked-model
@@ -3591,6 +3806,12 @@ models:
     domain: psychology
     path: library/models/psychology/broaden-and-build.md
     one_liner: "Positive emotions broaden cognition and build lasting resources."
+
+  - name: bystander-effect
+    class: model
+    domain: psychology
+    path: library/models/psychology/bystander-effect.md
+    one_liner: "Larger groups → lower individual intervention likelihood via shared responsibility diffusion and pluralistic ignorance."
 
   - name: cognitive-dissonance
     class: model
@@ -3610,6 +3831,12 @@ models:
     path: library/models/psychology/learned-helplessness.md
     one_liner: "Repeated exposure to uncontrollable events → helplessness → loss of motivation and affective disorder."
 
+  - name: milgram-obedience
+    class: model
+    domain: psychology
+    path: library/models/psychology/milgram-obedience.md
+    one_liner: "Authority presence and legitimacy, psychological distance, graduated commitment, and diffusion of responsibility determine obedience to harmful directives."
+
   - name: polyvagal-theory
     class: model
     domain: psychology
@@ -3622,11 +3849,23 @@ models:
     path: library/models/psychology/self-efficacy.md
     one_liner: "Belief in one's own capability predicts performance and persistence."
 
+  - name: situationism
+    class: model
+    domain: psychology
+    path: library/models/psychology/situationism.md
+    one_liner: "Situational factors overwhelmingly drive behavior; personality explains variance only when situational constraints are weak or ambiguous."
+
   - name: social-identity-theory
     class: model
     domain: psychology
     path: library/models/psychology/social-identity-theory.md
     one_liner: "Mechanism by which even minimal group distinctions trigger in-group bias."
+
+  - name: social-proof
+    class: model
+    domain: psychology
+    path: library/models/psychology/social-proof.md
+    one_liner: "Under uncertainty, individuals copy peer behavior — higher ambiguity and greater similarity to peers amplify conformity."
 
   # ---------- security ----------
 
@@ -3774,6 +4013,20 @@ stances:
     domain: ai
     path: library/stances/ai/constitutional-ai.md
     one_liner: "Stance that governs AI behavior via natural-language principles and surfaces the gap between principle and action."
+
+  # ---------- anthropology ----------
+
+  - name: liminality
+    class: stance
+    domain: anthropology
+    path: library/stances/anthropology/liminality.md
+    one_liner: "Threshold states suspend normal hierarchy and reveal hidden structure through inversion, producing communitas beyond rank."
+
+  - name: mauss-gift-economy
+    class: stance
+    domain: anthropology
+    path: library/stances/anthropology/mauss-gift-economy.md
+    one_liner: "Exchanges bind through obligation — gifts create asymmetrical debts that maintain social order and hierarchy."
 
   # ---------- architecture ----------
 
@@ -4013,6 +4266,20 @@ stances:
     path: library/stances/mathematics/category-theory.md
     one_liner: "Framework that reveals hidden structural isomorphisms through relations and transformations."
 
+  # ---------- media-studies ----------
+
+  - name: framing-theory
+    class: stance
+    domain: media-studies
+    path: library/stances/media-studies/framing-theory.md
+    one_liner: "The meaning of an event is not intrinsic to it — it emerges through what is foregrounded, what is naturalized, and what is deliberately excluded from the frame."
+
+  - name: mcluhan-media-ecology
+    class: stance
+    domain: media-studies
+    path: library/stances/media-studies/mcluhan-media-ecology.md
+    one_liner: "The form of a medium shapes cognition and social relations more than its content; examine the sensory ratios and extensions it imposes."
+
   # ---------- medicine ----------
 
   - name: dual-process-theory-in-medicine
@@ -4149,6 +4416,26 @@ stances:
     path: library/stances/productivity/digital-minimalism.md
     one_liner: "Stance that reads whether intentional technology use aligns with explicit values."
 
+  # ---------- psychoanalysis ----------
+
+  - name: freudian-psychoanalysis
+    class: stance
+    domain: psychoanalysis
+    path: library/stances/psychoanalysis/freudian-psychoanalysis.md
+    one_liner: "Treat symptoms, dreams, and behavior as compromise formations—read the unconscious wish beneath the manifest content."
+
+  - name: jungian-psychoanalysis
+    class: stance
+    domain: psychoanalysis
+    path: library/stances/psychoanalysis/jungian-psychoanalysis.md
+    one_liner: "Psyche seeks wholeness through integration of unconscious opposites; read artifacts as expressions of archetypal conflict and individuation struggle."
+
+  - name: lacanian-psychoanalysis
+    class: stance
+    domain: psychoanalysis
+    path: library/stances/psychoanalysis/lacanian-psychoanalysis.md
+    one_liner: "The subject is constituted through language and desire; what appears is always split from what is real; lack is structural, not incidental."
+
   # ---------- psychology ----------
 
   - name: ifs
@@ -4250,6 +4537,14 @@ stances:
     domain: theology
     path: library/stances/theology/via-negativa.md
     one_liner: "Epistemic stance that approaches the unsayable through what cannot be said."
+
+  # ---------- urban-planning ----------
+
+  - name: jacobs-eyes-on-the-street
+    class: stance
+    domain: urban-planning
+    path: library/stances/urban-planning/jacobs-eyes-on-the-street.md
+    one_liner: "Street safety and vitality emerge from constant informal surveillance by present users, not from design isolation or formal policing."
 
 # =====================================================================
 # HEURISTICS — single-rule principles (usually bundled by domain)
@@ -4402,11 +4697,35 @@ heuristics:
 
   # ---------- general ----------
 
+  - name: anchoring-bias
+    class: heuristic
+    domain: general
+    path: library/heuristics/general/anchoring-bias.md
+    one_liner: "Initial numbers disproportionately influence final judgments, even when explicitly irrelevant."
+
+  - name: availability-heuristic
+    class: heuristic
+    domain: general
+    path: library/heuristics/general/availability-heuristic.md
+    one_liner: "Ease of recall biases probability judgment; vivid or recent events feel more likely than base rates warrant."
+
+  - name: base-rate-fallacy
+    class: heuristic
+    domain: general
+    path: library/heuristics/general/base-rate-fallacy.md
+    one_liner: "When given vivid case-specific information, people systematically underweight the base rate (population frequency) of the outcome."
+
   - name: chestertons-fence
     class: heuristic
     domain: general
     path: library/heuristics/general/chestertons-fence.md
     one_liner: "Do not remove a rule whose purpose you do not yet understand."
+
+  - name: confirmation-bias
+    class: heuristic
+    domain: general
+    path: library/heuristics/general/confirmation-bias.md
+    one_liner: "seek disconfirming evidence as actively as confirming evidence, or you will miss what breaks your theory."
 
   - name: general-heuristics
     class: heuristic
@@ -4419,6 +4738,12 @@ heuristics:
     domain: general
     path: library/heuristics/general/hanlons-razor.md
     one_liner: "Explain by incompetence what can be attributed to incompetence rather than malice."
+
+  - name: hindsight-bias
+    class: heuristic
+    domain: general
+    path: library/heuristics/general/hindsight-bias.md
+    one_liner: "Known outcomes feel more predictable in retrospect than they were prospectively — discount confidence in 'I knew it all along' narratives."
 
   - name: pareto-80-20
     class: heuristic
@@ -4437,6 +4762,12 @@ heuristics:
     domain: general
     path: library/heuristics/general/pigeonhole-principle.md
     one_liner: "If you put n items into n-1 boxes, at least one box must hold two or more."
+
+  - name: sunk-cost-fallacy
+    class: heuristic
+    domain: general
+    path: library/heuristics/general/sunk-cost-fallacy.md
+    one_liner: "Discard past unrecoverable costs from forward-looking decisions; they are irrelevant to whether to continue or stop."
 
   - name: xy-problem
     class: heuristic
