@@ -69,7 +69,28 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.2.2 (Current)
+## v0.2.3 (Current)
+
+A catalog-only patch release. No user-facing surface or runtime behavior
+changes — every adjustment lives in `catalog.yml` and the heuristics
+library.
+
+- **`xy-problem` heuristic added** — registered under
+  `library/heuristics/general/xy-problem.md` and the `general` section of
+  the catalog. Encodes the "answer the X behind the Y" anti-pattern as a
+  one-rule heuristic for requirement-gathering, debugging, and code-review
+  lenses to consume in embedded or sanity-gate mode.
+- **All 658 catalog `one_liner` fields translated KO→EN** — the catalog
+  is consumed by the LLM triage step (instrument selection / retrieval),
+  and English summaries align better with the predominantly English
+  instrument names and source terminology (`razor`, `dictum`, `chronotope`,
+  `OODA`, …). User-facing surfaces — README, `/prism help`, and every
+  instrument body `.md` file — remain Korean. Translation was performed
+  via a four-step extract → translate → merge → verify pipeline that
+  preserved comments, blank lines, indentation, and field order
+  byte-for-byte (line-based regex substitution, no YAML roundtrip).
+
+## v0.2.2
 
 A first-contact UX pass on top of v0.2.1, tightening what `/prism` shows
 on invocation.
