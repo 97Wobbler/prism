@@ -59,7 +59,7 @@ tasks:
     name: 번역 — TSV의 ko_one_liner를 영어로 번역해 새 TSV 생성
     blocked_by: [T01]
     human_gate: null
-    done: false
+    done: true
     category: feat
     spec: |
       .translation/extracted.tsv를 입력으로 받아 ko_one_liner 컬럼을 영어로 번역하고
