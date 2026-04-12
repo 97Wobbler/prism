@@ -29,7 +29,7 @@ source: <author, institution, year — or "origin uncertain" if you do not know>
 best_for:
   - <short phrase>
   - <short phrase>
-one_liner: "<한국어 한 줄 요약 — 기존 lens들과 같은 스타일>"
+one_liner: "<one terse English sentence — indexing-grade compression for LLM triage, matching existing lens catalog style>"
 ---
 
 Body sections (in this exact order, with these exact headers):
@@ -64,8 +64,11 @@ the report as a whole.
 ## Voice & style
 
 - Body is written in English, technical but accessible.
-- The `one_liner` frontmatter field is in Korean (한국어), terse, action-
-  oriented, matching the style of existing lenslab catalog one_liners.
+- The `one_liner` frontmatter field is in English, terse, action-oriented,
+  indexing-grade compression for LLM triage retrieval. Front-load the key
+  concept. 1 sentence preferred. Match the style of existing prism catalog
+  one_liners (e.g. "decompose claims, evidence, and rebuttals into a visual
+  tree to expose logical gaps").
 - Section headers match exactly. Content under each header is 2-5 paragraphs
   or the equivalent in lists/tables.
 - Cite the origin (author, year) when known; say "origin uncertain" rather

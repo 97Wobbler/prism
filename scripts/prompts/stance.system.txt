@@ -32,7 +32,7 @@ source: <key thinkers and texts, with years where known — or "origin uncertain
 best_for:
   - <short phrase>
   - <short phrase>
-one_liner: "<한국어 한 줄 요약 — 기존 stance들과 같은 스타일>"
+one_liner: "<one terse English sentence — indexing-grade compression for LLM triage, matching existing stance catalog style>"
 ---
 
 Body sections (in this exact order, with these exact headers):
@@ -79,8 +79,11 @@ exposes the relations the stance reads for>").
 ## Voice & style
 
 - Body is written in English, technical but accessible.
-- The `one_liner` frontmatter field is in Korean (한국어), terse, matching
-  the style of existing lenslab catalog one_liners.
+- The `one_liner` frontmatter field is in English, terse, indexing-grade
+  compression for LLM triage retrieval. Front-load the interpretive
+  commitment (e.g. "the medium is the message — form shapes cognition more
+  than content"). 1 sentence preferred. Match the style of existing prism
+  catalog one_liners.
 - Section headers match exactly. Content under each header is 2-5 paragraphs
   or the equivalent in lists/tables.
 - Cite key thinkers and texts (with years where known); say "origin

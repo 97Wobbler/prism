@@ -35,7 +35,7 @@ source: <attributed person or origin with year — or "origin uncertain">
 best_for:
   - <short phrase>
   - <short phrase>
-one_liner: "<한국어 한 줄 요약 — 기존 heuristic들과 같은 스타일>"
+one_liner: "<one terse English sentence — indexing-grade compression for LLM triage, matching existing heuristic catalog style>"
 ---
 
 Body sections (in this exact order, with these exact headers):
@@ -76,8 +76,11 @@ explain why.
 ## Voice & style
 
 - Body is written in English, technical but accessible.
-- The `one_liner` frontmatter field is in Korean (한국어), terse, matching
-  the style of existing lenslab heuristic catalog one_liners.
+- The `one_liner` frontmatter field is in English, terse, indexing-grade
+  compression for LLM triage retrieval. State the rule itself in compressed
+  form (e.g. "don't attribute to malice what stupidity explains"). 1
+  sentence preferred. Match the style of existing prism heuristic catalog
+  one_liners.
 - Section headers match exactly.
 - Cite the attributed origin (person, year, or work) when known; say
   "origin uncertain" rather than fabricating an attribution.
