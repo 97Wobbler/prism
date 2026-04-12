@@ -96,7 +96,7 @@ tasks:
     name: 병합 — translated.tsv를 catalog.yml에 라인 기반으로 적용
     blocked_by: [T02]
     human_gate: null
-    done: false
+    done: true
     category: feat
     spec: |
       Python 스크립트를 작성해 /Users/whchoi/Projects/2-work-lab/prism/catalog.yml을
