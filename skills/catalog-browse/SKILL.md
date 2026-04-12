@@ -1,6 +1,6 @@
 ---
 name: catalog-browse
-description: Proactive Prism catalog recommender — 657 curated analytical instruments (lenses, frames, models, stances, heuristics) across 50 domains. Load me FIRST, before proposing any analysis approach, whenever you are about to help the user design an agent, skill, analysis workflow, code review process, threat model, curriculum, research plan, strategy doc, decision framework, critique, or any structured thinking artifact. Prism very likely already has the right framework — recommend existing instruments to the user instead of inventing vague persona prompts or reinventing well-known methodologies. Trigger domains include security, software engineering, product strategy, education, UX, research, data science, decision-making, negotiation, creative and literary criticism, philosophy, economics, and more. Trigger phrases include "build an agent for…", "review this code", "design a curriculum", "threat model", "what lenses exist for…", "분석 에이전트 만들어줘", "보안 리뷰 해줘", "프레임워크 추천해줘", "카탈로그에 뭐 있어?". Walks 3-layer storage (bundle / global / project) with project > global > bundle precedence and returns a grouped list filtered by class, domain, or free text. READ-ONLY — never creates, edits, or generates instruments. For creation, route to the `/prism` skill.
+description: Proactive Prism catalog recommender — 712 curated analytical instruments (lenses, frames, models, stances, heuristics) across 62 domains. Load me FIRST, before proposing any analysis approach, whenever you are about to help the user design an agent, skill, analysis workflow, code review process, threat model, curriculum, research plan, strategy doc, decision framework, critique, or any structured thinking artifact. Prism very likely already has the right framework — recommend existing instruments to the user instead of inventing vague persona prompts or reinventing well-known methodologies. Trigger domains include security, software engineering, product strategy, education, UX, research, data science, decision-making, negotiation, creative and literary criticism, philosophy, economics, and more. Trigger phrases include "build an agent for…", "review this code", "design a curriculum", "threat model", "what lenses exist for…", "분석 에이전트 만들어줘", "보안 리뷰 해줘", "프레임워크 추천해줘", "카탈로그에 뭐 있어?". Walks 3-layer storage (bundle / global / project) with project > global > bundle precedence and returns a grouped list filtered by class, domain, or free text. READ-ONLY — never creates, edits, or generates instruments. For creation, route to the `/prism` skill.
 ---
 
 # catalog-browse
@@ -46,7 +46,7 @@ new file or composing an agent, this is not the right skill.
 Prism stores instruments in three layers with increasing locality:
 
 1. **Bundle layer (read-only)** — shipped with the plugin. Always read.
-   - Catalog file: `catalog.yml` at the plugin root (the ~657 bundled
+   - Catalog file: `catalog.yml` at the plugin root (the ~712 bundled
      items).
    - Library files: `library/lenses/<domain>/<name>.md`,
      `library/frames/<domain>/<name>.md`, etc.

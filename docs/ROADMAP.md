@@ -69,7 +69,57 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.2.3 (Current)
+## v0.3.0 (Current)
+
+A 12-domain expansion driven by an external contributor batch. The
+catalog grows from 658 to 712 instruments — about 8% — and the domain
+count rises from 50 to 62. All new instrument bodies were generated
+via the same `scripts/prism_batch.py` pipeline (Haiku 4.5 + class-
+specific system prompts + golden few-shot examples) that authored the
+original 656, ensuring tone and structural consistency with the
+existing catalog.
+
+- **12 new domains** — `systems-thinking`, `complexity-science`,
+  `public-policy`, `media-studies`, `behavioral-finance`,
+  `urban-planning`, `political-science`, `anthropology`,
+  `neuroscience`, `applied-ethics`, `graph-theory`, `psychoanalysis`.
+  Two of these (systems-thinking and complexity-science) shipped first
+  in a quality-gated P1 commit because their concepts (causal loops,
+  stocks/flows, archetypes, power laws, SOC, emergence, NP-hardness)
+  are implicitly presupposed by other lenses.
+- **5 existing-domain reinforcements** — Toulmin in `philosophy`;
+  Stasis theory + Classical canons + Peirce icon-index-symbol in
+  `linguistics` (rhetoric absorbed rather than given its own domain
+  by deliberate decision); social psychology block (bystander effect,
+  situationism, social proof, Milgram obedience) in `psychology`;
+  Schelling focal points in `game-theory` (distinct from the existing
+  `schelling-segregation-model` in sociology); 6 individual cognitive
+  biases (availability, confirmation, anchoring, base-rate, sunk-cost,
+  hindsight) in the `general` heuristics bundle.
+- **Three load-bearing placement decisions** — NP-hardness lives under
+  `complexity-science`, not `graph-theory` (which is reserved for the
+  algorithmic layer: network analysis, spanning trees). Psychoanalysis
+  (Freud / Lacan / Jung) is its own domain, separated from
+  `psychology` for triage clarity, with future expansion expected
+  toward Klein / Winnicott / Bion. `applied-ethics` covers EU AI Act,
+  NIST AI RMF, GDPR, OECD AI Principles, bioethics 4 principles, and
+  research ethics — ISO 42001 was deferred as too narrow in
+  application context for this round.
+- **Pipeline maturation** — 5 system prompts and 10 golden-example
+  frontmatters that still carried v0.1's Korean `one_liner` convention
+  were translated to English first (commits `4d4e184`, `1707b2f`),
+  preserving the v0.2.3 catalog-as-LLM-surface invariant. An
+  independent `Explore`-agent integrity audit caught 12 frontmatter
+  defects in the generated batch (1 slug mismatch, 11 unquoted colons
+  in `source:` fields where book titles contained colons), all fixed
+  in commit `db58f78` before the version bump.
+- **Instrument-count limit acknowledged** — the project's stated
+  out-of-scope item ("growing the bundle beyond ~700 instruments")
+  is now within ~10 of its ceiling. Future contributions should
+  prefer reinforcing existing domains or replacing low-quality
+  entries over net-new growth.
+
+## v0.2.3
 
 A catalog-only patch release. No user-facing surface or runtime behavior
 changes — every adjustment lives in `catalog.yml` and the heuristics
@@ -107,9 +157,9 @@ on invocation.
   content directly on `/prism` invocation, without meta commentary about
   which intent was classified.
 
-## v0.3.0 (Later)
+## v0.4.0 (Later)
 
-Extensions on top of the v0.2 structure.
+Extensions on top of the v0.3 structure.
 
 - `/prism contribute` — a new intent branch of the `/prism` router for
   upstreaming a local instrument. Walks through fork, branch, and PR against
