@@ -69,7 +69,29 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.3.1 (Current)
+## v0.3.2 (Current)
+
+Skill naming overhaul and a new `fetch` skill for instrument delivery
+to subagents.
+
+- **`catalog-browse` → `search` rename.** The read-only catalog
+  exploration skill is now `prism:search` — shorter, verb-based, and
+  consistent with the new `fetch` sibling. All references across
+  README, router, references, and docs updated; the old
+  `skills/catalog-browse/` directory removed.
+- **New `prism:fetch` skill.** Resolves instrument names to absolute
+  file paths and returns a ready-made instruction block that can be
+  pasted into a subagent prompt. The block includes a table of
+  instruments (name, class, one-liner, path) and a per-class guide
+  telling the subagent which section to follow (Analytical Procedure
+  for lenses, Guiding Questions for stances, etc.). This closes the
+  gap where subagents were told instrument names but never given the
+  actual file content or reading instructions.
+- **Two-step workflow.** The intended usage is now:
+  1. `/prism search <domain> <class>` — discover instruments.
+  2. `/prism fetch <instrument-names>` — prepare them for a subagent.
+
+## v0.3.1
 
 A patch release that drains the immediately-actionable carry-over from
 the v0.3.0 follow-through audit. No new instruments, no new domains,
