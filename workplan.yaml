@@ -129,7 +129,7 @@ tasks:
     name: 최종 검증 + 정리 — 카탈로그 무결성, .translation 보존 정책 결정
     blocked_by: [T03]
     human_gate: null
-    done: false
+    done: true
     category: chore
     spec: |
       별도 Explore subagent를 띄워 catalog.yml의 무결성을 독립 검증한다.
