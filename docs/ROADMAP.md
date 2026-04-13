@@ -69,7 +69,34 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.3.2 (Current)
+## v0.4.0 (Current)
+
+New `debate` orchestration skill — multi-agent discussion engine with
+three modes (review / ideate / solve).
+
+- **New `prism:debate` skill.** Multiple agent personas independently
+  analyze a document, brainstorm ideas, or propose solutions through
+  structured rounds. The orchestrator (main session) controls rounds,
+  collects JSON responses from parallel subagents, and evaluates
+  consensus/convergence based on mode-specific criteria.
+- **Three modes:**
+  - `review` — multi-perspective analysis with quantitative consensus
+    judgment (recommendation agreement >= 75%, issue resolution >= 80%,
+    no unresolved critical issues).
+  - `ideate` — divergent brainstorming with no convergence pressure;
+    tracks idea pool growth across rounds.
+  - `solve` — solution proposals converging toward a best answer through
+    cross-review, tradeoff mitigation, and dealbreaker resolution.
+- **Mode inference.** Explicit flags (`--review`, `--ideate`, `--solve`)
+  override; otherwise the skill infers from context. Default: `review`.
+- **Prism instrument integration.** Stances and lenses from the catalog
+  can serve as expertise sources for debate participants via
+  `/prism fetch`. This is optional — pure agent-persona debates work
+  without Prism instruments.
+- **Router and references updated.** `prism:prism` SKILL.md, `about.md`,
+  and `help.md` now include debate routing rules and usage documentation.
+
+## v0.3.2
 
 Skill naming overhaul and a new `fetch` skill for instrument delivery
 to subagents.
@@ -221,9 +248,9 @@ on invocation.
   content directly on `/prism` invocation, without meta commentary about
   which intent was classified.
 
-## v0.4.0 (Later)
+## v0.5.0 (Later)
 
-Extensions on top of the v0.3 structure.
+Extensions on top of the v0.4 structure.
 
 - `/prism contribute` — a new intent branch of the `/prism` router for
   upstreaming a local instrument. Walks through fork, branch, and PR against
