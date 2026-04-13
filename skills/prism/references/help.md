@@ -21,6 +21,20 @@ or "show me frames for product strategy".
 Use `/prism fetch <instrument-names>` to get a ready-made instruction
 block for subagent prompts. Example: `/prism fetch stride owasp-top10`.
 
+## For multi-agent debate
+
+Use `/prism debate` to have multiple agent personas analyze a document,
+brainstorm ideas, or converge on a solution through structured rounds.
+
+Three modes:
+- `--review` — multi-perspective analysis with consensus judgment
+- `--ideate` — divergent brainstorming (no convergence pressure)
+- `--solve` — solution proposals with convergence toward a best answer
+
+Omit the flag and the skill infers the mode from context.
+Prism instruments (stances, lenses) can serve as expertise sources for
+debate participants.
+
 ## For batch generation
 
 That's outside this skill: `python3 scripts/prism_batch.py` handles

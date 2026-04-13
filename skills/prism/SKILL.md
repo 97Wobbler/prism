@@ -64,6 +64,14 @@ Signals that this is a `fetch` job:
 - "fetch stride for my subagent"
 - "instrument 로드해줘"
 
+If the user wants **multiple agents to debate, review, brainstorm, or
+find solutions together**, route them to the `debate` skill.
+Signals that this is a `debate` job:
+
+- "여러 관점에서 분석해줘", "에이전트들끼리 토론해줘"
+- "다각도 리뷰해줘", "브레인스토밍해줘"
+- "해결책 찾아줘 — 여러 에이전트로", "debate", "consensus"
+
 Editing an existing instrument is also out of scope: open and edit the
 file directly. Building an agent config is also out of scope: use Claude
 Code's native `/agents` flow; Prism only supplies the catalog and the
