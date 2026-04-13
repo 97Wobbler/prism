@@ -1,132 +1,133 @@
 ---
 name: debate
-description: 여러 에이전트 페르소나가 문서/제안/문제를 독립적으로 분석하고 라운드를 거쳐 합의를 도출하는 오케스트레이션 스킬. 3개 모드 지원 — review(다각도 분석→판정), ideate(발산적 아이디어 탐색), solve(문제 분석→해결책 수렴). 모드를 명시하지 않으면 맥락에서 자동 추론. Prism instrument(stance/lens 등)를 토론 참여자의 전문성 소스로 활용 가능. 트리거: "다각도 분석해줘", "에이전트들끼리 토론해줘", "debate", "consensus", "여러 관점에서 검토해줘", "해결책 찾아줘", "아이디어 발산해줘", "브레인스토밍해줘", "리뷰해줘 여러 관점으로"
+description: Orchestration skill where multiple agent personas independently analyze a document, proposal, or problem and converge through structured rounds. Three modes — review (multi-perspective analysis with judgment), ideate (divergent idea exploration), solve (problem analysis into solution convergence). Infers mode from context when no flag is given. Prism instruments (stances, lenses) can serve as expertise sources for participants. Triggers on "analyze from multiple perspectives", "have agents debate", "debate", "consensus", "multi-angle review", "find solutions", "brainstorm ideas", "ideation session"
 ---
 
 # debate
 
-여러 페르소나 에이전트가 주어진 대상을 독립적으로 분석하고, 오케스트레이터가
-라운드를 통제하며 합의·수렴·발산을 이끌어내는 오케스트레이션 엔진.
+An orchestration engine where multiple persona agents independently
+analyze a target, with the orchestrator controlling rounds and driving
+consensus, convergence, or divergence.
 
 ---
 
-## 모드
+## Modes
 
-| 모드 | 목적 | 종료 조건 | 대표 시나리오 |
+| Mode | Purpose | Exit condition | Typical scenarios |
 |---|---|---|---|
-| `review` | 문서/제안을 다각도로 분석해 판정 | 합의 달성 또는 MAX_ROUNDS 소진 | 코드 리뷰, 설계 검토, PRD 검토 |
-| `ideate` | 아이디어를 최대한 발산·확장 | MAX_ROUNDS 소진 (수렴 판정 없음) | 브레인스토밍, 아이디에이션, 탐색적 분석 |
-| `solve` | 문제에 대한 해결책을 제안하고 수렴 | 수렴 달성 또는 MAX_ROUNDS 소진 | 버그 해결, 장애 대응, 전략 수립 |
+| `review` | Multi-perspective analysis with judgment | Consensus reached or MAX_ROUNDS exhausted | Code review, design review, PRD review |
+| `ideate` | Maximize idea divergence and expansion | MAX_ROUNDS exhausted (no convergence judgment) | Brainstorming, ideation, exploratory analysis |
+| `solve` | Propose solutions and converge on the best | Convergence reached or MAX_ROUNDS exhausted | Bug resolution, incident response, strategy planning |
 
-### 모드 결정 규칙
+### Mode selection rules
 
-1. **명시적 플래그** — 사용자가 `--review`, `--ideate`, `--solve`를 지정하면 해당 모드로 즉시 진입
-2. **맥락 추론** — 플래그가 없으면 아래 신호로 판단:
-   - 분석/검토/리뷰/판정 → `review`
-   - 아이디어/발산/브레인스토밍/탐색 → `ideate`
-   - 해결/고치기/대안/전략 → `solve`
-3. **불확실하면 `review`** — 가장 범용적인 기본값
-4. **모드 전환** — `review` 완료 후 미해소 쟁점이 남고 사용자가 "해결책도 찾아줘"라고 하면 `solve`로 자연스럽게 전환 가능. 단, **자동 전환은 금지** — 반드시 사용자 확인 후 진행
-
----
-
-## 전제 조건
-
-- **분석 대상**: 문서, 텍스트, 코드, 제안, 문제 설명 등
-- **참여 에이전트**: 아래 두 소스 중 하나 이상으로 구성
-  - `.claude/agents/` 내 에이전트 파일 (프로젝트 또는 사용자 루트)
-  - Prism instrument (특히 `stance`, `lens`) — `/prism fetch`로 로드한 instrument를 페르소나의 전문성 소스로 활용
-- **에이전트가 명시되지 않으면 사용자에게 확인 후 진행** (자동 선택 금지)
-
-### Prism 연동
-
-사용자가 "prism instrument로 토론해줘" 또는 특정 instrument 이름을 언급하면:
-1. `/prism fetch`로 해당 instrument의 경로와 요약을 확보
-2. 각 subagent 프롬프트에 instrument 읽기 지시를 삽입
-3. subagent는 instrument의 절차/관점을 자신의 분석 프레임으로 사용
-
-연동이 없으면 순수 에이전트 페르소나 기반으로 동작한다. Prism은 선택적 강화이지 필수 의존성이 아니다.
+1. **Explicit flag** — if the user specifies `--review`, `--ideate`, or `--solve`, enter that mode immediately
+2. **Context inference** — without a flag, infer from signals:
+   - Analysis / review / judgment / assessment → `review`
+   - Ideas / divergence / brainstorming / exploration → `ideate`
+   - Fix / resolve / alternatives / strategy → `solve`
+3. **Default to `review`** when uncertain — the most general-purpose mode
+4. **Mode transition** — after `review` completes, if unresolved issues remain and the user asks "find solutions too," transition to `solve` is natural. **Never auto-transition** — always confirm with the user first
 
 ---
 
-## 실행 흐름
+## Prerequisites
 
-### STEP 0 — 세션 초기화
+- **Target**: document, text, code, proposal, problem statement, etc.
+- **Participating agents**: composed from one or more of these sources:
+  - Agent files in `.claude/agents/` (project or user root)
+  - Prism instruments (especially `stance`, `lens`) — loaded via `/prism fetch` as expertise sources for personas
+- **If no agents are specified, confirm with the user before proceeding** (no automatic selection)
 
-오케스트레이터(메인 세션)가 수행:
+### Prism integration
 
-1. 분석 대상을 `[TARGET]` 블록으로 준비 (문서, 문제 설명 등)
-2. 모드 결정 (위 규칙 적용)
-3. 참여 에이전트 목록 확인 및 역할 레이블 부여
-4. 설정값 확정:
-   - `MAX_ROUNDS`: 기본 4 (사용자 지정 가능)
-   - `CONSENSUS_THRESHOLD`: 기본 0.75 (review/solve 모드에서 사용)
-5. 상태 초기화: `round = 1`, `issues = []`, `solution_pool = []`
+When the user says "debate with prism instruments" or names specific instruments:
+1. Load instrument paths and summaries via `/prism fetch`
+2. Insert instrument read directives into each subagent prompt
+3. Each subagent uses the instrument's procedure/perspective as its analysis frame
+
+Without integration, the skill operates on pure agent personas. Prism is an optional enhancement, not a hard dependency.
 
 ---
 
-### STEP 1 — 라운드 실행 (반복)
+## Execution flow
 
-각 라운드마다 **모든 참여 에이전트를 Agent tool로 병렬 spawn**.
-모드에 따라 다른 프롬프트 템플릿을 사용한다.
+### STEP 0 — Session initialization
 
-#### 프롬프트 공통 헤더
+The orchestrator (main session) performs:
+
+1. Prepare the target as a `[TARGET]` block (document, problem statement, etc.)
+2. Determine mode (apply rules above)
+3. Confirm participating agent list and assign role labels
+4. Set configuration:
+   - `MAX_ROUNDS`: default 4 (user-configurable)
+   - `CONSENSUS_THRESHOLD`: default 0.75 (used in review/solve modes)
+5. Initialize state: `round = 1`, `issues = []`, `solution_pool = []`
+
+---
+
+### STEP 1 — Round execution (iterative)
+
+Each round: **spawn all participating agents in parallel via the Agent tool.**
+Use mode-specific prompt templates.
+
+#### Common prompt header
 
 ```
-당신은 [AGENT_NAME] 페르소나입니다.
-역할 설명: [AGENT_DESCRIPTION]
-[PRISM_INSTRUMENT_DIRECTIVE — 있을 경우만]
+You are [AGENT_NAME].
+Role description: [AGENT_DESCRIPTION]
+[PRISM_INSTRUMENT_DIRECTIVE — only if applicable]
 
-## 분석 대상
+## Target
 [TARGET]
 
-## 현재 라운드
+## Current round
 Round [N] / [MAX_ROUNDS]
 
-## 이전 라운드 요약 (Round 1이면 생략)
+## Previous round summary (omit for Round 1)
 [PREVIOUS_ROUND_SUMMARY]
 ```
 
-#### 모드별 임무 및 출력 포맷
+#### Mode-specific tasks and output formats
 
 ---
 
 ### MODE: review
 
-**임무 블록:**
+**Task block:**
 ```
-## 당신의 임무
-1. 대상을 당신의 페르소나 관점에서 분석하라.
-2. 이전 라운드가 있다면, 다른 에이전트의 주장을 검토하고 동의/반박을 명시하라.
-3. 아래 JSON 포맷을 정확히 따를 것. JSON 외 텍스트 출력 금지.
+## Your task
+1. Analyze the target from your persona's perspective.
+2. If previous rounds exist, review other agents' arguments and state agreement/disagreement explicitly.
+3. Follow the JSON output format below exactly. No text output outside JSON.
 ```
 
-**출력 JSON:**
+**Output JSON:**
 ```json
 {
   "agent": "[AGENT_NAME]",
   "round": "[N]",
   "analysis": {
-    "key_findings": ["핵심 발견사항 (한 문장씩)"],
-    "concerns": ["우려사항 또는 문제점"],
-    "strengths": ["강점 또는 긍정적 측면"]
+    "key_findings": ["Key finding (one sentence each)"],
+    "concerns": ["Concern or issue"],
+    "strengths": ["Strength or positive aspect"]
   },
   "stance_on_pending_issues": [
     {
-      "issue": "잔류 쟁점 텍스트",
+      "issue": "Pending issue text",
       "position": "agree | disagree | neutral",
-      "rationale": "입장 근거 (2-3문장)"
+      "rationale": "Rationale for position (2-3 sentences)"
     }
   ],
   "new_issues": [
     {
-      "issue": "새롭게 제기하는 쟁점",
+      "issue": "Newly raised issue",
       "severity": "critical | major | minor",
-      "rationale": "왜 중요한지"
+      "rationale": "Why this matters"
     }
   ],
   "overall_recommendation": "approve | approve_with_conditions | reject",
-  "recommendation_rationale": "최종 권고 이유 (3-5문장)"
+  "recommendation_rationale": "Rationale for final recommendation (3-5 sentences)"
 }
 ```
 
@@ -134,38 +135,38 @@ Round [N] / [MAX_ROUNDS]
 
 ### MODE: ideate
 
-**임무 블록:**
+**Task block:**
 ```
-## 당신의 임무
-1. 대상을 당신의 페르소나 관점에서 분석하고, 가능한 한 다양한 아이디어를 제안하라.
-2. 다른 에이전트의 아이디어에서 영감을 받아 확장·변형·결합하라. 비판보다 확장을 우선하라.
-3. 기존 아이디어와 겹치지 않는 새로운 각도를 찾으려 노력하라.
-4. 아래 JSON 포맷을 정확히 따를 것.
+## Your task
+1. Analyze the target from your persona's perspective and propose as many diverse ideas as possible.
+2. Draw inspiration from other agents' ideas to extend, remix, or combine. Prioritize expansion over criticism.
+3. Seek angles that don't overlap with existing ideas.
+4. Follow the JSON output format below exactly.
 ```
 
-**출력 JSON:**
+**Output JSON:**
 ```json
 {
   "agent": "[AGENT_NAME]",
   "round": "[N]",
-  "perspective": "이 에이전트가 대상을 바라보는 고유 관점 (1-2문장)",
+  "perspective": "This agent's unique lens on the target (1-2 sentences)",
   "ideas": [
     {
-      "title": "아이디어 제목",
-      "description": "상세 설명 (2-3문장)",
+      "title": "Idea title",
+      "description": "Detailed description (2-3 sentences)",
       "novelty": "high | medium | low",
-      "inspired_by": "영감을 받은 다른 에이전트의 아이디어 (없으면 null)",
-      "tags": ["분류 태그"]
+      "inspired_by": "Other agent's idea that inspired this (null if original)",
+      "tags": ["classification tags"]
     }
   ],
   "combinations": [
     {
-      "source_ideas": ["결합 대상 아이디어 제목들"],
-      "combined_idea": "결합으로 탄생한 새 아이디어",
-      "synergy": "결합의 시너지 설명"
+      "source_ideas": ["Titles of ideas being combined"],
+      "combined_idea": "New idea born from combination",
+      "synergy": "Why this combination creates value"
     }
   ],
-  "unexplored_angles": ["아직 다뤄지지 않은 탐색 방향 제안"]
+  "unexplored_angles": ["Suggested directions not yet explored"]
 }
 ```
 
@@ -173,328 +174,329 @@ Round [N] / [MAX_ROUNDS]
 
 ### MODE: solve
 
-**임무 블록 (Round 1):**
+**Task block (Round 1):**
 ```
-## 당신의 임무
-1. 문제를 당신의 페르소나 관점에서 분석하고 해결책을 제안하라.
-2. 아래 JSON 포맷을 정확히 따를 것.
-```
-
-**임무 블록 (Round 2+):**
-```
-## 당신의 임무
-1. 다른 에이전트의 해결책을 검토하라.
-2. 수용 가능 요소, 개선 필요 요소, 수용 불가 요소를 명시하라.
-3. 이전 제안들을 통합·개선한 새 버전을 제시하라.
-4. 이전 자기 제안 중 철회/수정할 것이 있으면 명시하라.
+## Your task
+1. Analyze the problem from your persona's perspective and propose a solution.
+2. Follow the JSON output format below exactly.
 ```
 
-**출력 JSON:**
+**Task block (Round 2+):**
+```
+## Your task
+1. Review other agents' solutions.
+2. Specify which elements you accept, which need improvement, and which are unacceptable.
+3. Present a new or improved version that integrates prior proposals.
+4. Explicitly note any withdrawals or revisions to your previous proposal.
+```
+
+**Output JSON:**
 ```json
 {
   "agent": "[AGENT_NAME]",
   "round": "[N]",
-  "problem_framing": "문제를 바라보는 핵심 관점 (1-2문장, Round 1만)",
+  "problem_framing": "Core perspective on the problem (1-2 sentences, Round 1 only)",
   "proposed_solution": {
-    "title": "해결책 제목",
-    "description": "상세 설명 (3-5문장)",
-    "key_steps": ["실행 단계"],
+    "title": "Solution title",
+    "description": "Detailed description (3-5 sentences)",
+    "key_steps": ["Execution step"],
     "feasibility": "high | medium | low",
-    "feasibility_rationale": "실현 가능성 근거"
+    "feasibility_rationale": "Feasibility assessment rationale"
   },
   "review_of_others": [
     {
-      "agent": "검토 대상 에이전트",
-      "elements_accepted": ["수용 가능 요소"],
+      "agent": "Agent under review",
+      "elements_accepted": ["Acceptable elements"],
       "elements_rejected": [
-        { "element": "수용 불가 요소", "reason": "거부 이유" }
+        { "element": "Unacceptable element", "reason": "Rejection reason" }
       ],
-      "suggested_improvement": "개선 제안 (없으면 null)"
+      "suggested_improvement": "Improvement suggestion (null if none)"
     }
   ],
   "tradeoffs": [
     {
-      "tradeoff": "트레이드오프",
+      "tradeoff": "Tradeoff description",
       "severity": "critical | major | minor",
-      "mitigation": "완화 방안 (없으면 null)"
+      "mitigation": "Mitigation approach (null if none)"
     }
   ],
   "convergence_signal": {
-    "willing_to_adopt": ["통합 가능 요소"],
-    "dealbreakers": ["수용 불가 요소"]
+    "willing_to_adopt": ["Elements willing to integrate"],
+    "dealbreakers": ["Absolutely unacceptable elements"]
   },
-  "revised_from_previous": "이전 라운드 대비 변경사항 (Round 1이면 null)"
+  "revised_from_previous": "Changes from previous round (null for Round 1)"
 }
 ```
 
 ---
 
-### STEP 2 — 판정 (오케스트레이터)
+### STEP 2 — Judgment (orchestrator)
 
-각 라운드 종료 후 오케스트레이터가 수집된 JSON 결과를 분석한다.
-**판정 로직은 모드에 따라 다르다.**
+After each round, the orchestrator analyzes collected JSON results.
+**Judgment logic varies by mode.**
 
-#### review 모드 — 합의 판정
+#### review mode — consensus judgment
 
-**1. Recommendation 합의율 (정량)**
+**1. Recommendation agreement rate (quantitative)**
 
-| overall_recommendation 분포 | 판정 |
+| overall_recommendation distribution | Judgment |
 |---|---|
-| 동일 값 >= 75% | 방향 합의 |
-| 동일 값 50~74% | 부분 합의 (조건부 진행) |
-| 동일 값 < 50% | 합의 미달 |
+| Same value >= 75% | Direction consensus |
+| Same value 50–74% | Partial consensus (conditional proceed) |
+| Same value < 50% | No consensus |
 
-**2. 잔류 쟁점 해소율 (정량)**
+**2. Issue resolution rate (quantitative)**
 
 ```
-해소율 = (이전 pending_issues 중 모든 에이전트가 agree한 건수) / (전체 pending_issues 수)
+resolution_rate = (pending_issues where all agents agree) / (total pending_issues)
 ```
-- >= 0.8 → 충분
-- < 0.8 → 다음 라운드 필요
+- >= 0.8 → sufficient
+- < 0.8 → next round needed
 
-**3. Critical 쟁점 잔존 여부 (우선 적용)**
-- `severity: critical`인 `new_issues`가 하나라도 미해소 → 합의 불가 (차단 조건)
+**3. Critical issue presence (takes priority)**
+- Any unresolved `severity: critical` `new_issues` → no consensus (blocking condition)
 
-**종료 조건 (AND):** 합의율 >= 75% + 해소율 >= 80% + critical 잔존 없음
+**Exit condition (AND):** agreement >= 75% + resolution >= 80% + no critical issues remaining
 
-#### ideate 모드 — 판정 없음
+#### ideate mode — no judgment
 
-- 수렴/합의 판정을 하지 않는다
-- 대신 각 라운드에서 새로 등장한 고유 아이디어 수를 추적
-- 라운드 요약에 "아이디어 풀 누적 현황"을 포함
-- MAX_ROUNDS 소진 시 전체 아이디어 풀을 정리해서 보고서 생성
+- No convergence/consensus judgment is performed
+- Instead, track the count of unique new ideas per round
+- Include "cumulative idea pool status" in round summaries
+- On MAX_ROUNDS exhaustion, compile the full idea pool into a report
 
-#### solve 모드 — 수렴 판정
+#### solve mode — convergence judgment
 
-**1. 해결책 수렴율 (정량)** — 핵심 접근법 유사도
+**1. Solution convergence rate (quantitative)** — core approach similarity
 
-| 일치 비율 | 판정 |
+| Agreement rate | Judgment |
 |---|---|
-| >= 75% | 방향 수렴 |
-| 50~74% | 부분 수렴 |
-| < 50% | 수렴 미달 |
+| >= 75% | Direction convergence |
+| 50–74% | Partial convergence |
+| < 50% | No convergence |
 
-**2. Dealbreaker 잔존 여부 (우선 적용)**
-- `dealbreakers`가 하나라도 남으면 수렴 불가 (차단 조건)
+**2. Dealbreaker presence (takes priority)**
+- Any remaining `dealbreakers` → no convergence (blocking condition)
 
-**3. Critical 트레이드오프 완화율 (정량)**
+**3. Critical tradeoff mitigation rate (quantitative)**
 ```
-완화율 = (mitigation 제시된 critical tradeoffs 수) / (전체 critical tradeoffs 수)
+mitigation_rate = (critical tradeoffs with mitigation) / (total critical tradeoffs)
 ```
-- >= 0.8 → 충분
-- < 0.8 → 다음 라운드 필요
+- >= 0.8 → sufficient
+- < 0.8 → next round needed
 
-**종료 조건 (AND):** dealbreaker 없음 + 수렴율 >= 75% + 완화율 >= 80%
+**Exit condition (AND):** no dealbreakers + convergence >= 75% + mitigation >= 80%
 
 ---
 
-### STEP 3 — 라운드 요약 (오케스트레이터)
+### STEP 3 — Round summary (orchestrator)
 
-종료 조건 미충족 시, 다음 라운드를 위해 오케스트레이터가 요약을 생성한다.
+When exit conditions are not met, the orchestrator generates a summary
+for the next round.
 
-#### review 모드 요약
+#### review mode summary
 ```
 PREVIOUS_ROUND_SUMMARY:
-  합의된 항목: [모든 에이전트가 agree한 항목]
-  잔류 쟁점: [disagree/neutral 있는 항목 + 새 critical/major issues]
-  에이전트별 핵심 주장:
-    [AGENT]: recommendation + rationale 요약 1-2문장
+  Agreed items: [items where all agents agree]
+  Pending issues: [items with disagree/neutral + new critical/major issues]
+  Agent stances:
+    [AGENT]: recommendation + rationale summary (1-2 sentences)
 ```
 
-#### ideate 모드 요약
+#### ideate mode summary
 ```
 PREVIOUS_ROUND_SUMMARY:
-  아이디어 풀 (누적): [전체 고유 아이디어 목록 — 제목 + 제안자]
-  이번 라운드 신규: [이번 라운드에서 처음 등장한 아이디어]
-  결합 아이디어: [combinations에서 생성된 아이디어]
-  미탐색 방향: [unexplored_angles 취합]
+  Idea pool (cumulative): [all unique ideas — title + proposer]
+  New this round: [ideas first appearing this round]
+  Combined ideas: [ideas from combinations]
+  Unexplored directions: [aggregated unexplored_angles]
 ```
 
-#### solve 모드 요약
+#### solve mode summary
 ```
 PREVIOUS_ROUND_SUMMARY:
-  해결책 풀:
-    [Agent A]: [solution.title] — [description 요약 1문장]
+  Solution pool:
+    [Agent A]: [solution.title] — [description summary, 1 sentence]
     [Agent B]: ...
-  합의 요소: [모든 에이전트의 willing_to_adopt 교집합]
-  미결 트레이드오프: [critical + mitigation null인 항목]
-  Dealbreakers: [잔존 dealbreaker 목록]
+  Agreed elements: [intersection of all willing_to_adopt]
+  Unresolved tradeoffs: [critical items with null mitigation]
+  Dealbreakers: [remaining dealbreaker list]
 ```
 
 ---
 
-### STEP 4 — 최종 보고서
+### STEP 4 — Final report
 
-종료 조건 달성 또는 MAX_ROUNDS 소진 시 최종 보고서를 생성한다.
+Generated when exit conditions are met or MAX_ROUNDS is exhausted.
 
-#### review 모드 보고서
+#### review mode report
 
 ```markdown
-# Debate 최종 보고서 — Review
+# Debate Final Report — Review
 
-**분석 대상:** [대상 요약]
-**참여 에이전트:** [목록]
-**진행 라운드:** [N] / [MAX_ROUNDS]
-**합의 상태:** 합의 달성 | 부분 합의 | 합의 미달
+**Target:** [target summary]
+**Participants:** [agent list]
+**Rounds completed:** [N] / [MAX_ROUNDS]
+**Consensus status:** Consensus reached | Partial consensus | No consensus
 
 ---
 
-## 1. 최종 권고
-**합의된 권고:** [approve | approve_with_conditions | reject | 불일치]
-[핵심 근거 요약 2-4문장]
+## 1. Final recommendation
+**Agreed recommendation:** [approve | approve_with_conditions | reject | split]
+[Core rationale summary, 2-4 sentences]
 
-## 2. 합의된 항목
-- [항목 1]
-- [항목 2]
+## 2. Agreed items
+- [Item 1]
+- [Item 2]
 
-## 3. 잔류 이견
-| 쟁점 | 심각도 | 에이전트별 입장 |
+## 3. Remaining disagreements
+| Issue | Severity | Agent positions |
 |---|---|---|
-| [내용] | critical/major/minor | [A: agree, B: disagree, ...] |
+| [content] | critical/major/minor | [A: agree, B: disagree, ...] |
 
-## 4. 에이전트별 최종 입장
+## 4. Per-agent final positions
 ### [Agent A]
-- **권고:** approve/reject/...
-- **핵심 발견:** ...
-- **주요 우려:** ...
+- **Recommendation:** approve/reject/...
+- **Key findings:** ...
+- **Main concerns:** ...
 
-## 5. 조건부 승인 시 권고 조치 (해당 시)
-1. [필수 조치]
+## 5. Conditional approval actions (if applicable)
+1. [Required action]
 
 ---
-*생성일시: [timestamp] | 스킬: debate (review)*
+*Generated: [timestamp] | Skill: debate (review)*
 ```
 
-#### ideate 모드 보고서
+#### ideate mode report
 
 ```markdown
-# Debate 최종 보고서 — Ideate
+# Debate Final Report — Ideate
 
-**탐색 주제:** [대상 요약]
-**참여 에이전트:** [목록]
-**진행 라운드:** [N] / [MAX_ROUNDS]
-**생성된 고유 아이디어 수:** [N]개
+**Topic:** [target summary]
+**Participants:** [agent list]
+**Rounds completed:** [N] / [MAX_ROUNDS]
+**Unique ideas generated:** [N]
 
 ---
 
-## 1. 아이디어 맵
+## 1. Idea map
 
-### 카테고리별 정리
-#### [카테고리/태그 A]
-- **[아이디어 제목]** (by [Agent]) — [설명 1문장] | novelty: high/medium/low
+### By category
+#### [Category/tag A]
+- **[Idea title]** (by [Agent]) — [1-sentence description] | novelty: high/medium/low
 - ...
 
-#### [카테고리/태그 B]
+#### [Category/tag B]
 - ...
 
-## 2. 주목할 결합 아이디어
-| 원본 아이디어들 | 결합 결과 | 시너지 |
+## 2. Notable combinations
+| Source ideas | Combined result | Synergy |
 |---|---|---|
-| [A의 X + B의 Y] | [결합 아이디어] | [시너지 설명] |
+| [A's X + B's Y] | [Combined idea] | [Synergy description] |
 
-## 3. 미탐색 방향
-> 에이전트들이 제안했으나 아직 깊이 다루지 못한 각도
-- [방향 1]
-- [방향 2]
+## 3. Unexplored directions
+> Angles suggested by agents but not yet deeply explored
+- [Direction 1]
+- [Direction 2]
 
-## 4. 에이전트별 관점 요약
+## 4. Per-agent perspective summary
 ### [Agent A]
-- **고유 관점:** ...
-- **제안 아이디어 수:** N개
-- **가장 높은 novelty 아이디어:** ...
+- **Unique perspective:** ...
+- **Ideas proposed:** N
+- **Highest novelty idea:** ...
 
 ---
-*생성일시: [timestamp] | 스킬: debate (ideate)*
+*Generated: [timestamp] | Skill: debate (ideate)*
 ```
 
-#### solve 모드 보고서
+#### solve mode report
 
 ```markdown
-# Debate 최종 보고서 — Solve
+# Debate Final Report — Solve
 
-**문제:** [문제 요약]
-**참여 에이전트:** [목록]
-**진행 라운드:** [N] / [MAX_ROUNDS]
-**수렴 상태:** 수렴 달성 | 부분 수렴 | 수렴 미달
+**Problem:** [problem summary]
+**Participants:** [agent list]
+**Rounds completed:** [N] / [MAX_ROUNDS]
+**Convergence status:** Converged | Partial convergence | No convergence
 
 ---
 
-## 1. 합의된 해결책
-**제목:** [통합 해결책 제목]
-[핵심 접근법 3-5문장 서술]
+## 1. Agreed solution
+**Title:** [integrated solution title]
+[Core approach, 3-5 sentences]
 
-### 실행 단계
-1. [단계 1]
-2. [단계 2]
+### Execution steps
+1. [Step 1]
+2. [Step 2]
 
-### 실현 가능성
-**종합 평가:** high | medium | low
-[근거 2-3문장]
+### Feasibility
+**Overall assessment:** high | medium | low
+[Rationale, 2-3 sentences]
 
-## 2. 합의된 핵심 요소
-- [요소 1]
-- [요소 2]
+## 2. Agreed core elements
+- [Element 1]
+- [Element 2]
 
-## 3. 트레이드오프 및 완화 방안
-| 트레이드오프 | 심각도 | 완화 방안 |
+## 3. Tradeoffs and mitigations
+| Tradeoff | Severity | Mitigation |
 |---|---|---|
-| [내용] | critical/major/minor | [방안 또는 "미결"] |
+| [content] | critical/major/minor | [approach or "unresolved"] |
 
-## 4. 미해소 분기점 (해당 시)
-| 쟁점 | 에이전트별 입장 | 오케스트레이터 판단 |
+## 4. Unresolved divergences (if applicable)
+| Issue | Agent positions | Orchestrator judgment |
 |---|---|---|
-| [분기점] | [A: 안X, B: 안Y] | [판단] |
+| [divergence] | [A: option X, B: option Y] | [judgment] |
 
-## 5. 에이전트별 최종 제안
+## 5. Per-agent final proposals
 ### [Agent A]
-- **제안:** [title]
-- **핵심 접근:** ...
-- **실현 가능성:** high/medium/low
+- **Proposal:** [title]
+- **Core approach:** ...
+- **Feasibility:** high/medium/low
 
-## 6. 다음 단계 권고
-1. [즉각 조치 1]
-2. [즉각 조치 2]
+## 6. Recommended next steps
+1. [Immediate action 1]
+2. [Immediate action 2]
 
 ---
-*생성일시: [timestamp] | 스킬: debate (solve)*
+*Generated: [timestamp] | Skill: debate (solve)*
 ```
 
 ---
 
-## 오케스트레이터 체크리스트
+## Orchestrator checklist
 
-### 매 라운드 시작 전
-- [ ] 분석 대상이 subagent 프롬프트에 완전히 포함됐는가
-- [ ] 이전 라운드 요약이 정확하게 구성됐는가
-- [ ] 각 subagent가 **독립적으로** spawn됐는가 (동일 컨텍스트 공유 금지)
-- [ ] Prism instrument 지시문이 해당 subagent에 올바르게 삽입됐는가
+### Before each round
+- [ ] Target is fully included in subagent prompts
+- [ ] Previous round summary is accurately composed
+- [ ] Each subagent is **independently** spawned (no shared context)
+- [ ] Prism instrument directives are correctly inserted for applicable subagents
 
-### 매 라운드 종료 후
-- [ ] JSON 파싱 실패한 응답은 해당 에이전트 결과 제외 후 사용자에게 고지
-- [ ] 모드별 판정 로직 올바르게 적용 (ideate는 판정 없음)
-- [ ] review/solve: 차단 조건(critical 쟁점 / dealbreaker) 먼저 확인
-- [ ] review/solve: 정량 지표 계산 후 종료 조건 판단
+### After each round
+- [ ] JSON parse failures: exclude affected agent from round results, notify user
+- [ ] Mode-specific judgment logic correctly applied (ideate has none)
+- [ ] review/solve: check blocking conditions (critical issues / dealbreakers) first
+- [ ] review/solve: compute quantitative metrics, evaluate exit conditions
 
-### 최종 보고서 작성 시
-- [ ] 모드에 맞는 보고서 포맷 사용
-- [ ] MAX_ROUNDS 소진으로 종료된 경우 미해소 항목 명시
-- [ ] 모드 전환이 자연스러운 경우 사용자에게 다음 단계 제안 (강제 아님)
+### When writing final report
+- [ ] Use the correct report format for the active mode
+- [ ] If terminated by MAX_ROUNDS exhaustion, explicitly list unresolved items
+- [ ] If mode transition is natural, suggest next step to user (never force)
 
 ---
 
 ## NOT this skill
 
-- **카탈로그 탐색** — `/prism search`로 라우팅
-- **instrument 생성** — `/prism`으로 라우팅
-- **instrument 로드** — `/prism fetch`로 라우팅 (debate 내에서 자동 호출 가능)
-- **1명의 분석가가 여러 도구를 순차 적용하는 분석** — Prism의 기본 7단계 워크플로우를 직접 사용. debate는 **다수 관점의 병렬 분석 + 합의/발산**이 필요할 때만 사용
+- **Catalog browsing** — route to `/prism search`
+- **Instrument creation** — route to `/prism`
+- **Instrument loading** — route to `/prism fetch` (debate can invoke this internally)
+- **Single-analyst sequential multi-tool analysis** — use Prism's standard 7-step workflow directly. Debate is for **multi-perspective parallel analysis + consensus/divergence** only
 
 ---
 
-## 운영 규칙
+## Operational rules
 
-- subagent는 반드시 Agent tool로 **병렬 spawn** — 순차 실행 금지
-- 각 subagent는 독립 컨텍스트 — 다른 subagent의 현재 라운드 응답을 실시간 공유하지 않음
-- 라운드 간 정보 전달은 오케스트레이터가 생성한 요약문으로만 수행
-- MAX_ROUNDS 기본값 4 — 대부분의 토론은 2-3라운드에 수렴. 4라운드는 안전 상한
-- JSON 파싱 실패 시 해당 에이전트는 해당 라운드에서 제외하고, 사용자에게 한 줄 고지
+- Subagents must be spawned **in parallel** via the Agent tool — no sequential execution
+- Each subagent has independent context — no real-time sharing of other subagents' current-round responses
+- Inter-round information transfer happens only through orchestrator-generated summaries
+- MAX_ROUNDS default is 4 — most debates converge in 2-3 rounds; 4 is the safety ceiling
+- On JSON parse failure, exclude that agent from the round and notify the user in one line
