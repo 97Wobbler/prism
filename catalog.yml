@@ -1811,6 +1811,13 @@ lenses:
 
   # ---------- philosophy ----------
 
+  - name: conceptual-analysis
+    class: lens
+    underlying_class: native
+    domain: philosophy
+    path: library/lenses/philosophy/conceptual-analysis.md
+    one_liner: "Extract each key concept in a claim, state charitable and critical definitions as a pair, map the concept's scope and edge cases, and judge whether it can be operationalized."
+
   - name: double-effect-doctrine
     class: lens
     underlying_class: native
@@ -1825,12 +1832,26 @@ lenses:
     path: library/lenses/philosophy/gricean-maxims.md
     one_liner: "Check conversation quality and sincerity against four cooperative maxims."
 
+  - name: multi-layer-reading
+    class: lens
+    underlying_class: stance
+    domain: philosophy
+    path: library/lenses/philosophy/multi-layer-reading.md
+    one_liner: "Generate and label multiple defensible readings of a short claim across semantic, pragmatic, performative, and contextual layers, each tagged with plausibility."
+
   - name: pascals-wager
     class: lens
     underlying_class: native
     domain: philosophy
     path: library/lenses/philosophy/pascals-wager.md
     one_liner: "Decision framing for asymmetrical expected value under deep uncertainty."
+
+  - name: presupposition-analysis
+    class: lens
+    underlying_class: native
+    domain: philosophy
+    path: library/lenses/philosophy/presupposition-analysis.md
+    one_liner: "Surface every hidden assumption a claim requires across five categories (definitional, empirical, structural, normative, scope), judge each as strong/contested/weak, and state what the claim loses if it fails."
 
   - name: speech-act-theory
     class: lens
@@ -4357,6 +4378,12 @@ stances:
     one_liner: "Structure in which accumulated knowledge acts actively through a network of atomic, interlinked notes."
 
   # ---------- philosophy ----------
+
+  - name: analytic-critique
+    class: stance
+    domain: philosophy
+    path: library/stances/philosophy/analytic-critique.md
+    one_liner: "An interpretive posture that brackets moral evaluation, refuses to presume truth or falsity before analysis, separates attribution from evidence, and demands explicit context before engaging with vague claims."
 
   - name: deconstruction
     class: stance
