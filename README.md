@@ -5,7 +5,7 @@ domain-expert analysis agents that actually reason like experts — not by
 pretending to be one, but by loading the structured analytical
 instruments experts actually use.
 
-v0.3 ships a library of **657 instrument files** across 5 classes and 50
+v0.4.1 ships a library of **715 instrument files** across 5 classes and 62
 domains, all indexed by a single `catalog.yml` triage file.
 
 ## The problem with persona prompts
@@ -118,14 +118,14 @@ git clone https://github.com/97Wobbler/prism.git
 ```
 
 After install, the `search`, `fetch`, and `prism` skills should
-appear in Claude Code's skill list and the 657 files under `library/`
+appear in Claude Code's skill list and the 715 files under `library/`
 are reachable via `catalog.yml`.
 
 ### Step 2. Explore the catalog and compose an agent
 
 Whenever you are about to build an agent or skill, consult the
 `search` skill first — it is a proactive recommender, not just a
-lookup tool, and it will surface instruments from the 657-file library
+lookup tool, and it will surface instruments from the 715-file library
 that match your domain before you write any prompt. It reads
 `catalog.yml` as a triage index and returns a grouped-by-class view
 filtered by your query. Once you have picked the instruments you need,
@@ -174,7 +174,7 @@ for the exact shape.
 
 ### Composition recipes
 
-`docs/cookbook/` contains four composition recipes — narrative
+`docs/cookbook/` contains five composition recipes — narrative
 walkthroughs explaining how to combine Prism instruments for a given
 persona. These are not executable agent configs; they are the reasoning
 behind a composition, meant to be read before you build an agent in
@@ -193,6 +193,13 @@ Claude Code's native `/agents` flow.
   strategy lenses with Porter's Five Forces as the model-interpret step.
 - **[docs/cookbook/film-critic.md](docs/cookbook/film-critic.md)** —
   film-theory lenses plus stances for the critical-read step.
+- **[docs/cookbook/critical-decomposer.md](docs/cookbook/critical-decomposer.md)** —
+  multi-layer-reading + conceptual-analysis + presupposition-analysis +
+  toulmin-argument-model as always lenses, analytic-critique as the
+  always stance, and general + philosophy heuristic bundles as a sanity
+  gate. Demonstrates the "instruments > personas" thesis by decomposing
+  a monolithic 5-phase critical analysis system prompt into reusable
+  catalog citizens.
 
 Each recipe explains *why* its instruments were composed the way they
 were — the value the source YAML could not carry. To turn a recipe into
@@ -211,18 +218,19 @@ python3 scripts/sync_catalog.py --stats
 ```
 
 ```
-Total: 657 items
+Total: 715 items
 
 By class:
-  lens: 312
-  frame: 96
-  model: 115
-  stance: 71
-  heuristic: 63
+  lens: 327
+  frame: 105
+  model: 133
+  stance: 80
+  heuristic: 70
 
 By domain (top 20):
+  philosophy: 25
   economics: 22
-  geology: 21
+  general: 22
   ...
 ```
 
@@ -232,12 +240,12 @@ is bilingual), and the `library/` path the agent config will reference.
 
 ## Included items
 
-The v0.3 library ships with **657 instrument files** across 5 classes and
-50 domains. The v0.2 plugin shipped with 18 hand-written files; the jump
-to 657 was made possible by a class-specific batch generation pipeline
-that runs Haiku 4.5 in parallel against a curated seed catalog (see
-`scripts/PHASE3_RUN.md` and the `v0.3: add … generated … files` commits
-for the full batch history).
+The library ships with **715 instrument files** across 5 classes and
+62 domains. The v0.2 plugin shipped with 18 hand-written files; the jump
+to 657 (v0.3) was made possible by a class-specific batch generation
+pipeline that runs Haiku 4.5 in parallel against a curated seed catalog
+(see `scripts/PHASE3_RUN.md`), and subsequent releases have grown the
+catalog through contributor batches and hand-authored instruments.
 
 Use `catalog.yml` as the single triage index — the `search` skill
 reads it first and only loads individual files when the domain
@@ -247,11 +255,11 @@ matches.
 
 | Class | Count | Example entries |
 |---|---|---|
-| Lens | 312 | `stride`, `first-principles`, `pre-mortem`, `swot`, `business-model-canvas`, `socratic-method` |
-| Frame | 96 | `cynefin`, `kano-model`, `2-2-matrix`, `pestel`, `bcg-growth-share-matrix`, `wardley-map` |
-| Model | 115 | `prospect-theory`, `coase-theorem`, `comparative-advantage`, `efficient-market-hypothesis`, `solow-growth-model` |
-| Stance | 71 | `marxist-criticism`, `foucauldian-power-knowledge` |
-| Heuristic | 63 + 1 bundle | `chestertons-fence`, `hanlons-razor`, `pareto-80-20`, `parkinsons-law`, `pigeonhole-principle` |
+| Lens | 327 | `stride`, `first-principles`, `pre-mortem`, `swot`, `multi-layer-reading`, `conceptual-analysis` |
+| Frame | 105 | `cynefin`, `kano-model`, `2-2-matrix`, `pestel`, `bcg-growth-share-matrix`, `wardley-map` |
+| Model | 133 | `prospect-theory`, `coase-theorem`, `comparative-advantage`, `efficient-market-hypothesis`, `solow-growth-model` |
+| Stance | 80 | `marxist-criticism`, `foucauldian-power-knowledge`, `analytic-critique`, `hermeneutic-circle` |
+| Heuristic | 70 + 1 bundle | `chestertons-fence`, `hanlons-razor`, `pareto-80-20`, `parkinsons-law`, `pigeonhole-principle` |
 
 The heuristics class also ships a curated `library/heuristics/general.md`
 bundle (Occam's Razor, Hanlon's Razor, Chesterton's Fence, Hickam's
@@ -260,7 +268,7 @@ Place) for use as a single sanity-gate input.
 
 ### Domain coverage
 
-The 50 domains include: security, strategy, product-management, ux,
+The 62 domains include: security, strategy, product-management, ux,
 law, medicine, ai, data, chemistry, physics, biology, ecology, economics,
 finance, philosophy, theology, linguistics, literary-theory, music-theory,
 film-theory, history, sociology, psychology, manufacturing, operations,
@@ -371,8 +379,8 @@ where you craft and test new instruments. Together: a workshop for
 building analytical instruments, and a collection of ones already made.
 v0.2 introduced the 5-class taxonomy — lenses are still the headline
 instrument, but they now sit alongside frames, models, stances, and
-heuristics as first-class citizens. v0.3 grows the collection from
-18 hand-written files to 657 via a batch generation pipeline.
+heuristics as first-class citizens. The library has grown from 18
+hand-written files (v0.1) to 715 across 62 domains.
 
 ## License
 

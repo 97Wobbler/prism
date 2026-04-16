@@ -69,7 +69,44 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.4.0 (Current)
+## v0.4.1 (Current)
+
+Philosophy domain expansion and a new cookbook recipe that demonstrates
+the "instruments > personas" thesis by decomposing a monolithic system
+prompt into reusable catalog citizens.
+
+- **3 new philosophy lenses.**
+  - `multi-layer-reading` — generates and labels multiple defensible
+    readings of a short claim across semantic, figurative, performative,
+    and contextual layers. Operationalizes the hermeneutic-circle stance
+    into a lens with full 4-requirement compliance (input / procedure /
+    output / confidence). `underlying_class: stance`.
+  - `conceptual-analysis` — extracts key concepts, produces charitable
+    and critical definition pairs, maps boundaries with edge cases, and
+    rates operationalizability (operationalizable / partial / unfalsifiable).
+  - `presupposition-analysis` — walks five categories of hidden assumption
+    (definitional / empirical / structural / normative / scope), grades
+    plausibility (strong / contested / weak), and states failure impact.
+- **1 new philosophy stance.**
+  - `analytic-critique` — brackets moral evaluation, refuses truth/falsity
+    assumptions before analysis, separates attribution from evidence, and
+    demands explicit context for vague claims. Distills the Constraints
+    section of the original Critical Decomposition system prompt into a
+    reusable interpretive posture.
+- **New cookbook recipe: `critical-decomposer`.** Composes the three new
+  lenses + existing `toulmin-argument-model` + `analytic-critique` stance
+  + general and philosophy heuristic bundles into a 7-step pipeline that
+  reconstructs the original 5-phase Critical Decomposition engine. The
+  recipe includes a "Reconstruction note" section that explains why adding
+  catalog citizens and writing a recipe is preferable to importing the
+  system prompt as a monolithic skill.
+- **`sync_catalog.py` encoding fix.** Added UTF-8 stdout/stderr
+  reconfiguration with replacement fallback at script startup. Prevents
+  `UnicodeEncodeError` when printing em-dashes and other non-ASCII
+  characters on Windows consoles (cp949, cp1252).
+- **Catalog grows from 711 to 715 entries.** 62 domains unchanged.
+
+## v0.4.0
 
 New `debate` orchestration skill — multi-agent discussion engine with
 three modes (review / ideate / solve).
