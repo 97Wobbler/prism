@@ -69,7 +69,53 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.4.1 (Current)
+## v0.4.2 (Current)
+
+Software-engineering law expansion across architecture and agile domains.
+Sources 56 well-known software-engineering laws from a curated GeekNews
+article and selects 27 high-signal additions missing from the catalog,
+skipping satirical or weak entries (Putt, Dilbert, Zawinski, Sturgeon,
+Cunningham, Ringelmann, Price, Gilb, 90-90 Rule) and items already covered
+(Conway, SOLID, Pareto, Parkinson, Hanlon, Occam, Sunk Cost, Confirmation
+Bias, First Principles, Chesterton's Fence).
+
+- **9 architecture heuristics + 1 distributed-systems bundle.**
+  - `hyrums-law` — observable behavior becomes the real contract.
+  - `postels-law` — robustness principle, paired with Hyrum.
+  - `galls-law` — complex systems evolve from working simple ones.
+  - `leaky-abstractions` — every non-trivial abstraction leaks.
+  - `kiss-principle`, `dry-principle`, `law-of-demeter`,
+    `principle-of-least-astonishment` — classic design heuristics.
+  - `distributed-fallacies` — bundled file covering all 8 Fallacies of
+    Distributed Computing as a single sanity-gate input.
+- **9 agile heuristics.**
+  - `brooks-law` — adding people to a late project, with the n(n-1)/2
+    communication-paths math and Little's Law as quantitative grounding.
+  - `bus-factor`, `boy-scout-rule`, `linus-law`, `kernighans-law`, `yagni`,
+    `second-system-effect`, `pesticide-paradox`.
+  - `premature-optimization` — Knuth's actual claim with the
+    architectural-vs-micro distinction made explicit, addressing the
+    common HN misreading.
+- **2 cross-domain heuristics.**
+  - `goodharts-law` in `okr` — KPI/metric-design sanity gate, with
+    Campbell's Law noted as a sister principle.
+  - `hofstadters-law` in `productivity` — self-referential estimation
+    multiplier, paired with reference-class forecasting.
+- **6 new models.** `amdahls-law`, `gustafsons-law`, and `lehmans-laws`
+  in a new `models/architecture/` domain; `cap-theorem` in `models/data`
+  with PACELC noted as a modern refinement; `technical-debt` in
+  `models/agile` with Fowler's deliberate/inadvertent × prudent/reckless
+  quadrant; `metcalfes-law` in `models/strategy` with the Briscoe-
+  Odlyzko-Tilly n·log(n) critique to avoid overstating network effects.
+- **1 new frame.** `testing-pyramid` in `frames/agile` — three-layer
+  classification (unit / integration / E2E) with Honeycomb and Trophy
+  alternatives noted as serious modern critiques for backend services
+  and frontend respectively.
+- **Catalog grows from 715 to 742 entries.** 62 domains unchanged
+  (`models/architecture/` is the first model directory under that name,
+  but the domain itself already existed via heuristics).
+
+## v0.4.1
 
 Philosophy domain expansion and a new cookbook recipe that demonstrates
 the "instruments > personas" thesis by decomposing a monolithic system

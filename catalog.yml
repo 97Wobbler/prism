@@ -2433,6 +2433,12 @@ frames:
     path: library/frames/agile/team-topologies.md
     one_liner: "Classify teams into four types — stream-aligned, platform, complicated-subsystem, enabling."
 
+  - name: testing-pyramid
+    class: frame
+    domain: agile
+    path: library/frames/agile/testing-pyramid.md
+    one_liner: "Three test layers — many fast unit tests, fewer integration tests, few slow end-to-end tests."
+
   # ---------- ai ----------
 
   - name: drift-detection
@@ -3144,6 +3150,12 @@ models:
     path: library/models/agile/domain-driven-design.md
     one_liner: "Reflect the business domain model in code structure to manage complexity and improve team communication."
 
+  - name: technical-debt
+    class: model
+    domain: agile
+    path: library/models/agile/technical-debt.md
+    one_liner: "Shortcuts borrow development speed today and accrue compounding interest until repaid."
+
   # ---------- ai ----------
 
   - name: scaling-laws
@@ -3151,6 +3163,26 @@ models:
     domain: ai
     path: library/models/ai/scaling-laws.md
     one_liner: "Predict performance scalability via power-law relationships between model size, data, and compute."
+
+  # ---------- architecture ----------
+
+  - name: amdahls-law
+    class: model
+    domain: architecture
+    path: library/models/architecture/amdahls-law.md
+    one_liner: "Maximum parallel speedup is capped by the workload's serial fraction; 5% serial → 20× ceiling."
+
+  - name: gustafsons-law
+    class: model
+    domain: architecture
+    path: library/models/architecture/gustafsons-law.md
+    one_liner: "Scaled speedup — when problem size grows with processor count, parallelism yields near-linear gains (Amdahl's dual)."
+
+  - name: lehmans-laws
+    class: model
+    domain: architecture
+    path: library/models/architecture/lehmans-laws.md
+    one_liner: "Real-world (E-type) software must evolve continuously, accumulating complexity and declining quality unless actively managed."
 
   # ---------- astronomy ----------
 
@@ -3309,6 +3341,12 @@ models:
     one_liner: "Non-enzymatic browning of amino acids and reducing sugars that creates flavor and color."
 
   # ---------- data ----------
+
+  - name: cap-theorem
+    class: model
+    domain: data
+    path: library/models/data/cap-theorem.md
+    one_liner: "Under network partition, a distributed system must trade consistency for availability — choose CP or AP."
 
   - name: causal-dag
     class: model
@@ -3968,6 +4006,12 @@ models:
     path: library/models/strategy/jobs-to-be-done.md
     one_liner: "Map the functional, emotional, and social dimensions of the job customers hire a product to do."
 
+  - name: metcalfes-law
+    class: model
+    domain: strategy
+    path: library/models/strategy/metcalfes-law.md
+    one_liner: "Network value scales with the square of active connected users (with empirical n·log(n) caveats)."
+
   - name: porters-five-forces
     class: model
     domain: strategy
@@ -4580,17 +4624,71 @@ heuristics:
     path: library/heuristics/agile/12-factor-app.md
     one_liner: "Structural discipline for deployable, scalable apps — separate config, explicit dependencies, stateless processes."
 
+  - name: boy-scout-rule
+    class: heuristic
+    domain: agile
+    path: library/heuristics/agile/boy-scout-rule.md
+    one_liner: "Leave the code in a better state than you found it, even if you didn't create the mess."
+
+  - name: brooks-law
+    class: heuristic
+    domain: agile
+    path: library/heuristics/agile/brooks-law.md
+    one_liner: "Adding manpower to a late software project makes it later."
+
+  - name: bus-factor
+    class: heuristic
+    domain: agile
+    path: library/heuristics/agile/bus-factor.md
+    one_liner: "What is the minimum number of team members whose departure would catastrophically cripple the project?"
+
   - name: conways-law
     class: heuristic
     domain: agile
     path: library/heuristics/agile/conways-law.md
     one_liner: "Organizational structure determines system structure."
 
+  - name: kernighans-law
+    class: heuristic
+    domain: agile
+    path: library/heuristics/agile/kernighans-law.md
+    one_liner: "Debugging is twice as hard as writing code; so if you write code as cleverly as possible, you are, by definition, not smart enough to debug it."
+
+  - name: linus-law
+    class: heuristic
+    domain: agile
+    path: library/heuristics/agile/linus-law.md
+    one_liner: "With enough eyeballs, all bugs are shallow."
+
+  - name: pesticide-paradox
+    class: heuristic
+    domain: agile
+    path: library/heuristics/agile/pesticide-paradox.md
+    one_liner: "If the same tests are run repeatedly, they eventually stop finding new bugs because the code has adapted to them."
+
+  - name: premature-optimization
+    class: heuristic
+    domain: agile
+    path: library/heuristics/agile/premature-optimization.md
+    one_liner: "97% of the time, premature optimization is the root of all evil; use profiling to find the real bottleneck in the other 3%."
+
+  - name: second-system-effect
+    class: heuristic
+    domain: agile
+    path: library/heuristics/agile/second-system-effect.md
+    one_liner: "After a successful first system, the second system often becomes bloated by over-ambition and untested features."
+
   - name: single-responsibility-principle
     class: heuristic
     domain: agile
     path: library/heuristics/agile/solid-principles.md
     one_liner: "A class should have only one reason to change."
+
+  - name: yagni
+    class: heuristic
+    domain: agile
+    path: library/heuristics/agile/yagni.md
+    one_liner: "You Aren't Gonna Need It — don't add features until they are actually required."
 
   # ---------- ai ----------
 
@@ -4602,11 +4700,65 @@ heuristics:
 
   # ---------- architecture ----------
 
+  - name: distributed-fallacies
+    class: heuristic
+    domain: architecture
+    path: library/heuristics/architecture/distributed-fallacies.md
+    one_liner: "Bundle — 8 false assumptions that trap distributed system designers."
+
+  - name: dry-principle
+    class: heuristic
+    domain: architecture
+    path: library/heuristics/architecture/dry-principle.md
+    one_liner: "Every piece of knowledge must have a single, authoritative representation."
+
   - name: form-follows-function
     class: heuristic
     domain: architecture
     path: library/heuristics/architecture/form-follows-function.md
     one_liner: "Function is the origin of form — form does not precede function."
+
+  - name: galls-law
+    class: heuristic
+    domain: architecture
+    path: library/heuristics/architecture/galls-law.md
+    one_liner: "Complex systems evolve from working simple systems, not vice versa."
+
+  - name: hyrums-law
+    class: heuristic
+    domain: architecture
+    path: library/heuristics/architecture/hyrums-law.md
+    one_liner: "API users depend on observable behavior, not just the spec."
+
+  - name: kiss-principle
+    class: heuristic
+    domain: architecture
+    path: library/heuristics/architecture/kiss-principle.md
+    one_liner: "Keep it simple, stupid — simplicity is the highest engineering value."
+
+  - name: law-of-demeter
+    class: heuristic
+    domain: architecture
+    path: library/heuristics/architecture/law-of-demeter.md
+    one_liner: "Talk only to your immediate neighbors; avoid chained method calls."
+
+  - name: leaky-abstractions
+    class: heuristic
+    domain: architecture
+    path: library/heuristics/architecture/leaky-abstractions.md
+    one_liner: "All non-trivial abstractions leak — plan for when they break."
+
+  - name: postels-law
+    class: heuristic
+    domain: architecture
+    path: library/heuristics/architecture/postels-law.md
+    one_liner: "Conservative in what you send, liberal in what you accept."
+
+  - name: principle-of-least-astonishment
+    class: heuristic
+    domain: architecture
+    path: library/heuristics/architecture/principle-of-least-astonishment.md
+    one_liner: "Software should behave as expected; avoid surprising the user or maintainer."
 
   - name: vitruvian-triad
     class: heuristic
@@ -4896,6 +5048,12 @@ heuristics:
     path: library/heuristics/okr/fast-goals.md
     one_liner: "Review frequently, set ambitious goals, define them specifically, and make them transparent to everyone."
 
+  - name: goodharts-law
+    class: heuristic
+    domain: okr
+    path: library/heuristics/okr/goodharts-law.md
+    one_liner: "When a measure becomes a target, it ceases to be a good measure."
+
   - name: smart-goals
     class: heuristic
     domain: okr
@@ -4989,6 +5147,12 @@ heuristics:
     domain: productivity
     path: library/heuristics/productivity/eat-that-frog.md
     one_liner: "Tackle the hardest task first to build psychological momentum."
+
+  - name: hofstadters-law
+    class: heuristic
+    domain: productivity
+    path: library/heuristics/productivity/hofstadters-law.md
+    one_liner: "It always takes longer than you expect, even when you take into account Hofstadter's Law."
 
   - name: makers-vs-managers-schedule
     class: heuristic

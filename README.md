@@ -5,7 +5,7 @@ domain-expert analysis agents that actually reason like experts — not by
 pretending to be one, but by loading the structured analytical
 instruments experts actually use.
 
-v0.4.1 ships a library of **715 instrument files** across 5 classes and 62
+v0.4.2 ships a library of **742 instrument files** across 5 classes and 62
 domains, all indexed by a single `catalog.yml` triage file.
 
 ## The problem with persona prompts
@@ -118,14 +118,14 @@ git clone https://github.com/97Wobbler/prism.git
 ```
 
 After install, the `search`, `fetch`, and `prism` skills should
-appear in Claude Code's skill list and the 715 files under `library/`
+appear in Claude Code's skill list and the 742 files under `library/`
 are reachable via `catalog.yml`.
 
 ### Step 2. Explore the catalog and compose an agent
 
 Whenever you are about to build an agent or skill, consult the
 `search` skill first — it is a proactive recommender, not just a
-lookup tool, and it will surface instruments from the 715-file library
+lookup tool, and it will surface instruments from the 742-file library
 that match your domain before you write any prompt. It reads
 `catalog.yml` as a triage index and returns a grouped-by-class view
 filtered by your query. Once you have picked the instruments you need,
@@ -218,17 +218,18 @@ python3 scripts/sync_catalog.py --stats
 ```
 
 ```
-Total: 715 items
+Total: 742 items
 
 By class:
   lens: 327
-  frame: 105
-  model: 133
+  frame: 106
+  model: 139
   stance: 80
-  heuristic: 70
+  heuristic: 90
 
 By domain (top 20):
   philosophy: 25
+  agile: 24
   economics: 22
   general: 22
   ...
@@ -240,7 +241,7 @@ is bilingual), and the `library/` path the agent config will reference.
 
 ## Included items
 
-The library ships with **715 instrument files** across 5 classes and
+The library ships with **742 instrument files** across 5 classes and
 62 domains. The v0.2 plugin shipped with 18 hand-written files; the jump
 to 657 (v0.3) was made possible by a class-specific batch generation
 pipeline that runs Haiku 4.5 in parallel against a curated seed catalog
@@ -256,10 +257,10 @@ matches.
 | Class | Count | Example entries |
 |---|---|---|
 | Lens | 327 | `stride`, `first-principles`, `pre-mortem`, `swot`, `multi-layer-reading`, `conceptual-analysis` |
-| Frame | 105 | `cynefin`, `kano-model`, `2-2-matrix`, `pestel`, `bcg-growth-share-matrix`, `wardley-map` |
-| Model | 133 | `prospect-theory`, `coase-theorem`, `comparative-advantage`, `efficient-market-hypothesis`, `solow-growth-model` |
+| Frame | 106 | `cynefin`, `kano-model`, `2-2-matrix`, `pestel`, `bcg-growth-share-matrix`, `wardley-map`, `testing-pyramid` |
+| Model | 139 | `prospect-theory`, `cap-theorem`, `amdahls-law`, `metcalfes-law`, `technical-debt`, `porters-five-forces` |
 | Stance | 80 | `marxist-criticism`, `foucauldian-power-knowledge`, `analytic-critique`, `hermeneutic-circle` |
-| Heuristic | 70 + 1 bundle | `chestertons-fence`, `hanlons-razor`, `pareto-80-20`, `parkinsons-law`, `pigeonhole-principle` |
+| Heuristic | 90 + 2 bundles | `hyrums-law`, `postels-law`, `brooks-law`, `goodharts-law`, `chestertons-fence`, `pareto-80-20` |
 
 The heuristics class also ships a curated `library/heuristics/general.md`
 bundle (Occam's Razor, Hanlon's Razor, Chesterton's Fence, Hickam's
@@ -380,7 +381,7 @@ building analytical instruments, and a collection of ones already made.
 v0.2 introduced the 5-class taxonomy — lenses are still the headline
 instrument, but they now sit alongside frames, models, stances, and
 heuristics as first-class citizens. The library has grown from 18
-hand-written files (v0.1) to 715 across 62 domains.
+hand-written files (v0.1) to 742 across 62 domains.
 
 ## License
 
