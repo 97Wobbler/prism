@@ -129,6 +129,13 @@ For Codex, register the repository as a marketplace:
 codex plugin marketplace add 97Wobbler/prism@v0.5.0
 ```
 
+Then enable the plugin in `~/.codex/config.toml`:
+
+```toml
+[plugins."prism@prism"]
+enabled = true
+```
+
 For local testing, use the repository path instead:
 
 ```bash
