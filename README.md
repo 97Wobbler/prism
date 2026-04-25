@@ -5,7 +5,7 @@ domain-expert analysis agents that actually reason like experts — not by
 pretending to be one, but by loading the structured analytical
 instruments experts actually use.
 
-v0.5.4 ships a library of **742 instrument files** across 5 classes and 62
+v0.5.5 ships a library of **742 instrument files** across 5 classes and 62
 domains, all indexed by a single `catalog.yml` triage file.
 
 ## The problem with persona prompts
@@ -126,7 +126,7 @@ are reachable via `catalog.yml`.
 For Codex, register the repository as a marketplace:
 
 ```bash
-codex plugin marketplace add 97Wobbler/prism@v0.5.4
+codex plugin marketplace add 97Wobbler/prism@v0.5.5
 ```
 
 Then install and enable the plugin through the Codex plugin directory:

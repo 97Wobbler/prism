@@ -69,7 +69,16 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.5.4 (Current)
+## v0.5.5 (Current)
+
+Codex marketplace source fix.
+
+- **Remote source uses `url`.** The Codex marketplace entry now points at
+  the repository-root plugin through a Git-backed `url` source, matching
+  the official Codex plugin packaging guidance for plugins that live at
+  the repository root.
+
+## v0.5.4
 
 Codex plugin install packaging fix.
 
