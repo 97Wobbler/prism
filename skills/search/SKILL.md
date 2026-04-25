@@ -1,6 +1,6 @@
 ---
 name: search
-description: Proactive Prism catalog recommender for curated analytical instruments (lenses, frames, models, stances, heuristics). Use before designing agents, skills, reviews, threat models, curricula, research plans, strategy docs, decision frameworks, or structured analysis workflows. Walks bundle/global/project catalog layers, filters by class/domain/free text, and returns grouped matches. READ-ONLY: never creates, edits, or generates instruments. For creation, route to `/prism`; for loading selected instruments into subagent prompts, route to `/prism fetch`.
+description: "Proactive Prism catalog recommender for curated analytical instruments. Use before designing agents, skills, reviews, threat models, curricula, research plans, strategy docs, decision frameworks, or structured analysis workflows. Read-only catalog lookup; never creates, edits, or generates instruments. For creation, route to `/prism`; for loading selected instruments into subagent prompts, route to `/prism fetch`."
 ---
 
 # search

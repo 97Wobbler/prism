@@ -69,7 +69,28 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.5.2 (Current)
+## v0.5.4 (Current)
+
+Codex plugin install packaging fix.
+
+- **Codex marketplace target fixed.** Points the Codex marketplace entry at
+  the repository root plugin bundle (`./.`) so Codex installs the real
+  `skills/`, `library/`, and `catalog.yml` directories instead of a thin
+  symlink wrapper that does not survive plugin installation.
+- **Codex install flow corrected.** Documents the official flow:
+  `codex plugin marketplace add`, then `/plugins`, then `Install plugin`,
+  then start a new thread.
+- **Search skill YAML fixed.** Quotes the `search` skill description so
+  Codex parses the frontmatter and exposes `prism:search`.
+
+## v0.5.3
+
+Superseded Codex packaging attempt.
+
+- Removed the symlink wrapper, but the release was incomplete and is
+  superseded by v0.5.4.
+
+## v0.5.2
 
 Codex marketplace packaging fix.
 

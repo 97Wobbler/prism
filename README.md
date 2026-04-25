@@ -5,7 +5,7 @@ domain-expert analysis agents that actually reason like experts — not by
 pretending to be one, but by loading the structured analytical
 instruments experts actually use.
 
-v0.5.2 ships a library of **742 instrument files** across 5 classes and 62
+v0.5.4 ships a library of **742 instrument files** across 5 classes and 62
 domains, all indexed by a single `catalog.yml` triage file.
 
 ## The problem with persona prompts
@@ -126,15 +126,20 @@ are reachable via `catalog.yml`.
 For Codex, register the repository as a marketplace:
 
 ```bash
-codex plugin marketplace add 97Wobbler/prism@v0.5.2
+codex plugin marketplace add 97Wobbler/prism@v0.5.4
 ```
 
-Then enable the plugin in `~/.codex/config.toml`:
+Then install and enable the plugin through the Codex plugin directory:
 
-```toml
-[plugins."prism@prism"]
-enabled = true
+```text
+codex
+/plugins
 ```
+
+Choose the Prism marketplace, open the Prism plugin, select
+`Install plugin`, then start a new thread. `marketplace add` only
+registers the marketplace source; it does not by itself install the
+plugin bundle.
 
 For local testing, use the repository path instead:
 
@@ -142,27 +147,12 @@ For local testing, use the repository path instead:
 codex plugin marketplace add /path/to/prism
 ```
 
-Current Codex CLI builds may not expose a custom marketplace install UI
-or a `codex plugin install` command. In that case, `marketplace add`
-registers the marketplace but does not materialize the installed plugin
-cache. After registering the marketplace, copy the Codex plugin wrapper
-into the cache:
-
-```bash
-mkdir -p ~/.codex/plugins/cache/prism/prism/00000001
-rsync -aL ~/.codex/.tmp/marketplaces/prism/plugins/prism/ \
-  ~/.codex/plugins/cache/prism/prism/00000001/
-```
-
-For a local checkout, replace the source path with
-`/path/to/prism/plugins/prism/`.
-
-The repository exposes `.agents/plugins/marketplace.json` and a
-`plugins/prism/.codex-plugin/plugin.json` wrapper with `skills:
-"./skills/"`, so the same skill directory can be loaded by a Codex plugin
-installation. This is an initial compatibility layer: some skill prose
-still references Claude Code concepts such as `.claude` storage or native
-`/agents` flows and should be adapted in follow-up patches.
+The repository exposes `.agents/plugins/marketplace.json` and
+`.codex-plugin/plugin.json` at the repository root, so Codex installs the
+same `skills/`, `library/`, and `catalog.yml` that Claude Code uses. This
+is an initial compatibility layer: some skill prose still references
+Claude Code concepts such as `.claude` storage or native `/agents` flows
+and should be adapted in follow-up patches.
 
 ### Step 2. Explore the catalog and compose an agent
 
