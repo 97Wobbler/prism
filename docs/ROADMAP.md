@@ -69,7 +69,22 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.5.1 (Current)
+## v0.5.2 (Current)
+
+Codex marketplace packaging fix.
+
+- **Codex marketplace path fixed.** Moves the Codex marketplace entry to the
+  expected `./plugins/prism` plugin root instead of the repository root, which
+  Codex rejects as an empty local plugin source path.
+- **Shared bundle preserved.** Adds a thin plugin wrapper that links to the
+  existing `skills/`, `library/`, `catalog.yml`, and docs instead of
+  duplicating the 742-file instrument library.
+- **Codex install caveat documented.** Notes that current Codex CLI builds
+  may require manually materializing the plugin cache after
+  `codex plugin marketplace add` because no custom marketplace install
+  command is exposed.
+
+## v0.5.1
 
 Codex compatibility patch for skill loading.
 

@@ -8,10 +8,10 @@
       "name": "prism",
       "source": {
         "source": "local",
-        "path": "./"
+        "path": "./plugins/prism"
       },
       "policy": {
-        "installation": "AVAILABLE",
+        "installation": "INSTALLED_BY_DEFAULT",
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
