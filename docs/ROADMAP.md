@@ -69,7 +69,14 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.5.0 (Current)
+## v0.5.1 (Current)
+
+Codex compatibility patch for skill loading.
+
+- **Codex skill description limit.** Shortens the `search` skill frontmatter
+  description below Codex's 1024-character limit so the plugin can load.
+
+## v0.5.0
 
 Initial Codex Plugin compatibility layer. Adds `.codex-plugin/plugin.json`
 and `.agents/plugins/marketplace.json` with the existing `skills/`
