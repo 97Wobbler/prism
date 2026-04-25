@@ -69,19 +69,27 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.4.3 (Current)
+## v0.5.0 (Current)
 
 Initial Codex Plugin compatibility layer. Adds `.codex-plugin/plugin.json`
-with the existing `skills/` directory exposed to Codex while preserving the
-Claude Code plugin manifest and installation path.
+and `.agents/plugins/marketplace.json` with the existing `skills/`
+directory exposed to Codex while preserving the Claude Code plugin
+manifest and installation path.
 
 - **Codex manifest added.** The plugin now declares `skills: "./skills/"`
   for Codex Plugin loading.
+- **Codex marketplace added.** The repository can be registered via
+  `codex plugin marketplace add 97Wobbler/prism@v0.5.0`.
 - **Claude behavior preserved.** Existing `.claude-plugin/` metadata remains
   in place for Claude Code users.
 - **Known compatibility follow-up.** Some skill prose still references
   Claude Code-specific storage and agent flows; those adaptations are left
   for a later pass.
+
+## v0.4.3
+
+Skipped. The initial Codex compatibility work was promoted to v0.5.0 because
+it adds a new plugin ecosystem surface rather than a patch-level fix.
 
 ## v0.4.2
 
@@ -345,7 +353,7 @@ on invocation.
   content directly on `/prism` invocation, without meta commentary about
   which intent was classified.
 
-## v0.5.0 (Later)
+## Future
 
 Extensions on top of the v0.4 structure.
 

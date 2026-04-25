@@ -5,7 +5,7 @@ domain-expert analysis agents that actually reason like experts — not by
 pretending to be one, but by loading the structured analytical
 instruments experts actually use.
 
-v0.4.3 ships a library of **742 instrument files** across 5 classes and 62
+v0.5.0 ships a library of **742 instrument files** across 5 classes and 62
 domains, all indexed by a single `catalog.yml` triage file.
 
 ## The problem with persona prompts
@@ -123,12 +123,24 @@ After install, the `search`, `fetch`, `prism`, and `debate` skills should
 appear in Claude Code's skill list and the 742 files under `library/`
 are reachable via `catalog.yml`.
 
-For Codex, the repository exposes `.codex-plugin/plugin.json` with
-`skills: "./skills/"`, so the same skill directory can be loaded by a
-Codex plugin installation. This is an initial compatibility layer: some
-skill prose still references Claude Code concepts such as `.claude`
-storage or native `/agents` flows and should be adapted in follow-up
-patches.
+For Codex, register the repository as a marketplace:
+
+```bash
+codex plugin marketplace add 97Wobbler/prism@v0.5.0
+```
+
+For local testing, use the repository path instead:
+
+```bash
+codex plugin marketplace add /path/to/prism
+```
+
+The repository exposes `.agents/plugins/marketplace.json` and
+`.codex-plugin/plugin.json` with `skills: "./skills/"`, so the same skill
+directory can be loaded by a Codex plugin installation. This is an
+initial compatibility layer: some skill prose still references Claude
+Code concepts such as `.claude` storage or native `/agents` flows and
+should be adapted in follow-up patches.
 
 ### Step 2. Explore the catalog and compose an agent
 
