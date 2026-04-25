@@ -69,7 +69,21 @@ memorable user-facing entry point.
   (create), and `/prism help` (quick reference) all flow through the same
   router, so users only have to remember one command.
 
-## v0.4.2 (Current)
+## v0.4.3 (Current)
+
+Initial Codex Plugin compatibility layer. Adds `.codex-plugin/plugin.json`
+with the existing `skills/` directory exposed to Codex while preserving the
+Claude Code plugin manifest and installation path.
+
+- **Codex manifest added.** The plugin now declares `skills: "./skills/"`
+  for Codex Plugin loading.
+- **Claude behavior preserved.** Existing `.claude-plugin/` metadata remains
+  in place for Claude Code users.
+- **Known compatibility follow-up.** Some skill prose still references
+  Claude Code-specific storage and agent flows; those adaptations are left
+  for a later pass.
+
+## v0.4.2
 
 Software-engineering law expansion across architecture and agile domains.
 Sources 56 well-known software-engineering laws from a curated GeekNews

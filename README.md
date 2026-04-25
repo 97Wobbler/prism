@@ -5,7 +5,7 @@ domain-expert analysis agents that actually reason like experts — not by
 pretending to be one, but by loading the structured analytical
 instruments experts actually use.
 
-v0.4.2 ships a library of **742 instrument files** across 5 classes and 62
+v0.4.3 ships a library of **742 instrument files** across 5 classes and 62
 domains, all indexed by a single `catalog.yml` triage file.
 
 ## The problem with persona prompts
@@ -91,13 +91,15 @@ which items to load and what `usage` tag each has (`always`,
 
 ## Installation and usage
 
-Prism is a Claude Code plugin. It ships three skills
+Prism is a Claude Code plugin. It also includes an initial Codex Plugin
+manifest for parallel Codex support. It ships four skills
 (`search`, a proactive recommender that should be consulted
 whenever you are about to build an agent or skill; `fetch`, which
 prepares selected instruments in a form ready to hand off to a
 sub-agent; and `/prism`, the user-facing router for explaining Prism
-and creating new instruments via an interview) and the `library/` +
-`catalog.yml` pair that all three consume.
+and creating new instruments via an interview; and `debate`, a
+multi-perspective orchestration skill) and the `library/` +
+`catalog.yml` pair that the catalog skills consume.
 
 ### Step 1. Install the plugin
 
@@ -117,9 +119,16 @@ git clone https://github.com/97Wobbler/prism.git
 # Then follow your plugin loader's instructions for local plugins.
 ```
 
-After install, the `search`, `fetch`, and `prism` skills should
+After install, the `search`, `fetch`, `prism`, and `debate` skills should
 appear in Claude Code's skill list and the 742 files under `library/`
 are reachable via `catalog.yml`.
+
+For Codex, the repository exposes `.codex-plugin/plugin.json` with
+`skills: "./skills/"`, so the same skill directory can be loaded by a
+Codex plugin installation. This is an initial compatibility layer: some
+skill prose still references Claude Code concepts such as `.claude`
+storage or native `/agents` flows and should be adapted in follow-up
+patches.
 
 ### Step 2. Explore the catalog and compose an agent
 
